@@ -2,9 +2,6 @@ version: 1
 vaults:
     -
         fsPath: vault
-        remote:
-          type: git
-          url: 'https://github.com/tldr-pages/tldr.git'
 useFMTitle: false
 site:
     copyAssets: true
@@ -12,8 +9,9 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    gh_edit_repository: 'https://github.com/tldr-pages/tldr.git'
+    gh_edit_repository: 'https://github.com/tldr-pages/tldr'
     title: Dendron
+    siteIndex: root
     description: Personal knowledge space
     duplicateNoteBehavior:
         action: useVault
