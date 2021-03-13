@@ -2,13 +2,13 @@
 id: common.atom
 title: Atom
 desc: ''
-updated: 1615655543044
-created: 1615655543044
-gitDirPath: pages/common
+updated: 1615663978699
+created: 1615663978699
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # atom
 

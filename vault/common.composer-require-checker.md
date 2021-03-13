@@ -2,13 +2,13 @@
 id: common.composer-require-checker
 title: Composer Require Checker
 desc: ''
-updated: 1615655543048
-created: 1615655543048
-gitDirPath: pages/common
+updated: 1615663978703
+created: 1615663978703
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # composer-require-checker
 

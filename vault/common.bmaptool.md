@@ -2,13 +2,13 @@
 id: common.bmaptool
 title: Bmaptool
 desc: ''
-updated: 1615655543046
-created: 1615655543046
-gitDirPath: pages/common
+updated: 1615663978701
+created: 1615663978701
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # bmaptool
 

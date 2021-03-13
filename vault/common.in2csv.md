@@ -2,13 +2,13 @@
 id: common.in2csv
 title: In2csv
 desc: ''
-updated: 1615655543064
-created: 1615655543064
-gitDirPath: pages/common
+updated: 1615663978719
+created: 1615663978719
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # in2csv
 

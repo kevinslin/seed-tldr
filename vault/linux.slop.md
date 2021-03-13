@@ -2,13 +2,13 @@
 id: linux.slop
 title: Slop
 desc: ''
-updated: 1615655543109
-created: 1615655543109
-gitDirPath: pages/common
+updated: 1615663978755
+created: 1615663978755
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # slop
 

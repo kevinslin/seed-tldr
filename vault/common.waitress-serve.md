@@ -2,13 +2,13 @@
 id: common.waitress-serve
 title: Waitress Serve
 desc: ''
-updated: 1615655543092
-created: 1615655543092
-gitDirPath: pages/common
+updated: 1615663978739
+created: 1615663978739
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # waitress-serve
 

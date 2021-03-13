@@ -2,13 +2,13 @@
 id: linux.a2query
 title: A2query
 desc: ''
-updated: 1615655543095
-created: 1615655543095
-gitDirPath: pages/common
+updated: 1615663978740
+created: 1615663978740
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # a2query
 

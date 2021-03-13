@@ -2,13 +2,13 @@
 id: common.flex
 title: Flex
 desc: ''
-updated: 1615655543055
-created: 1615655543055
-gitDirPath: pages/common
+updated: 1615663978709
+created: 1615663978709
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # flex
 

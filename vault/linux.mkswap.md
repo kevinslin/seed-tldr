@@ -2,13 +2,13 @@
 id: linux.mkswap
 title: Mkswap
 desc: ''
-updated: 1615655543105
-created: 1615655543105
-gitDirPath: pages/common
+updated: 1615663978750
+created: 1615663978750
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # mkswap
 

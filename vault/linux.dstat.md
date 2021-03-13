@@ -2,13 +2,13 @@
 id: linux.dstat
 title: Dstat
 desc: ''
-updated: 1615655543098
-created: 1615655543098
-gitDirPath: pages/common
+updated: 1615663978743
+created: 1615663978743
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # dstat
 

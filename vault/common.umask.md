@@ -2,13 +2,13 @@
 id: common.umask
 title: Umask
 desc: ''
-updated: 1615655543090
-created: 1615655543090
-gitDirPath: pages/common
+updated: 1615663978737
+created: 1615663978737
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # umask
 

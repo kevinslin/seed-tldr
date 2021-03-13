@@ -2,13 +2,13 @@
 id: common.php-artisan
 title: Php Artisan
 desc: ''
-updated: 1615655543078
-created: 1615655543078
-gitDirPath: pages/common
+updated: 1615663978729
+created: 1615663978729
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # php artisan
 

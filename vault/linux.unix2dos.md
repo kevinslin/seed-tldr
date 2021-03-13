@@ -2,13 +2,13 @@
 id: linux.unix2dos
 title: Unix2dos
 desc: ''
-updated: 1615655543110
-created: 1615655543110
-gitDirPath: pages/common
+updated: 1615663978757
+created: 1615663978757
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # unix2dos
 

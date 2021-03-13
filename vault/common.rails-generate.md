@@ -2,13 +2,13 @@
 id: common.rails-generate
 title: Rails Generate
 desc: ''
-updated: 1615655543081
-created: 1615655543081
-gitDirPath: pages/common
+updated: 1615663978731
+created: 1615663978731
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # rails generate
 

@@ -2,13 +2,13 @@
 id: linux.lastlog
 title: Lastlog
 desc: ''
-updated: 1615655543103
-created: 1615655543103
-gitDirPath: pages/common
+updated: 1615663978748
+created: 1615663978748
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
-  - name: ''
-    url: 'https://github.com/salesforce/policy_sentry'
-    license: MIT
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
 ---
 # lastlog
 
