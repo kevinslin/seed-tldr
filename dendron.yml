@@ -9,10 +9,12 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
+    githubCname: tldr.dendron.so
+    siteUrl: 'https://tldr.dendron.so'
     gh_edit_repository: 'https://github.com/tldr-pages/tldr'
-    title: Dendron
+    title: Dendron - TLDR
     siteIndex: root
-    description: Personal knowledge space
+    description: Dendron Vault for TLDR
     duplicateNoteBehavior:
         action: useVault
         payload:
