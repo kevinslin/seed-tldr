@@ -1,0 +1,33 @@
+---
+id: common.xmlto
+title: Xmlto
+desc: ''
+updated: 1615655543093
+created: 1615655543093
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# xmlto
+
+> Apply an XSL stylesheet to an XML document.
+> More information: <https://pagure.io/xmlto>.
+
+- Convert a DocBook XML document to PDF format:
+
+`xmlto {{pdf}} {{document.xml}}`
+
+- Convert a DocBook XML document to HTML format and store the resulting files in a separate directory:
+
+`xmlto -o {{path/to/html_files}} {{html}} {{document.xml}}`
+
+- Convert a DocBook XML document to a single HTML file:
+
+`xmlto {{html-nochunks}} {{document.xml}}`
+
+- Specify a stylesheet to use while converting a DocBook XML document:
+
+`xmlto -x {{stylesheet.xsl}} {{output_format}} {{document.xml}}`
+

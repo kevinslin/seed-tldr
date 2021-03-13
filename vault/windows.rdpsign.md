@@ -1,0 +1,37 @@
+---
+id: windows.rdpsign
+title: Rdpsign
+desc: ''
+updated: 1615655543118
+created: 1615655543118
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# rdpsign
+
+> A tool for signing Remote Desktop Protocol (RDP) files.
+> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+
+- Sign an RDP file:
+
+`rdpsign {{path/to/file.rdp}}`
+
+- Sign an RDP file using a specific sha256 hash:
+
+`rdpsign {{path/to/file.rdp}} /sha265 {{hash}}`
+
+- Enable quiet output:
+
+`rdpsign {{path/to/file.rdp}} /q`
+
+- Display verbose warnings, messages and statuses:
+
+`rdpsign {{path/to/file.rdp}} /v`
+
+- Test the signing by displaying the output to stdout without updating the file:
+
+`rdpsign {{path/to/file.rdp}} /l`
+

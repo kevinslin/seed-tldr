@@ -1,0 +1,45 @@
+---
+id: common.r
+title: R
+desc: ''
+updated: 1615655543080
+created: 1615655543080
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# R
+
+> R language interpreter.
+> More information: <https://www.r-project.org>.
+
+- Start an R interactive shell (REPL):
+
+`R`
+
+- Check R version:
+
+`R --version`
+
+- Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
+
+`R --vanilla`
+
+- Execute a file:
+
+`R -f {{path/to/file.R}}`
+
+- Execute an R expression and then exit:
+
+`R -e {{expr}}`
+
+- Run R with a debugger:
+
+`R -d {{debugger}}`
+
+- Check R packages from package sources:
+
+`R CMD check {{path/to/package_source}}`
+

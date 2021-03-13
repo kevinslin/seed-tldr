@@ -1,0 +1,37 @@
+---
+id: common.solo
+title: Solo
+desc: ''
+updated: 1615655543086
+created: 1615655543086
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# solo
+
+> Interact with Solo hardware security keys.
+> More information: <https://github.com/solokeys/solo-python>.
+
+- List connected Solos:
+
+`solo ls`
+
+- Update the currently connected Solo's firmware to the latest version:
+
+`solo key update`
+
+- Blink the led of a specific Solo:
+
+`solo key wink --serial {{serial_number}}`
+
+- Generate random bytes using the currently connected Solo's secure random number generator:
+
+`solo key rng raw`
+
+- Monitor the serial output of a Solo:
+
+`solo monitor {{path/to/serial_port}}`
+

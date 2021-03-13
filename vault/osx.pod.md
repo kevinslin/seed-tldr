@@ -1,0 +1,44 @@
+---
+id: osx.pod
+title: Pod
+desc: ''
+updated: 1615655543115
+created: 1615655543115
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# pod
+
+> Dependency manager for Swift and Objective-C Cocoa projects.
+
+- Create a Podfile for the current project with the default contents:
+
+`pod init`
+
+- Download and install all pods defined in the Podfile (that haven't been installed before):
+
+`pod install`
+
+- List all available pods:
+
+`pod list`
+
+- Show the outdated pods (of those currently installed):
+
+`pod outdated`
+
+- Update all currently installed pods to their newest version:
+
+`pod update`
+
+- Update a specific (previously installed) pod to its newest version:
+
+`pod update {{pod_name}}`
+
+- Remove CocoaPods from a Xcode project:
+
+`pod deintegrate {{xcode_project}}`
+

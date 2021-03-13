@@ -1,0 +1,33 @@
+---
+id: linux.toilet
+title: Toilet
+desc: ''
+updated: 1615655543110
+created: 1615655543110
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# toilet
+
+> A tool to display ASCII-art fonts.
+> More information: <http://caca.zoy.org/wiki/toilet>.
+
+- Generate ASCII art for a given text:
+
+`toilet {{input_text}}`
+
+- Generate ASCII art using a custom font file:
+
+`toilet {{input_text}} -f {{font_filename}}`
+
+- Generate ASCII art using a filter:
+
+`toilet {{input_text}} --filter {{filter_name}}`
+
+- Show available toilet filters:
+
+`toilet --filter list `
+

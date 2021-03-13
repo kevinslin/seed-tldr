@@ -1,0 +1,29 @@
+# description: Where to import from
+# type: string
+# required: true
+src: ./seeds/tldr/pages
+
+# description: name of vault to import into
+# type: string
+# required: true
+vaultName: vault
+
+# description: whether to concatenate everything into one note
+# type: boolean
+# concatenate: TODO
+
+# description: whether to ignore a given file
+# type: boolean
+# ignore: TODO
+
+# description: If concatenate is set, name of destination path
+# type: string
+# destName: TODO
+
+fnameAsId: true
+frontmatter:
+  gitDirPath: "pages/common"
+  sources:
+    - name: ""
+      url: 'https://github.com/salesforce/policy_sentry'
+      license: MIT

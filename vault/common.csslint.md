@@ -1,0 +1,41 @@
+---
+id: common.csslint
+title: Csslint
+desc: ''
+updated: 1615655543049
+created: 1615655543049
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# csslint
+
+> A linter for CSS code.
+> More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
+
+- Lint a single CSS file:
+
+`csslint {{file.css}}`
+
+- Lint multiple CSS files:
+
+`csslint {{file1.css}} {{file2.css}} {{file3.css}}`
+
+- List all possible style rules:
+
+`csslint --list-rules`
+
+- Specify certain rules as errors (which result in a non-zero exit code):
+
+`csslint --errors={{errors,universal-selector,imports}} {{file.css}}`
+
+- Specify certain rules as warnings:
+
+`csslint --warnings={{box-sizing,selector-max,floats}} {{file.css}}`
+
+- Specify certain rules to completely ignore:
+
+`csslint --ignore={{ids,rules-count,shorthand}} {{file.css}}`
+

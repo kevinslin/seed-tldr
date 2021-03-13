@@ -1,0 +1,37 @@
+---
+id: common.mat2
+title: Mat2
+desc: ''
+updated: 1615655543068
+created: 1615655543068
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# mat2
+
+> Anonymise various file formats by removing metadata.
+> More information: <https://0xacab.org/jvoisin/mat2>.
+
+- List supported file formats:
+
+`mat2 --list`
+
+- Remove metadata from a file:
+
+`mat2 {{path/to/file}}`
+
+- Remove metadata from a file and print detailed output to the console:
+
+`mat2 --verbose {{path/to/file}}`
+
+- Show metadata in a file without removing it:
+
+`mat2 --show {{path/to/file}}`
+
+- Partially remove metadata from a file:
+
+`mat2 --lightweight {{path/to/file}}`
+

@@ -1,0 +1,33 @@
+---
+id: common.git-check-attr
+title: Git Check Attr
+desc: ''
+updated: 1615655543057
+created: 1615655543057
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# git check-attr
+
+> For every pathname, list if each attribute is unspecified, set, or unset as a gitattribute on that pathname.
+> More information: <https://git-scm.com/docs/git-check-attr>.
+
+- Check the values of all attributes on a file:
+
+`git check-attr --all {{path/to/file}}`
+
+- Check the value of a specific attribute on a file:
+
+`git check-attr {{attribute}} {{path/to/file}}`
+
+- Check the value of a specific attribute on files:
+
+`git check-attr --all {{path/to/file1}} {{path/to/file2}}`
+
+- Check the value of a specific attribute on one or more files:
+
+`git check-attr {{attribute}} {{path/to/file1}} {{path/to/file2}}`
+

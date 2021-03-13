@@ -1,0 +1,37 @@
+---
+id: common.twm
+title: Twm
+desc: ''
+updated: 1615655543090
+created: 1615655543090
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# twm
+
+> A window manager for the X Window system.
+> More information: <https://gitlab.freedesktop.org/xorg/app/twm>.
+
+- Connect to the default X server:
+
+`twm`
+
+- Connect to a specific X server:
+
+`twm -display {{display}}`
+
+- Only manage the default screen:
+
+`twm -s`
+
+- Use a specific startup file:
+
+`twm -f {{path/to/file}}`
+
+- Enable verbose mode and print unexpected errors in X:
+
+`twm -v`
+

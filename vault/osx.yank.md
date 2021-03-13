@@ -1,0 +1,32 @@
+---
+id: osx.yank
+title: Yank
+desc: ''
+updated: 1615655543117
+created: 1615655543117
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# yank
+
+> Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard.
+
+- Yank using the default delimiters (\\f, \\n, \\r, \\s, \\t):
+
+`{{sudo dmesg}} | yank`
+
+- Yank an entire line:
+
+`{{sudo dmesg}} | yank -l`
+
+- Yank using a specific delimiter:
+
+`{{echo hello=world}} | yank -d {{=}}`
+
+- Only yank fields matching a specific pattern:
+
+`{{ps ux}} | yank -g "{{[0-9]+}}"`
+

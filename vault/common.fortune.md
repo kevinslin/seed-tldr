@@ -1,0 +1,40 @@
+---
+id: common.fortune
+title: Fortune
+desc: ''
+updated: 1615655543055
+created: 1615655543055
+gitDirPath: pages/common
+sources:
+  - name: ''
+    url: 'https://github.com/salesforce/policy_sentry'
+    license: MIT
+---
+# fortune
+
+> Print a random quotation (fortune-cookie style).
+
+- Print a quotation:
+
+`fortune`
+
+- Print an offensive quotation:
+
+`fortune -o`
+
+- Print a long quotation:
+
+`fortune -l`
+
+- Print a short quotation:
+
+`fortune -s`
+
+- List the available quotation database files:
+
+`fortune -f`
+
+- Print a quotation from one of the database files listed by `fortune -f`:
+
+`fortune {{filename}}`
+
