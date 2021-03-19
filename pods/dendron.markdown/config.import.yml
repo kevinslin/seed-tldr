@@ -21,6 +21,7 @@ vaultName: vault
 # destName: TODO
 
 fnameAsId: true
+
 frontmatter:
   gitNotePath: 'pages/{{ noteHiearchy }}.md'
   sources:
