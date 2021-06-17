@@ -2,8 +2,8 @@
 id: linux.rpcinfo
 title: Rpcinfo
 desc: ''
-updated: 1623965016168
-created: 1623965016168
+updated: 1623965306228
+created: 1623965306228
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

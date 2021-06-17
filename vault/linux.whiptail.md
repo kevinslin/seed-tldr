@@ -2,8 +2,8 @@
 id: linux.whiptail
 title: Whiptail
 desc: ''
-updated: 1623965016171
-created: 1623965016171
+updated: 1623965306231
+created: 1623965306231
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

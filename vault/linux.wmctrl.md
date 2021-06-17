@@ -2,8 +2,8 @@
 id: linux.wmctrl
 title: Wmctrl
 desc: ''
-updated: 1623965016171
-created: 1623965016171
+updated: 1623965306232
+created: 1623965306232
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

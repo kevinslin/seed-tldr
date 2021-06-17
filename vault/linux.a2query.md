@@ -2,8 +2,8 @@
 id: linux.a2query
 title: A2query
 desc: ''
-updated: 1623965016158
-created: 1623965016158
+updated: 1623965306217
+created: 1623965306217
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

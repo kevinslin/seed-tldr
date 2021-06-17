@@ -2,8 +2,8 @@
 id: linux.a2dismod
 title: A2dismod
 desc: ''
-updated: 1623965016157
-created: 1623965016157
+updated: 1623965306217
+created: 1623965306217
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.glib-compile-resources
 title: Glib Compile Resources
 desc: ''
-updated: 1623965016129
-created: 1623965016129
+updated: 1623965306190
+created: 1623965306190
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

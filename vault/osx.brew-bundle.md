@@ -2,8 +2,8 @@
 id: osx.brew-bundle
 title: Brew Bundle
 desc: ''
-updated: 1623965016172
-created: 1623965016172
+updated: 1623965306233
+created: 1623965306233
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

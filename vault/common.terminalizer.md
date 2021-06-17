@@ -2,8 +2,8 @@
 id: common.terminalizer
 title: Terminalizer
 desc: ''
-updated: 1623965016152
-created: 1623965016152
+updated: 1623965306213
+created: 1623965306213
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

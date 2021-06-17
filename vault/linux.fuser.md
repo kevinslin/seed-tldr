@@ -2,8 +2,8 @@
 id: linux.fuser
 title: Fuser
 desc: ''
-updated: 1623965016162
-created: 1623965016162
+updated: 1623965306222
+created: 1623965306222
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

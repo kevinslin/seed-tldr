@@ -1,7 +1,7 @@
 # description: Where to import from
 # type: string
 # required: true
-src: ./seeds/tldr/pages
+src: ./repos/tldr/pages
 
 # description: name of vault to import into
 # type: string

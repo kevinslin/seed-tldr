@@ -2,8 +2,8 @@
 id: common.wpa_supplicant
 title: Wpa_supplicant
 desc: ''
-updated: 1623965016155
-created: 1623965016155
+updated: 1623965306216
+created: 1623965306216
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: linux.inotifywait
 title: Inotifywait
 desc: ''
-updated: 1623965016163
-created: 1623965016163
+updated: 1623965306223
+created: 1623965306223
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

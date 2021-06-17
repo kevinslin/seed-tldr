@@ -2,8 +2,8 @@
 id: common.redis-cli
 title: Redis CLI
 desc: ''
-updated: 1623965016147
-created: 1623965016147
+updated: 1623965306208
+created: 1623965306208
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

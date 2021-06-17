@@ -2,8 +2,8 @@
 id: osx.istats
 title: Istats
 desc: ''
-updated: 1623965016174
-created: 1623965016174
+updated: 1623965306234
+created: 1623965306234
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

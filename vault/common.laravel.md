@@ -2,8 +2,8 @@
 id: common.laravel
 title: Laravel
 desc: ''
-updated: 1623965016134
-created: 1623965016134
+updated: 1623965306195
+created: 1623965306195
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

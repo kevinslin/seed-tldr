@@ -2,8 +2,8 @@
 id: common.bg
 title: Bg
 desc: ''
-updated: 1623965016114
-created: 1623965016114
+updated: 1623965306175
+created: 1623965306175
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

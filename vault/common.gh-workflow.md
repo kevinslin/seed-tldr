@@ -2,8 +2,8 @@
 id: common.gh-workflow
 title: Gh Workflow
 desc: ''
-updated: 1623965016126
-created: 1623965016126
+updated: 1623965306185
+created: 1623965306185
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

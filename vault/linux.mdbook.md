@@ -2,8 +2,8 @@
 id: linux.mdbook
 title: Linux
 desc: ''
-updated: 1623965016164
-created: 1623965016164
+updated: 1623965306225
+created: 1623965306225
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

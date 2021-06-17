@@ -2,8 +2,8 @@
 id: common.qtcreator
 title: Qtcreator
 desc: ''
-updated: 1623965016146
-created: 1623965016146
+updated: 1623965306207
+created: 1623965306207
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

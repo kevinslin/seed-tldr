@@ -2,8 +2,8 @@
 id: linux.gs
 title: Gs
 desc: ''
-updated: 1623965016162
-created: 1623965016162
+updated: 1623965306223
+created: 1623965306223
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

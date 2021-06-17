@@ -2,8 +2,8 @@
 id: windows.scoop
 title: Scoop
 desc: ''
-updated: 1623965016177
-created: 1623965016177
+updated: 1623965306239
+created: 1623965306239
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.pm2
 title: Pm2
 desc: ''
-updated: 1623965016145
-created: 1623965016145
+updated: 1623965306205
+created: 1623965306205
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

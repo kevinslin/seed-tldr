@@ -2,8 +2,8 @@
 id: common.go-generate
 title: Go Generate
 desc: ''
-updated: 1623965016130
-created: 1623965016130
+updated: 1623965306190
+created: 1623965306190
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

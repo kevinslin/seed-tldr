@@ -2,8 +2,8 @@
 id: common.react-native-start
 title: React Native Start
 desc: ''
-updated: 1623965016147
-created: 1623965016147
+updated: 1623965306207
+created: 1623965306207
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

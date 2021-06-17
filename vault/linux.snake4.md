@@ -2,8 +2,8 @@
 id: linux.snake4
 title: Snake4
 desc: ''
-updated: 1623965016169
-created: 1623965016169
+updated: 1623965306229
+created: 1623965306229
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

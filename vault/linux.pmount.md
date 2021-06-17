@@ -2,8 +2,8 @@
 id: linux.pmount
 title: Pmount
 desc: ''
-updated: 1623965016167
-created: 1623965016167
+updated: 1623965306227
+created: 1623965306227
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.crunch
 title: Crunch
 desc: ''
-updated: 1623965016118
-created: 1623965016118
+updated: 1623965306178
+created: 1623965306178
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

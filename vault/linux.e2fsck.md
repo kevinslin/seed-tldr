@@ -2,8 +2,8 @@
 id: linux.e2fsck
 title: E2fsck
 desc: ''
-updated: 1623965016160
-created: 1623965016160
+updated: 1623965306221
+created: 1623965306221
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

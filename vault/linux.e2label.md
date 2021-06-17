@@ -2,8 +2,8 @@
 id: linux.e2label
 title: E2label
 desc: ''
-updated: 1623965016160
-created: 1623965016160
+updated: 1623965306221
+created: 1623965306221
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: sunos.truss
 title: Truss
 desc: ''
-updated: 1623965016176
-created: 1623965016176
+updated: 1623965306236
+created: 1623965306236
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.command
 title: Command
 desc: ''
-updated: 1623965016117
-created: 1623965016117
+updated: 1623965306177
+created: 1623965306177
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

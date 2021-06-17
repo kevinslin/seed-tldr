@@ -2,8 +2,8 @@
 id: common.docker-compose
 title: Docker Compose
 desc: ''
-updated: 1623965016119
-created: 1623965016119
+updated: 1623965306179
+created: 1623965306179
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

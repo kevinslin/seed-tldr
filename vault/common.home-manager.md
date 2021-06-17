@@ -2,8 +2,8 @@
 id: common.home-manager
 title: Home Manager
 desc: ''
-updated: 1623965016131
-created: 1623965016131
+updated: 1623965306192
+created: 1623965306192
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: linux.lrztar
 title: Lrztar
 desc: ''
-updated: 1623965016164
-created: 1623965016164
+updated: 1623965306224
+created: 1623965306224
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

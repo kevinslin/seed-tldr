@@ -2,8 +2,8 @@
 id: linux.eix
 title: Eix
 desc: ''
-updated: 1623965016161
-created: 1623965016161
+updated: 1623965306221
+created: 1623965306221
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

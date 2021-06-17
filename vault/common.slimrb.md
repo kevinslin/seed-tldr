@@ -2,8 +2,8 @@
 id: common.slimrb
 title: Slimrb
 desc: ''
-updated: 1623965016149
-created: 1623965016149
+updated: 1623965306210
+created: 1623965306210
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

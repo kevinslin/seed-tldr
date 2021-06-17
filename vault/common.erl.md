@@ -2,8 +2,8 @@
 id: common.erl
 title: Erl
 desc: ''
-updated: 1623965016123
-created: 1623965016123
+updated: 1623965306183
+created: 1623965306183
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

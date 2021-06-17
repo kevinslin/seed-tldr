@@ -2,8 +2,8 @@
 id: common.7zr
 title: 7zr
 desc: ''
-updated: 1623965016110
-created: 1623965016110
+updated: 1623965306172
+created: 1623965306172
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

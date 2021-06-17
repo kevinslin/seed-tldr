@@ -2,8 +2,8 @@
 id: linux.newgrp
 title: Newgrp
 desc: ''
-updated: 1623965016165
-created: 1623965016165
+updated: 1623965306226
+created: 1623965306226
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

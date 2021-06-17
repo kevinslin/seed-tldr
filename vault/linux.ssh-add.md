@@ -2,8 +2,8 @@
 id: linux.ssh-add
 title: Ssh Add
 desc: ''
-updated: 1623965016169
-created: 1623965016169
+updated: 1623965306230
+created: 1623965306230
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.valac
 title: Valac
 desc: ''
-updated: 1623965016154
-created: 1623965016154
+updated: 1623965306214
+created: 1623965306214
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

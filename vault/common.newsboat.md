@@ -2,8 +2,8 @@
 id: common.newsboat
 title: Newsboat
 desc: ''
-updated: 1623965016139
-created: 1623965016139
+updated: 1623965306199
+created: 1623965306199
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

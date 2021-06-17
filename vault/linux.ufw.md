@@ -2,8 +2,8 @@
 id: linux.ufw
 title: Ufw
 desc: ''
-updated: 1623965016170
-created: 1623965016170
+updated: 1623965306231
+created: 1623965306231
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

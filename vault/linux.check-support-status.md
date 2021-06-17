@@ -2,8 +2,8 @@
 id: linux.check-support-status
 title: Check Support Status
 desc: ''
-updated: 1623965016159
-created: 1623965016159
+updated: 1623965306220
+created: 1623965306220
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

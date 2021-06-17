@@ -2,8 +2,8 @@
 id: common.vue-init
 title: Vue Init
 desc: ''
-updated: 1623965016155
-created: 1623965016155
+updated: 1623965306215
+created: 1623965306215
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

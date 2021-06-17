@@ -2,8 +2,8 @@
 id: common.git-ignore
 title: Git Ignore
 desc: ''
-updated: 1623965016127
-created: 1623965016127
+updated: 1623965306187
+created: 1623965306187
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

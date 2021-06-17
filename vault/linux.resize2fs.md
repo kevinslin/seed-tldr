@@ -2,8 +2,8 @@
 id: linux.resize2fs
 title: Resize2fs
 desc: ''
-updated: 1623965016167
-created: 1623965016167
+updated: 1623965306228
+created: 1623965306228
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

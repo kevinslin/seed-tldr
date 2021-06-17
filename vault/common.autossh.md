@@ -2,8 +2,8 @@
 id: common.autossh
 title: Autossh
 desc: ''
-updated: 1623965016113
-created: 1623965016113
+updated: 1623965306174
+created: 1623965306174
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

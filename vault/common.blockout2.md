@@ -2,8 +2,8 @@
 id: common.blockout2
 title: Blockout2
 desc: ''
-updated: 1623965016115
-created: 1623965016115
+updated: 1623965306175
+created: 1623965306175
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.wrangler
 title: Wrangler
 desc: ''
-updated: 1623965016155
-created: 1623965016155
+updated: 1623965306216
+created: 1623965306216
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

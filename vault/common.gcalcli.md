@@ -2,8 +2,8 @@
 id: common.gcalcli
 title: Gcalcli
 desc: ''
-updated: 1623965016125
-created: 1623965016125
+updated: 1623965306185
+created: 1623965306185
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

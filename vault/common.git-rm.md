@@ -2,8 +2,8 @@
 id: common.git-rm
 title: Git Rm
 desc: ''
-updated: 1623965016128
-created: 1623965016128
+updated: 1623965306188
+created: 1623965306188
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

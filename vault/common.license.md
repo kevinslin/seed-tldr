@@ -2,8 +2,8 @@
 id: common.license
 title: License
 desc: ''
-updated: 1623965016135
-created: 1623965016135
+updated: 1623965306195
+created: 1623965306195
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

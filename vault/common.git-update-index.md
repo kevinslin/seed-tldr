@@ -2,8 +2,8 @@
 id: common.git-update-index
 title: Git Update Index
 desc: ''
-updated: 1623965016129
-created: 1623965016129
+updated: 1623965306189
+created: 1623965306189
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

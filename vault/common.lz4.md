@@ -2,8 +2,8 @@
 id: common.lz4
 title: Lz4
 desc: ''
-updated: 1623965016135
-created: 1623965016135
+updated: 1623965306196
+created: 1623965306196
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

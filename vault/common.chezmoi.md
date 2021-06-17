@@ -2,8 +2,8 @@
 id: common.chezmoi
 title: Chezmoi
 desc: ''
-updated: 1623965016116
-created: 1623965016116
+updated: 1623965306176
+created: 1623965306176
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

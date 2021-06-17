@@ -2,8 +2,8 @@
 id: common.info
 title: Info
 desc: ''
-updated: 1623965016132
-created: 1623965016132
+updated: 1623965306193
+created: 1623965306193
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

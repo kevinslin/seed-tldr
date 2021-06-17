@@ -2,8 +2,8 @@
 id: osx.hdiutil
 title: Hdiutil
 desc: ''
-updated: 1623965016173
-created: 1623965016173
+updated: 1623965306234
+created: 1623965306234
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

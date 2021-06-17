@@ -2,8 +2,8 @@
 id: osx.xip
 title: Xip
 desc: ''
-updated: 1623965016175
-created: 1623965016175
+updated: 1623965306236
+created: 1623965306236
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: android.am
 title: Am
 desc: ''
-updated: 1623965016110
-created: 1623965016110
+updated: 1623965306171
+created: 1623965306171
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

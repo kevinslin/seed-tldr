@@ -2,8 +2,8 @@
 id: common.mutt
 title: Mutt
 desc: ''
-updated: 1623965016137
-created: 1623965016137
+updated: 1623965306198
+created: 1623965306198
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

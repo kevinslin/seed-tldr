@@ -2,8 +2,8 @@
 id: linux.shutdown
 title: Shutdown
 desc: ''
-updated: 1623965016168
-created: 1623965016168
+updated: 1623965306229
+created: 1623965306229
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

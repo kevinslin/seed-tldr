@@ -2,8 +2,8 @@
 id: linux.mkfs-minix
 title: Mkfs Minix
 desc: ''
-updated: 1623965016165
-created: 1623965016165
+updated: 1623965306225
+created: 1623965306225
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

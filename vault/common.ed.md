@@ -2,8 +2,8 @@
 id: common.ed
 title: Ed
 desc: ''
-updated: 1623965016122
-created: 1623965016122
+updated: 1623965306182
+created: 1623965306182
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

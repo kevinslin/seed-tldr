@@ -2,8 +2,8 @@
 id: common.kubens
 title: Kubens
 desc: ''
-updated: 1623965016134
-created: 1623965016134
+updated: 1623965306194
+created: 1623965306194
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

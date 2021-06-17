@@ -2,8 +2,8 @@
 id: windows.ftp
 title: Ftp
 desc: ''
-updated: 1623965016177
-created: 1623965016177
+updated: 1623965306238
+created: 1623965306238
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

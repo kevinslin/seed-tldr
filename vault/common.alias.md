@@ -2,8 +2,8 @@
 id: common.alias
 title: Alias
 desc: ''
-updated: 1623965016111
-created: 1623965016111
+updated: 1623965306172
+created: 1623965306172
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

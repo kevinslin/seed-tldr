@@ -2,8 +2,8 @@
 id: common.arch
 title: Arch
 desc: ''
-updated: 1623965016112
-created: 1623965016112
+updated: 1623965306173
+created: 1623965306173
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

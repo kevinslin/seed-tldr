@@ -2,8 +2,8 @@
 id: common.xdg-user-dirs-update
 title: Xdg User Dirs Update
 desc: ''
-updated: 1623965016156
-created: 1623965016156
+updated: 1623965306216
+created: 1623965306216
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

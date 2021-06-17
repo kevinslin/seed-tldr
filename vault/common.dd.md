@@ -2,8 +2,8 @@
 id: common.dd
 title: Dd
 desc: ''
-updated: 1623965016118
-created: 1623965016118
+updated: 1623965306179
+created: 1623965306179
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

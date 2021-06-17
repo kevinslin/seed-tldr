@@ -2,8 +2,8 @@
 id: linux.ac
 title: Ac
 desc: ''
-updated: 1623965016158
-created: 1623965016158
+updated: 1623965306217
+created: 1623965306217
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

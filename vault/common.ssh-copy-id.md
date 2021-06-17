@@ -2,8 +2,8 @@
 id: common.ssh-copy-id
 title: Ssh Copy Id
 desc: ''
-updated: 1623965016150
-created: 1623965016150
+updated: 1623965306211
+created: 1623965306211
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

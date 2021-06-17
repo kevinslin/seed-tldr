@@ -2,8 +2,8 @@
 id: common.git-for-each-repo
 title: Git for Each Repo
 desc: ''
-updated: 1623965016127
-created: 1623965016127
+updated: 1623965306187
+created: 1623965306187
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

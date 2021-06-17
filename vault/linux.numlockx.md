@@ -2,8 +2,8 @@
 id: linux.numlockx
 title: Numlockx
 desc: ''
-updated: 1623965016166
-created: 1623965016166
+updated: 1623965306226
+created: 1623965306226
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

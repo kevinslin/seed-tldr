@@ -2,8 +2,8 @@
 id: linux.pacman
 title: Pacman
 desc: ''
-updated: 1623965016166
-created: 1623965016166
+updated: 1623965306227
+created: 1623965306227
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

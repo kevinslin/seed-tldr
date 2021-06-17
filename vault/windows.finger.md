@@ -2,8 +2,8 @@
 id: windows.finger
 title: Finger
 desc: ''
-updated: 1623965016177
-created: 1623965016177
+updated: 1623965306237
+created: 1623965306237
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

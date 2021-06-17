@@ -2,8 +2,8 @@
 id: windows.dir
 title: Dir
 desc: ''
-updated: 1623965016176
-created: 1623965016176
+updated: 1623965306237
+created: 1623965306237
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

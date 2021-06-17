@@ -2,8 +2,8 @@
 id: linux.prt-get
 title: Prt Get
 desc: ''
-updated: 1623965016167
-created: 1623965016167
+updated: 1623965306228
+created: 1623965306228
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

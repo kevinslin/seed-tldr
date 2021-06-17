@@ -2,8 +2,8 @@
 id: common.cordova
 title: Cordova
 desc: ''
-updated: 1623965016117
-created: 1623965016117
+updated: 1623965306178
+created: 1623965306178
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

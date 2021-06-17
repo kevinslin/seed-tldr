@@ -2,8 +2,8 @@
 id: common.mosquitto_sub
 title: Mosquitto_sub
 desc: ''
-updated: 1623965016137
-created: 1623965016137
+updated: 1623965306197
+created: 1623965306197
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

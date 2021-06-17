@@ -2,8 +2,8 @@
 id: common.mongod
 title: Mongod
 desc: ''
-updated: 1623965016136
-created: 1623965016136
+updated: 1623965306197
+created: 1623965306197
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,8 @@
 id: common.base32
 title: Base32
 desc: ''
-updated: 1623965016114
-created: 1623965016114
+updated: 1623965306175
+created: 1623965306175
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

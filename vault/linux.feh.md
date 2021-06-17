@@ -2,8 +2,8 @@
 id: linux.feh
 title: Feh
 desc: ''
-updated: 1623965016161
-created: 1623965016161
+updated: 1623965306222
+created: 1623965306222
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

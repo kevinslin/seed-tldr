@@ -2,8 +2,8 @@
 id: linux.avahi-browse
 title: Avahi Browse
 desc: ''
-updated: 1623965016158
-created: 1623965016158
+updated: 1623965306219
+created: 1623965306219
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

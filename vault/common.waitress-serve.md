@@ -2,8 +2,8 @@
 id: common.waitress-serve
 title: Waitress Serve
 desc: ''
-updated: 1623965016155
-created: 1623965016155
+updated: 1623965306215
+created: 1623965306215
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

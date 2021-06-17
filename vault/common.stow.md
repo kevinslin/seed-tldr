@@ -2,8 +2,8 @@
 id: common.stow
 title: Stow
 desc: ''
-updated: 1623965016151
-created: 1623965016151
+updated: 1623965306212
+created: 1623965306212
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

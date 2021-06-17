@@ -2,8 +2,8 @@
 id: common.sshfs
 title: Sshfs
 desc: ''
-updated: 1623965016151
-created: 1623965016151
+updated: 1623965306211
+created: 1623965306211
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

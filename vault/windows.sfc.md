@@ -2,8 +2,8 @@
 id: windows.sfc
 title: Sfc
 desc: ''
-updated: 1623965016178
-created: 1623965016178
+updated: 1623965306239
+created: 1623965306239
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
