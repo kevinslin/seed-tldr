@@ -2,8 +2,9 @@
 id: sunos.snoop
 title: Snoop
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016175
+created: 1623965016175
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Network packet sniffer.
 > SunOS equivalent of tcpdump.
+> More information: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Capture packets on a specific network interface:
 

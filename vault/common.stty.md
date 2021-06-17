@@ -2,8 +2,9 @@
 id: common.stty
 title: Stty
 desc: ''
-updated: 1615663978735
-created: 1615663978735
+updated: 1623965016151
+created: 1623965016151
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # stty
 
 > Set options for a terminal device interface.
+> More information: <https://www.gnu.org/software/coreutils/stty>.
 
 - Display all settings for the current terminal:
 
@@ -28,7 +30,7 @@ sources:
 
 - Get the actual transfer speed of a device:
 
-`stty -f {{path/to/device_file}} speed`
+`stty -F {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

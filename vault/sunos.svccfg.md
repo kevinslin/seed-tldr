@@ -2,8 +2,9 @@
 id: sunos.svccfg
 title: Svccfg
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016175
+created: 1623965016175
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # svccfg
 
 > Import, export, and modify service configurations.
+> More information: <https://www.unix.com/man-page/linux/1m/svccfg>.
 
 - Validate configuration file:
 

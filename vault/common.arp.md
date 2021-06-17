@@ -2,8 +2,9 @@
 id: common.arp
 title: Arp
 desc: ''
-updated: 1615663978698
-created: 1615663978698
+updated: 1623965016112
+created: 1623965016112
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,8 +14,9 @@ sources:
 # arp
 
 > Show and manipulate your system's ARP cache.
+> More information: <https://manned.org/arp>.
 
-- Show current arp table:
+- Show the current ARP table:
 
 `arp -a`
 
@@ -26,7 +28,7 @@ sources:
 
 `arp -d {{address}}`
 
-- Create an entry:
+- Create an entry in the ARP table:
 
 `arp -s {{address}} {{mac_address}}`
 

@@ -2,8 +2,9 @@
 id: common.aws-lambda
 title: Aws Lambda
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # aws lambda
 
 > CLI for AWS lambda.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
 
 - Run a function:
 

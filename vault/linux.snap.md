@@ -2,8 +2,9 @@
 id: linux.snap
 title: Snap
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -26,6 +27,10 @@ sources:
 - Update a package:
 
 `snap refresh {{package_name}}`
+
+- Update a package to another channel (track, risk, or branch):
+
+`snap refresh {{package_name}} --channel={{channel}}`
 
 - Update all packages:
 

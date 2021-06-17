@@ -2,8 +2,9 @@
 id: linux.dnf
 title: Dnf
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

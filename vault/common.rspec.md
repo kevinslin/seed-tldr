@@ -2,8 +2,9 @@
 id: common.rspec
 title: Rspec
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

@@ -2,8 +2,9 @@
 id: common.bitcoin-cli
 title: Bitcoin CLI
 desc: ''
-updated: 1615663978700
-created: 1615663978700
+updated: 1623965016114
+created: 1623965016114
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

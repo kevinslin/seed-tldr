@@ -2,8 +2,9 @@
 id: common.zsteg
 title: Zsteg
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016157
+created: 1623965016157
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

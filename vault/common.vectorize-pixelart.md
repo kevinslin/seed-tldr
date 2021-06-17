@@ -2,8 +2,9 @@
 id: common.vectorize-pixelart
 title: Vectorize Pixelart
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

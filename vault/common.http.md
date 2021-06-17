@@ -2,8 +2,9 @@
 id: common.http
 title: HTTP
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016132
+created: 1623965016132
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -17,11 +18,11 @@ sources:
 
 - Download a URL to a file:
 
-`http -d {{example.org}}`
+`http --download {{example.org}}`
 
 - Send form-encoded data:
 
-`http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+`http --form {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
 
 - Send JSON object:
 
@@ -37,7 +38,7 @@ sources:
 
 - Pass a user name and password for server authentication:
 
-`http -a {{username:password}} {{example.org}}`
+`http --auth {{username:password}} {{example.org}}`
 
 - Specify raw request body via stdin:
 

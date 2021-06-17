@@ -2,8 +2,9 @@
 id: common.cake
 title: Cake
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # cake
 
-> The command line processor for the CakePHP framework.
+> The command-line processor for the CakePHP framework.
 > More information: <https://cakephp.org>.
 
 - Display basic information about the current app and available commands:

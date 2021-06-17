@@ -2,8 +2,9 @@
 id: common.factor
 title: Factor
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # factor
 
 > Prints the prime factorization of a number.
+> More information: <https://www.gnu.org/software/coreutils/factor>.
 
 - Display the prime-factorization of a number:
 

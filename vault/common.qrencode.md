@@ -2,8 +2,9 @@
 id: common.qrencode
 title: Qrencode
 desc: ''
-updated: 1615663978731
-created: 1615663978731
+updated: 1623965016146
+created: 1623965016146
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

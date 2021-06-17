@@ -2,8 +2,9 @@
 id: common.clear
 title: Clear
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # clear
 
 > Clears the screen of the terminal.
+> More information: <https://manned.org/clear>.
 
 - Clear the screen (equivalent to pressing Control-L in Bash shell):
 

@@ -2,8 +2,9 @@
 id: 'common.['
 title: '['
 desc: ''
-updated: 1615663978697
-created: 1615663978697
+updated: 1623965016110
+created: 1623965016110
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,11 +15,11 @@ sources:
 
 > Evaluate condition.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/test>.
 
 - Test if a given variable is equal to a given string:
 
-`[ "{{$MY_VAR}}" == "{{/bin/zsh}}" ]`
+`[ "{{$VARIABLE}}" == "{{/bin/zsh}}" ]`
 
 - Test if a given variable is empty:
 
@@ -26,7 +27,7 @@ sources:
 
 - Test if a file exists:
 
-`[ -f "{{path/to/file_or_directory}}" ]`
+`[ -f "{{path/to/file}}" ]`
 
 - Test if a directory does not exist:
 

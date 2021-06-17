@@ -2,8 +2,9 @@
 id: common.monodevelop
 title: Monodevelop
 desc: ''
-updated: 1615663978724
-created: 1615663978724
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > Cross platform IDE for C#, F# and more.
 > More information: <https://www.monodevelop.com/>.
 
-- Start Monodevelop:
+- Start MonoDevelop:
 
 `monodevelop`
 

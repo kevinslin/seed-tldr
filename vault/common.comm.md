@@ -2,8 +2,9 @@
 id: common.comm
 title: Comm
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # comm
 
 > Select or reject lines common to two files. Both files must be sorted.
+> More information: <https://www.gnu.org/software/coreutils/comm>.
 
 - Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
 

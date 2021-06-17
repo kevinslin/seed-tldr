@@ -2,8 +2,9 @@
 id: common.jest
 title: Jest
 desc: ''
-updated: 1615663978720
-created: 1615663978720
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,13 +20,17 @@ sources:
 
 `jest`
 
-- Run the test suites from files whose paths match the given regex patterns:
+- Run the test suites from the given files:
 
-`jest {{test_file1}} {{path/to/test_file2.js}}`
+`jest {{path/to/file1}} {{path/to/file2}}`
 
-- Run the tests whose names match the given regex pattern:
+- Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
 
-`jest --testNamePattern {{spec_name}}`
+`jest {{regular_expression1}} {{regular_expression2}}`
+
+- Run the tests whose names match the given regular expression:
+
+`jest --testNamePattern {{regular_expression}}`
 
 - Run test suites related to a given source file:
 

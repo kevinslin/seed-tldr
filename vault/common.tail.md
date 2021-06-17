@@ -2,8 +2,9 @@
 id: common.tail
 title: Tail
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tail
 
 > Display the last part of a file.
+> More information: <https://www.gnu.org/software/coreutils/tail>.
 
 - Show last 'num' lines in file:
 

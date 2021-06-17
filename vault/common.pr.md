@@ -2,8 +2,9 @@
 id: common.pr
 title: Pr
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016145
+created: 1623965016145
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # pr
 
 > Paginate or columnate files for printing.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/pr-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/pr>.
 
 - Print multiple files with a default header and footer:
 

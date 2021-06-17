@@ -2,8 +2,9 @@
 id: windows.virtualboxvm
 title: Virtualboxvm
 desc: ''
-updated: 1615663978764
-created: 1615663978764
+updated: 1623965016178
+created: 1623965016178
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -27,7 +28,7 @@ sources:
 
 `virtualboxvm --startvm {{name|uuid}} --dvd {{path/to/image_file}}`
 
-- Display a command line window with debug information:
+- Display a command-line window with debug information:
 
 `virtualboxvm --startvm {{name|uuid}} --debug-command-line`
 

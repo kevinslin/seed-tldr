@@ -2,8 +2,9 @@
 id: linux.nethogs
 title: Nethogs
 desc: ''
-updated: 1615663978750
-created: 1615663978750
+updated: 1623965016165
+created: 1623965016165
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

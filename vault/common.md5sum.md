@@ -2,8 +2,9 @@
 id: common.md5sum
 title: Common
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # md5sum
 
 > Calculate MD5 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
 - Calculate the MD5 checksum for a file:
 

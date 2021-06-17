@@ -2,8 +2,9 @@
 id: common.write
 title: Write
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `write {{testuser}} {{tty/5}}`
 
-- Send message to "jhondoe" on pseudo terminal `/dev/pts/5`:
+- Send message to "johndoe" on pseudo terminal `/dev/pts/5`:
 
-`write {{jhondoe}} {{pts/5}}`
+`write {{johndoe}} {{pts/5}}`
 

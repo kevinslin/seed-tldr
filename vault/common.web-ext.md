@@ -2,8 +2,9 @@
 id: common.web-ext
 title: Web Ext
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # web-ext
 
-> A command line tool for managing web extension development.
+> A command-line tool for managing web extension development.
 > More information: <https://www.npmjs.com/package/web-ext>.
 
 - Run the web extension in the current directory in Firefox:

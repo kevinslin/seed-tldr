@@ -2,8 +2,9 @@
 id: common.safe
 title: Safe
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016148
+created: 1623965016148
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -35,7 +36,7 @@ sources:
 
 `safe move {{old/path/to/secret}} {{new/path/to/secret}}`
 
-- Generate a new 2048-bit SSH keypair and store it:
+- Generate a new 2048-bit SSH key-pair and store it:
 
 `safe ssh {{2048}} {{path/to/secret}}`
 

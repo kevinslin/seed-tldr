@@ -2,8 +2,9 @@
 id: common.k6
 title: K6
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -35,11 +36,11 @@ sources:
 
 `k6 run --discard-response-bodies {{script.js}}`
 
-- Run load test locally using the base javascript compatibility mode (significantly faster):
+- Run load test locally using the base JavaScript compatibility mode (significantly faster):
 
 `k6 run --compatibility-mode=base {{script.js}}`
 
-- Login to cloud service using secret token:
+- Log in to cloud service using secret token:
 
 `k6 login cloud --token {{secret}}`
 

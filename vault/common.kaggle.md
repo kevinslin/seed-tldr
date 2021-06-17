@@ -2,8 +2,9 @@
 id: common.kaggle
 title: Kaggle
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

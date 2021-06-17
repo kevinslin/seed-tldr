@@ -2,8 +2,9 @@
 id: linux.tomb
 title: Tomb
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tomb
 
 > Manage encrypted storage directories that can be safely transported and hidden in a filesystem.
+> More information: <https://www.dyne.org/software/tomb/>.
 
 - Create a new tomb with an initial size of 100MB:
 

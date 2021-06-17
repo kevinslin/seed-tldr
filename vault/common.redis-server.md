@@ -2,8 +2,9 @@
 id: common.redis-server
 title: Redis Server
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

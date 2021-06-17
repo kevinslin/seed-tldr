@@ -2,8 +2,9 @@
 id: windows.octo
 title: Octo
 desc: ''
-updated: 1615663978763
-created: 1615663978763
+updated: 1623965016177
+created: 1623965016177
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # octo
 
-> Command line tools for Octopus Deploy.
+> Command-line tools for Octopus Deploy.
 > More information: <https://octopus.com/docs/octopus-rest-api/octo.exe-command-line>.
 
 - Create a package:

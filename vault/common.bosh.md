@@ -2,8 +2,9 @@
 id: common.bosh
 title: Bosh
 desc: ''
-updated: 1615663978701
-created: 1615663978701
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # bosh
 
-> Command line tool to deploy and manage the bosh director.
+> Command-line tool to deploy and manage the bosh director.
 > More information: <https://bosh.io/docs/cli-v2/>.
 
 - Create local alias for director:
@@ -23,7 +24,7 @@ sources:
 
 `bosh environments`
 
-- Login to the director:
+- Log in to the director:
 
 `bosh login -e {{environment}} `
 

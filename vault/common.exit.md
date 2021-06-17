@@ -2,8 +2,9 @@
 id: common.exit
 title: Exit
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # exit
 
 > Exit the shell.
+> More information: <https://manned.org/exit>.
 
 - Exit the shell with the exit code of the last command executed:
 

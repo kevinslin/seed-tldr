@@ -2,8 +2,9 @@
 id: common.gh-repo
 title: Gh Repo
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh repo
 
-> Work with GitHub repositories on the command line.
+> Work with GitHub repositories on the command-line.
 > More information: <https://cli.github.com/manual/gh_repo>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

@@ -2,8 +2,9 @@
 id: common.mycli
 title: Mycli
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # mycli
 
-> A command line client for MySQL that can do auto-completion and syntax highlighting.
+> A command-line client for MySQL that can do auto-completion and syntax highlighting.
 > More information: <https://mycli.net>.
 
 - Connect to a local database on port 3306, using the current user's username:

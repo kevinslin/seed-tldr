@@ -2,8 +2,9 @@
 id: linux.e2image
 title: E2image
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # e2image
 
 > Save critical ext2/ext3/ext4 filesystem metadata to a file.
-> More information: <https://linux.die.net/man/8/e2image>.
+> More information: <https://manned.org/e2image>.
 
 - Write metadata located on device to a specific file:
 

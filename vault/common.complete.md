@@ -2,8 +2,9 @@
 id: common.complete
 title: Complete
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # complete
 
 > Provides argument autocompletion to shell commands.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html>.
 
 - Apply a function that performs autocompletion to a command:
 

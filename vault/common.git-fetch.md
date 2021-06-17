@@ -2,8 +2,9 @@
 id: common.git-fetch
 title: Git Fetch
 desc: ''
-updated: 1615663978712
-created: 1615663978712
+updated: 1623965016127
+created: 1623965016127
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

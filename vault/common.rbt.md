@@ -2,8 +2,9 @@
 id: common.rbt
 title: Rbt
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # rbt
 
-> RBTools is a set of command line tools for working with Review Board and RBCommons.
+> RBTools is a set of command-line tools for working with Review Board and RBCommons.
 > More information: <https://www.reviewboard.org/docs/rbtools/dev/>.
 
 - Post changes to Review Board:

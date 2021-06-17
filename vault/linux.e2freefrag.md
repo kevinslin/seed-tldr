@@ -2,8 +2,9 @@
 id: linux.e2freefrag
 title: E2freefrag
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # e2freefrag
 
 > Print the free space fragmentation information for ext2/ext3/ext4 filesystems.
-> More information: <https://linux.die.net/man/8/e2freefrag>.
+> More information: <https://manned.org/e2freefrag>.
 
 - Check how many free blocks are present as contiguous and aligned free space:
 

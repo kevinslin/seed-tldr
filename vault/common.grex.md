@@ -2,8 +2,9 @@
 id: common.grex
 title: Grex
 desc: ''
-updated: 1615663978717
-created: 1615663978717
+updated: 1623965016130
+created: 1623965016130
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,14 +13,14 @@ sources:
 ---
 # grex
 
-> Simple command line tool to generate regular expressions.
+> Simple command-line tool to generate regular expressions.
 > More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:
 
 ` grex {{space_separated_strings}}`
 
-- Generate a case-insensitive regex:
+- Generate a case-insensitive regular expression:
 
 `grex -i {{space_separated_strings}}`
 
@@ -27,7 +28,7 @@ sources:
 
 `grex -d {{space_separated_strings}}`
 
-- Replace unicode word character with '\\w':
+- Replace Unicode word character with '\\w':
 
 `grex -w {{space_separated_strings}}`
 

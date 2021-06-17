@@ -2,8 +2,9 @@
 id: common.pastel
 title: Pastel
 desc: ''
-updated: 1615663978728
-created: 1615663978728
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

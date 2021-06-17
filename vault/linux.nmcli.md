@@ -2,8 +2,9 @@
 id: linux.nmcli
 title: Nmcli
 desc: ''
-updated: 1615663978751
-created: 1615663978751
+updated: 1623965016165
+created: 1623965016165
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # nmcli
 
-> A command line tool for controlling NetworkManager.
+> A command-line tool for controlling NetworkManager.
 > More information: <https://man.archlinux.org/man/nmcli.1>.
 
 - Check the nmcli version:

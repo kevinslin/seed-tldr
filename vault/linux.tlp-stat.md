@@ -2,8 +2,9 @@
 id: linux.tlp-stat
 title: Tlp Stat
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,9 @@ sources:
 ---
 # tlp-stat
 
-> A tool to generate TLP status reports. See also `tlp`.
+> A tool to generate TLP status reports.
+> See also `tlp`.
+> More information: <https://linrunner.de/tlp/usage/tlp-stat>.
 
 - Generate status report with configuration and all active settings:
 

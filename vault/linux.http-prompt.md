@@ -2,8 +2,9 @@
 id: linux.http-prompt
 title: HTTP Prompt
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,11 +15,11 @@ sources:
 
 > An interactive command-line HTTP client featuring autocomplete and syntax highlighting.
 
-- Launch a session targeting the default url of http&#x3A;//localhost:8000 or the previous session:
+- Launch a session targeting the default URL of http&#x3A;//localhost:8000 or the previous session:
 
 `http-prompt`
 
-- Launch a session with a given url:
+- Launch a session with a given URL:
 
 `http-prompt {{http://example.com}}`
 

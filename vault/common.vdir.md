@@ -2,8 +2,9 @@
 id: common.vdir
 title: Vdir
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > List directory contents.
 > Drop-in replacement for `ls -l`.
+> More information: <https://www.gnu.org/software/coreutils/vdir>.
 
 - List files and directories in the current directory, one per line, with details:
 

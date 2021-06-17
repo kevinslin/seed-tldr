@@ -2,8 +2,9 @@
 id: common.odps
 title: Odps
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016141
+created: 1623965016141
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,9 +13,10 @@ sources:
 ---
 # odps
 
-> Aliyun ODPS (Open Data Processing Service) command line tool.
+> Aliyun ODPS (Open Data Processing Service) command-line tool.
+> More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
-- Start the command line with a custom configuration file:
+- Start the command-line with a custom configuration file:
 
 `odpscmd --config={{odps_config.ini}}`
 

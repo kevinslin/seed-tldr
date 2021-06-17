@@ -2,8 +2,9 @@
 id: common.qemu-img
 title: Qemu Img
 desc: ''
-updated: 1615663978731
-created: 1615663978731
+updated: 1623965016146
+created: 1623965016146
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -30,7 +31,7 @@ sources:
 
 `qemu-img map {{image_name.img}}`
 
-- Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image:
+- Convert a VMware .vmdk disk image to a KVM .qcow2 disk image:
 
 `qemu-img convert -O qcow2 {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}`
 

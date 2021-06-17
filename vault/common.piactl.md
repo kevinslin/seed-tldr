@@ -2,8 +2,9 @@
 id: common.piactl
 title: Piactl
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016144
+created: 1623965016144
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # piactl
 
-> The command line tool for Private Internet Access, a commercial VPN provider.
+> The command-line tool for Private Internet Access, a commercial VPN provider.
 > More information: <https://privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface>.
 
 - Log in to Private Internet Access:

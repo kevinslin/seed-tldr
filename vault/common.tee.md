@@ -2,8 +2,9 @@
 id: common.tee
 title: Tee
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tee
 
 > Read from standard input and write to standard output and files (or commands).
+> More information: <https://www.gnu.org/software/coreutils/tee>.
 
 - Copy standard input to each FILE, and also to standard output:
 

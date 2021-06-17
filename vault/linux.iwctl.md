@@ -2,8 +2,9 @@
 id: linux.iwctl
 title: Iwctl
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # iwctl
 
-> A command line tool for controlling the iwd network supplicant.
+> A command-line tool for controlling the iwd network supplicant.
 > More information: <https://iwd.wiki.kernel.org/gettingstarted>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:

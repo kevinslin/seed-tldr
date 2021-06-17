@@ -2,8 +2,9 @@
 id: common.gh-release
 title: Gh Release
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh release
 
-> Manage GitHub releases from the command line.
+> Manage GitHub releases from the command-line.
 > More information: <https://cli.github.com/manual/gh_release>.
 
 - List releases in a GitHub repository, limited to 30 items:

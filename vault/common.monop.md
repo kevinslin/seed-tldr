@@ -2,8 +2,9 @@
 id: common.monop
 title: Monop
 desc: ''
-updated: 1615663978724
-created: 1615663978724
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

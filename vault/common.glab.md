@@ -2,8 +2,9 @@
 id: common.glab
 title: Glab
 desc: ''
-updated: 1615663978714
-created: 1615663978714
+updated: 1623965016129
+created: 1623965016129
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # glab
 
-> GitLab CLI tool to help working with GitLab from the command line.
+> GitLab CLI tool to help working with GitLab from the command-line.
 > More information: <https://clementsam.tech/glab/>.
 
 - Create a merge request:

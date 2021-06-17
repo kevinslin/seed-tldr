@@ -1,9 +1,10 @@
 ---
 id: common.cd
-title: Cd
+title: CD
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # cd
 
 > Change the current working directory.
+> More information: <https://man.archlinux.org/man/cd.n>.
 
 - Go to the given directory:
 

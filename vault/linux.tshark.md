@@ -2,8 +2,9 @@
 id: linux.tshark
 title: Tshark
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016170
+created: 1623965016170
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # tshark
 
-> Packet analysis tool, CLI version of wireshark.
+> Packet analysis tool, CLI version of Wireshark.
 
 - Monitor everything on localhost:
 

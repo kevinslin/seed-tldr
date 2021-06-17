@@ -2,8 +2,9 @@
 id: common.zmv
 title: Zmv
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016157
+created: 1623965016157
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -16,7 +17,7 @@ sources:
 > See also `zcp` and `zln`.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
-- Move files using a regex-like pattern:
+- Move files using a regular expression-like pattern:
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 

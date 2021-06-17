@@ -2,8 +2,9 @@
 id: linux.jpegtran
 title: Jpegtran
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # jpegtran
 
 > Perform lossless transformation of JPEG files.
-> More information: <https://linux.die.net/man/1/jpegtran>.
+> More information: <https://manned.org/jpegtran>.
 
 - Mirror an image horizontally or vertically:
 

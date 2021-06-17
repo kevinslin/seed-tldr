@@ -2,8 +2,9 @@
 id: linux.apt-mark
 title: Apt Mark
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # apt-mark
 
 > Utility to change the status of installed packages.
+> More information: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
 - Mark a package as automatically installed:
 

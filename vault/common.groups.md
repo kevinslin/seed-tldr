@@ -2,8 +2,9 @@
 id: common.groups
 title: Groups
 desc: ''
-updated: 1615663978717
-created: 1615663978717
+updated: 1623965016130
+created: 1623965016130
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # groups
 
 > Print group memberships for a user.
+> More information: <https://www.gnu.org/software/coreutils/groups>.
 
 - Print group memberships for the current user:
 

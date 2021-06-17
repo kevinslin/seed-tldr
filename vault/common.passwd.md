@@ -2,8 +2,9 @@
 id: common.passwd
 title: Passwd
 desc: ''
-updated: 1615663978728
-created: 1615663978728
+updated: 1623965016141
+created: 1623965016141
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -18,13 +19,9 @@ sources:
 
 `passwd`
 
-- Change the password of the current user:
+- Change the password of a specific user:
 
-`passwd {{new_password}}`
-
-- Change the password of the specified user:
-
-`passwd {{username}} {{new_password}}`
+`passwd {{username}}`
 
 - Get the current status of the user:
 

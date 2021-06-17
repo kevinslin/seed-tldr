@@ -2,8 +2,9 @@
 id: common.tac
 title: Tac
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tac
 
 > Print and concatenate files in reverse (last line first).
+> More information: <https://www.gnu.org/software/coreutils/tac>.
 
 - Print the contents of _file1_ reversed to the standard output:
 

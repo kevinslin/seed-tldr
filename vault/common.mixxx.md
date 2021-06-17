@@ -2,8 +2,9 @@
 id: common.mixxx
 title: Mixxx
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -35,7 +36,7 @@ sources:
 
 `mixxx --controllerDebug --resourcePath {{path/to/mapping-directory}}`
 
-- Show command line help:
+- Show command-line help:
 
 `mixxx --help`
 

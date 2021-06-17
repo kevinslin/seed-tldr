@@ -2,8 +2,9 @@
 id: linux.tlp
 title: Tlp
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,9 @@ sources:
 ---
 # tlp
 
-> Advanced power management for Linux. See `tlp-stat` page for additional information.
+> Advanced power management for Linux.
+> See also `tlp-stat`.
+> More information: <https://linrunner.de/tlp/>.
 
 - Apply settings (according to the actual power source):
 

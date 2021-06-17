@@ -2,8 +2,9 @@
 id: common.recsel
 title: Recsel
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -21,9 +22,9 @@ sources:
 
 - Use "~" to match a string with a given regular expression:
 
-`recsel -e "{{field_name}}  ~ '{{pattern_regex}}' {{data.rec}}"`
+`recsel -e "{{field_name}} ~ '{{regular_expression}}' {{data.rec}}"`
 
 - Use a predicate to match a name and a version:
 
-`recsel -e "name ~ '{{pattern_regex}}' && version ~ '{{pattern_regex}}'" {{data.rec}}`
+`recsel -e "name ~ '{{regular_expression}}' && version ~ '{{regular_expression}}'" {{data.rec}}`
 

@@ -2,8 +2,9 @@
 id: common.kubectl
 title: Kubectl
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # kubectl
 
-> Command line interface for running commands against Kubernetes clusters.
+> Command-line interface for running commands against Kubernetes clusters.
 > See also `kubectl describe` and other pages for additional information.
 > More information: <https://kubernetes.io/docs/reference/kubectl/>.
 

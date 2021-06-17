@@ -2,8 +2,9 @@
 id: common.fmt
 title: Fmt
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # fmt
 
 > Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default).
+> More information: <https://www.gnu.org/software/coreutils/fmt>.
 
 - Reformat a file:
 

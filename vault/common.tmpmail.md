@@ -2,8 +2,9 @@
 id: common.tmpmail
 title: Tmpmail
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

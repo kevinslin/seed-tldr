@@ -2,8 +2,9 @@
 id: common.printf
 title: Printf
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016145
+created: 1623965016145
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # printf
 
 > Format and print text.
+> More information: <https://www.gnu.org/software/coreutils/printf>.
 
 - Print a text message:
 
@@ -22,7 +24,7 @@ sources:
 
 `printf "{{\e[1;34m%.3d\e[0m\n}}" {{42}}`
 
-- Print a float number with the unicode Euro sign:
+- Print a float number with the Unicode Euro sign:
 
 `printf "{{\u20AC %.2f\n}}" {{123.4}}`
 

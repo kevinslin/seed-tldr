@@ -2,8 +2,9 @@
 id: common.gh-ssh-key
 title: Gh Ssh Key
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh ssh-key
 
-> Manage GitHub SSH keys from the command line.
+> Manage GitHub SSH keys from the command-line.
 > More information: <https://cli.github.com/manual/gh_ssh-key>.
 
 - Display help:

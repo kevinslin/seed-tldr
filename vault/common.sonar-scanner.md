@@ -2,8 +2,9 @@
 id: common.sonar-scanner
 title: Sonar Scanner
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # sonar-scanner
 
-> SonarScanner is a generic scanner for SonarQube for projects do not use any specific build tool like maven, gradle , etc.
+> SonarScanner is a generic scanner for SonarQube projects that do not use build tools such as Maven, Gradle, or Ant.
 > More information: <https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/>.
 
 - Scan a project with configuration file in your project's root directory named `sonar-project.properties`:
@@ -27,7 +28,7 @@ sources:
 
 `sonar-scanner -h`
 
-- Print debudgging information:
+- Print debugging information:
 
 `sonar-scanner -X`
 

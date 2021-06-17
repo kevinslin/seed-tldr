@@ -2,8 +2,9 @@
 id: common.convert
 title: Convert
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # convert
 
-> Imagemagick image conversion tool.
+> ImageMagick image conversion tool.
 > More information: <https://imagemagick.org/script/convert.php>.
 
 - Convert an image from JPG to PNG:

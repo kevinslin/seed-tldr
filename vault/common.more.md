@@ -2,8 +2,9 @@
 id: common.more
 title: More
 desc: ''
-updated: 1615663978724
-created: 1615663978724
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,13 +13,22 @@ sources:
 ---
 # more
 
-> Open a file for interactive reading, allowing scrolling and search (in forward direction only).
+> Open a file for interactive reading, allowing scrolling and search.
+> More information: <https://manned.org/more>.
 
 - Open a file:
 
-`more {{source_file}}`
+`more {{path/to/file}}`
 
-- Page down:
+- Open a file displaying from a specific line:
+
+`more +{{line_number}} {{path/to/file}}`
+
+- Display help:
+
+`more --help`
+
+- Go to the next page:
 
 `<Space>`
 
@@ -29,4 +39,8 @@ sources:
 - Exit:
 
 `q`
+
+- Display help about interactive commands:
+
+`h`
 

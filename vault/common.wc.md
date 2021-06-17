@@ -2,8 +2,9 @@
 id: common.wc
 title: Wc
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # wc
 
 > Count lines, words, or bytes.
+> More information: <https://www.gnu.org/software/coreutils/wc>.
 
 - Count lines in file:
 

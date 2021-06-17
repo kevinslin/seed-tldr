@@ -2,8 +2,9 @@
 id: linux.tcptraceroute
 title: Tcptraceroute
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -29,7 +30,7 @@ sources:
 
 - Set the first and maximum TTL:
 
-`tcptraceroute {{host}} -f {{first_ttl} -m {{max_ttl}}`
+`tcptraceroute {{host}} -f {{first_ttl}} -m {{max_ttl}}`
 
 - Specify the wait time and number of queries per hop:
 

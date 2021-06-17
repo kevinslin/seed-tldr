@@ -2,8 +2,9 @@
 id: common.ls
 title: Ls
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # ls
 
 > List directory contents.
+> More information: <https://www.gnu.org/software/coreutils/ls>.
 
 - List files one per line:
 
@@ -30,7 +32,7 @@ sources:
 
 `ls -la`
 
-- Long format list with size displayed using human readable units (KB, MB, GB):
+- Long format list with size displayed using human readable units (KiB, MiB, GiB):
 
 `ls -lh`
 
@@ -41,4 +43,8 @@ sources:
 - Long format list of all files, sorted by modification date (oldest first):
 
 `ls -ltr`
+
+- Only list directories:
+
+`ls -d {{*/}}`
 

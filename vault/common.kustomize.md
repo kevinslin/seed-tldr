@@ -2,8 +2,9 @@
 id: common.kustomize
 title: Kustomize
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -27,7 +28,7 @@ sources:
 
 `kustomize edit set image {{busybox=alpine:3.6}}`
 
-- Search for kubernetes resources in the current directory to be added to the kustomization file:
+- Search for Kubernetes resources in the current directory to be added to the kustomization file:
 
 `kustomize create --autodetect`
 

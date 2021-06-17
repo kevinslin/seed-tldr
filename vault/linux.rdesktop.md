@@ -2,8 +2,9 @@
 id: linux.rdesktop
 title: Rdesktop
 desc: ''
-updated: 1615663978754
-created: 1615663978754
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

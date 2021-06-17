@@ -2,8 +2,9 @@
 id: common.pdflatex
 title: Pdflatex
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # pdflatex
 
 > Compile a PDF document from LaTeX source files.
-> More information: <https://linux.die.net/man/1/pdflatex>.
+> More information: <https://manned.org/pdflatex>.
 
 - Compile a PDF document:
 

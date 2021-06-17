@@ -2,8 +2,9 @@
 id: linux.pacman-files
 title: Pacman Files
 desc: ''
-updated: 1615663978751
-created: 1615663978751
+updated: 1623965016166
+created: 1623965016166
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # pacman --files
 
 > Arch Linux package manager utility.
+> See also `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display help:
@@ -29,11 +31,11 @@ sources:
 
 - Find the package that owns a specific file, using a regular expression:
 
-`pacman --files --regex '{{search_pattern}}'`
+`pacman --files --regex '{{regular_expression}}'`
 
 - List only the package names:
 
-`pacman --files --quite {{filename}}`
+`pacman --files --quiet {{filename}}`
 
 - List the files owned by a specific package:
 
@@ -41,5 +43,5 @@ sources:
 
 - List only the absolute path to the files:
 
-`pacman --query --list --quite {{package_name}}`
+`pacman --query --list --quiet {{package_name}}`
 

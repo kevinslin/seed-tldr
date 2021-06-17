@@ -2,8 +2,9 @@
 id: common.gzip
 title: Gzip
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # gzip
 
 > Compress/uncompress files with gzip compression (LZ77).
+> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
 - Compress a file, replacing it with a gzipped compressed version:
 

@@ -2,8 +2,9 @@
 id: linux.useradd
 title: Useradd
 desc: ''
-updated: 1615663978757
-created: 1615663978757
+updated: 1623965016170
+created: 1623965016170
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # useradd
 
 > Create a new user.
+> More information: <https://manned.org/useradd>.
 
 - Create new user:
 

@@ -2,8 +2,9 @@
 id: linux.xdotool
 title: Xdotool
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # xdotool
 
-> Command line automation for X11.
+> Command-line automation for X11.
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 

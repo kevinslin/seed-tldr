@@ -2,8 +2,9 @@
 id: windows.choco-new
 title: Choco New
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `choco new {{package_name}} --output-directory {{path/to/directory}}`
 
-- Create a new package with specific 32-bit and 64-bit installer urls:
+- Create a new package with specific 32-bit and 64-bit installer URLs:
 
 `choco new {{package_name}} url="{{url}}" url64="{{url}}"`
 

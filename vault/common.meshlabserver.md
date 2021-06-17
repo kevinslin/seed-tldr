@@ -2,8 +2,9 @@
 id: common.meshlabserver
 title: Meshlabserver
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # meshlabserver
 
-> Command line interface for the MeshLab 3D mesh processing software.
+> Command-line interface for the MeshLab 3D mesh processing software.
 
 - Convert an STL file to an OBJ file:
 

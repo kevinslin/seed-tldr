@@ -2,8 +2,9 @@
 id: common.seq
 title: Seq
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # seq
 
 > Output a sequence of numbers to stdout.
+> More information: <https://www.gnu.org/software/coreutils/seq>.
 
 - Sequence from 1 to 10:
 

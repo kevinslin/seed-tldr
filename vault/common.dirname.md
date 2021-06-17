@@ -2,8 +2,9 @@
 id: common.dirname
 title: Dirname
 desc: ''
-updated: 1615663978705
-created: 1615663978705
+updated: 1623965016119
+created: 1623965016119
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # dirname
 
 > Calculates the parent directory of a given file or directory path.
+> More information: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Calculate the parent directory of a given path:
 

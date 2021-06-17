@@ -2,8 +2,9 @@
 id: common.git-describe
 title: Git Describe
 desc: ''
-updated: 1615663978712
-created: 1615663978712
+updated: 1623965016127
+created: 1623965016127
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

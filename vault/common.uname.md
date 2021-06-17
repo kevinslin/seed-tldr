@@ -2,8 +2,9 @@
 id: common.uname
 title: Uname
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `lsb_release` command.
+> More information: <https://www.gnu.org/software/coreutils/uname>.
 
 - Print hardware-related information: machine and processor:
 

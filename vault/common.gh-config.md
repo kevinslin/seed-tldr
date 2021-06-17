@@ -2,8 +2,9 @@
 id: common.gh-config
 title: Gh Config
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -22,6 +23,10 @@ sources:
 - Set protocol to SSH:
 
 `gh config set git_protocol {{ssh}}`
+
+- Use `delta` in side-by-side mode as the default pager for all `gh` commands:
+
+`gh config set pager '{{delta --side-by-side}}'`
 
 - Set text editor to Vim:
 

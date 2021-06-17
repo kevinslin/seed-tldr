@@ -2,8 +2,9 @@
 id: linux.groupmod
 title: Groupmod
 desc: ''
-updated: 1615663978746
-created: 1615663978746
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # groupmod
 
 > Modify existing user groups in the system.
+> More information: <https://manned.org/groupmod>.
 
 - Change the group name:
 

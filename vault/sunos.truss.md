@@ -2,8 +2,9 @@
 id: sunos.truss
 title: Truss
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Troubleshooting tool for tracing system calls.
 > SunOS equivalent of strace.
+> More information: <https://www.unix.com/man-page/linux/1/truss>.
 
 - Start tracing a program by executing it, following all child processes:
 

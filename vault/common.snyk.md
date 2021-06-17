@@ -2,8 +2,9 @@
 id: common.snyk
 title: Snyk
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > Find vulnerabilities in your code and remediate risks.
 > More information: <https://snyk.io>.
 
-- Login to your Snyk account:
+- Log in to your Snyk account:
 
 `snyk auth`
 

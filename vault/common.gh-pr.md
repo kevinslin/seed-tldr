@@ -2,8 +2,9 @@
 id: common.gh-pr
 title: Gh Pr
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh pr
 
-> Manage GitHub pull requests from the command line.
+> Manage GitHub pull requests from the command-line.
 > More information: <https://cli.github.com/manual/gh_pr>.
 
 - Create a pull request:
@@ -31,7 +32,7 @@ sources:
 
 `gh pr review --approve`
 
-- Merge the pull request associated with the current branch, removing the branch on both the local and the remote:
+- Merge the pull request associated with the current branch interactively:
 
 `gh pr merge`
 

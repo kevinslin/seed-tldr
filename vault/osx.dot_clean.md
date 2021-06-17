@@ -2,8 +2,9 @@
 id: osx.dot_clean
 title: Dot_clean
 desc: ''
-updated: 1615663978759
-created: 1615663978759
+updated: 1623965016173
+created: 1623965016173
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

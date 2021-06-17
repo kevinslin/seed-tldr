@@ -2,8 +2,9 @@
 id: common.fg
 title: Fg
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # fg
 
 > Run jobs in foreground.
+> More information: <https://manned.org/fg>.
 
 - Bring most recently suspended background job to foreground:
 

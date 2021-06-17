@@ -2,8 +2,9 @@
 id: common.git-ls-remote
 title: Git Ls Remote
 desc: ''
-updated: 1615663978713
-created: 1615663978713
+updated: 1623965016128
+created: 1623965016128
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -28,7 +29,7 @@ sources:
 
 `git ls-remote --tags`
 
-- Show all references from a remote repository based on name or url:
+- Show all references from a remote repository based on name or URL:
 
 `git ls-remote {{repository_url}}`
 

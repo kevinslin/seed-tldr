@@ -2,8 +2,9 @@
 id: osx.mas
 title: Mas
 desc: ''
-updated: 1615663978760
-created: 1615663978760
+updated: 1623965016174
+created: 1623965016174
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # mas
 
-> Command line interface for the Mac App Store.
+> Command-line interface for the Mac App Store.
 > More information: <https://github.com/mas-cli/mas>.
 
 - Sign into the Mac App Store for the first time:

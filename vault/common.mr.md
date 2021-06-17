@@ -2,8 +2,9 @@
 id: common.mr
 title: Mr
 desc: ''
-updated: 1615663978725
-created: 1615663978725
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # mr
 
-> Myrepos manages all your version control repositories at once.
+> Manage all of your version control repositories at once.
 > More information: <https://myrepos.branchable.com>.
 
 - Register a repository:

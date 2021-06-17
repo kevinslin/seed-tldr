@@ -2,8 +2,9 @@
 id: common.git-commit
 title: Git Commit
 desc: ''
-updated: 1615663978712
-created: 1615663978712
+updated: 1623965016127
+created: 1623965016127
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -17,11 +18,15 @@ sources:
 
 - Commit staged files to the repository with a message:
 
-`git commit -m {{message}}`
+`git commit -m "{{message}}"`
+
+- Commit staged files with a message read from a file:
+
+`git commit --file {{path/to/commit_message_file}}`
 
 - Auto stage all modified files and commit with a message:
 
-`git commit -a -m {{message}}`
+`git commit -a -m "{{message}}"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 
@@ -29,5 +34,9 @@ sources:
 
 - Commit only specific (already staged) files:
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{path/to/file1}} {{path/to/file2}}`
+
+- Create a commit, even if there are no staged files:
+
+`git commit -m "{{message}}" --allow-empty`
 

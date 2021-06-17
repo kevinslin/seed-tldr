@@ -2,8 +2,9 @@
 id: common.at
 title: At
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Execute commands once at a later time.
 > Service atd (or atrun) should be running for the actual executions.
+> More information: <https://man.archlinux.org/man/at.1>.
 
 - Execute commands from standard input in 5 minutes (press `Ctrl + D` when done):
 

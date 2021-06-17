@@ -2,8 +2,9 @@
 id: common.asdf
 title: Asdf
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016112
+created: 1623965016112
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # asdf
 
-> Command line interface for managing versions of different packages.
+> Command-line interface for managing versions of different packages.
 > More information: <https://asdf-vm.com>.
 
 - List all available plugins:

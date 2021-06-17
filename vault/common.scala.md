@@ -2,8 +2,9 @@
 id: common.scala
 title: Scala
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016148
+created: 1623965016148
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `scala {{filename.jar}}`
 
-- Execute a single Scala command in the command line:
+- Execute a single Scala command in the command-line:
 
 `scala -e {{command}}`
 

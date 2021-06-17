@@ -2,8 +2,9 @@
 id: common.cloudflared
 title: Cloudflared
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # cloudflared
 
-> Command line tool to create a persistent connection to the Cloudflare network.
+> Command-line tool to create a persistent connection to the Cloudflare network.
 > More information: <https://developers.cloudflare.com/argo-tunnel/>.
 
 - Authenticate and associate the connection to a domain in the Cloudflare account:

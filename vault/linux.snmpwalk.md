@@ -2,8 +2,9 @@
 id: linux.snmpwalk
 title: Snmpwalk
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # snmpwalk
 
 > SNMP query tool.
-> More information: <https://linux.die.net/man/1/snmpwalk>.
+> More information: <https://manned.org/snmpwalk>.
 
 - Query the system information of a remote host using SNMPv1 and a community string:
 

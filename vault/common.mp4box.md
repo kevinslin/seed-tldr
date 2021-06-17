@@ -2,8 +2,9 @@
 id: common.mp4box
 title: Mp4box
 desc: ''
-updated: 1615663978725
-created: 1615663978725
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -25,5 +26,5 @@ sources:
 
 - Combine audio from one file and video from another:
 
-`mp4box -add {{input1.mp4}}#audio -add {{input2.mp4}}#video {{output.mp4}`
+`mp4box -add {{input1.mp4}}#audio -add {{input2.mp4}}#video {{output.mp4}}`
 

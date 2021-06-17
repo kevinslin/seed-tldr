@@ -2,8 +2,9 @@
 id: common.oc
 title: Oc
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -40,7 +41,7 @@ sources:
 
 `oc get pods`
 
-- Logout from the current session:
+- Log out from the current session:
 
 `oc logout`
 

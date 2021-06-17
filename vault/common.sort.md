@@ -2,8 +2,9 @@
 id: common.sort
 title: Sort
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016150
+created: 1623965016150
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # sort
 
 > Sort lines of text files.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/sort>.
 
 - Sort a file in ascending order:
 

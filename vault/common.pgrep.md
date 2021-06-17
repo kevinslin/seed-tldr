@@ -2,8 +2,9 @@
 id: common.pgrep
 title: Pgrep
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,17 +13,18 @@ sources:
 ---
 # pgrep
 
-> Find or signal process by name.
+> Find or signal processes by name.
+> More information: <https://www.man7.org/linux/man-pages/man1/pkill.1.html>.
 
 - Return PIDs of any running processes with a matching command string:
 
 `pgrep {{process_name}}`
 
-- Search full command line with parameters instead of just the process name:
+- Search for processes including their command-line options:
 
-`pgrep -f "{{process_name}} {{parameter}}"`
+`pgrep --full "{{process_name}} {{parameter}}"`
 
-- Search for process run by a specific user:
+- Search for processes run by a specific user:
 
-`pgrep -u root {{process_name}}`
+`pgrep --euid root {{process_name}}`
 

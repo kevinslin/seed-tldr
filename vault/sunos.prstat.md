@@ -2,8 +2,9 @@
 id: sunos.prstat
 title: Prstat
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016175
+created: 1623965016175
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # prstat
 
 > Report active process statistics.
+> More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Examine all processes and reports statistics sorted by CPU usage:
 

@@ -2,8 +2,9 @@
 id: linux.create_ap
 title: Create_ap
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016159
+created: 1623965016159
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

@@ -2,8 +2,9 @@
 id: linux.vmstat
 title: Vmstat
 desc: ''
-updated: 1615663978757
-created: 1615663978757
+updated: 1623965016170
+created: 1623965016170
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # vmstat
 
 > Report information about processes, memory, paging, block IO, traps, disks and CPU activity.
-> More information: <https://linux.die.net/man/8/vmstat>.
+> More information: <https://manned.org/vmstat>.
 
 - Display virtual memory statistics:
 

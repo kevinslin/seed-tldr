@@ -2,8 +2,9 @@
 id: linux.protontricks
 title: Protontricks
 desc: ''
-updated: 1615663978754
-created: 1615663978754
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # protontricks
 
-> A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.
+> A simple wrapper that does Winetricks things for Proton enabled games, requires Winetricks.
 > More information: <https://github.com/Matoking/protontricks>.
 
 - Show the protontricks help message:
@@ -23,7 +24,7 @@ sources:
 
 `protontricks --gui`
 
-- Run winetricks for a specific game:
+- Run Winetricks for a specific game:
 
 `protontricks {{appid}} {{winetricks_args}}`
 

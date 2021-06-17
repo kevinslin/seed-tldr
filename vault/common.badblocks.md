@@ -2,8 +2,9 @@
 id: common.badblocks
 title: Badblocks
 desc: ''
-updated: 1615663978700
-created: 1615663978700
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,8 @@ sources:
 # badblocks
 
 > Search a device for bad blocks.
-> Some usages of badblocks can cause destructive actions, such as erasing all the data on a disk, including the partition table.
+> Some usages of badblocks can cause destructive actions, such as erasing all data on a disk, including the partition table.
+> More information: <https://manned.org/badblocks>.
 
 - Search a disk for bad blocks by using a non-destructive read-only test:
 

@@ -2,8 +2,9 @@
 id: common.expr
 title: Expr
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # expr
 
 > Evaluate expressions and manipulate strings.
+> More information: <https://www.gnu.org/software/coreutils/expr>.
 
 - Get string length:
 

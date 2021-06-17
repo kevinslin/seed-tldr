@@ -2,8 +2,9 @@
 id: common.mkfifo
 title: Mkfifo
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # mkfifo
 
 > Makes FIFOs (named pipes).
+> More information: <https://www.gnu.org/software/coreutils/mkfifo>.
 
 - Create a named pipe at a given path:
 

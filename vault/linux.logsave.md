@@ -2,8 +2,9 @@
 id: linux.logsave
 title: Logsave
 desc: ''
-updated: 1615663978749
-created: 1615663978749
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # logsave
 
 > Save the output of a command in a logfile.
-> More information: <https://linux.die.net/man/8/logsave>.
+> More information: <https://manned.org/logsave>.
 
 - Execute command with specified argument(s) and save its output to log file:
 

@@ -2,8 +2,9 @@
 id: common.github-label-sync
 title: GitHub Label Sync
 desc: ''
-updated: 1615663978714
-created: 1615663978714
+updated: 1623965016129
+created: 1623965016129
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # github-label-sync
 
-> A command line interface for synchronising GitHub labels.
+> A command-line interface for synchronising GitHub labels.
 > More information: <https://npmjs.com/package/github-label-sync>.
 
 - Synchronise labels using a local `labels.json` file:

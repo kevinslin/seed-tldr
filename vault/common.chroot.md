@@ -2,8 +2,9 @@
 id: common.chroot
 title: Chroot
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # chroot
 
 > Run command or interactive shell with special root directory.
+> More information: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Run command as new root directory:
 

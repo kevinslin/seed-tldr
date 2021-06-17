@@ -2,8 +2,9 @@
 id: linux.terminator
 title: Terminator
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # terminator
 
 > Arrange multiple GNOME terminals in one window.
+> More information: <https://gnome-terminator.org/>.
 
 - Start terminator window:
 

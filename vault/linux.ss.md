@@ -2,8 +2,9 @@
 id: linux.ss
 title: Ss
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # ss
 
 > Utility to investigate sockets.
+> More information: <https://manned.org/ss.8>.
 
 - Show all TCP/UDP/RAW/UNIX sockets:
 

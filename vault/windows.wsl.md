@@ -2,8 +2,9 @@
 id: windows.wsl
 title: Wsl
 desc: ''
-updated: 1615663978764
-created: 1615663978764
+updated: 1623965016178
+created: 1623965016178
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # wsl
 
-> Manage the Windows Subsystem for Linux from the command line.
+> Manage the Windows Subsystem for Linux from the command-line.
 > More information: <https://docs.microsoft.com/windows/wsl/reference>.
 
 - Start a Linux shell (in the default distribution):

@@ -2,8 +2,9 @@
 id: common.svn
 title: Svn
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # svn
 
-> Subversion command line client tool.
+> Subversion command-line client tool.
 > More information: <https://subversion.apache.org>.
 
 - Check out a working copy from a repository:

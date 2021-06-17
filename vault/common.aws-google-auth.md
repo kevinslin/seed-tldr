@@ -2,8 +2,9 @@
 id: common.aws-google-auth
 title: Aws Google Auth
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,14 +13,14 @@ sources:
 ---
 # aws-google-auth
 
-> Command line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider.
+> Command-line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider.
 > More information: <https://github.com/cevoaustralia/aws-google-auth>.
 
-- Login with Google SSO using the IDP and SP identifiers and set the credentials duration to one hour:
+- Log in with Google SSO using the IDP and SP identifiers and set the credentials duration to one hour:
 
 `aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}}`
 
-- Login [a]sking which role to use (in case of several available SAML roles):
+- Log in [a]sking which role to use (in case of several available SAML roles):
 
 `aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}} -a`
 

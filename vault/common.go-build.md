@@ -2,8 +2,9 @@
 id: common.go-build
 title: Go Build
 desc: ''
-updated: 1615663978715
-created: 1615663978715
+updated: 1623965016129
+created: 1623965016129
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

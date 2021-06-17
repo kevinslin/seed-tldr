@@ -2,8 +2,9 @@
 id: common.diffstat
 title: Diffstat
 desc: ''
-updated: 1615663978705
-created: 1615663978705
+updated: 1623965016119
+created: 1623965016119
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # diffstat
 
 > Create a histogram from the output of the `diff` command.
+> More information: <https://manned.org/diffstat>.
 
 - Display changes in a histogram:
 

@@ -2,8 +2,9 @@
 id: linux.iwconfig
 title: Iwconfig
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # iwconfig
 
 > Configure and show the parameters of a wireless network interface.
-> More information: <https://linux.die.net/man/8/iwconfig>.
+> More information: <https://manned.org/iwconfig>.
 
 - Show the parameters and statistics of all the interfaces:
 

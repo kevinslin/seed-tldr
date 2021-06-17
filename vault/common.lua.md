@@ -2,8 +2,9 @@
 id: common.lua
 title: Lua
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -25,5 +26,5 @@ sources:
 
 - Execute a Lua expression:
 
-`lua -e '{{print( "Hello World" )}}`
+`lua -e '{{print( "Hello World" )}}'`
 

@@ -2,8 +2,9 @@
 id: osx.shutdown
 title: Shutdown
 desc: ''
-updated: 1615663978761
-created: 1615663978761
+updated: 1623965016174
+created: 1623965016174
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

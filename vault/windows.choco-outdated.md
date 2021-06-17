@@ -2,8 +2,9 @@
 id: windows.choco-outdated
 title: Choco Outdated
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

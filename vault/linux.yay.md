@@ -2,8 +2,9 @@
 id: linux.yay
 title: Yay
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,6 +32,10 @@ sources:
 - Install a new package from the repos and AUR:
 
 `yay -S {{package_name}}`
+
+- Remove an installed package and both its dependencies and configuration files:
+
+`yay -Rns {{package_name}}`
 
 - Search the package database for a keyword from the repos and AUR:
 

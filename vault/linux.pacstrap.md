@@ -2,8 +2,9 @@
 id: linux.pacstrap
 title: Pacstrap
 desc: ''
-updated: 1615663978751
-created: 1615663978751
+updated: 1623965016166
+created: 1623965016166
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # pacstrap
 
-> Install packages using Pacman to the specified new root directory.
+> Arch Linux install script to install packages to the specified new root directory.
 > More information: <https://man.archlinux.org/man/pacstrap.8>.
 
 - Install the `base` package, Linux kernel and firmware for common hardware:

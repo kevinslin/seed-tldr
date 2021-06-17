@@ -2,8 +2,9 @@
 id: common.jrnl
 title: Jrnl
 desc: ''
-updated: 1615663978720
-created: 1615663978720
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # jrnl
 
-> A simple journal application for your command line.
+> A simple journal application for your command-line.
 > More information: <http://jrnl.sh>.
 
 - Insert a new entry with your editor:

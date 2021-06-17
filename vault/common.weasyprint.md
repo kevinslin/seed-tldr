@@ -2,8 +2,9 @@
 id: common.weasyprint
 title: Weasyprint
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --resolution {{300}}`
 
-- Specify a base url for relative urls in the input HTML file:
+- Specify a base URL for relative URLs in the input HTML file:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --base-url {{url_or_filename}}`
 

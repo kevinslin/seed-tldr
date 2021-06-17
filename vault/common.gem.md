@@ -2,8 +2,9 @@
 id: common.gem
 title: Gem
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -17,7 +18,7 @@ sources:
 
 - Search for remote gem(s) and show all available versions:
 
-`gem search {{regexp}} --all`
+`gem search {{regular_expression}} --all`
 
 - Install latest version of a gem:
 

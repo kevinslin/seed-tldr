@@ -2,8 +2,9 @@
 id: common.hsd-cli
 title: Hsd CLI
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # hsd-cli
 
-> The command line REST tool for the Handshake blockchain.
+> The command-line REST tool for the Handshake blockchain.
 > More information: <https://handshake.org>.
 
 - Retrieve information about the current server:

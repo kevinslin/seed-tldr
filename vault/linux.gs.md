@@ -2,8 +2,9 @@
 id: linux.gs
 title: Gs
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -18,7 +19,7 @@ sources:
 
 `gs -dQUIET -dBATCH {{file.pdf}}`
 
-- Reduce PDF file size to 150 dpi images for reading on a ebook device:
+- Reduce PDF file size to 150 dpi images for reading on a e-book device:
 
 `gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={{output.pdf}} {{input.pdf}}`
 

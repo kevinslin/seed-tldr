@@ -2,8 +2,9 @@
 id: common.head
 title: Head
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # head
 
 > Output the first part of files.
+> More information: <https://www.gnu.org/software/coreutils/head>.
 
 - Output the first few lines of a file:
 

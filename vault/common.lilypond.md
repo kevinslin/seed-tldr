@@ -2,8 +2,9 @@
 id: common.lilypond
 title: Lilypond
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # lilypond
 
 > Typeset music and/or produce MIDI from file.
-> More information: <https://lilypond.org/index.html>.
+> More information: <https://lilypond.org>.
 
 - Compile a lilypond file into a PDF:
 

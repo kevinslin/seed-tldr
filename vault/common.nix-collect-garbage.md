@@ -2,8 +2,9 @@
 id: common.nix-collect-garbage
 title: Nix Collect Garbage
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016139
+created: 1623965016139
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

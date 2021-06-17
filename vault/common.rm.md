@@ -2,8 +2,9 @@
 id: common.rm
 title: Rm
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # rm
 
 > Remove files or directories.
+> More information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Remove files from arbitrary locations:
 

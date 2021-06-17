@@ -2,8 +2,9 @@
 id: common.gcloud
 title: Gcloud
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `gcloud config list`
 
-- Login to Google account:
+- Log in to Google account:
 
 `gcloud auth login`
 

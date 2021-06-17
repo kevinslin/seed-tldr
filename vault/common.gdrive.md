@@ -2,8 +2,9 @@
 id: common.gdrive
 title: Gdrive
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gdrive
 
-> Command line tool to interact with Google Drive.
+> Command-line tool to interact with Google Drive.
 > Folder/file id can be obtained from the Google Drive folder or id url.
 > More information: <https://github.com/gdrive-org/gdrive>.
 

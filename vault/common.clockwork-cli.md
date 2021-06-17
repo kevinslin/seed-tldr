@@ -2,8 +2,9 @@
 id: common.clockwork-cli
 title: Clockwork CLI
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # clockwork-cli
 
-> A command line interface for the Clockwork PHP debugging framework.
+> A command-line interface for the Clockwork PHP debugging framework.
 > More information: <https://github.com/ptrofimov/clockwork-cli>.
 
 - Monitor Clockwork logs for the current project:

@@ -2,8 +2,9 @@
 id: common.csvgrep
 title: Csvgrep
 desc: ''
-updated: 1615663978704
-created: 1615663978704
+updated: 1623965016118
+created: 1623965016118
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -20,9 +21,9 @@ sources:
 
 `csvgrep -c {{1}} -m {{string_to_match}} {{data.csv}}`
 
-- Find rows in which columns 3 or 4 match a certain regex pattern:
+- Find rows in which columns 3 or 4 match a certain regular expression:
 
-`csvgrep -c {{3,4}} -r {{regex_pattern}} {{data.csv}}`
+`csvgrep -c {{3,4}} -r {{regular_expression}} {{data.csv}}`
 
 - Find rows in which the "name" column does NOT include the string "John Doe":
 

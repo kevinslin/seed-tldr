@@ -2,8 +2,9 @@
 id: linux.groupadd
 title: Groupadd
 desc: ''
-updated: 1615663978746
-created: 1615663978746
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # groupadd
 
 > Add user groups to the system.
+> More information: <https://manned.org/groupadd>.
 
 - Create a new Linux group:
 

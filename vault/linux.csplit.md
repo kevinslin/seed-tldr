@@ -2,8 +2,9 @@
 id: linux.csplit
 title: Csplit
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Split a file into pieces.
 > This generates files named "xx00", "xx01", and so on.
+> More information: <https://www.gnu.org/software/coreutils/csplit>.
 
 - Split a file at lines 5 and 23:
 
@@ -33,5 +35,5 @@ sources:
 
 - Split a file at a line matching a regular expression:
 
-`csplit {{file}} /{{regex}}/`
+`csplit {{file}} /{{regular_expression}}/`
 

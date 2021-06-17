@@ -2,8 +2,9 @@
 id: common.ar
 title: Ar
 desc: ''
-updated: 1615663978698
-created: 1615663978698
+updated: 1623965016112
+created: 1623965016112
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,25 +13,26 @@ sources:
 ---
 # ar
 
-> Create, modify, and extract from archives (.a, .so, .o).
+> Create, modify, and extract from archives (`.a`, `.so`, `.o`).
+> More information: <https://manned.org/ar>.
 
 - Extract all members from an archive:
 
-`ar -x {{libfoo.a}}`
+`ar -x {{path/to/file.a}}`
 
 - List the members of an archive:
 
-`ar -t {{libfoo.a}}`
+`ar -t {{path/to/file.a}}`
 
 - Replace or add files to an archive:
 
-`ar -r {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`
+`ar -r {{path/to/file.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
 
 - Insert an object file index (equivalent to using `ranlib`):
 
-`ar -s {{libfoo.a}}`
+`ar -s {{path/to/file.a}}`
 
 - Create an archive with files and an accompanying object file index:
 
-`ar -rs {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`
+`ar -rs {{path/to/file.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
 

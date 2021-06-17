@@ -2,8 +2,9 @@
 id: common.ncmpcpp
 title: Ncmpcpp
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016139
+created: 1623965016139
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # ncmpcpp
 
-> A command line music player client for the Music Player Daemon.
+> A command-line music player client for the Music Player Daemon.
 > More information: <https://rybczak.net/ncmpcpp>.
 
 - Connect to a music player daemon on a given host and port:

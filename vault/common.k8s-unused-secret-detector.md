@@ -2,8 +2,9 @@
 id: common.k8s-unused-secret-detector
 title: K8s Unused Secret Detector
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # k8s-unused-secret-detector
 
-> Command line interface tool for detecting unused Kubernetes secrets.
+> Command-line interface tool for detecting unused Kubernetes secrets.
 > More information: <https://github.com/dtan4/k8s-unused-secret-detector>.
 
 - Detect unused secrets:

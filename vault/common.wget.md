@@ -2,8 +2,9 @@
 id: common.wget
 title: Wget
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -22,7 +23,7 @@ sources:
 
 - Download the contents of an URL to a file (named "bar" in this case):
 
-`wget -O {{bar}} {{https://example.com/foo}}`
+`wget --output-document {{bar}} {{https://example.com/foo}}`
 
 - Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
@@ -42,9 +43,9 @@ sources:
 
 - Continue an incomplete download:
 
-`wget -c {{https://example.com}}`
+`wget --continue {{https://example.com}}`
 
 - Download all URLs stored in a text file to a specific directory:
 
-`wget -P {{path/to/directory}} -i {{URLs.txt}}`
+`wget --directory-prefix {{path/to/directory}} --input-file {{URLs.txt}}`
 

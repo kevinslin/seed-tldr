@@ -2,8 +2,9 @@
 id: linux.ip
 title: Ip
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # ip
 
 > Show / manipulate routing, devices, policy routing and tunnels.
+> More information: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - List interfaces with detailed info:
 

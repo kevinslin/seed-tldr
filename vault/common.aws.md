@@ -2,8 +2,9 @@
 id: common.aws
 title: Aws
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -16,11 +17,11 @@ sources:
 > Wizard, SSO, Resource Autocompletion, and YAML options are v2 only.
 > More information: <https://aws.amazon.com/cli>.
 
-- Configure the AWS Command Line:
+- Configure the AWS Command-line:
 
 `aws configure wizard`
 
-- Configure the AWS Command Line using SSO:
+- Configure the AWS Command-line using SSO:
 
 `aws configure sso`
 

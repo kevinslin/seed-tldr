@@ -2,8 +2,9 @@
 id: linux.scrot
 title: Scrot
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016168
+created: 1623965016168
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # scrot
 
 > Screen capture utility.
+> More information: <https://github.com/resurrecting-open-source-projects/scrot>.
 
 - Capture a screenshot and save it to the current directory with the current date as the filename:
 

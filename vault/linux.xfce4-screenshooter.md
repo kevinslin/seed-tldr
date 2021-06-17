@@ -2,8 +2,9 @@
 id: linux.xfce4-screenshooter
 title: Xfce4 Screenshooter
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # xfce4-screenshooter
 
 > The XFCE4 screenshot tool.
+> More information: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
 
 - Launch the screenshooter GUI:
 

@@ -2,8 +2,9 @@
 id: linux.auracle
 title: Auracle
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,12 +13,12 @@ sources:
 ---
 # auracle
 
-> Command line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR.
+> Command-line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR.
 > More information: <https://github.com/falconindy/auracle>.
 
 - Display AUR packages that match a regular expression:
 
-`auracle search '{{regex}}'`
+`auracle search '{{regular_expression}}'`
 
 - Display package information for a space-separated list of AUR packages:
 

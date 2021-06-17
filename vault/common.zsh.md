@@ -2,8 +2,9 @@
 id: common.zsh
 title: Zsh
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016157
+created: 1623965016157
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,23 +13,27 @@ sources:
 ---
 # zsh
 
-> Z SHell.
-> `bash` and `sh`-compatible command line interpreter.
+> Z SHell, a Bash-compatible command-line interpreter.
+> See also `histexpand` for history expansion.
 > More information: <https://www.zsh.org>.
 
-- Start interactive command line interpreter:
+- Start an interactive shell session:
 
 `zsh`
 
-- Execute command passed as parameter:
+- Execute a command and then exit:
 
-`zsh -c {{command}}`
+`zsh -c "{{command}}"`
 
-- Run commands from file (script):
+- Execute a script:
 
-`zsh {{file}}`
+`zsh {{path/to/script.zsh}}`
 
-- Run commands from file and print them as they are executed:
+- Execute a script, printing each command before executing it:
 
-`zsh -x {{file}}`
+`zsh --xtrace {{path/to/script.zsh}}`
+
+- Start an interactive shell session in verbose mode, printing each command before executing it:
+
+`zsh --verbose`
 

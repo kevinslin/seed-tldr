@@ -2,8 +2,9 @@
 id: common.git-reset
 title: Git Reset
 desc: ''
-updated: 1615663978713
-created: 1615663978713
+updated: 1623965016128
+created: 1623965016128
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -24,9 +25,9 @@ sources:
 
 `git reset {{path/to/file(s)}}`
 
-- Unstage portions of a file:
+- Interactively unstage portions of a file:
 
-`git reset -p {{path/to/file}}`
+`git reset --patch {{path/to/file}}`
 
 - Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem:
 

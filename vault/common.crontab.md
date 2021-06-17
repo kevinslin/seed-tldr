@@ -2,8 +2,9 @@
 id: common.crontab
 title: Crontab
 desc: ''
-updated: 1615663978704
-created: 1615663978704
+updated: 1623965016118
+created: 1623965016118
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Schedule cron jobs to run on a time interval for the current user.
 > Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
+> More information: <https://manned.org/crontab>.
 
 - Edit the crontab file for the current user:
 

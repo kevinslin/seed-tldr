@@ -2,8 +2,9 @@
 id: linux.sensible-browser
 title: Sensible Browser
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016168
+created: 1623965016168
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -18,7 +19,7 @@ sources:
 
 `sensible-browser`
 
-- Open a url in the default browser:
+- Open a URL in the default browser:
 
 `sensible-browser {{url}}`
 

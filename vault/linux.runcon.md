@@ -2,8 +2,9 @@
 id: linux.runcon
 title: Runcon
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016168
+created: 1623965016168
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Run a program in a different SELinux security context.
 > With neither context nor command, print the current security context.
+> More information: <https://www.gnu.org/software/coreutils/runcon>.
 
 - Determine the current domain:
 

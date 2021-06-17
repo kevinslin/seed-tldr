@@ -2,8 +2,9 @@
 id: common.mocha
 title: Mocha
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -25,7 +26,7 @@ sources:
 
 - Run tests that match a specific grep pattern:
 
-`mocha --grep {{^regex$}}`
+`mocha --grep {{regular_expression}}`
 
 - Run tests on changes to JavaScript files in the current directory and once initially:
 

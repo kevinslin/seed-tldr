@@ -2,8 +2,9 @@
 id: common.hg
 title: Hg
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # hg
 
-> A command line interface for Mercurial, a distributed source control management system.
+> A command-line interface for Mercurial, a distributed source control management system.
 > See `hg-add`, `hg-commit` and other pages for additional information.
 > More information: <https://www.mercurial-scm.org>.
 

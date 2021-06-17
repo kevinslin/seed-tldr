@@ -2,8 +2,9 @@
 id: common.gunzip
 title: Gunzip
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # gunzip
 
 > Extract file(s) from a gzip (.gz) archive.
+> More information: <https://manned.org/gunzip>.
 
 - Extract a file from an archive, replacing the original file if it exists:
 

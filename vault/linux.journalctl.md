@@ -2,8 +2,9 @@
 id: linux.journalctl
 title: Journalctl
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,23 +15,23 @@ sources:
 
 > Query the systemd journal.
 
-- Show all messages from this boot:
+- Show all messages from this [b]oot:
 
 `journalctl -b`
 
-- Show all messages from last boot:
+- Show all messages from last [b]oot:
 
 `journalctl -b -1`
 
-- Show all messages with priority level 3 (errors) from this boot:
+- Show all messages with priority level 3 (errors) from this [b]oot:
 
 `journalctl -b --priority={{3}}`
 
-- Follow new messages (like `tail -f` for traditional syslog):
+- [f]ollow new messages (like `tail -f` for traditional syslog):
 
 `journalctl -f`
 
-- Show all messages by a specific unit:
+- Show all messages by a specific [u]nit:
 
 `journalctl -u {{unit}}`
 

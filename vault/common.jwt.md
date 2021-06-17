@@ -2,8 +2,9 @@
 id: common.jwt
 title: Jwt
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # jwt
 
-> A command line tool to work with JSON Web Tokens (JWTs).
+> A command-line tool to work with JSON Web Tokens (JWTs).
 > Encryption algorithms available are HS256, HS384, HS512, RS256, RS384, RS512, ES256, ES384.
 > More information: <https://github.com/mike-engel/jwt-cli>.
 

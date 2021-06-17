@@ -2,8 +2,9 @@
 id: common.tsc
 title: Tsc
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `tsc --build {{tsconfig.json}}`
 
-- Run the compiler using command line options and arguments fetched from a text file:
+- Run the compiler using command-line options and arguments fetched from a text file:
 
 `tsc @{{args.txt}}`
 

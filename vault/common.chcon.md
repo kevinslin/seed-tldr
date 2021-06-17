@@ -2,8 +2,9 @@
 id: common.chcon
 title: Chcon
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # chcon
 
 > Change SELinux security context of a file or files/directories.
+> More information: <https://www.gnu.org/software/coreutils/chcon>.
 
 - View security context of a file:
 

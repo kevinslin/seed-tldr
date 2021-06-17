@@ -2,8 +2,9 @@
 id: common.alias
 title: Alias
 desc: ''
-updated: 1615663978697
-created: 1615663978697
+updated: 1623965016111
+created: 1623965016111
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,8 @@ sources:
 # alias
 
 > Creates aliases -- words that are replaced by a command string.
-> Aliases expire with the current shell session, unless they're defined in the shell's configuration file, e.g. `~/.bashrc`.
+> Aliases expire with the current shell session unless defined in the shell's configuration file, e.g. `~/.bashrc`.
+> More information: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - List all aliases:
 

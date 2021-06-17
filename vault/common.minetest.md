@@ -2,8 +2,9 @@
 id: common.minetest
 title: Minetest
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -20,9 +21,9 @@ sources:
 
 `minetest`
 
-- Start minetest in server mode:
+- Start minetest in server mode by hosting a specific world:
 
-`minetest --server`
+`minetest --server --world {{name}}`
 
 - Write logs to a specific file:
 

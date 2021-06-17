@@ -2,8 +2,9 @@
 id: linux.sinfo
 title: Sinfo
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016168
+created: 1623965016168
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

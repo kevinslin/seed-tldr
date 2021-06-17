@@ -2,8 +2,9 @@
 id: sunos.dmesg
 title: Dmesg
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016175
+created: 1623965016175
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # dmesg
 
 > Write the kernel messages to standard output.
+> More information: <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
 - Show kernel messages:
 

@@ -2,8 +2,9 @@
 id: linux.calcurse
 title: Calcurse
 desc: ''
-updated: 1615663978742
-created: 1615663978742
+updated: 1623965016159
+created: 1623965016159
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # calcurse
 
-> A text-based calendar and scheduling application for the command line.
+> A text-based calendar and scheduling application for the command-line.
 > More information: <https://calcurse.org>.
 
 - Start calcurse on interactive mode:

@@ -2,8 +2,9 @@
 id: common.abduco
 title: Abduco
 desc: ''
-updated: 1615663978697
-created: 1615663978697
+updated: 1623965016110
+created: 1623965016110
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

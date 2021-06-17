@@ -2,8 +2,9 @@
 id: common.timeout
 title: Timeout
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # timeout
 
 > Run a command with a time limit.
+> More information: <https://www.gnu.org/software/coreutils/timeout>.
 
 - Run `sleep 10` and terminate it, if it runs for more than 3 seconds:
 

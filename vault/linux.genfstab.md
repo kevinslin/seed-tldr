@@ -2,8 +2,9 @@
 id: linux.genfstab
 title: Genfstab
 desc: ''
-updated: 1615663978746
-created: 1615663978746
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # genfstab
 
-> Generate output suitable for addition to an fstab file.
+> Arch Linux install script to generate output suitable for addition to an fstab file.
 > More information: <https://man.archlinux.org/man/extra/arch-install-scripts/genfstab.8>.
 
 - Display an fstab compatible output based on a volume label:

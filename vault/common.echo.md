@@ -2,8 +2,9 @@
 id: common.echo
 title: Echo
 desc: ''
-updated: 1615663978707
-created: 1615663978707
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # echo
 
 > Print given arguments.
+> More information: <https://www.gnu.org/software/coreutils/echo>.
 
 - Print a text message. Note: quotes are optional:
 

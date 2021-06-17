@@ -2,8 +2,9 @@
 id: common.readlink
 title: Readlink
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # readlink
 
 > Follow symlinks and get symlink information.
+> More information: <https://www.gnu.org/software/coreutils/readlink>.
 
 - Get the actual file to which the symlink points:
 

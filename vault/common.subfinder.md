@@ -2,8 +2,9 @@
 id: common.subfinder
 title: Subfinder
 desc: ''
-updated: 1615663978735
-created: 1615663978735
+updated: 1623965016151
+created: 1623965016151
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -24,7 +25,7 @@ sources:
 
 `subfinder --silent -d {{example.com}}`
 
-- Use bruteforcing to find subdomains:
+- Use a brute-force attack to find subdomains:
 
 `subfinder -d {{example.com}} -b`
 

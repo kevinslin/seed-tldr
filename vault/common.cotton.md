@@ -2,8 +2,9 @@
 id: common.cotton
 title: Cotton
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > Markdown test specification runner.
 > More information: <https://github.com/chonla/cotton>.
 
-- Use a specific base url:
+- Use a specific base URL:
 
 `cotton -u {{base_url}} {{file}}.md`
 

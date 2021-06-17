@@ -2,8 +2,9 @@
 id: common.unlink
 title: Unlink
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Remove a link to a file from the filesystem.
 > The file contents is lost if the link is the last one to the file.
+> More information: <https://www.gnu.org/software/coreutils/unlink>.
 
 - Remove the specified file if it is the last link:
 

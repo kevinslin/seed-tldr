@@ -2,8 +2,9 @@
 id: common.vim
 title: Vim
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -40,9 +41,9 @@ sources:
 
 `/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Perform a regular expression substitution in the whole file:
 
-`:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
 - Display the line numbers:
 

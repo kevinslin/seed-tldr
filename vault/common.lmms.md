@@ -2,8 +2,9 @@
 id: common.lmms
 title: Lmms
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # lmms
 
-> Free, open source, multiplatform digital audio workstation.
+> Free, open source, cross-platform digital audio workstation.
 > Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI.
 > More information: <https://lmms.io>.
 

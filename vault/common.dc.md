@@ -2,8 +2,9 @@
 id: common.dc
 title: Dc
 desc: ''
-updated: 1615663978704
-created: 1615663978704
+updated: 1623965016118
+created: 1623965016118
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # dc
 
 > An arbitrary precision calculator. Uses reverse polish notation (RPN).
+> More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Run calculator in interactive mode:
 

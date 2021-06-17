@@ -2,8 +2,9 @@
 id: common.php-yii
 title: Php Yii
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # php yii
 
-> Yii Framework's command line interface.
+> Yii Framework's command-line interface.
 > More information: <https://yiiframework.com>.
 
 - Display a list of all available commands:

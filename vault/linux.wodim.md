@@ -2,8 +2,9 @@
 id: linux.wodim
 title: Wodim
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

@@ -2,8 +2,9 @@
 id: linux.nmon
 title: Nmon
 desc: ''
-updated: 1615663978751
-created: 1615663978751
+updated: 1623965016165
+created: 1623965016165
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

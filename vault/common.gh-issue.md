@@ -2,8 +2,9 @@
 id: common.gh-issue
 title: Gh Issue
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh issue
 
-> Manage GitHub issues from the command line.
+> Manage GitHub issues from the command-line.
 > More information: <https://cli.github.com/manual/gh_issue>.
 
 - Print out the issue:

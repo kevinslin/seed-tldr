@@ -2,8 +2,9 @@
 id: common.split
 title: Split
 desc: ''
-updated: 1615663978735
-created: 1615663978735
+updated: 1623965016150
+created: 1623965016150
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # split
 
 > Split a file into pieces.
+> More information: <https://www.gnu.org/software/coreutils/split>.
 
 - Split a file, each split having 10 lines (except the last split):
 

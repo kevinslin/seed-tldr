@@ -2,8 +2,9 @@
 id: common.dua
 title: Dua
 desc: ''
-updated: 1615663978706
-created: 1615663978706
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

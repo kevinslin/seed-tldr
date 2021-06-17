@@ -2,8 +2,9 @@
 id: common.adb-shell
 title: Adb Shell
 desc: ''
-updated: 1615663978697
-created: 1615663978697
+updated: 1623965016111
+created: 1623965016111
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

@@ -2,8 +2,9 @@
 id: linux.bitwise
 title: Bitwise
 desc: ''
-updated: 1615663978742
-created: 1615663978742
+updated: 1623965016159
+created: 1623965016159
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -29,5 +30,5 @@ sources:
 
 - Convert a C-style calculation:
 
-`bitwise  "{{0x123 + 0x20 - 30 / 50}}"`
+`bitwise "{{0x123 + 0x20 - 30 / 50}}"`
 

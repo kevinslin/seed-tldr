@@ -2,8 +2,9 @@
 id: common.openssl-req
 title: Openssl Req
 desc: ''
-updated: 1615663978728
-created: 1615663978728
+updated: 1623965016141
+created: 1623965016141
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `openssl req -new -sha256 -key {{filename.key}} -out {{filename.csr}}`
 
-- Generate a self-signed certificate and a corresponding keypair, storing both in a file:
+- Generate a self-signed certificate and a corresponding key-pair, storing both in a file:
 
 `openssl req -new -x509 -newkey {{rsa}}:{{4096}} -keyout {{filename.key}} -out {{filename.cert}} -subj "{{/C=XX/CN=foobar}}" -days {{365}}`
 

@@ -2,8 +2,9 @@
 id: linux.arch-chroot
 title: Arch Chroot
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

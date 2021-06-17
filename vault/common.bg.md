@@ -2,8 +2,9 @@
 id: common.bg
 title: Bg
 desc: ''
-updated: 1615663978700
-created: 1615663978700
+updated: 1623965016114
+created: 1623965016114
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,8 +14,9 @@ sources:
 # bg
 
 > Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background.
+> More information: <https://manned.org/bg>.
 
-- Resume most recently suspended job and run it in the background:
+- Resume the most recently suspended job and run it in the background:
 
 `bg`
 

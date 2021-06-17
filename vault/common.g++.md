@@ -2,8 +2,9 @@
 id: common.g++
 title: G++
 desc: ''
-updated: 1615663978710
-created: 1615663978710
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

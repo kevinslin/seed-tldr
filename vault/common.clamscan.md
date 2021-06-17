@@ -2,8 +2,9 @@
 id: common.clamscan
 title: Clamscan
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # clamscan
 
-> A command line virus scanner.
+> A command-line virus scanner.
 > More information: <https://www.clamav.net>.
 
 - Scan a file for vulnerabilities:

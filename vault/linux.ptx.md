@@ -2,8 +2,9 @@
 id: linux.ptx
 title: Ptx
 desc: ''
-updated: 1615663978754
-created: 1615663978754
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # ptx
 
 > Generate a permuted index of words from one or more text files.
+> More information: <https://www.gnu.org/software/coreutils/ptx>.
 
 - Generate a permuted index where the first field of each line is an index reference:
 

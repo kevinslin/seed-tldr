@@ -2,8 +2,9 @@
 id: common.dircolors
 title: Dircolors
 desc: ''
-updated: 1615663978705
-created: 1615663978705
+updated: 1623965016119
+created: 1623965016119
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # dircolors
 
 > Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc.
+> More information: <https://www.gnu.org/software/coreutils/dircolors>.
 
 - Output commands to set LS_COLOR using default colors:
 

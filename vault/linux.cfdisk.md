@@ -2,8 +2,9 @@
 id: linux.cfdisk
 title: Cfdisk
 desc: ''
-updated: 1615663978742
-created: 1615663978742
+updated: 1623965016159
+created: 1623965016159
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # cfdisk
 
 > A program for managing partition tables and partitions on a hard disk using a curses UI.
-> More information: <https://linux.die.net/man/8/cfdisk>.
+> More information: <https://manned.org/cfdisk>.
 
 - Start the partition manipulator with a specific device:
 

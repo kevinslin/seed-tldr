@@ -2,8 +2,9 @@
 id: linux.winetricks
 title: Winetricks
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `winetricks`
 
-- Specify a custom Wine directory to run winetricks in:
+- Specify a custom Wine directory to run Winetricks in:
 
 `WINEPREFIX={{path/to/wine_directory}} winetricks`
 

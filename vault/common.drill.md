@@ -2,8 +2,9 @@
 id: common.drill
 title: Drill
 desc: ''
-updated: 1615663978706
-created: 1615663978706
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # drill
 
 > Perform various DNS queries.
+> More information: <https://manned.org/drill>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 

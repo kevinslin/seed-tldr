@@ -2,8 +2,9 @@
 id: common.pwd
 title: Pwd
 desc: ''
-updated: 1615663978731
-created: 1615663978731
+updated: 1623965016146
+created: 1623965016146
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # pwd
 
 > Print name of current/working directory.
+> More information: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Print the current directory:
 

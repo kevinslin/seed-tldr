@@ -2,8 +2,9 @@
 id: common.zcat
 title: Zcat
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016156
+created: 1623965016156
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

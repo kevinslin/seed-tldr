@@ -2,8 +2,9 @@
 id: common.pgbench
 title: Pgbench
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -21,5 +22,5 @@ sources:
 
 - Benchmark a database with 10 clients, 2 worker threads, and 10,000 transactions per client:
 
-`pgbench --clients={{10}} --jobs={{2}} --transactions={{10000}} {{database_name}}`
+`pgbench --client={{10}} --jobs={{2}} --transactions={{10000}} {{database_name}}`
 

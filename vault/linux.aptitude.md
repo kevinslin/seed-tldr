@@ -2,8 +2,9 @@
 id: linux.aptitude
 title: Aptitude
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # aptitude
 
 > Debian and Ubuntu package management utility.
+> More information: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands:
 

@@ -2,8 +2,9 @@
 id: linux.apt-cache
 title: Apt Cache
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # apt-cache
 
 > Debian and Ubuntu package query tool.
+> More information: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
 - Search for a package in your current sources:
 

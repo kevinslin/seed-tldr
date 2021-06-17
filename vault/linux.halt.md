@@ -2,8 +2,9 @@
 id: linux.halt
 title: Halt
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,18 +13,26 @@ sources:
 ---
 # halt
 
-> Halt, power-off or reboot the machine.
-> More information: <https://www.freedesktop.org/software/systemd/man/halt.html>.
+> Halt the system.
+> More information: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
 
-- Halt the machine:
+- Halt the system:
 
 `halt`
 
-- Power the machine off:
+- Power off the system (same as `poweroff`):
 
 `halt --poweroff`
 
-- Reboot the machine:
+- Reboot the system (same as `reboot`):
 
 `halt --reboot`
+
+- Halt immediately without contacting the system manager:
+
+`halt --force --force`
+
+- Write the wtmp shutdown entry without halting the system:
+
+`halt --wtmp-only`
 

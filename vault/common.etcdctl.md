@@ -2,8 +2,9 @@
 id: common.etcdctl
 title: Etcdctl
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,8 +13,7 @@ sources:
 ---
 # etcdctl
 
-> CLI interface for interacting with `etcd`, a highly-available key-value pair store.
-> Etcd stores data in hierarchically organized directories, as in a standard filesystem.
+> CLI interface for interacting with etcd, a highly-available key-value pair store.
 > More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
 - Display the value associated with a specified key:

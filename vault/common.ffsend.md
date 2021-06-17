@@ -2,8 +2,9 @@
 id: common.ffsend
 title: Ffsend
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # ffsend
 
-> Easily and securely share files from command line.
+> Easily and securely share files from command-line.
 > More information: <https://gitlab.com/timvisee/ffsend>.
 
 - Upload a file:

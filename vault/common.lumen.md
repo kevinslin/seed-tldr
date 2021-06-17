@@ -2,8 +2,9 @@
 id: common.lumen
 title: Lumen
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # lumen
 
-> A command line installer for the Lumen micro-framework.
+> A command-line installer for the Lumen micro-framework.
 > More information: <https://lumen.laravel.com>.
 
 - Create a new Lumen application:

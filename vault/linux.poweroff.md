@@ -2,8 +2,9 @@
 id: linux.poweroff
 title: Poweroff
 desc: ''
-updated: 1615663978753
-created: 1615663978753
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,9 +13,26 @@ sources:
 ---
 # poweroff
 
-> Shutdown the system.
+> Power off the system.
+> More information: <https://www.man7.org/linux/man-pages/man8/poweroff.8.html>.
 
-- Poweroff the system:
+- Power off the system:
 
-`sudo poweroff`
+`poweroff`
+
+- Halt the system (same as `halt`):
+
+`poweroff --halt`
+
+- Reboot the system (same as `reboot`):
+
+`poweroff --reboot`
+
+- Shut down immediately without contacting the system manager:
+
+`poweroff --force --force`
+
+- Write the wtmp shutdown entry without shutting down the system:
+
+`poweroff --wtmp-only`
 

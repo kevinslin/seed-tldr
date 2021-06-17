@@ -2,8 +2,9 @@
 id: linux.xfce4-terminal
 title: Xfce4 Terminal
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # xfce4-terminal
 
 > The XFCE4 terminal emulator.
+> More information: <https://docs.xfce.org/apps/xfce4-terminal/start>.
 
 - Open a new terminal window:
 

@@ -2,8 +2,9 @@
 id: linux.filefrag
 title: Filefrag
 desc: ''
-updated: 1615663978746
-created: 1615663978746
+updated: 1623965016161
+created: 1623965016161
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # filefrag
 
 > Report how badly fragmented a particular file might be.
-> More information: <https://linux.die.net/man/8/filefrag>.
+> More information: <https://manned.org/filefrag>.
 
 - Display a report for a specific file:
 

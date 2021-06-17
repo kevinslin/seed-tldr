@@ -2,8 +2,9 @@
 id: common.kube-fzf
 title: Kube Fzf
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # kube-fzf
 
-> Shell commands for command line fuzzy searching of Kubernetes Pods.
+> Shell commands for command-line fuzzy searching of Kubernetes Pods.
 > See also `kubectl` for related commands.
 > More information: <https://github.com/thecasualcoder/kube-fzf>.
 

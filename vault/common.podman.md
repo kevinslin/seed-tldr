@@ -2,8 +2,9 @@
 id: common.podman
 title: Podman
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016145
+created: 1623965016145
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # podman
 
 > Simple management tool for pods, containers and images.
-> Podman provides a Docker-CLI comparable command line. Simply put: `alias docker=podman`.
+> Podman provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`.
 > More information: <https://github.com/containers/libpod/blob/master/commands.md>.
 
 - Print out information about containers:

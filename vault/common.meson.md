@@ -2,8 +2,9 @@
 id: common.meson
 title: Meson
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `meson init --language={{c}} --name={{myproject}} --version={{0.1}}`
 
-- Configure builddir with default values:
+- Configure the `builddir` with default values:
 
 `meson setup {{build_dir}}`
 

@@ -2,8 +2,9 @@
 id: osx.sed
 title: Sed
 desc: ''
-updated: 1615663978761
-created: 1615663978761
+updated: 1623965016174
+created: 1623965016174
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # sed
 
 > Edit text in a scriptable manner.
+> More information: <https://ss64.com/osx/sed.html>.
 
 - Replace the first occurrence of a string in a file, and print the result:
 
@@ -20,7 +22,7 @@ sources:
 
 - Replace all occurrences of an extended regular expression in a file:
 
-`sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
+`sed -E 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
 
 - Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
 

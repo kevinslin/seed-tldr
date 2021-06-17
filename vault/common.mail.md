@@ -2,8 +2,9 @@
 id: common.mail
 title: Mail
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > The command operates on the user's mailbox if no argument is given.
 > To send an email the message body is built from standard input.
 
-- Send a typed email message. The command line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multi-line). Press Ctrl-D key to complete the message text:
+- Send a typed email message. The command-line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multiline). Press Ctrl-D key to complete the message text:
 
 `mail --subject="{{subject line}}" {{to_user@example.com}}`
 

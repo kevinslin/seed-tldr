@@ -2,8 +2,9 @@
 id: linux.zenity
 title: Zenity
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # zenity
 
-> Display dialogs from the command line/shell scripts.
+> Display dialogs from the command-line/shell scripts.
 > Return user-inserted values or 1 if error.
 
 - Display the default question dialog:

@@ -2,8 +2,9 @@
 id: osx.xar
 title: Xar
 desc: ''
-updated: 1615663978761
-created: 1615663978761
+updated: 1623965016175
+created: 1623965016175
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # xar
 
 > Manage .xar archives.
-> More information: <https://linux.die.net/man/1/xar>.
+> More information: <https://manned.org/xar>.
 
 - Create a xar archive of all files in a given directory:
 

@@ -2,8 +2,9 @@
 id: common.cksum
 title: Cksum
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Calculates CRC checksums and byte counts of a file.
 > Note, on old UNIX systems the CRC implementation may differ.
+> More information: <https://www.gnu.org/software/coreutils/cksum>.
 
 - Display a 32 bit checksum, size in bytes and filename:
 

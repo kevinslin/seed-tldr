@@ -2,8 +2,9 @@
 id: common.lpass
 title: Lpass
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,10 +13,10 @@ sources:
 ---
 # lpass
 
-> Command line interface for the LastPass password manager.
+> Command-line interface for the LastPass password manager.
 > More information: <https://github.com/lastpass/lastpass-cli>.
 
-- Login to your LastPass account, by entering your master password when prompted:
+- Log in to your LastPass account, by entering your master password when prompted:
 
 `lpass login {{username}}`
 

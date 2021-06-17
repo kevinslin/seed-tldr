@@ -2,8 +2,9 @@
 id: common.ghcup
 title: Ghcup
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016126
+created: 1623965016126
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

@@ -2,8 +2,9 @@
 id: common.jenv
 title: Jenv
 desc: ''
-updated: 1615663978720
-created: 1615663978720
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # jenv
 
-> Command line tool to manage the "JAVA_HOME" environment variable.
+> Command-line tool to manage the "JAVA_HOME" environment variable.
 > More information: <https://www.jenv.be/>.
 
 - Add a java version to jEnv:

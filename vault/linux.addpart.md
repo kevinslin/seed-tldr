@@ -2,8 +2,9 @@
 id: linux.addpart
 title: Addpart
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,7 +15,7 @@ sources:
 
 > Tells the Linux kernel about the existence of the specified partition.
 > The command is a simple wrapper around the `add partition` ioctl.
-> More information: <https://linux.die.net/man/8/addpart>.
+> More information: <https://manned.org/addpart>.
 
 - Tell the kernel about the existence of the specified partition:
 

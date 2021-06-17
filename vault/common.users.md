@@ -2,8 +2,9 @@
 id: common.users
 title: Users
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # users
 
 > Display a list of logged in users.
+> More information: <https://www.gnu.org/software/coreutils/users>.
 
 - Display a list of logged in users:
 

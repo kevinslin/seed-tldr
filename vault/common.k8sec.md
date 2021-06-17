@@ -2,8 +2,9 @@
 id: common.k8sec
 title: K8sec
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # k8sec
 
-> Command line interface tool to manage Kubernetes secrets.
+> Command-line interface tool to manage Kubernetes secrets.
 > More information: <https://github.com/dtan4/k8sec>.
 
 - List all secrets:

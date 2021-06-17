@@ -2,8 +2,9 @@
 id: common.calibre-server
 title: Calibre Server
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,12 +13,11 @@ sources:
 ---
 # calibre-server
 
-> A server application that can be used to distribute ebooks over a network.
-> Ebooks must be imported into the library using the GUI or calibredb before.
-> Part of the Calibre ebook library.
+> A server application that can be used to distribute e-books over a network.
+> Note: e-books must already be imported into the library using the GUI or the `calibredb` CLI.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- Start a server to distribute ebooks. Access at http&#x3A;//localhost:8080:
+- Start a server to distribute e-books. Access at http&#x3A;//localhost:8080:
 
 `calibre-server`
 

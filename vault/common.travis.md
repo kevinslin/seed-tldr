@@ -2,8 +2,9 @@
 id: common.travis
 title: Travis
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # travis
 
-> Command line client to interface with Travis CI.
+> Command-line client to interface with Travis CI.
 > More information: <https://github.com/travis-ci/travis.rb>.
 
 - Display the client version:

@@ -2,8 +2,9 @@
 id: common.bash
 title: Bash
 desc: ''
-updated: 1615663978700
-created: 1615663978700
+updated: 1623965016114
+created: 1623965016114
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,35 +13,35 @@ sources:
 ---
 # bash
 
-> Bourne-Again SHell.
-> `sh`-compatible command line interpreter.
-> More information: <https://gnu.org/software/bash>.
+> Bourne-Again SHell, an `sh`-compatible command-line interpreter.
+> See also `histexpand` for history expansion.
+> More information: <https://gnu.org/software/bash/>.
 
-- Start interactive shell:
+- Start an interactive shell session:
 
 `bash`
 
-- Execute a command:
+- Execute a command and then exit:
 
 `bash -c "{{command}}"`
 
-- Run commands from a file:
+- Execute a script:
 
-`bash {{file.sh}}`
+`bash {{path/to/script.sh}}`
 
-- Run commands from a file, logging all commands executed to the terminal:
+- Execute a script, printing each command before executing it:
 
-`bash -x {{file.sh}}`
+`bash -x {{path/to/script.sh}}`
 
-- Run commands from a file, stopping at the first error:
+- Execute commands from a script, stopping at the first error:
 
-`bash -e {{file.sh}}`
+`bash -e {{path/to/script.sh}}`
 
-- Run commands from stdin:
+- Read and execute commands from stdin:
 
 `bash -s`
 
-- Print the version information of bash (use `echo $BASH_VERSION` to show just the version without license information):
+- Print the Bash version (`$BASH_VERSION` contains the version without license information):
 
 `bash --version`
 

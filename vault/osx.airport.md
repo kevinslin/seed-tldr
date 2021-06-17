@@ -2,8 +2,9 @@
 id: osx.airport
 title: Airport
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016172
+created: 1623965016172
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

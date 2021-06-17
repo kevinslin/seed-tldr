@@ -2,8 +2,9 @@
 id: common.elm
 title: Elm
 desc: ''
-updated: 1615663978707
-created: 1615663978707
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -27,7 +28,7 @@ sources:
 
 `elm make {{source}}`
 
-- Compile an Elm file, output the result to a Javascript file:
+- Compile an Elm file, output the result to a JavaScript file:
 
 `elm make {{source}} --output={{destination}}.js`
 

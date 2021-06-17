@@ -2,8 +2,9 @@
 id: common.dotnet
 title: Dotnet
 desc: ''
-updated: 1615663978706
-created: 1615663978706
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # dotnet
 
-> Cross platform .NET command line tools for .NET Core.
+> Cross platform .NET command-line tools for .NET Core.
 > More information: <https://docs.microsoft.com/dotnet/core/tools>.
 
 - Initialize a new .NET project:

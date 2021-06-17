@@ -1,9 +1,10 @@
 ---
 id: common.is-up
-title: Is up
+title: Is Up
 desc: ''
-updated: 1615663978720
-created: 1615663978720
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

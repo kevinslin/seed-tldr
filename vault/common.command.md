@@ -2,8 +2,9 @@
 id: common.command
 title: Command
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # command
 
 > Command forces the shell to execute the program and ignore any functions, builtins and aliases with the same name.
+> More information: <https://manned.org/command>.
 
 - Execute the `ls` program literally, even if an `ls` alias exists:
 

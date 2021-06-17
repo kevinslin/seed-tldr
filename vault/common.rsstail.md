@@ -2,8 +2,9 @@
 id: common.rsstail
 title: Rsstail
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > `tail` for RSS feeds.
 > More information: <https://github.com/gvalkov/rsstail.py>.
 
-- Show the feed of a given url and wait for new entries appearing at the bottom:
+- Show the feed of a given URL and wait for new entries appearing at the bottom:
 
 `rsstail -u {{url}}`
 

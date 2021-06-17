@@ -2,8 +2,9 @@
 id: common.touch
 title: Touch
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # touch
 
 > Change a file access and modification times (atime, mtime).
+> More information: <https://www.gnu.org/software/coreutils/touch>.
 
 - Create a new empty file(s) or change the times for existing file(s) to current time:
 
@@ -25,4 +27,8 @@ sources:
 - Use the times from a file to set the times on a second file:
 
 `touch -r {{filename}} {{filename2}}`
+
+- Create multiple files:
+
+`touch {{file{1,2,3}.txt}}`
 

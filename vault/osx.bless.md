@@ -2,8 +2,9 @@
 id: osx.bless
 title: Bless
 desc: ''
-updated: 1615663978759
-created: 1615663978759
+updated: 1623965016172
+created: 1623965016172
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # bless
 
-> Set volume bootability and startup disk options.
+> Set volume boot capability and startup disk options.
 > More information: <https://ss64.com/osx/bless.html>.
 
 - Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed:

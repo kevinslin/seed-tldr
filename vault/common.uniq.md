@@ -2,8 +2,9 @@
 id: common.uniq
 title: Uniq
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Output the unique lines from the given input or file.
 > Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
+> More information: <https://www.gnu.org/software/coreutils/uniq>.
 
 - Display each line once:
 

@@ -2,8 +2,9 @@
 id: common.conda
 title: Conda
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -17,23 +18,23 @@ sources:
 
 - Create a new environment, installing named packages into it:
 
-`conda create --name {{environment_name}} {{python=2.7 matplotlib}}`
+`conda create --name {{environment_name}} {{python=3.9 matplotlib}}`
 
 - List all environments:
 
 `conda info --envs`
 
-- Load or unload an environment:
+- Load an environment:
 
-`conda {{activate|deactivate}} {{environment_name}}`
+`conda {{activate environment_name}}`
+
+- Unload an environment:
+
+`conda {{deactivate}}`
 
 - Delete an environment (remove all packages):
 
 `conda remove --name {{environment_name}} --all`
-
-- Search conda channels for a package by name:
-
-`conda search {{package_name}}`
 
 - Install packages into the current environment:
 

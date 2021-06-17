@@ -2,8 +2,9 @@
 id: common.c99
 title: C99
 desc: ''
-updated: 1615663978701
-created: 1615663978701
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # c99
 
 > Compiles C programs according to the ISO C standard.
+> More information: <https://manned.org/c99>.
 
 - Compile source file(s) and create an executable:
 

@@ -2,8 +2,9 @@
 id: common.sha1sum
 title: Sha1sum
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # sha1sum
 
 > Calculate SHA1 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/sha1sum>.
 
 - Calculate the SHA1 checksum for a file:
 

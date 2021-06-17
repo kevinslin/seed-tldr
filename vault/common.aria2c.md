@@ -2,8 +2,9 @@
 id: common.aria2c
 title: Aria2c
 desc: ''
-updated: 1615663978698
-created: 1615663978698
+updated: 1623965016112
+created: 1623965016112
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -20,21 +21,25 @@ sources:
 
 `aria2c {{url}}`
 
-- Download the contents of an URL to a file:
+- Download the file pointed to by the specified URI with the specified output name:
 
-`aria2c -o {{filename}} {{url}}`
+`aria2c --out={{filename}} {{url}}`
 
-- Download from multiple sources:
+- Download multiple files in parallel:
+
+`aria2c --force-sequential {{url_1}} {{url_2}}`
+
+- Download from multiple sources each URI pointing to the same file:
 
 `aria2c {{url_1}} {{url_2}}`
 
-- Download the URIs listed in a file:
+- Download the URIs listed in a file with limited parallel downloads:
 
-`aria2c -i {{filename}}`
+`aria2c --input-file={{filename}} --max-concurrent-downloads={{number_of_downloads}}`
 
 - Download with multiple connections:
 
-`aria2c -s {{connections_num}} {{url}}`
+`aria2c --split={{number_of_connections}} {{url}}`
 
 - FTP download with username and password:
 

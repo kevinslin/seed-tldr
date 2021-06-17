@@ -2,8 +2,9 @@
 id: common.tr
 title: Tr
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tr
 
 > Translate characters: run replacements based on single characters and character sets.
+> More information: <https://www.gnu.org/software/coreutils/tr>.
 
 - Replace all occurrences of a character in a file, and print the result:
 

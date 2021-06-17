@@ -2,8 +2,9 @@
 id: common.xsv
 title: Xsv
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016156
+created: 1623965016156
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # xsv
 
-> A CSV command line toolkit written in Rust.
+> A CSV command-line toolkit written in Rust.
 > More information: <https://github.com/BurntSushi/xsv>.
 
 - Inspect the headers of a file:

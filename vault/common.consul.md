@@ -2,8 +2,9 @@
 id: common.consul
 title: Consul
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # consul
 
 > Distributed key-value store with health checking and service discovery.
-> More information: <https://www.consul.io/docs/commands/index.html>.
+> More information: <https://www.consul.io/commands>.
 
 - Check the Consul version:
 

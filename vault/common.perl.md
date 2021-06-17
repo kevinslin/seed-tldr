@@ -2,8 +2,9 @@
 id: common.perl
 title: Perl
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -39,7 +40,7 @@ sources:
 
 `perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
-- Run a multi-line find/replace expression on a file, and save the result in another file:
+- Run a multiline find/replace expression on a file, and save the result in another file:
 
 `perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
 

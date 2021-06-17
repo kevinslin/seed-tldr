@@ -2,8 +2,9 @@
 id: linux.mknod
 title: Mknod
 desc: ''
-updated: 1615663978750
-created: 1615663978750
+updated: 1623965016165
+created: 1623965016165
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # mknod
 
 > Create block or character device special files.
+> More information: <https://www.gnu.org/software/coreutils/mknod>.
 
 - Create a block device:
 

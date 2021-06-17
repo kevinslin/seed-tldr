@@ -2,8 +2,9 @@
 id: common.balena
 title: Balena
 desc: ''
-updated: 1615663978700
-created: 1615663978700
+updated: 1623965016114
+created: 1623965016114
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,10 +13,10 @@ sources:
 ---
 # balena
 
-> Interact with the balenaCloud, openBalena and the balena API from the command line.
+> Interact with the balenaCloud, openBalena and the balena API from the command-line.
 > More information: <https://www.balena.io/docs/reference/cli/>.
 
-- Login to the balenaCloud account:
+- Log in to the balenaCloud account:
 
 `balena login`
 

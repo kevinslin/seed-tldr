@@ -2,8 +2,9 @@
 id: linux.aplay
 title: Aplay
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # aplay
 
 > Command-line sound player for ALSA soundcard driver.
-> More information: <https://linux.die.net/man/1/aplay>.
+> More information: <https://manned.org/aplay>.
 
 - Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):
 

@@ -2,8 +2,9 @@
 id: common.finger
 title: Finger
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # finger
 
 > User information lookup program.
+> More information: <https://manned.org/finger>.
 
 - Display information about currently logged in users:
 
@@ -26,7 +28,7 @@ sources:
 
 `finger -s`
 
-- Produce multi-line output format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status, etc.:
+- Produce multiline output format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status, etc.:
 
 `finger -l`
 

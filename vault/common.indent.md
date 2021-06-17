@@ -2,8 +2,9 @@
 id: common.indent
 title: Indent
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016132
+created: 1623965016132
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `indent --gnu-style {{path/to/source.c}} -o {{path/to/indented_source.c}}`
 
-- Format C/C++ source according to the style of Kernigan & Ritchie (K&R), no tabs, 3 spaces per indent, and wrap lines at 120 characters:
+- Format C/C++ source according to the style of Kernighan & Ritchie (K&R), no tabs, 3 spaces per indent, and wrap lines at 120 characters:
 
-`indent --k-and-r-style --indent-level3 --no-tabs --line-length120  {{path/to/source.c}} -o {{path/to/indented_source.c}}`
+`indent --k-and-r-style --indent-level3 --no-tabs --line-length120 {{path/to/source.c}} -o {{path/to/indented_source.c}}`
 

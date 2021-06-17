@@ -2,8 +2,9 @@
 id: linux.apt-file
 title: Apt File
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # apt-file
 
 > Search for files in apt packages, including ones not yet installed.
+> More information: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Update the metadata database:
 
@@ -20,9 +22,13 @@ sources:
 
 - Search for packages that contain the specified file or path:
 
-`apt-file search {{part/of/filename}}`
+`apt-file {{search|find}} {{part/of/filename}}`
 
 - List the contents of a specific package:
 
-`apt-file list {{package_name}}`
+`apt-file {{show|list}} {{package_name}}`
+
+- Search for packages that match the regular expression given in `pattern`:
+
+`apt-file {{search|find}} --regexp {{regular_expression}}`
 

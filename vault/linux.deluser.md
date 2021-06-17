@@ -2,8 +2,9 @@
 id: linux.deluser
 title: Deluser
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,7 +15,7 @@ sources:
 
 > Delete a user from the system.
 > Note: all commands must be executed as root.
-> More information: <https://manpages.debian.org/adduser/deluser.8.html>.
+> More information: <https://manpages.debian.org/latest/adduser/deluser.html>.
 
 - Remove a user:
 

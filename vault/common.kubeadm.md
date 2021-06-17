@@ -2,8 +2,9 @@
 id: common.kubeadm
 title: Kubeadm
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # kubeadm
 
-> Command line interface for creating and managing Kubernetes clusters.
+> Command-line interface for creating and managing Kubernetes clusters.
 > More information: <https://kubernetes.io/docs/reference/setup-tools/kubeadm>.
 
 - Create a Kubernetes master node:

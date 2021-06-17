@@ -2,8 +2,9 @@
 id: common.tldrl
 title: Tldrl
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,18 +13,9 @@ sources:
 ---
 # tldrl
 
-> Lint and format `tldr` pages.
-> More information: <https://github.com/tldr-pages/tldr-lint>.
+> This command is an alias of `tldr-lint`.
 
-- Lint all pages:
+- View documentation for the original command:
 
-`tldrl {{pages_directory}}`
-
-- Format a specific page to stdout:
-
-`tldrl -f {{page.md}}`
-
-- Format all pages in place:
-
-`tldrl -fi {{pages_directory}}`
+`tldr tldr-lint`
 

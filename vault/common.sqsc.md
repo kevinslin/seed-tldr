@@ -2,8 +2,9 @@
 id: common.sqsc
 title: Sqsc
 desc: ''
-updated: 1615663978735
-created: 1615663978735
+updated: 1623965016150
+created: 1623965016150
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # sqsc
 
-> A command line AWS Simple Queue Service client.
+> A command-line AWS Simple Queue Service client.
 > More information: <https://github.com/yongfei25/sqsc>.
 
 - List all queues:

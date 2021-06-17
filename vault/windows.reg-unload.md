@@ -2,8 +2,9 @@
 id: windows.reg-unload
 title: Reg Unload
 desc: ''
-updated: 1615663978764
-created: 1615663978764
+updated: 1623965016177
+created: 1623965016177
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

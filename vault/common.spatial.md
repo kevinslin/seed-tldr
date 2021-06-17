@@ -2,8 +2,9 @@
 id: common.spatial
 title: Spatial
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016150
+created: 1623965016150
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

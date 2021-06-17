@@ -2,8 +2,9 @@
 id: linux.playerctl
 title: Playerctl
 desc: ''
-updated: 1615663978752
-created: 1615663978752
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

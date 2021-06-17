@@ -2,8 +2,9 @@
 id: linux.inotifywait
 title: Inotifywait
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -28,7 +29,7 @@ sources:
 
 - Exclude files matching a regular expression:
 
-`while inotifywait --recursive {{path/to/directory}} --exlude '{{regex}}'; do {{command}}; done`
+`while inotifywait --recursive {{path/to/directory}} --exlude '{{regular_expression}}'; do {{command}}; done`
 
 - Wait at most 30 seconds:
 

@@ -2,8 +2,9 @@
 id: common.rails-generate
 title: Rails Generate
 desc: ''
-updated: 1615663978731
-created: 1615663978731
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # rails generate
 
 > Generate new Rails templates in an existing project.
-> More information: <https://guides.rubyonrails.org/command_line.html#rails-generate>.
+> More information: <https://guides.rubyonrails.org/command_line.html#bin-rails-generate>.
 
 - List all available generators:
 

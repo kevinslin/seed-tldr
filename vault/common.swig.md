@@ -2,8 +2,9 @@
 id: common.swig
 title: Swig
 desc: ''
-updated: 1615663978736
-created: 1615663978736
+updated: 1623965016152
+created: 1623965016152
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # swig
 
-> Generate bindings between C / C++ code and various high level languages such as Javascript, Python, C#, and more.
+> Generate bindings between C / C++ code and various high level languages such as JavaScript, Python, C#, and more.
 > It uses special .i or .swg files to generate the bindings (C/C++ with SWIG directives, then outputs a C/C++ file that contains all of the wrapper code needed to build an extension module.
 
 - Generate a binding between C++ and Python:

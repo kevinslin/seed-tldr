@@ -2,8 +2,9 @@
 id: common.gh-secret
 title: Gh Secret
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh secret
 
-> Manage GitHub secrets from the command line.
+> Manage GitHub secrets from the command-line.
 > More information: <https://cli.github.com/manual/gh_secret>.
 
 - List secret keys for the current repository:
@@ -27,13 +28,13 @@ sources:
 
 `gh secret list --repo {{owner}}/{{repository}}`
 
+- Set a secret for the current repository (user will be prompted for the value):
+
+`gh secret set {{name}}`
+
 - Set a secret from a file for the current repository:
 
 `gh secret set {{name}} < {{path/to/file}}`
-
-- Set a secret for a specific repository:
-
-`gh secret set {{name}} --body {{value}} --repo {{owner}}/{{repository}}`
 
 - Set an organization secret for specific repositories:
 

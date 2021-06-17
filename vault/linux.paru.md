@@ -2,8 +2,9 @@
 id: linux.paru
 title: Paru
 desc: ''
-updated: 1615663978752
-created: 1615663978752
+updated: 1623965016166
+created: 1623965016166
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # paru
 
 > An AUR helper and pacman wrapper.
-> More information: <https://github.com/morganamilo/paru>.
+> More information: <https://github.com/Morganamilo/paru>.
 
 - Interactively search for and install a package:
 
@@ -31,7 +32,11 @@ sources:
 
 `paru -Si {{package_name}}`
 
-- Show statistics for installed packages and system health:
+- Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru -P --stats`
+`paru --getpkgbuild {{package_name}}`
+
+- Display the `PKGBUILD` file of a package:
+
+`paru --getpkgbuild --print {{package_name}}`
 

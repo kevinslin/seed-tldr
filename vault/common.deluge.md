@@ -2,8 +2,9 @@
 id: common.deluge
 title: Deluge
 desc: ''
-updated: 1615663978705
-created: 1615663978705
+updated: 1623965016118
+created: 1623965016118
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # deluge
 
-> A command line BitTorrent client.
+> A command-line BitTorrent client.
 > More information: <https://deluge-torrent.org>.
 
 - Download a torrent:

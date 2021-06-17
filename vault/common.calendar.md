@@ -2,8 +2,9 @@
 id: common.calendar
 title: Calendar
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # calendar
 
 > Display upcoming events from a calendar file.
+> More information: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
 
 - Show events for today and tomorrow (or the weekend on Friday) from the default calendar:
 

@@ -2,8 +2,9 @@
 id: common.gcalcli
 title: Gcalcli
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gcalcli
 
-> Command line tool to interact with Google Calendar.
+> Command-line tool to interact with Google Calendar.
 > Requests Google API authorization upon first launch.
 > More information: <https://github.com/insanum/gcalcli>.
 

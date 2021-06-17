@@ -2,8 +2,9 @@
 id: common.printenv
 title: Printenv
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016145
+created: 1623965016145
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # printenv
 
 > Print values of all or specific environment variables.
+> More information: <https://www.gnu.org/software/coreutils/printenv>.
 
 - Display key-value pairs of all environment variables:
 

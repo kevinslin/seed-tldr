@@ -2,8 +2,9 @@
 id: common.nl
 title: Nl
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # nl
 
 > A utility for numbering lines, either from a file, or from standard input.
+> More information: <https://www.gnu.org/software/coreutils/nl>.
 
 - Number non-blank lines in a file:
 

@@ -2,8 +2,9 @@
 id: common.fin
 title: Fin
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # fin
 
-> Docksal command line utility.
+> Docksal command-line utility.
 > More information: <https://docs.docksal.io/fin/fin/>.
 
 - Start the project in the current directory:

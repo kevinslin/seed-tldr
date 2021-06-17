@@ -2,8 +2,9 @@
 id: common.du
 title: Du
 desc: ''
-updated: 1615663978706
-created: 1615663978706
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # du
 
 > Disk usage: estimate and summarize file and directory space usage.
+> More information: <https://www.gnu.org/software/coreutils/du>.
 
 - List the sizes of a directory and any subdirectories, in the given unit (B/KB/MB):
 

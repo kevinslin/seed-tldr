@@ -2,8 +2,9 @@
 id: common.aws-glue
 title: Aws Glue
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,7 +15,7 @@ sources:
 
 > CLI for AWS Glue.
 > Defines the public endpoint for the AWS Glue service.
-> More information: <https://docs.aws.amazon.com/cli/latest/reference/glue/index.html>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/glue/>.
 
 - List jobs:
 

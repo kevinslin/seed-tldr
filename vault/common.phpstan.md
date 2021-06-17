@@ -2,8 +2,9 @@
 id: common.phpstan
 title: Phpstan
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016143
+created: 1623965016143
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

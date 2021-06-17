@@ -2,8 +2,9 @@
 id: windows.azcopy
 title: Azcopy
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > A file transfer tool for uploading to Azure Cloud Storage Accounts.
 > More information: <https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
 
-- Login to an Azure Tenant:
+- Log in to an Azure Tenant:
 
 `azopy login`
 

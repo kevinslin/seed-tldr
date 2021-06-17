@@ -2,8 +2,9 @@
 id: common.siege
 title: Siege
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,19 +16,19 @@ sources:
 > HTTP loadtesting and benchmarking tool.
 > More information: <https://www.joedog.org/siege-manual/>.
 
-- Test a url with default settings:
+- Test a URL with default settings:
 
 `siege {{https://example.com}}`
 
-- Test a list of urls:
+- Test a list of URLs:
 
 `siege --file {{path/to/url_list.txt}}`
 
-- Test list of urls in a random order (Simulates internet traffic):
+- Test list of URLs in a random order (Simulates internet traffic):
 
 `siege --internet --file {{path/to/url_list.txt}}`
 
-- Benchmark a list of urls (Dont wait between requests):
+- Benchmark a list of URLs (without waiting between requests):
 
 `siege --benchmark --file {{path/to/url_list.txt}}`
 

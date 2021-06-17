@@ -2,8 +2,9 @@
 id: common.nvim
 title: Nvim
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -36,9 +37,9 @@ sources:
 
 `<Esc>/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Perform a regular expression substitution in the whole file:
 
-`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
 - Save (write) the file, and quit:
 

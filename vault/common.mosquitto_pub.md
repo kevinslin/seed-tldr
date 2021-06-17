@@ -2,8 +2,9 @@
 id: common.mosquitto_pub
 title: Mosquitto_pub
 desc: ''
-updated: 1615663978725
-created: 1615663978725
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

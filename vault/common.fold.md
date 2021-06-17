@@ -2,8 +2,9 @@
 id: common.fold
 title: Fold
 desc: ''
-updated: 1615663978710
-created: 1615663978710
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # fold
 
 > Wraps each line in an input file to fit a specified width and prints it to the standard output.
+> More information: <https://www.gnu.org/software/coreutils/fold>.
 
 - Wrap each line to default width (80 characters):
 

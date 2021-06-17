@@ -2,8 +2,9 @@
 id: common.vegeta
 title: Vegeta
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # vegeta
 
-> A command line utility and a library for HTTP load testing.
+> A command-line utility and a library for HTTP load testing.
 > See also `ab`.
 > More information: <https://github.com/tsenart/vegeta>.
 

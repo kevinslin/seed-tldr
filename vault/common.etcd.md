@@ -2,8 +2,9 @@
 id: common.etcd
 title: Etcd
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `etcd`
 
-- Start a single-node etcd cluster, listening for client requests on a custom url:
+- Start a single-node etcd cluster, listening for client requests on a custom URL:
 
 `etcd --advertise-client-urls {{http://127.0.0.1:1234}} --listen-client-urls {{http://127.0.0.1:1234}}`
 

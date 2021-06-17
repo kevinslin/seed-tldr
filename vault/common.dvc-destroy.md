@@ -2,8 +2,9 @@
 id: common.dvc-destroy
 title: Dvc Destroy
 desc: ''
-updated: 1615663978707
-created: 1615663978707
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

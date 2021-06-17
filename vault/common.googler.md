@@ -2,8 +2,9 @@
 id: common.googler
 title: Googler
 desc: ''
-updated: 1615663978715
-created: 1615663978715
+updated: 1623965016130
+created: 1623965016130
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # googler
 
-> Search Google from command line.
+> Search Google from command-line.
 > More information: <https://github.com/jarun/googler>.
 
 - Search Google for a keyword:

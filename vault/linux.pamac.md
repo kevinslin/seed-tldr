@@ -2,8 +2,9 @@
 id: linux.pamac
 title: Pamac
 desc: ''
-updated: 1615663978751
-created: 1615663978751
+updated: 1623965016166
+created: 1623965016166
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,9 @@ sources:
 ---
 # pamac
 
-> A command line utility for the GUI package manager pamac.
+> A command-line utility for the GUI package manager pamac.
+> If you can't see the AUR packages, enable it in `/etc/pamac.conf` or in the GUI.
+> More information: <https://wiki.manjaro.org/index.php/Pamac>.
 
 - Install a new package:
 
@@ -20,7 +23,7 @@ sources:
 
 - Remove a package and its no longer required dependencies (orphans):
 
-`pamac remove -o {{package_name}}`
+`pamac remove --orphans {{package_name}}`
 
 - Search the package database for a package:
 
@@ -28,9 +31,13 @@ sources:
 
 - List installed packages:
 
-`pamac list -i`
+`pamac list --installed`
 
 - Check for package updates:
 
 `pamac checkupdates`
+
+- Upgrade all packages:
+
+`pamac upgrade`
 

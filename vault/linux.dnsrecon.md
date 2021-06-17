@@ -2,8 +2,9 @@
 id: linux.dnsrecon
 title: Dnsrecon
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `dnsrecon --domain {{example.com}} --name_server {{nameserver.example.com}} --type axfr`
 
-- Scan a domain, using a dictionary of subdomains and hostnames for bruteforcing:
+- Scan a domain, using a brute-force attack and a dictionary of subdomains and hostnames:
 
 `dnsrecon --domain {{example.com}} --dictionary {{path/to/dictionary.txt}} --type brt`
 

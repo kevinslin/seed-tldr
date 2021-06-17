@@ -2,8 +2,9 @@
 id: common.firebase
 title: Firebase
 desc: ''
-updated: 1615663978709
-created: 1615663978709
+updated: 1623965016124
+created: 1623965016124
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,27 +13,30 @@ sources:
 ---
 # firebase
 
-> Firebase Command Line Interface (CLI) Tools.
-> Used to test, manage, and deploy your Firebase project from the command line.
+> Test, manage, and deploy Firebase projects from the command-line.
 > More information: <https://github.com/firebase/firebase-tools>.
 
-- Login:
+- Log in to <https://console.firebase.google.com>:
 
 `firebase login`
 
-- Display the help:
-
-`firebase help`
-
-- List existing firebase projects:
+- List existing Firebase projects:
 
 `firebase projects:list`
 
-- Setup a firebase in the current directory:
+- Start an interactive wizard to create a Firebase project in the current directory:
 
-`firebase init {{options}} {{feature}}`
+`firebase init`
 
-- Deploy code and assets to the project in the current directory:
+- Deploy code and assets to the current Firebase project:
 
 `firebase deploy`
+
+- Start a local server to statically host the current Firebase project's assets:
+
+`firebase serve`
+
+- Start an interactive wizard to open one of many links of the current Firebase project in the default web browser:
+
+`firebase open`
 

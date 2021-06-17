@@ -2,8 +2,9 @@
 id: common.montage
 title: Montage
 desc: ''
-updated: 1615663978724
-created: 1615663978724
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # montage
 
-> Imagemagick image montage tool.
+> ImageMagick image montage tool.
 > Tiles images into a customisable grid.
 > More information: <https://imagemagick.org/script/montage.php>.
 

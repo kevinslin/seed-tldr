@@ -2,8 +2,9 @@
 id: linux.ctr
 title: Ctr
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # ctr
 
-> Manage Containerd containers and images.
+> Manage `containerd` containers and images.
 > More information: <https://containerd.io>.
 
 - List all containers (running and stopped):
@@ -29,5 +30,5 @@ sources:
 
 - Tag an image:
 
-`ctr images tag {{souce_image}}:{{source_tag}}  {{target_image}}:{{target_tag}}`
+`ctr images tag {{souce_image}}:{{source_tag}} {{target_image}}:{{target_tag}}`
 

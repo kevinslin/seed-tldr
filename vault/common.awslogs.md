@@ -2,8 +2,9 @@
 id: common.awslogs
 title: Awslogs
 desc: ''
-updated: 1615663978699
-created: 1615663978699
+updated: 1623965016113
+created: 1623965016113
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # awslogs
 
-> Queries groups, streams and events from Amazon Cloudwatch logs.
+> Queries groups, streams and events from Amazon CloudWatch logs.
 > More information: <https://github.com/jorgebastida/awslogs>.
 
 - List log groups:
@@ -27,7 +28,7 @@ sources:
 
 `awslogs get {{/var/log/syslog}} --start='{{2h ago}}' --end='{{1h ago}}'`
 
-- Get logs that match a specific Cloudwatch Logs Filter pattern:
+- Get logs that match a specific CloudWatch Logs Filter pattern:
 
 `awslogs get {{/aws/lambda/my_lambda_group}} --filter-pattern='{{ERROR}}'`
 

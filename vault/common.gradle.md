@@ -2,8 +2,9 @@
 id: common.gradle
 title: Gradle
 desc: ''
-updated: 1615663978715
-created: 1615663978715
+updated: 1623965016130
+created: 1623965016130
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -34,4 +35,12 @@ sources:
 - Compile and Release package:
 
 `gradle assembleRelease`
+
+- List the main tasks:
+
+`gradle tasks`
+
+- List all the tasks:
+
+`gradle tasks --all`
 

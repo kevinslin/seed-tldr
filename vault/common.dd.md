@@ -2,8 +2,9 @@
 id: common.dd
 title: Dd
 desc: ''
-updated: 1615663978704
-created: 1615663978704
+updated: 1623965016118
+created: 1623965016118
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # dd
 
 > Convert and copy a file.
-> More information: <https://www.man7.org/linux/man-pages/man1/dd.1.html>.
+> More information: <https://www.gnu.org/software/coreutils/dd>.
 
 - Make a bootable usb drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
@@ -30,6 +31,14 @@ sources:
 - Benchmark the write performance of a disk:
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
+
+- Generate a system backup into an IMG file and show the progress:
+
+`dd if=/dev/{{drive_device}} of={{path/to/file.img}} status=progress`
+
+- Restore a drive from an IMG file and show the progress:
+
+`dd if={{path/to/file.img}} of=/dev/{{drive_device}} status=progress`
 
 - Check progress of an ongoing dd operation (Run this command from another shell):
 

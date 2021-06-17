@@ -2,8 +2,9 @@
 id: common.git-init
 title: Git Init
 desc: ''
-updated: 1615663978713
-created: 1615663978713
+updated: 1623965016127
+created: 1623965016127
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -18,6 +19,10 @@ sources:
 - Initialize a new local repository:
 
 `git init`
+
+- Initialize a repository with the specified name for the initial branch:
+
+`git init --initial-branch={{branch_name}}`
 
 - Initialize a repository using SHA256 for object hashes (requires Git version 2.29+):
 

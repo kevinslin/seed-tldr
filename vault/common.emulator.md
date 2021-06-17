@@ -2,8 +2,9 @@
 id: common.emulator
 title: Emulator
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # emulator
 
-> Manager Android emulators from the command line.
+> Manager Android emulators from the command-line.
 > More information: <https://developer.android.com/studio/run/emulator-commandline>.
 
 - Display the help:

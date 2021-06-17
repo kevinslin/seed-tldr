@@ -2,8 +2,9 @@
 id: common.sendmail
 title: Sendmail
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # sendmail
 
-> Send email from the command line.
+> Send email from the command-line.
 
 - Send a message with the content of `message.txt` to the mail directory of local user `username`:
 

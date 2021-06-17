@@ -2,8 +2,9 @@
 id: common.packer
 title: Packer
 desc: ''
-updated: 1615663978728
-created: 1615663978728
+updated: 1623965016141
+created: 1623965016141
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

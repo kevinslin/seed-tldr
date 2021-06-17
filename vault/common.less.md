@@ -2,8 +2,9 @@
 id: common.less
 title: Less
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # less
 
 > Open a file for interactive reading, allowing scrolling and search.
+> More information: <https://greenwoodsoftware.com/less/>.
 
 - Open a file:
 

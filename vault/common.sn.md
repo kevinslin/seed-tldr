@@ -2,8 +2,9 @@
 id: common.sn
 title: Sn
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -20,7 +21,7 @@ sources:
 
 - Re-sign an assembly with the specified private key:
 
-`sn -R {{path/to/assembly.dll}} {{path/to/keypair.snk}}`
+`sn -R {{path/to/assembly.dll}} {{path/to/key_pair.snk}}`
 
 - Show the public key of the private key that was used to sign an assembly:
 

@@ -2,8 +2,9 @@
 id: common.nix-build
 title: Nix Build
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016139
+created: 1623965016139
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `nix-build --attr {{expression_name}}`
 
-- Build a sandboxed Nix expression (on non-nixOS):
+- Build a sandboxed Nix expression (on non-NixOS):
 
 `nix-build --attr {{expression_name}} --option sandbox true`
 

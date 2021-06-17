@@ -2,8 +2,9 @@
 id: common.molecule
 title: Molecule
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `molecule converge`
 
-- Login into the instance:
+- Log in into the instance:
 
 `molecule login`
 

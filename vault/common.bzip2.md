@@ -2,8 +2,9 @@
 id: common.bzip2
 title: Bzip2
 desc: ''
-updated: 1615663978701
-created: 1615663978701
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

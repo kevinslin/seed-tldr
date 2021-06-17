@@ -2,8 +2,9 @@
 id: common.react-native-start
 title: React Native Start
 desc: ''
-updated: 1615663978732
-created: 1615663978732
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # react-native start
 
-> Command line tools to start the React Native server.
+> Command-line tools to start the React Native server.
 > More information: <https://github.com/react-native-community/cli/blob/master/docs/commands.md#start>.
 
 - Start the server that communicates with connected devices:

@@ -2,8 +2,9 @@
 id: common.exa
 title: Exa
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -38,4 +39,12 @@ sources:
 - List files sorted by modification date (oldest first):
 
 `exa --long --sort={{modified}}`
+
+- List files with their headers, icons, and Git statuses:
+
+`exa --long --header --icons --git`
+
+- Don't list files mentioned in `.gitignore`:
+
+`exa --git-ignore`
 

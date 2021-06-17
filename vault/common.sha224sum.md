@@ -2,8 +2,9 @@
 id: common.sha224sum
 title: Sha224sum
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # sha224sum
 
 > Calculate SHA224 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Calculate the SHA224 checksum for a file:
 

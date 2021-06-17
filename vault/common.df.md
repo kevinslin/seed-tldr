@@ -2,8 +2,9 @@
 id: common.df
 title: Df
 desc: ''
-updated: 1615663978705
-created: 1615663978705
+updated: 1623965016119
+created: 1623965016119
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # df
 
 > Gives an overview of the filesystem disk space usage.
+> More information: <https://www.gnu.org/software/coreutils/df>.
 
 - Display all filesystems and their disk usage:
 
@@ -30,7 +32,7 @@ sources:
 
 `df -i`
 
-- Display filesystems but exclude the specified type:
+- Display filesystems but exclude the specified types:
 
 `df -x {{squashfs}} -x {{tmpfs}}`
 

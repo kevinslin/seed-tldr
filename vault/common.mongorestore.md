@@ -2,8 +2,9 @@
 id: common.mongorestore
 title: Mongorestore
 desc: ''
-updated: 1615663978724
-created: 1615663978724
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # mongorestore
 
 > Utility to import a collection or database from a binary dump into a MongoDB instance.
-> More information: <https://docs.mongodb.com/manual/reference/program/mongorestore>.
+> More information: <https://docs.mongodb.com/database-tools/mongorestore/>.
 
 - Import a bson data dump from a directory to a MongoDB database:
 

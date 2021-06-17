@@ -2,8 +2,9 @@
 id: common.git-show-branch
 title: Git Show Branch
 desc: ''
-updated: 1615663978714
-created: 1615663978714
+updated: 1623965016128
+created: 1623965016128
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -43,7 +44,7 @@ sources:
 
 `git show-branch --sha1-name --current {{current|branch_name|ref}}`
 
-- Keep going a given number of commits past the common ancester:
+- Keep going a given number of commits past the common ancestor:
 
 `git show-branch --more {{5}} {{commit|branch_name|ref}} {{commit|branch_name|ref}} {{...}}`
 

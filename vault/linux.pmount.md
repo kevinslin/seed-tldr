@@ -2,8 +2,9 @@
 id: linux.pmount
 title: Pmount
 desc: ''
-updated: 1615663978752
-created: 1615663978752
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # pmount
 
 > Mount arbitrary hotpluggable devices as a normal user.
-> More information: <https://linux.die.net/man/1/pmount>.
+> More information: <https://manned.org/pmount>.
 
 - Mount a device below `/media/` (using device as mount point):
 

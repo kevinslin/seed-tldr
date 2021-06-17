@@ -2,8 +2,9 @@
 id: linux.pihole
 title: Pihole
 desc: ''
-updated: 1615663978752
-created: 1615663978752
+updated: 1623965016166
+created: 1623965016166
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

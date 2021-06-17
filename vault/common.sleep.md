@@ -2,8 +2,9 @@
 id: common.sleep
 title: Sleep
 desc: ''
-updated: 1615663978734
-created: 1615663978734
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # sleep
 
 > Delay for a specified amount of time.
+> More information: <https://www.gnu.org/software/coreutils/sleep>.
 
 - Delay in seconds:
 

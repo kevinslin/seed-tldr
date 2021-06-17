@@ -2,8 +2,9 @@
 id: linux.reboot
 title: Reboot
 desc: ''
-updated: 1615663978754
-created: 1615663978754
+updated: 1623965016167
+created: 1623965016167
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,12 +14,25 @@ sources:
 # reboot
 
 > Reboot the system.
+> More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
 
-- Reboot immediately:
+- Reboot the system:
 
 `reboot`
 
-- Reboot immediately without gracefully shutting down:
+- Power off the system (same as `poweroff`):
 
-`reboot -f`
+`reboot --poweroff`
+
+- Halt the system (same as `halt`):
+
+`reboot --halt`
+
+- Reboot immediately without contacting the system manager:
+
+`reboot --force --force`
+
+- Write the wtmp shutdown entry without rebooting the system:
+
+`reboot --wtmp-only`
 

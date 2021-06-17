@@ -2,8 +2,9 @@
 id: common.odps-inst
 title: Odps Inst
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,8 @@ sources:
 # odps inst
 
 > Manage instances in ODPS (Open Data Processing Service).
+> See also `odps`.
+> More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
 - Show instances created by current user:
 

@@ -2,8 +2,9 @@
 id: common.latexmk
 title: Latexmk
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -16,11 +17,11 @@ sources:
 > Automatically does multiple runs when needed.
 > More information: <https://mg.readthedocs.io/latexmk.html>.
 
-- Compile a dvi (DeVice Independent file) document from every source:
+- Compile a DVI (Device Independent file) document from every source:
 
 `latexmk`
 
-- Compile a dvi document from a specific source file:
+- Compile a DVI document from a specific source file:
 
 `latexmk {{source.tex}}`
 

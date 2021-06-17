@@ -2,8 +2,9 @@
 id: linux.apt-add-repository
 title: Apt Add Repository
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # apt-add-repository
 
 > Manages apt repository definitions.
+> More information: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
 - Add a new apt repository:
 

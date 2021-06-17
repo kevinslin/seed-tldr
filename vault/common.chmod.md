@@ -2,8 +2,9 @@
 id: common.chmod
 title: Chmod
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # chmod
 
 > Change the access permissions of a file or directory.
+> More information: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 

@@ -2,8 +2,9 @@
 id: common.man
 title: Man
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # man
 
 > Format and display manual pages.
+> More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Display the man page for a command:
 
@@ -29,6 +31,10 @@ sources:
 - Display the location of a manpage rather than the manpage itself:
 
 `man -w {{command}}`
+
+- Display the man page using a specific locale:
+
+`man {{command}} --locale={{locale}}`
 
 - Search for manpages containing a search string:
 

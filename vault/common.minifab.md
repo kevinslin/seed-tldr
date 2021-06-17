@@ -2,8 +2,9 @@
 id: common.minifab
 title: Minifab
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `minifab up -i {{minifab_version}}`
 
-- Bring down the Hyperldger Fabric network:
+- Bring down the Hyperledger Fabric network:
 
 `minifab down`
 

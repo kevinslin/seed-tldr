@@ -2,8 +2,9 @@
 id: linux.timedatectl
 title: Timedatectl
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # timedatectl
 
 > Control the system time and date.
+> More information: <https://manned.org/timedatectl.1>.
 
 - Check the current system clock time:
 

@@ -2,8 +2,9 @@
 id: linux.lftp
 title: Lftp
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # lftp
 
 > Sophisticated file transfer program.
-> More information: <https://linux.die.net/man/1/lftp>.
+> More information: <https://lftp.yar.ru/lftp-man.html>.
 
 - Connect to an FTP server:
 

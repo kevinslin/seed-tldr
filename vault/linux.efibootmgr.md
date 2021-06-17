@@ -2,8 +2,9 @@
 id: linux.efibootmgr
 title: Efibootmgr
 desc: ''
-updated: 1615663978745
-created: 1615663978745
+updated: 1623965016161
+created: 1623965016161
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,8 +13,8 @@ sources:
 ---
 # efibootmgr
 
-> Manipulate the UEFI Boot Manager (the Bootoptions).
-> More information: <https://linux.die.net/man/8/efibootmgr>.
+> Manipulate the UEFI Boot Manager.
+> More information: <https://manned.org/efibootmgr>.
 
 - List the current settings / bootnums:
 

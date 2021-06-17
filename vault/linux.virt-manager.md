@@ -2,8 +2,9 @@
 id: linux.virt-manager
 title: Virt Manager
 desc: ''
-updated: 1615663978757
-created: 1615663978757
+updated: 1623965016170
+created: 1623965016170
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `virt-manager --connect {{hypervisor_uri}}`
 
-- Don't fork virt-manager process into backgroun on startup:
+- Don't fork virt-manager process into background on startup:
 
 `virt-manager --no-fork`
 

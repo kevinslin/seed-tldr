@@ -2,8 +2,9 @@
 id: common.cmatrix
 title: Cmatrix
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -27,7 +28,7 @@ sources:
 
 `cmatrix -r`
 
-- Set screen update delay to 2 centiseconds:
+- Set screen update delay to 2 centiseconds (20 milliseconds):
 
 `cmatrix -u {{2}}`
 

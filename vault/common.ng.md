@@ -2,8 +2,9 @@
 id: common.ng
 title: Ng
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016139
+created: 1623965016139
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # ng
 
-> Command Line Interface (CLI) for creating and managing Angular applications.
+> Command-line Interface (CLI) for creating and managing Angular applications.
 > More information: <https://angular.io/cli>.
 
 - Create a new Angular application inside a directory:

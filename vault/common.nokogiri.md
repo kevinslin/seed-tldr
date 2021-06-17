@@ -2,8 +2,9 @@
 id: common.nokogiri
 title: Nokogiri
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > An HTML, XML, SAX and Reader parser.
 > More information: <https://nokogiri.org>.
 
-- Parse the contents of a url or file:
+- Parse the contents of a URL or file:
 
 `nokogiri {{url|path/to/file}}`
 

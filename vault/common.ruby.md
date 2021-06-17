@@ -2,8 +2,9 @@
 id: common.ruby
 title: Ruby
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016148
+created: 1623965016148
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `ruby {{script.rb}}`
 
-- Execute a single Ruby command in the command line:
+- Execute a single Ruby command in the command-line:
 
 `ruby -e {{command}}`
 

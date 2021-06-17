@@ -2,8 +2,9 @@
 id: linux.httpie
 title: Httpie
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # httpie
 
-> A user friendly command line HTTP tool.
+> A user friendly command-line HTTP tool.
 
 - Send a GET request (default method with no request data):
 

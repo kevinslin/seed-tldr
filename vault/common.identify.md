@@ -2,8 +2,9 @@
 id: common.identify
 title: Identify
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016132
+created: 1623965016132
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # identify
 
-> Command line utility of Image Magick project to describe the format and characteristics of one or more image files.
+> Command-line utility of Image Magick project to describe the format and characteristics of one or more image files.
 > More information: <https://imagemagick.org/script/identify.php>.
 
 - Collect dimensions of all jpeg files under current directory:

@@ -2,8 +2,9 @@
 id: windows.reg-add
 title: Reg Add
 desc: ''
-updated: 1615663978763
-created: 1615663978763
+updated: 1623965016177
+created: 1623965016177
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

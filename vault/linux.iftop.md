@@ -2,8 +2,9 @@
 id: linux.iftop
 title: Iftop
 desc: ''
-updated: 1615663978747
-created: 1615663978747
+updated: 1623965016162
+created: 1623965016162
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # iftop
 
 > Show bandwidth usage on an interface by host.
-> More information: <https://linux.die.net/man/8/iftop>.
+> More information: <https://manned.org/iftop>.
 
 - Show the bandwidth usage:
 

@@ -2,8 +2,9 @@
 id: common.tty
 title: Tty
 desc: ''
-updated: 1615663978737
-created: 1615663978737
+updated: 1623965016153
+created: 1623965016153
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # tty
 
 > Returns terminal name.
+> More information: <https://www.gnu.org/software/coreutils/tty>.
 
 - Print the file name of this terminal:
 

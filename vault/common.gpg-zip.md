@@ -2,8 +2,9 @@
 id: common.gpg-zip
 title: Gpg Zip
 desc: ''
-updated: 1615663978715
-created: 1615663978715
+updated: 1623965016130
+created: 1623965016130
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # gpg-zip
 
 > Encrypt files and directories in an archive using GPG.
+> More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html>.
 
 - Encrypt a directory into `archive.gpg` using a passphrase:
 

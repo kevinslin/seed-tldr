@@ -2,8 +2,9 @@
 id: common.gdalbuildvrt
 title: Gdalbuildvrt
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -25,7 +26,7 @@ sources:
 
 - Make a RGB virtual mosaic from 3 single-band input files:
 
-`gdalbuildvrt -separate {{path/to/rgb.vrt}}  {{path/to/red.tif}] {{path/to/green.tif}} {{path/to/blue.tif}}`
+`gdalbuildvrt -separate {{path/to/rgb.vrt}} {{path/to/red.tif}} {{path/to/green.tif}} {{path/to/blue.tif}}`
 
 - Make a virtual mosaic with blue background colour (RGB: 0 0 255):
 

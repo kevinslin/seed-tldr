@@ -2,8 +2,9 @@
 id: common.php-artisan
 title: Php Artisan
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016142
+created: 1623965016142
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,14 +13,14 @@ sources:
 ---
 # php artisan
 
-> Laravel's Artisan command line interface.
+> Laravel's Artisan command-line interface.
 > More information: <https://laravel.com/docs/artisan>.
 
 - Start PHP's built-in web server for the current Laravel application:
 
 `php artisan serve`
 
-- Start an interactive PHP command line interface:
+- Start an interactive PHP command-line interface:
 
 `php artisan tinker`
 

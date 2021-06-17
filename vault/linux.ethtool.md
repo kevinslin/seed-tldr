@@ -2,8 +2,9 @@
 id: linux.ethtool
 title: Ethtool
 desc: ''
-updated: 1615663978745
-created: 1615663978745
+updated: 1623965016161
+created: 1623965016161
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -31,7 +32,7 @@ sources:
 
 `ethtool --identify {{eth0}} {{10}}`
 
-- Set the link speed, duplex mode, and parameter autonegotiation for a given interface:
+- Set the link speed, duplex mode, and parameter auto-negotiation for a given interface:
 
 `ethtool -s {{eth0}} speed {{10|100|1000}} duplex {{half|full}} autoneg {{on|off}}`
 

@@ -2,8 +2,9 @@
 id: linux.zgrep
 title: Zgrep
 desc: ''
-updated: 1615663978758
-created: 1615663978758
+updated: 1623965016171
+created: 1623965016171
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -36,7 +37,7 @@ sources:
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`zgrep -E {{^regex$}} {{path/to/file}}`
+`zgrep -E {{regular_expression}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 

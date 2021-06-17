@@ -2,8 +2,9 @@
 id: common.lein
 title: Lein
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # lein
 
-> Manage clojure projects with declarative configuration.
+> Manage Clojure projects with declarative configuration.
 > More information: <https://leiningen.org>.
 
 - Generate scaffolding for a new project based on a template:

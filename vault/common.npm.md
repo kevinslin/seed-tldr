@@ -2,8 +2,9 @@
 id: common.npm
 title: Npm
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -34,7 +35,7 @@ sources:
 
 - Download a package and install it globally:
 
-`npm install -g {{module_name}}`
+`npm install --global {{module_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
@@ -46,5 +47,5 @@ sources:
 
 - List top-level globally installed modules:
 
-`npm list -g --depth={{0}}`
+`npm list --global --depth={{0}}`
 

@@ -2,8 +2,9 @@
 id: windows.doskey
 title: Doskey
 desc: ''
-updated: 1615663978763
-created: 1615663978763
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # doskey
 
-> Manage macros, windows commands and command lines.
+> Manage macros, windows commands and command-lines.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - List available macros:

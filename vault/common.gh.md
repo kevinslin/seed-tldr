@@ -2,8 +2,9 @@
 id: common.gh
 title: Gh
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016126
+created: 1623965016126
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gh
 
-> Work seamlessly with GitHub from the command line.
+> Work seamlessly with GitHub from the command-line.
 > More information: <https://cli.github.com/>.
 
 - Clone a GitHub repository locally:

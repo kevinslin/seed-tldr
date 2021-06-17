@@ -2,8 +2,9 @@
 id: common.cabal
 title: Cabal
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # cabal
 
-> Command line interface to the Haskell package infrastructure (Cabal).
+> Command-line interface to the Haskell package infrastructure (Cabal).
 > Manage Haskell projects and Cabal packages from the Hackage package repository.
 > More information: <https://cabal.readthedocs.io/en/latest/intro.html>.
 

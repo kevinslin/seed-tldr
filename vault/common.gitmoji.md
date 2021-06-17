@@ -2,8 +2,9 @@
 id: common.gitmoji
 title: Gitmoji
 desc: ''
-updated: 1615663978714
-created: 1615663978714
+updated: 1623965016129
+created: 1623965016129
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # gitmoji
 
-> An interactive command line tool for using emojis on commits.
+> An interactive command-line tool for using emojis on commits.
 > More information: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Start the commit wizard:

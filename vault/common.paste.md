@@ -2,8 +2,9 @@
 id: common.paste
 title: Paste
 desc: ''
-updated: 1615663978728
-created: 1615663978728
+updated: 1623965016141
+created: 1623965016141
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # paste
 
 > Merge lines of files.
+> More information: <https://www.gnu.org/software/coreutils/paste>.
 
 - Join all the lines into a single line, using TAB as delimiter:
 

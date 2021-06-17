@@ -2,8 +2,9 @@
 id: common.ember
 title: Ember
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # ember
 
-> The Ember.js command line utility.
+> The Ember.js command-line utility.
 > Used for creating and maintaining Ember.js applications.
 > More information: <https://cli.emberjs.com>.
 

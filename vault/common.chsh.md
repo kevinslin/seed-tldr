@@ -2,8 +2,9 @@
 id: common.chsh
 title: Chsh
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,9 +13,10 @@ sources:
 ---
 # chsh
 
-> Change user's login shell.
+> Change the user's login shell.
+> More information: <https://manned.org/chsh>.
 
-- Change shell:
+- Change the user's login shell:
 
 `chsh -s {{path/to/shell_binary}} {{username}}`
 

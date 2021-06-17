@@ -2,8 +2,9 @@
 id: common.php
 title: Php
 desc: ''
-updated: 1615663978729
-created: 1615663978729
+updated: 1623965016143
+created: 1623965016143
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # php
 
-> PHP command line interface.
+> PHP command-line interface.
 > More information: <https://php.net>.
 
 - Parse and execute a php script:

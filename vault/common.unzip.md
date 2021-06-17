@@ -2,8 +2,9 @@
 id: common.unzip
 title: Unzip
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -30,7 +31,7 @@ sources:
 
 `unzip -c {{file.zip}}`
 
-- Extract a zip file created in windows, containing files with non-ascii (chinese) filenames:
+- Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
 
 `unzip -O {{gbk}} {{file.zip}}`
 

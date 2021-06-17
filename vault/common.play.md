@@ -2,8 +2,9 @@
 id: common.play
 title: Play
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016144
+created: 1623965016144
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # play
 
 > Audio player of SoX - Sound eXchange.
-> Plays any audio from the command line, with audio formats identified by the extension.
+> Plays any audio from the command-line, with audio formats identified by the extension.
 > More information: <http://sox.sourceforge.net>.
 
 - Play the given audio file:

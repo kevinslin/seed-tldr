@@ -2,8 +2,9 @@
 id: common.laravel-zero
 title: Laravel Zero
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # laravel-zero
 
-> A command line installer for the Laravel Zero framework.
+> A command-line installer for the Laravel Zero framework.
 > More information: <https://laravel-zero.com>.
 
 - Create a new Laravel Zero application:

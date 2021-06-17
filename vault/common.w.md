@@ -2,8 +2,9 @@
 id: common.w
 title: W
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

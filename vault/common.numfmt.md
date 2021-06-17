@@ -2,8 +2,9 @@
 id: common.numfmt
 title: Numfmt
 desc: ''
-updated: 1615663978727
-created: 1615663978727
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # numfmt
 
 > Convert numbers to and from human-readable strings.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/numfmt>.
 
 - Convert 1.5K (SI Units) to 1500:
 

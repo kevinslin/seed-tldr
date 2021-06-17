@@ -2,8 +2,9 @@
 id: common.stow
 title: Stow
 desc: ''
-updated: 1615663978735
-created: 1615663978735
+updated: 1623965016151
+created: 1623965016151
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -34,5 +35,5 @@ sources:
 
 - Exclude files matching a regular expression:
 
-`stow --ignore={{regex}} --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
+`stow --ignore={{regular_expression}} --target={{path/to/target_directory}} {{file1 directory1 file2 directory2}}`
 

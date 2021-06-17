@@ -2,8 +2,9 @@
 id: common.mlr
 title: Mlr
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -41,5 +42,5 @@ sources:
 
 - Filter lines of a compressed CSV file treating numbers as strings:
 
-`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regexp}}"' {{example.csv.gz}}`
+`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regular_expression}}"' {{example.csv.gz}}`
 

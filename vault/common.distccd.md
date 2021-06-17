@@ -1,0 +1,38 @@
+---
+id: common.distccd
+title: Distccd
+desc: ''
+updated: 1623965016119
+created: 1623965016119
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# distccd
+
+> Server daemon for the distcc distributed compiler.
+> More information: <https://distcc.github.io>.
+
+- Start a daemon with the default settings:
+
+`distccd --daemon`
+
+- Start a daemon, accepting connections from IPv4 private network ranges:
+
+`distccd --daemon --allow-private`
+
+- Start a daemon, accepting connections from a specific network address or address range:
+
+`distccd --daemon --allow {{ip_address|network_prefix}}`
+
+- Start a daemon with a lowered priority that can run a maximum of 4 tasks at a time:
+
+`distccd --daemon --jobs {{4}} --nice {{5}}`
+
+- Start a daemon and register it via mDNS/DNS-SD (Zeroconf):
+
+`distccd --daemon --zeroconf`
+

@@ -2,8 +2,9 @@
 id: common.pipx
 title: Pipx
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016144
+created: 1623965016144
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

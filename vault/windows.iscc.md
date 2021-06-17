@@ -2,8 +2,9 @@
 id: windows.iscc
 title: Iscc
 desc: ''
-updated: 1615663978763
-created: 1615663978763
+updated: 1623965016177
+created: 1623965016177
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Compiler for Inno Setup installers.
 > It compiles an Inno Setup scripts into an Windows installer executable.
+> More information: <https://jrsoftware.org/isinfo.php>.
 
 - Compile an Inno Setup script:
 

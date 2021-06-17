@@ -2,8 +2,9 @@
 id: common.cradle-elastic
 title: Cradle Elastic
 desc: ''
-updated: 1615663978704
-created: 1615663978704
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

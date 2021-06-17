@@ -2,8 +2,9 @@
 id: common.electron-packager
 title: Electron Packager
 desc: ''
-updated: 1615663978707
-created: 1615663978707
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # electron-packager
 
-> A tool used to build Electron app executables for Windows, Linux and MacOS.
+> A tool used to build Electron app executables for Windows, Linux and macOS.
 > Requires a valid package.json in the application directory.
 > More information: <https://github.com/electron/electron-packager>.
 
@@ -28,7 +29,7 @@ sources:
 
 `electron-packager "{{path/to/app}}" "{{app_name}}" --platform="{{linux}}" --arch="{{x64}}"`
 
-- Package an application for ARM MacOS:
+- Package an application for ARM macOS:
 
 `electron-packager "{{path/to/app}}" "{{app_name}}" --platform="{{darwin}}" --arch="{{arm64}}"`
 

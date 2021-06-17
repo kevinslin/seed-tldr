@@ -2,8 +2,9 @@
 id: common.case
 title: Case
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # case
 
 > Branch based on the value of an expression.
+> More information: <https://manned.org/case>.
 
 - Match a variable against string literals to decide which command to run:
 

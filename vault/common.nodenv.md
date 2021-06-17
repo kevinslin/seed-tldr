@@ -2,8 +2,9 @@
 id: common.nodenv
 title: Nodenv
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # nodenv
 
-> A tool to manage NodeJS versions.
+> A tool to manage Node.js versions.
 > More information: <https://github.com/nodenv/nodenv>.
 
 - Install a specific version of Node.js:

@@ -2,8 +2,9 @@
 id: common.meteor
 title: Meteor
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # meteor
 
-> Full-stack javascript platform for building web applications.
+> Full-stack JavaScript platform for building web applications.
 > More information: <https://meteor.com>.
 
 - Run a meteor project from its root directory in development mode:

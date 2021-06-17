@@ -2,8 +2,9 @@
 id: common.wrangler
 title: Wrangler
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # wrangler
 
-> Cloudflare Workers command line tool.
+> Cloudflare Workers command-line tool.
 > More information: <https://developers.cloudflare.com/workers/>.
 
 - Initialize a project with a skeleton configuration:

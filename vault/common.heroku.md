@@ -2,8 +2,9 @@
 id: common.heroku
 title: Heroku
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,10 +13,10 @@ sources:
 ---
 # heroku
 
-> Create and manage Heroku apps from the command line.
+> Create and manage Heroku apps from the command-line.
 > More information: <https://www.heroku.com/>.
 
-- Login to your heroku account:
+- Log in to your heroku account:
 
 `heroku login`
 

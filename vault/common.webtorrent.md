@@ -2,8 +2,9 @@
 id: common.webtorrent
 title: Webtorrent
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # webtorrent
 
-> The command line interface for WebTorrent.
+> The command-line interface for WebTorrent.
 > Supports magnets, urls, info hashes and .torrent files.
 > More information: <https://github.com/webtorrent/webtorrent-cli>.
 
@@ -44,7 +45,7 @@ sources:
 
 `webtorrent create {{path/to/file}}`
 
-- Display information for a magnet uri or `.torrent` file:
+- Display information for a magnet URI or `.torrent` file:
 
 `webtorrent info {{path/to/file_or_magnet}}`
 

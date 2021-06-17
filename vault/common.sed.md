@@ -2,8 +2,9 @@
 id: common.sed
 title: Sed
 desc: ''
-updated: 1615663978733
-created: 1615663978733
+updated: 1623965016149
+created: 1623965016149
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,14 +14,15 @@ sources:
 # sed
 
 > Edit text in a scriptable manner.
+> More information: <https://man.archlinux.org/man/sed.1>.
 
 - Replace the first occurrence of a regular expression in each line of a file, and print the result:
 
-`sed 's/{{regex}}/{{replace}}/' {{filename}}`
+`sed 's/{{regular_expression}}/{{replace}}/' {{filename}}`
 
 - Replace all occurrences of an extended regular expression in a file, and print the result:
 
-`sed -r 's/{{regex}}/{{replace}}/g' {{filename}}`
+`sed -r 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
 
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 

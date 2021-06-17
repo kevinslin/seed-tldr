@@ -2,8 +2,9 @@
 id: osx.indent
 title: Indent
 desc: ''
-updated: 1615663978760
-created: 1615663978760
+updated: 1623965016174
+created: 1623965016174
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -19,7 +20,7 @@ sources:
 
 `indent {{path/to/source.c}} {{path/to/indented_source.c}} -nbad -nbap -bc -br -c33 -cd33 -cdb -ce -ci4 -cli0 -di16 -fc1 -fcb -i4 -ip -l75 -lp -npcs -nprs -psl -sc -nsob -ts8`
 
-- Format C/C++ source according to the style of Kernigan & Ritchie (K&R):
+- Format C/C++ source according to the style of Kernighan & Ritchie (K&R):
 
 `indent {{path/to/source.c}} {{path/to/indented_source.c}} -nbad -bap -nbc -br -c33 -cd33 -ncdb -ce -ci4 -cli0 -cs -d0 -di1 -nfc1 -nfcb -i4 -nip -l75 -lp -npcs -nprs -npsl -nsc -nsob`
 

@@ -2,8 +2,9 @@
 id: common.cat
 title: Cat
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016116
+created: 1623965016116
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # cat
 
 > Print and concatenate files.
+> More information: <https://www.gnu.org/software/coreutils/cat>.
 
 - Print the contents of a file to the standard output:
 

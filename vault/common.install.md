@@ -2,8 +2,9 @@
 id: common.install
 title: Install
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016132
+created: 1623965016132
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > Copy files and set attributes.
 > Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
+> More information: <https://www.gnu.org/software/coreutils/install>.
 
 - Copy files to destination:
 

@@ -2,8 +2,9 @@
 id: common.who
 title: Who
 desc: ''
-updated: 1615663978739
-created: 1615663978739
+updated: 1623965016155
+created: 1623965016155
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # who
 
 > Display who is logged in and related data (processes, boot time).
+> More information: <https://www.gnu.org/software/coreutils/who>.
 
 - Display the username, line, and time of all currently logged-in sessions:
 

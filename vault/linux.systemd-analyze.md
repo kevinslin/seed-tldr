@@ -2,8 +2,9 @@
 id: linux.systemd-analyze
 title: Systemd Analyze
 desc: ''
-updated: 1615663978756
-created: 1615663978756
+updated: 1623965016169
+created: 1623965016169
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -21,4 +22,12 @@ sources:
 - Print a tree of the time critical chain of units:
 
 `systemd-analyze critical-chain`
+
+- Create an SVG file showing when each system service started, highlighting the time that they spent on initialization:
+
+`systemd-analyze plot > {{path/to/file.svg}}`
+
+- Plot a dependency graph and convert it to an SVG file:
+
+`systemd-analyze dot | dot -T{{svg}} > {{path/to/file.svg}}`
 

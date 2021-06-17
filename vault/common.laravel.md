@@ -2,8 +2,9 @@
 id: common.laravel
 title: Laravel
 desc: ''
-updated: 1615663978721
-created: 1615663978721
+updated: 1623965016134
+created: 1623965016134
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # laravel
 
-> A command line installer for the Laravel framework.
+> A command-line installer for the Laravel framework.
 > More information: <https://laravel.com>.
 
 - Create a new Laravel application:

@@ -2,8 +2,9 @@
 id: common.join
 title: Join
 desc: ''
-updated: 1615663978720
-created: 1615663978720
+updated: 1623965016133
+created: 1623965016133
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # join
 
 > Join lines of two sorted files on a common field.
+> More information: <https://www.gnu.org/software/coreutils/join>.
 
 - Join two files on the first (default) field:
 

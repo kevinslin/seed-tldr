@@ -2,8 +2,9 @@
 id: common.handbrakecli
 title: Handbrakecli
 desc: ''
-updated: 1615663978718
-created: 1615663978718
+updated: 1623965016131
+created: 1623965016131
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -21,7 +22,7 @@ sources:
 
 - Resize a video file to 320x240:
 
-`handbrakecli -i {{input.mp4}} -o {{output.mp4} -w 320 -l 240`
+`handbrakecli -i {{input.mp4}} -o {{output.mp4}} -w 320 -l 240`
 
 - List available presets:
 

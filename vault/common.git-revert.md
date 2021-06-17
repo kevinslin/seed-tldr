@@ -2,8 +2,9 @@
 id: common.git-revert
 title: Git Revert
 desc: ''
-updated: 1615663978714
-created: 1615663978714
+updated: 1623965016128
+created: 1623965016128
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

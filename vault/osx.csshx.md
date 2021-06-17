@@ -2,8 +2,9 @@
 id: osx.csshx
 title: Csshx
 desc: ''
-updated: 1615663978759
-created: 1615663978759
+updated: 1623965016172
+created: 1623965016172
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # csshX
 
-> Cluster SSH tool for MacOS.
+> Cluster SSH tool for macOS.
 > More information: <https://github.com/brockgr/csshx>.
 
 - Connect to multiple hosts:

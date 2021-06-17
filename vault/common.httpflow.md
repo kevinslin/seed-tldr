@@ -2,8 +2,9 @@
 id: common.httpflow
 title: Httpflow
 desc: ''
-updated: 1615663978719
-created: 1615663978719
+updated: 1623965016132
+created: 1623965016132
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # httpflow
 
-> A command line utility to capture and dump HTTP streams.
+> A command-line utility to capture and dump HTTP streams.
 > More information: <https://github.com/six-ddc/httpflow>.
 
 - Capture traffic on all interfaces:
@@ -23,9 +24,9 @@ sources:
 
 `httpflow {{host httpbin.org or host baidu.com}}`
 
-- Use a regexp to filter requests by urls:
+- Use a regular expression to filter requests by URLs:
 
-`httpflow -u '{{regex}}'`
+`httpflow -u '{{regular_expression}}'`
 
 - Read packets from pcap format binary file:
 

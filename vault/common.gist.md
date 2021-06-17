@@ -2,8 +2,9 @@
 id: common.gist
 title: Gist
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016126
+created: 1623965016126
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -15,7 +16,7 @@ sources:
 > Upload code to <https://gist.github.com.>
 > More information: <https://github.com/defunkt/gist>.
 
-- Login in gist on this computer:
+- Log in in gist on this computer:
 
 `gist --login`
 
@@ -25,7 +26,7 @@ sources:
 
 - Create a private gist with a description:
 
-`gist -p -d "{{A meaningful description}}" {{file.txt}} `
+`gist --private --description "{{A meaningful description}}" {{file.txt}} `
 
 - Read contents from stdin and create a gist from it:
 
@@ -33,13 +34,13 @@ sources:
 
 - List your public and private gists:
 
-`gist -l`
+`gist --list`
 
-- List all gists for the currently logged in user:
+- List all public gists for any user:
 
-`gist -l {{username}}`
+`gist --list {{username}}`
 
-- Use the id from the gist URL to modify or include a file:
+- Update a gist using the id from URL:
 
-`gist -u {{GIST_ID}} {{file.txt}}`
+`gist --update {{GIST_ID}} {{file.txt}}`
 

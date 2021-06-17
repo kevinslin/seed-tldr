@@ -2,8 +2,9 @@
 id: linux.dumpe2fs
 title: Dumpe2fs
 desc: ''
-updated: 1615663978743
-created: 1615663978743
+updated: 1623965016160
+created: 1623965016160
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,7 +15,7 @@ sources:
 
 > Print the super block and blocks group information for ext2/ext3/ext4 filesystems.
 > Unmount the partition before running this command using `umount {{device}}`.
-> More information: <https://linux.die.net/man/8/dumpe2fs>.
+> More information: <https://manned.org/dumpe2fs>.
 
 - Display ext2, ext3 and ext4 filesystem information:
 

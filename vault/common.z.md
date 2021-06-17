@@ -2,8 +2,9 @@
 id: common.z
 title: Z
 desc: ''
-updated: 1615663978740
-created: 1615663978740
+updated: 1623965016156
+created: 1623965016156
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # z
 
-> Tracks the most used (by frecency) directories and enables quickly navigating to them using string or regex patterns.
+> Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions.
 > More information: <https://github.com/rupa/z>.
 
 - Go to a directory that contains "foo" in the name:

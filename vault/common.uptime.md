@@ -2,8 +2,9 @@
 id: common.uptime
 title: Uptime
 desc: ''
-updated: 1615663978738
-created: 1615663978738
+updated: 1623965016154
+created: 1623965016154
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # uptime
 
 > Tell how long the system has been running and other information.
+> More information: <https://www.gnu.org/software/coreutils/uptime>.
 
 - Print current time, uptime, number of logged-in users and other information:
 

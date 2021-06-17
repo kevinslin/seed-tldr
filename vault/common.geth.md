@@ -2,8 +2,9 @@
 id: common.geth
 title: Geth
 desc: ''
-updated: 1615663978711
-created: 1615663978711
+updated: 1623965016125
+created: 1623965016125
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # geth
 
-> The go-ethereum command line interface.
+> The go-ethereum command-line interface.
 > More information: <https://geth.ethereum.org>.
 
 - Connect to the main Ethereum network and automatically download the full node:

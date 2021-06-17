@@ -2,8 +2,9 @@
 id: linux.userdel
 title: Userdel
 desc: ''
-updated: 1615663978757
-created: 1615663978757
+updated: 1623965016170
+created: 1623965016170
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,7 +15,7 @@ sources:
 
 > Remove a user account or remove a user from a group.
 > Note: all commands must be executed as root.
-> More information: <https://man7.org/linux/man-pages/man8/userdel.8.html>.
+> More information: <https://manned.org/userdel>.
 
 - Remove a user:
 

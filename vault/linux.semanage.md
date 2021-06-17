@@ -2,8 +2,9 @@
 id: linux.semanage
 title: Semanage
 desc: ''
-updated: 1615663978755
-created: 1615663978755
+updated: 1623965016168
+created: 1623965016168
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # semanage
 
 > SELinux Policy Management tool.
-> More information: <https://linux.die.net/man/8/semanage>.
+> More information: <https://manned.org/semanage>.
 
 - Output local customizations:
 

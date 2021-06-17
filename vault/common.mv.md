@@ -2,8 +2,9 @@
 id: common.mv
 title: Mv
 desc: ''
-updated: 1615663978725
-created: 1615663978725
+updated: 1623965016137
+created: 1623965016137
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,10 +14,15 @@ sources:
 # mv
 
 > Move or rename files and directories.
+> More information: <https://www.gnu.org/software/coreutils/mv>.
 
-- Move files in arbitrary locations:
+- Move a file to an arbitrary location:
 
 `mv {{source}} {{target}}`
+
+- Move files into another directory, keeping the filenames:
+
+`mv {{source1}} {{source2}} {{source3}} {{target_directory}}`
 
 - Do not prompt for confirmation before overwriting existing files:
 

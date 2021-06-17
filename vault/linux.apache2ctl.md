@@ -2,8 +2,9 @@
 id: linux.apache2ctl
 title: Apache2ctl
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -14,6 +15,7 @@ sources:
 
 > The CLI tool to administrate HTTP web server Apache.
 > This command comes with Debian based OSes, for RHEL based ones see `httpd`.
+> More information: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 
 - Start the Apache daemon. Throw a message if it is already running:
 

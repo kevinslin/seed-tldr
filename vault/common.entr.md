@@ -2,8 +2,9 @@
 id: common.entr
 title: Entr
 desc: ''
-updated: 1615663978708
-created: 1615663978708
+updated: 1623965016123
+created: 1623965016123
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # entr
 
 > Run arbitrary commands when files change.
+> More information: <https://manned.org/entr>.
 
 - Rebuild with `make` if any file in any subdirectory changes:
 

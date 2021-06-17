@@ -2,8 +2,9 @@
 id: common.git-clone
 title: Git Clone
 desc: ''
-updated: 1615663978712
-created: 1615663978712
+updated: 1623965016126
+created: 1623965016126
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -42,4 +43,8 @@ sources:
 - Clone an existing repository only fetching a specific branch:
 
 `git clone --branch {{name}} --single-branch {{remote_repository_location}}`
+
+- Clone an existing repository using a specific SSH command:
+
+`git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`
 

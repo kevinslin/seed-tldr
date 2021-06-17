@@ -2,8 +2,9 @@
 id: common.git-bugreport
 title: Git Bugreport
 desc: ''
-updated: 1615663978712
-created: 1615663978712
+updated: 1623965016126
+created: 1623965016126
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # git bugreport
 
 > Captures debug information from the system and user, generating a text file to aid in the reporting of a bug in Git.
+> More information: <https://git-scm.com/docs/git-bugreport>.
 
 - Create a new bugreport file in the current directory:
 

@@ -2,8 +2,9 @@
 id: linux.isosize
 title: Isosize
 desc: ''
-updated: 1615663978748
-created: 1615663978748
+updated: 1623965016163
+created: 1623965016163
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # isosize
 
 > Display the size of an ISO file.
-> More information: <https://linux.die.net/man/8/isosize>.
+> More information: <https://manned.org/isosize>.
 
 - Display the size of an ISO file:
 

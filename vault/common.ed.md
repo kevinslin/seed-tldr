@@ -2,8 +2,9 @@
 id: common.ed
 title: Ed
 desc: ''
-updated: 1615663978707
-created: 1615663978707
+updated: 1623965016122
+created: 1623965016122
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # ed
 
 > The original Unix text editor.
+> More information: <https://man.archlinux.org/man/ed.1>.
 
 - Start ed, editing an empty document (which can be saved as a new file in the current directory):
 

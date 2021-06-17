@@ -2,8 +2,9 @@
 id: common.ant
 title: Ant
 desc: ''
-updated: 1615663978698
-created: 1615663978698
+updated: 1623965016112
+created: 1623965016112
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

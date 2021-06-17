@@ -2,8 +2,9 @@
 id: common.couchdb
 title: Couchdb
 desc: ''
-updated: 1615663978703
-created: 1615663978703
+updated: 1623965016117
+created: 1623965016117
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -12,7 +13,7 @@ sources:
 ---
 # couchdb
 
-> Command line interface for Apache CouchDB database server.
+> Command-line interface for Apache CouchDB database server.
 > More information: <https://couchdb.apache.org>.
 
 - Start couchdb:

@@ -2,8 +2,9 @@
 id: windows.cmd
 title: Cmd
 desc: ''
-updated: 1615663978762
-created: 1615663978762
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -43,7 +44,7 @@ sources:
 
 `cmd /v:{{on|off}}`
 
-- Force output to use unicode encoding:
+- Force output to use Unicode encoding:
 
 `cmd /u`
 

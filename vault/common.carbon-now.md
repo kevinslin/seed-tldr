@@ -2,8 +2,9 @@
 id: common.carbon-now
 title: Carbon Now
 desc: ''
-updated: 1615663978702
-created: 1615663978702
+updated: 1623965016115
+created: 1623965016115
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

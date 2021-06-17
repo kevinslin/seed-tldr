@@ -2,8 +2,9 @@
 id: common.minikube
 title: Minikube
 desc: ''
-updated: 1615663978723
-created: 1615663978723
+updated: 1623965016136
+created: 1623965016136
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,11 +24,11 @@ sources:
 
 `minikube ip`
 
-- Access a service named my_service exposed via a node port and get the url:
+- Access a service named my_service exposed via a node port and get the URL:
 
 `minikube service {{my_service}} --url`
 
-- Open kubernetes dashboard in a browser:
+- Open the Kubernetes dashboard in a browser:
 
 `minikube dashboard`
 

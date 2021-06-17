@@ -2,8 +2,9 @@
 id: common.rails
 title: Rails
 desc: ''
-updated: 1615663978731
-created: 1615663978731
+updated: 1623965016147
+created: 1623965016147
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -27,7 +28,7 @@ sources:
 
 `rails server -p "{{port}}"`
 
-- Open console to interact with application from command line:
+- Open console to interact with application from command-line:
 
 `rails console`
 

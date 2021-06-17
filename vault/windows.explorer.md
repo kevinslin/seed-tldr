@@ -2,8 +2,9 @@
 id: windows.explorer
 title: Explorer
 desc: ''
-updated: 1615663978763
-created: 1615663978763
+updated: 1623965016176
+created: 1623965016176
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # explorer
 
 > The Windows File Explorer.
+> More information: <https://ss64.com/nt/explorer.html>.
 
 - Open Windows Explorer:
 

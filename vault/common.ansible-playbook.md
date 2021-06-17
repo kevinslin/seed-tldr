@@ -2,8 +2,9 @@
 id: common.ansible-playbook
 title: Ansible Playbook
 desc: ''
-updated: 1615663978698
-created: 1615663978698
+updated: 1623965016111
+created: 1623965016111
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -23,7 +24,7 @@ sources:
 
 `ansible-playbook {{playbook}} -i {{inventory_file}}`
 
-- Run tasks in playbook with extra variables defined via the command line:
+- Run tasks in playbook with extra variables defined via the command-line:
 
 `ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 

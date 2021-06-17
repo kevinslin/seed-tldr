@@ -2,8 +2,9 @@
 id: linux.adduser
 title: Adduser
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # adduser
 
 > User addition utility.
+> More information: <https://manpages.debian.org/latest/adduser/adduser.html>.
 
 - Create a new user with a default home directory and prompt the user to set a password:
 

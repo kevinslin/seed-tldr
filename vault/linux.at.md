@@ -2,8 +2,9 @@
 id: linux.at
 title: At
 desc: ''
-updated: 1615663978741
-created: 1615663978741
+updated: 1623965016158
+created: 1623965016158
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # at
 
 > Executes commands at a specified time.
+> More information: <https://man.archlinux.org/man/at.1>.
 
 - Open an `at` prompt to create a new set of scheduled commands, press `Ctrl + D` to save and exit:
 

@@ -2,8 +2,9 @@
 id: common.nmap
 title: Nmap
 desc: ''
-updated: 1615663978726
-created: 1615663978726
+updated: 1623965016140
+created: 1623965016140
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -36,11 +37,11 @@ sources:
 
 `nmap -T4 {{address_or_addresses}}`
 
-- Scan a specific list of ports (use -p- for all ports 1-65535):
+- Scan a specific list of ports (use `-p-` for all ports `1-65535`):
 
 `nmap -p {{port1,port2,…,portN}} {{address_or_addresses}}`
 
-- Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
+- Perform TCP and UDP scanning (use `-sU` for UDP only, `-sZ` for SCTP, `-sO` for IP):
 
 `nmap -sSU {{address_or_addresses}}`
 

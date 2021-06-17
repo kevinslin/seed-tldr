@@ -2,8 +2,9 @@
 id: common.pre-commit
 title: Pre Commit
 desc: ''
-updated: 1615663978730
-created: 1615663978730
+updated: 1623965016145
+created: 1623965016145
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages

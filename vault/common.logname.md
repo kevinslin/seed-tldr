@@ -2,8 +2,9 @@
 id: common.logname
 title: Logname
 desc: ''
-updated: 1615663978722
-created: 1615663978722
+updated: 1623965016135
+created: 1623965016135
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,6 +14,7 @@ sources:
 # logname
 
 > Shows the user's login name.
+> More information: <https://www.gnu.org/software/coreutils/logname>.
 
 - Display the currently logged in user's name:
 

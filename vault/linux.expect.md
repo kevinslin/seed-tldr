@@ -2,8 +2,9 @@
 id: linux.expect
 title: Expect
 desc: ''
-updated: 1615663978745
-created: 1615663978745
+updated: 1623965016161
+created: 1623965016161
+isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
   - name: tldr-pages
@@ -13,7 +14,7 @@ sources:
 # expect
 
 > Script executor that interacts with other programs that require user input.
-> More information: <https://linux.die.net/man/1/expect>.
+> More information: <https://manned.org/expect>.
 
 - Execute an expect script from a file:
 
