@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Linux - Dendron - TLDR</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://tldr.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://tldr.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://tldr.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://tldr.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="Dendron Vault for TLDR">
+<meta name="author" content="">
+
+<link rel="canonical" href="https://tldr.dendron.so/notes/5da4fcff-9408-42ba-b76e-c9491beabf0a.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://tldr.dendron.so/notes/5da4fcff-9408-42ba-b76e-c9491beabf0a.html">
+<meta property="og:description" content="Dendron Vault for TLDR">
+<meta property="og:image" content="https://tldr.dendron.soundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://tldr.dendron.so/notes/5da4fcff-9408-42ba-b76e-c9491beabf0a.html">
+<meta name="twitter:description" content="Dendron Vault for TLDR">
+<meta name="twitter:image" content="https://tldr.dendron.soundefined">
+
+
+  <meta property="og:title" content="Linux - Dendron - TLDR" />
+  <meta name="twitter:title" content="Linux - Dendron - TLDR" />
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://tldr.dendron.so" class="site-title lh-tight">
+  Dendron - TLDR
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron - TLDR" aria-label="Search Dendron - TLDR" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://tldr.dendron.so">Root</a></li><li class="breadcrumb-nav-list-item">Linux</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Linux">
+    
+    <meta itemprop="datePublished" content="2021-03-13T19:30:41+00:00">
+    <meta itemprop="dateModified" content="2021-03-13T19:30:41+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://tldr.dendron.so/notes/linux.a2disconf.html">A2disconf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2dismod.html">A2dismod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2dissite.html">A2dissite</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2enconf.html">A2enconf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2enmod.html">A2enmod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2ensite.html">A2ensite</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.a2query.html">A2query</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ac.html">Ac</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.acpi.html">Acpi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.add-apt-repository.html">Add Apt Repository</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.addpart.html">Addpart</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.addr2line.html">Addr2line</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.adduser.html">Adduser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.alpine.html">Alpine</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.amixer.html">Amixer</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.anbox.html">Anbox</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apache2ctl.html">Apache2ctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apk.html">Apk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.aplay.html">Aplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apport-bug.html">Apport Bug</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt.html">Apt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-add-repository.html">Apt Add Repository</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-cache.html">Apt Cache</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-file.html">Apt File</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-get.html">Apt Get</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-key.html">Apt Key</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.apt-mark.html">Apt Mark</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.aptitude.html">Aptitude</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.arch-chroot.html">Arch Chroot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.archey.html">Archey</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.archinstall.html">Archinstall</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.archlinux-java.html">Archlinux Java</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.arecord.html">Arecord</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.arithmetic.html">Arithmetic</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ark.html">Ark</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.arp-scan.html">Arp Scan</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.as.html">As</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ascii.html">Ascii</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.asciiart.html">Asciiart</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.aspell.html">Aspell</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.asterisk.html">Asterisk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.at.html">At</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.auracle.html">Auracle</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.aurman.html">Aurman</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.authconfig.html">Authconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.autorandr.html">Autorandr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.avahi-browse.html">Avahi Browse</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.balooctl.html">Balooctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.beep.html">Beep</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.betterlockscreen.html">Betterlockscreen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.binwalk.html">Binwalk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.bitwise.html">Bitwise</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.blkdiscard.html">Blkdiscard</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.blkid.html">Blkid</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.bluetoothctl.html">Bluetoothctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.bmon.html">Bmon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.boltctl.html">Boltctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.bpftrace.html">Bpftrace</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.bpytop.html">Bpytop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.brctl.html">Brctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.brew.html">Brew</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.btrfs.html">Btrfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.btrfs-device.html">Btrfs Device</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.btrfs-filesystem.html">Btrfs Filesystem</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.btrfs-scrub.html">Btrfs Scrub</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.btrfs-subvolume.html">Btrfs Subvolume</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cal.html">Cal</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.calc.html">Calc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.calcurse.html">Calcurse</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ceph.html">Ceph</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.certbot.html">Certbot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cewl.html">Cewl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cfdisk.html">Cfdisk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chage.html">Chage</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chattr.html">Chattr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chcpu.html">Chcpu</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.check-support-status.html">Check Support Status</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chfn.html">Chfn</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chkconfig.html">Chkconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chronyc.html">Chronyc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.chrt.html">Chrt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.clamav.html">Clamav</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cmus.html">Cmus</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.collectd.html">Collectd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.colrm.html">Colrm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.compgen.html">Compgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.compose.html">Compose</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.compsize.html">Compsize</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.conky.html">Conky</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.coredumpctl.html">Coredumpctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cp.html">Cp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cpufreq-aperf.html">Cpufreq Aperf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cpufreq-info.html">Cpufreq Info</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cpufreq-set.html">Cpufreq Set</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cpuid.html">Cpuid</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cpulimit.html">Cpulimit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.create_ap.html">Create_ap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cryptsetup.html">Cryptsetup</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.csplit.html">Csplit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ctr.html">Ctr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ctrlaltdel.html">Ctrlaltdel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.cuyo.html">Cuyo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.daemonize.html">Daemonize</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dash.html">Dash</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.datamash.html">Datamash</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dbus-daemon.html">Dbus Daemon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dconf.html">Dconf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dconf-write.html">Dconf Write</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ddrescue.html">Ddrescue</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.debchange.html">Debchange</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.debman.html">Debman</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.debootstrap.html">Debootstrap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.debugfs.html">Debugfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.debuild.html">Debuild</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.deluser.html">Deluser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dex.html">Dex</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dget.html">Dget</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.diff3.html">Diff3</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.disown.html">Disown</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dkms.html">Dkms</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dmenu.html">Dmenu</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dmesg.html">Dmesg</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dmidecode.html">Dmidecode</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dnf.html">Dnf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dnsrecon.html">Dnsrecon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.do-release-upgrade.html">Do Release Upgrade</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dockerd.html">Dockerd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dolphin.html">Dolphin</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dos2unix.html">Dos2unix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dpkg.html">Dpkg</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dpkg-deb.html">Dpkg Deb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dpkg-query.html">Dpkg Query</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dstat.html">Dstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dumpe2fs.html">Dumpe2fs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.dunstify.html">Dunstify</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.duperemove.html">Duperemove</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e2freefrag.html">E2freefrag</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e2fsck.html">E2fsck</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e2image.html">E2image</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e2label.html">E2label</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e2undo.html">E2undo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.e4defrag.html">E4defrag</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ebuild.html">Ebuild</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.edit.html">Edit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.edquota.html">Edquota</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.efibootmgr.html">Efibootmgr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.eix.html">Eix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.eject.html">Eject</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.emerge.html">Emerge</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.enum4linux.html">Enum4linux</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.equery.html">Equery</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.etckeeper.html">Etckeeper</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ethtool.html">Ethtool</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.eval.html">Eval</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.exif.html">Exif</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.expect.html">Expect</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.export.html">Export</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.extrace.html">Extrace</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.extundelete.html">Extundelete</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.eyed3.html">Eyed3</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.f5fpc.html">F5fpc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fail2ban-client.html">Fail2ban Client</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.faketime.html">Faketime</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fallocate.html">Fallocate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fatlabel.html">Fatlabel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fc.html">Fc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fc-cache.html">Fc Cache</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fc-list.html">Fc List</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fc-match.html">Fc Match</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fc-pattern.html">Fc Pattern</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fcrackzip.html">Fcrackzip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fdisk.html">Fdisk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.feedreader.html">Feedreader</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.feh.html">Feh</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.file.html">File</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.file-rename.html">File Rename</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.filefrag.html">Filefrag</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.finch.html">Finch</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.findfs.html">Findfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.findmnt.html">Findmnt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.firejail.html">Firejail</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.firewall-cmd.html">Firewall Cmd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.flameshot.html">Flameshot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.flash.html">Flash</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.flashrom.html">Flashrom</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.flatpak.html">Flatpak</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.flatpak-builder.html">Flatpak Builder</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.foreman.html">Foreman</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.free.html">Free</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fsck.html">Fsck</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fstrim.html">Fstrim</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.fuser.html">Fuser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gcov.html">Gcov</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gdebi.html">Gdebi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gedit.html">Gedit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.genfstab.html">Genfstab</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.genid.html">Genid</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.genie.html">Genie</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.genkernel.html">Genkernel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.getent.html">Getent</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.getfacl.html">Getfacl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gnome-extensions.html">Gnome Extensions</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gnome-terminal.html">Gnome Terminal</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.google-chrome.html">Google Chrome</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gpasswd.html">Gpasswd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.groupadd.html">Groupadd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.groupdel.html">Groupdel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.groupmod.html">Groupmod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.grub-install.html">Grub Install</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.grub-mkconfig.html">Grub Mkconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.gs.html">Gs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.guake.html">Guake</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.guix-package.html">Guix Package</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.http-prompt.html">HTTP Prompt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.halt.html">Halt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hardinfo.html">Hardinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hashcat.html">Hashcat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hdparm.html">Hdparm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hello.html">Hello</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hexdump.html">Hexdump</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hlint.html">Hlint</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.homectl.html">Homectl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.homeshick.html">Homeshick</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hostname.html">Hostname</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hostnamectl.html">Hostnamectl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.htpdate.html">Htpdate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.http_load.html">Http_load</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.httpie.html">Httpie</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.hwclock.html">Hwclock</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.i3.html">I3</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.i3lock.html">I3lock</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.i7z.html">I7z</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ifdown.html">Ifdown</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iftop.html">Iftop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ifup.html">Ifup</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.imgp.html">Imgp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.inotifywait.html">Inotifywait</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.inxi.html">Inxi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iostat.html">Iostat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ip.html">Ip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ip-address.html">Ip Address</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ip-link.html">Ip Link</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ip-neighbour.html">Ip Neighbour</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ip-route.html">Ip Route</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ipcalc.html">Ipcalc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ipcmk.html">Ipcmk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ipcrm.html">Ipcrm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iptables.html">Iptables</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.isoinfo.html">Isoinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.isosize.html">Isosize</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iw.html">Iw</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iwconfig.html">Iwconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.iwctl.html">Iwctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.jobs.html">Jobs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.journalctl.html">Journalctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.jpegtran.html">Jpegtran</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kde-inhibit.html">Kde Inhibit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kdocker.html">Kdocker</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kexec.html">Kexec</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kjv.html">Kjv</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.konsole.html">Konsole</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kpackagetool5.html">Kpackagetool5</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kpartx.html">Kpartx</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kreadconfig5.html">Kreadconfig5</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ksvgtopng5.html">Ksvgtopng5</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.kwriteconfig5.html">Kwriteconfig5</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.larasail.html">Larasail</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lastb.html">Lastb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lastcomm.html">Lastcomm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lastlog.html">Lastlog</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ldconfig.html">Ldconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ldd.html">Ldd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.legit.html">Legit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lftp.html">Lftp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.libreoffice.html">Libreoffice</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.light.html">Light</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.line.html">Line</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mdadm.html">Linux</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mdbook.html">Linux</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lldb.html">Lldb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.locate.html">Locate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.logcat.html">Logcat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.logger.html">Logger</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.login.html">Login</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.logsave.html">Logsave</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.logwatch.html">Logwatch</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.losetup.html">Losetup</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lrunzip.html">Lrunzip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lrzip.html">Lrzip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lrztar.html">Lrztar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lrzuntar.html">Lrzuntar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsattr.html">Lsattr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsb_release.html">Lsb_release</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsblk.html">Lsblk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lscpu.html">Lscpu</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lshw.html">Lshw</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lslocks.html">Lslocks</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lslogins.html">Lslogins</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsmod.html">Lsmod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lspci.html">Lspci</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsscsi.html">Lsscsi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lsusb.html">Lsusb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ltrace.html">Ltrace</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvcreate.html">Lvcreate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvdisplay.html">Lvdisplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvextend.html">Lvextend</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvm.html">Lvm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvreduce.html">Lvreduce</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvremove.html">Lvremove</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvresize.html">Lvresize</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lvs.html">Lvs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lxc.html">Lxc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lxterminal.html">Lxterminal</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.lynis.html">Lynis</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mac2unix.html">Mac2unix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.macchanger.html">Macchanger</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.maim.html">Maim</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.makepkg.html">Makepkg</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mandb.html">Mandb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.manpath.html">Manpath</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mcookie.html">Mcookie</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.medusa.html">Medusa</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.microcom.html">Microcom</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mimetype.html">Mimetype</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mke2fs.html">Mke2fs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs.html">Mkfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-btrfs.html">Mkfs Btrfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-cramfs.html">Mkfs Cramfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-exfat.html">Mkfs Exfat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-ext4.html">Mkfs Ext4</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-fat.html">Mkfs Fat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-minix.html">Mkfs Minix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-ntfs.html">Mkfs Ntfs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkfs-vfat.html">Mkfs Vfat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkinitcpio.html">Mkinitcpio</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkisofs.html">Mkisofs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mknod.html">Mknod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mkswap.html">Mkswap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mmcli.html">Mmcli</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mocp.html">Mocp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.modinfo.html">Modinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.modprobe.html">Modprobe</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.module.html">Module</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mono.html">Mono</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mons.html">Mons</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mountpoint.html">Mountpoint</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mpstat.html">Mpstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mssh.html">Mssh</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mullvad.html">Mullvad</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.mycli.html">Mycli</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.n.html">N</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.named.html">Named</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.namei.html">Namei</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nautilus.html">Nautilus</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ncat.html">Ncat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ncdu.html">Ncdu</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ndctl.html">Ndctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nemo.html">Nemo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nethogs.html">Nethogs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.netselect.html">Netselect</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.netselect-apt.html">Netselect Apt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.netstat.html">Netstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.newgrp.html">Newgrp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nft.html">Nft</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nixos-rebuild.html">Nixos Rebuild</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nm.html">Nm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nmcli.html">Nmcli</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nmcli-connection.html">Nmcli Connection</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nmcli-device.html">Nmcli Device</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nmon.html">Nmon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nmtui.html">Nmtui</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nologin.html">Nologin</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.notify-send.html">Notify Send</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nsenter.html">Nsenter</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.nsnake.html">Nsnake</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ntfsfix.html">Ntfsfix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ntpq.html">Ntpq</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.numactl.html">Numactl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.numlockx.html">Numlockx</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.openfortivpn.html">Openfortivpn</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.openrc.html">Openrc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.openvpn3.html">Openvpn3</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.opkg.html">Opkg</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacaur.html">Pacaur</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.paccache.html">Paccache</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman.html">Pacman</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-database.html">Pacman Database</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-deptest.html">Pacman Deptest</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-files.html">Pacman Files</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-mirrors.html">Pacman Mirrors</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-query.html">Pacman Query</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-remove.html">Pacman Remove</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-sync.html">Pacman Sync</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman-upgrade.html">Pacman Upgrade</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacman4console.html">Pacman4console</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pacstrap.html">Pacstrap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pamac.html">Pamac</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.parted.html">Parted</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.partx.html">Partx</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.paru.html">Paru</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pasuspender.html">Pasuspender</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pdfgrep.html">Pdfgrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.perf.html">Perf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.perl-rename.html">Perl Rename</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.phar.html">Phar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.photorec.html">Photorec</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.phpdismod.html">Phpdismod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.phpenmod.html">Phpenmod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.phpquery.html">Phpquery</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.physlock.html">Physlock</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pi.html">Pi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pidof.html">Pidof</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pidstat.html">Pidstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pihole.html">Pihole</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pivpn.html">Pivpn</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkg-config.html">Pkg Config</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkgadd.html">Pkgadd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkgfile.html">Pkgfile</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkginfo.html">Pkginfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkgmk.html">Pkgmk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pkgrm.html">Pkgrm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.playerctl.html">Playerctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pmount.html">Pmount</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.popd.html">Popd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ports.html">Ports</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.postfix.html">Postfix</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.poweroff.html">Poweroff</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.powertop.html">Powertop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.prename.html">Prename</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.print.html">Print</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.progress.html">Progress</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.protontricks.html">Protontricks</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.prt-get.html">Prt Get</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pstree.html">Pstree</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ptx.html">Ptx</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pulseaudio.html">Pulseaudio</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pushd.html">Pushd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pvcreate.html">Pvcreate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pvdisplay.html">Pvdisplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pvs.html">Pvs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pwdx.html">Pwdx</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.pwgen.html">Pwgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.qjoypad.html">Qjoypad</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.qsub.html">Qsub</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.qtchooser.html">Qtchooser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.quotacheck.html">Quotacheck</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.radeontop.html">Radeontop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rankmirrors.html">Rankmirrors</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rc-service.html">Rc Service</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rc-status.html">Rc Status</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rc-update.html">Rc Update</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rdesktop.html">Rdesktop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.readelf.html">Readelf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.reboot.html">Reboot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.reflector.html">Reflector</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rename.html">Rename</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.reportbug.html">Reportbug</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.repquota.html">Repquota</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.reset.html">Reset</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.resize2fs.html">Resize2fs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.resolveip.html">Resolveip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rfkill.html">Rfkill</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rig.html">Rig</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rofi.html">Rofi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rolldice.html">Rolldice</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rpcclient.html">Rpcclient</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rpcinfo.html">Rpcinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rpm.html">Rpm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rpmbuild.html">Rpmbuild</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rspamc.html">Rspamc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rtcwake.html">Rtcwake</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rtorrent.html">Rtorrent</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.run-mailcap.html">Run Mailcap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runcon.html">Runcon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runit.html">Runit</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runsv.html">Runsv</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runsvchdir.html">Runsvchdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runsvdir.html">Runsvdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.runuser.html">Runuser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.rusnapshot.html">Rusnapshot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sa.html">Sa</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sacct.html">Sacct</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sacctmgr.html">Sacctmgr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sam.html">Sam</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sar.html">Sar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sbatch.html">Sbatch</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.scancel.html">Scancel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.scanimage.html">Scanimage</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.schroot.html">Schroot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.scontrol.html">Scontrol</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.screenkey.html">Screenkey</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.script.html">Script</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.scriptreplay.html">Scriptreplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.scrot.html">Scrot</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.see.html">See</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.semanage.html">Semanage</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sensible-browser.html">Sensible Browser</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sensible-editor.html">Sensible Editor</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sensors.html">Sensors</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.service.html">Service</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.setfacl.html">Setfacl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.setxkbmap.html">Setxkbmap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sfill.html">Sfill</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.shutdown.html">Shutdown</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sic.html">Sic</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.silentcast.html">Silentcast</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sinfo.html">Sinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.slapt-get.html">Slapt Get</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.slapt-src.html">Slapt Src</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.slop.html">Slop</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sm.html">Sm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.smbclient.html">Smbclient</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.smbget.html">Smbget</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.smbmap.html">Smbmap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.smbpasswd.html">Smbpasswd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.snake4.html">Snake4</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.snake4scores.html">Snake4scores</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.snap.html">Snap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.snapper.html">Snapper</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.snmpwalk.html">Snmpwalk</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.spectre-meltdown-checker.html">Spectre Meltdown Checker</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.speedometer.html">Speedometer</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.speedtest.html">Speedtest</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.spi.html">Spi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.squeue.html">Squeue</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sreport.html">Sreport</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.srun.html">Srun</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ss.html">Ss</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ssh-add.html">Ssh Add</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sshuttle.html">Sshuttle</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sstat.html">Sstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.steghide.html">Steghide</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.strace.html">Strace</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.stress.html">Stress</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sv.html">Sv</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.swapoff.html">Swapoff</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.swapon.html">Swapon</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.swupd.html">Swupd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sxiv.html">Sxiv</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.sysctl.html">Sysctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.systemctl.html">Systemctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.systemd-analyze.html">Systemd Analyze</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.taskset.html">Taskset</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tcpflow.html">Tcpflow</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tcpkill.html">Tcpkill</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tcptraceroute.html">Tcptraceroute</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.terminator.html">Terminator</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.thunar.html">Thunar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tic.html">Tic</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.timedatectl.html">Timedatectl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.timeshift.html">Timeshift</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tlp.html">Tlp</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tlp-stat.html">Tlp Stat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.toilet.html">Toilet</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tomb.html">Tomb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.top.html">Top</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tracepath.html">Tracepath</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.trap.html">Trap</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.trash.html">Trash</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tree.html">Tree</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.trizen.html">Trizen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tshark.html">Tshark</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tune2fs.html">Tune2fs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.tuxi.html">Tuxi</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.udisksctl.html">Udisksctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ufw.html">Ufw</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.ul.html">Ul</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.units.html">Units</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.unix2dos.html">Unix2dos</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.unix2mac.html">Unix2mac</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.unset.html">Unset</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.unshadow.html">Unshadow</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.update-alternatives.html">Update Alternatives</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.update-rc-d.html">Update Rc D</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.updatedb.html">Updatedb</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.upower.html">Upower</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.uprecords.html">Uprecords</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.urxvt.html">Urxvt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.useradd.html">Useradd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.userdel.html">Userdel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.usermod.html">Usermod</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.utmpdump.html">Utmpdump</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.uuid.html">Uuid</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.uuidd.html">Uuidd</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.uuidgen.html">Uuidgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.uvcdynctrl.html">Uvcdynctrl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.veracrypt.html">Veracrypt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vgcreate.html">Vgcreate</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vgdisplay.html">Vgdisplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vgs.html">Vgs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.viewnior.html">Viewnior</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vipw.html">Vipw</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.virt-manager.html">Virt Manager</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vmstat.html">Vmstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vmware-checkvm.html">Vmware Checkvm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vncserver.html">Vncserver</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vncviewer.html">Vncviewer</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vnstat.html">Vnstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vpnc.html">Vpnc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.vrms.html">Vrms</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.w.html">W</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wall.html">Wall</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.watch.html">Watch</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wg.html">Wg</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wg-quick.html">Wg Quick</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.whatis.html">Whatis</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.whereis.html">Whereis</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.whiptail.html">Whiptail</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wine.html">Wine</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.winetricks.html">Winetricks</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wipefs.html">Wipefs</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wmctrl.html">Wmctrl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wodim.html">Wodim</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wol.html">Wol</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wpa_cli.html">Wpa_cli</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wpa_passphrase.html">Wpa_passphrase</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.wtf.html">Wtf</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.x0vncserver.html">X0vncserver</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.x11vnc.html">X11vnc</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xar.html">Xar</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xbacklight.html">Xbacklight</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xbps.html">Xbps</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xclip.html">Xclip</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xclock.html">Xclock</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xcursorgen.html">Xcursorgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xdg-mime.html">Xdg Mime</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xdg-open.html">Xdg Open</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xdotool.html">Xdotool</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xeyes.html">Xeyes</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xfce4-screenshooter.html">Xfce4 Screenshooter</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xfce4-terminal.html">Xfce4 Terminal</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xinput.html">Xinput</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xman.html">Xman</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xrandr.html">Xrandr</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xsel.html">Xsel</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xsetwacom.html">Xsetwacom</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xterm.html">Xterm</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xtrlock.html">Xtrlock</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.xvfb-run.html">Xvfb Run</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.yank.html">Yank</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.yaourt.html">Yaourt</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.yay.html">Yay</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.yetris.html">Yetris</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.yum.html">Yum</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.zenity.html">Zenity</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.zgrep.html">Zgrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.zile.html">Zile</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.zramctl.html">Zramctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/linux.zypper.html">Zypper</a></li>
+</ol><span id="navId" data="5da4fcff-9408-42ba-b76e-c9491beabf0a"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/tldr-pages/tldr/edit/master/vault/linux.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>
