@@ -21,6 +21,11 @@ jobs:
     - name: Generate docs
       run: yarn dendron-cli importPod --wsRoot . --podId dendron.markdown
 
+    - name: Push changes
+      uses: EndBug/add-and-commit@v7.0.0
+      with:
+        message: "autoupdate docs"
+
     - name: Build pod
       run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
 
