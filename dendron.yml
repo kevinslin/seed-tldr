@@ -1,7 +1,4 @@
-version: 1
-vaults:
-    -
-        fsPath: vault
+version: 4
 useFMTitle: false
 site:
     copyAssets: true
@@ -19,3 +16,79 @@ site:
         action: useVault
         payload:
             - vault
+    siteLastModified: true
+    gh_edit_branch: main
+workspace:
+    vaults:
+        -
+            fsPath: vault
+    journal:
+        dailyDomain: daily
+        name: journal
+        dateFormat: y.MM.dd
+        addBehavior: childOfDomain
+    scratch:
+        name: scratch
+        dateFormat: y.MM.dd.HHmmss
+        addBehavior: asOwnDomain
+    graph:
+        zoomSpeed: 1
+    enableAutoCreateOnDefinition: false
+    enableXVaultWikiLink: false
+    enableRemoteVaultInit: true
+    workspaceVaultSyncMode: noCommit
+    enableAutoFoldFrontmatter: false
+    maxPreviewsCached: 10
+    maxNoteLength: 204800
+    task:
+        name: ''
+        dateFormat: ''
+        addBehavior: childOfCurrent
+        statusSymbols:
+            '': ' '
+            wip: w
+            done: x
+            assigned: a
+            moved: m
+            blocked: b
+            delegated: l
+            dropped: d
+            pending: 'y'
+        prioritySymbols:
+            H: high
+            M: medium
+            L: low
+        todoIntegration: false
+        createTaskSelectionType: selection2link
+    enableUserTags: true
+    enableHashTags: true
+    enableEditorDecorations: true
+    dendronVersion: 0.77.1
+commands:
+    lookup:
+        note:
+            selectionMode: extract
+            confirmVaultOnCreate: false
+            leaveTrace: false
+            bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
+    insertNote:
+        initialValue: templates
+    insertNoteLink:
+        aliasMode: none
+        enableMultiSelect: false
+    insertNoteIndex:
+        enableMarker: false
+    randomNote: {}
+preview:
+    enableFMTitle: false
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    automaticallyShowPreview: false
+useNoteTitleForLink: true
+mermaid: true
+useKatex: true
+dev:
+    enablePreviewV2: true
