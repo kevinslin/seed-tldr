@@ -31,6 +31,11 @@ jobs:
         author_name: 'github-actions[bot]'
         author_email: 'github-actions[bot]@users.noreply.github.com'
 
+    - name: Retrieve latest commit
+      id: commit
+      run: |
+        echo "::set-output name=SHA::$(git rev-parse HEAD)"
+
     - name: Build pod
       run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
 
@@ -40,6 +45,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: pages
         publish_dir: docs/
+        full_commit_message: "deploy: ${{ steps.commit.outputs.SHA }}"
         force_orphan: true
         cname: "tldr.dendron.so"
         user_name: 'github-actions[bot]'
