@@ -13,10 +13,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install npm dependencies
-      run: npm install
+      run: yarn
 
     - name: Build pod
-      run: npm run dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
+      run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
