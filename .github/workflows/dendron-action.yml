@@ -28,6 +28,8 @@ jobs:
       uses: EndBug/add-and-commit@v7.0.0
       with:
         message: "autoupdate docs"
+        author_name: 'github-actions[bot]'
+        author_email: 'github-actions[bot]@users.noreply.github.com'
 
     - name: Build pod
       run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
@@ -40,3 +42,5 @@ jobs:
         publish_dir: docs/
         force_orphan: true
         cname: "tldr.dendron.so"
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
