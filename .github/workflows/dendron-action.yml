@@ -15,25 +15,39 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
 
+    - name: Retrieve cached commit SHA for tldr
+      id: tldr-cached
+      run: |
+        echo "::set-output name=SHA::$(git submodule status --cached | grep tldr | cut -d' ' -f1 | cut -c2-)"
+
     - name: Checkout & update submodules
       run: git submodule update --init --recursive --remote
+
+    - name: Retrieve updated commit SHA for tldr
+      id: tldr-updated
+      run: |
+        echo "::set-output name=SHA::$(cd repos/tldr && git rev-parse HEAD)"
 
     - name: Restore Node modules cache
       uses: actions/cache@v2
       id: node-modules-cache
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       with:
         path: |
           node_modules
         key: node-modules-${{ hashFiles('yarn.lock')}}
 
     - name: Install npm dependencies
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       run: yarn
 
     - name: Generate docs
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       run: yarn dendron-cli importPod --wsRoot . --podId dendron.markdown
 
     - name: Push changes
       uses: EndBug/add-and-commit@v7.0.0
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       with:
         message: "autoupdate docs"
         author_name: 'github-actions[bot]'
@@ -41,14 +55,17 @@ jobs:
 
     - name: Retrieve latest commit
       id: commit
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       run: |
         echo "::set-output name=SHA::$(git rev-parse HEAD)"
 
     - name: Build pod
       run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
+      if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: pages
