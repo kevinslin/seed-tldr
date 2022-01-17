@@ -28,6 +28,14 @@ jobs:
       run: |
         echo "::set-output name=SHA::$(cd repos/tldr && git rev-parse HEAD)"
 
+    - name: Retrieve list of updated tldr pages
+      id: updated-pages
+      run: |
+        echo "::set-output name=FILES::$(cd repos/tldr && git diff --name-only ${OLD_SHA} ${NEW_SHA} | grep '^pages/' | sed -r 's|pages\/(.+?)\/(\w+?)\.md|vault\/\1.\2.md|g' | xargs)"
+      env:
+        OLD_SHA: ${{ steps.tldr-cached.outputs.SHA }}
+        NEW_SHA: ${{ steps.tldr-updated.outputs.SHA }}
+
     - name: Restore Node modules cache
       uses: actions/cache@v2
       id: node-modules-cache
@@ -49,6 +57,7 @@ jobs:
       uses: EndBug/add-and-commit@v7.0.0
       if: ${{ steps.tldr-cached.outputs.SHA != steps.tldr-updated.outputs.SHA }}
       with:
+        add: "./repos ${{ steps.updated-pages.outputs.FILES }}"
         message: "autoupdate docs"
         author_name: 'github-actions[bot]'
         author_email: 'github-actions[bot]@users.noreply.github.com'
