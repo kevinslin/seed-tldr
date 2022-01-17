@@ -2,8 +2,9 @@
 id: linux.edquota
 title: Edquota
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Edit quotas for a user or group. By default it operates on all filesystems with quotas.
 > Quota information is stored permanently in the `quota.user` and `quota.group` files in the root of the filesystem.
+> More information: <https://manned.org/edquota>.
 
 - Edit quota of the current user:
 

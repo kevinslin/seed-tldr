@@ -2,8 +2,9 @@
 id: common.csvtool
 title: Csvtool
 desc: ''
-updated: 1623965306178
-created: 1623965306178
+updated: 1642441815006
+created: 1642441815006
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

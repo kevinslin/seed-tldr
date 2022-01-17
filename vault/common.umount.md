@@ -2,8 +2,9 @@
 id: common.umount
 title: Umount
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Unlink a filesystem from its mount point, making it no longer accessible.
 > A filesystem cannot be unmounted when it is busy.
+> More information: <https://manned.org/umount.8>.
 
 - Unmount a filesystem, by passing the path to the source it is mounted from:
 

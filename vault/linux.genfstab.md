@@ -2,8 +2,9 @@
 id: linux.genfstab
 title: Genfstab
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

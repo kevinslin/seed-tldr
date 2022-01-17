@@ -2,8 +2,9 @@
 id: common.logstash
 title: Logstash
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815042
+created: 1642441815042
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,15 +18,15 @@ sources:
 > Commonly used to load data from various sources (such as databases and log files) into Elasticsearch.
 > More information: <https://www.elastic.co/products/logstash>.
 
-- Check validity of a logstash configuration:
+- Check validity of a Logstash configuration:
 
 `logstash --configtest --config {{logstash_config.conf}}`
 
-- Run logstash using configuration:
+- Run Logstash using configuration:
 
 `sudo logstash --config {{logstash_config.conf}}`
 
-- Run logstash with the most basic inline configuration string:
+- Run Logstash with the most basic inline configuration string:
 
 `sudo logstash -e 'input {} filter {} output {}'`
 

@@ -2,8 +2,9 @@
 id: common.fish
 title: Fish
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815018
+created: 1642441815018
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,9 +21,13 @@ sources:
 
 `fish`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`fish -c "{{command}}"`
+`fish --no-config`
+
+- Execute a command:
+
+`fish --command "{{command}}"`
 
 - Execute a script:
 
@@ -36,11 +41,11 @@ sources:
 
 `fish --private`
 
-- Display version information and exit:
+- Define and export an environmental variable that persists across shell restarts (builtin):
+
+`set --universal --export {{variable_name}} {{variable_value}}`
+
+- Print the version:
 
 `fish --version`
-
-- Set and export environmental variables that persist across shell restarts (from within the shell only):
-
-`set -Ux {{variable_name}} {{variable_value}}`
 

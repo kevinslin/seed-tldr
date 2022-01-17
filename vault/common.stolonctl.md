@@ -2,8 +2,9 @@
 id: common.stolonctl
 title: Stolonctl
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `stolonctl --cluster-name {{cluster_name}} --store-backend {{store_backend}} --store-endpoints {{store_endpoints}} spec`
 
-- Update cluster specification with a patch in json format:
+- Update cluster specification with a patch in JSON format:
 
 `stolonctl --cluster-name {{cluster_name}} --store-backend {{store_backend}} --store-endpoints {{store_endpoints}} update --patch '{{cluster_spec}}'`
 

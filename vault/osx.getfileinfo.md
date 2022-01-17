@@ -2,8 +2,9 @@
 id: osx.getfileinfo
 title: Getfileinfo
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # GetFileInfo
 
 > Get information about a file in an HFS+ directory.
+> More information: <https://www.unix.com/man-page/osx/1/GetFileInfo/>.
 
 - Display information about a given file:
 

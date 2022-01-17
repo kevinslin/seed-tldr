@@ -2,8 +2,9 @@
 id: linux.imgp
 title: Imgp
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815098
+created: 1642441815098
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # imgp
 
 > Command-line image resizer and rotator for JPEG and PNG images.
+> More information: <https://github.com/jarun/imgp>.
 
 - Convert single images and/or whole directories containing valid image formats:
 

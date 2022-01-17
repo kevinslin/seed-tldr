@@ -2,8 +2,9 @@
 id: common.swagger-codegen
 title: Swagger Codegen
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815074
+created: 1642441815074
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `swagger-codegen generate -i {{swagger_file}} -l {{language}}`
 
-- Generate java code using the library retrofit2 and the option useRxJava2:
+- Generate Java code using the library retrofit2 and the option useRxJava2:
 
 `swagger-codegen generate -i {{http://petstore.swagger.io/v2/swagger.json}} -l {{java}} --library {{retrofit2}} -D{{useRxJava2}}={{true}}`
 

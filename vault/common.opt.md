@@ -2,8 +2,9 @@
 id: common.opt
 title: Opt
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815054
+created: 1642441815054
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

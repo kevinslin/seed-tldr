@@ -2,8 +2,9 @@
 id: common.pg_dump
 title: Pg_dump
 desc: ''
-updated: 1623965306203
-created: 1623965306203
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Extract a PostgreSQL database into a script file or other archive file.
 > More information: <https://www.postgresql.org/docs/current/app-pgdump.html>.
 
-- Dump database into a SQL-script file:
+- Dump database into an SQL-script file:
 
 `pg_dump {{db_name}} > {{output_file.sql}}`
 

@@ -2,8 +2,9 @@
 id: linux.fail2ban-client
 title: Fail2ban Client
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

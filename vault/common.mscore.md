@@ -2,8 +2,9 @@
 id: common.mscore
 title: Mscore
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815049
+created: 1642441815049
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mscore
 
 > This command is an alias of `musescore`.
+> More information: <https://musescore.org/handbook/command-line-options>.
 
 - View documentation for the original command:
 

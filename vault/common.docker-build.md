@@ -2,8 +2,9 @@
 id: common.docker-build
 title: Docker Build
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815008
+created: 1642441815008
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,6 +28,10 @@ sources:
 - Build a docker image and tag it:
 
 `docker build --tag {{name:tag}} .`
+
+- Build a docker image with no build context:
+
+`docker build --tag {{name:tag}} - < {{Dockerfile}}`
 
 - Do not use the cache when building the image:
 

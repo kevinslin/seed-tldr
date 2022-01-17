@@ -2,8 +2,9 @@
 id: linux.arecord
 title: Arecord
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `arecord -vv --format=cd --duration={{10}} {{path/to/file.wav}}`
 
-- Record a snippet and save it as mp3 (finish with Ctrl-C when done):
+- Record a snippet and save it as an MP3 (finish with Ctrl-C when done):
 
 `arecord -vv --format=cd --file-type raw | lame -r - {{path/to/file.mp3}}`
 

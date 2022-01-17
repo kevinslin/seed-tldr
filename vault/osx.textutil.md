@@ -2,8 +2,9 @@
 id: osx.textutil
 title: Textutil
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # textutil
 
 > Used to manipulate text files of various formats.
+> More information: <https://ss64.com/osx/textutil.html>.
 
 - Display information about `foo.rtf`:
 

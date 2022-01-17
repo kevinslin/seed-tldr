@@ -2,8 +2,9 @@
 id: common.ruby
 title: Ruby
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815066
+created: 1642441815066
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Ruby programming language interpreter.
 > More information: <https://www.ruby-lang.org>.
 
-- Open an Interactive Ruby Shell (REPL):
+- Start a REPL (interactive shell):
 
 `irb`
 

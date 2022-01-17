@@ -2,8 +2,9 @@
 id: common.docker-container
 title: Docker Container
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815009
+created: 1642441815009
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

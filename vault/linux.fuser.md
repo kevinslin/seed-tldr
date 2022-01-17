@@ -2,8 +2,9 @@
 id: linux.fuser
 title: Fuser
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # fuser
 
 > Display process IDs currently using files or sockets.
+> More information: <https://manned.org/fuser>.
 
 - Find which processes are accessing a file or directory:
 

@@ -2,8 +2,9 @@
 id: common.rsync
 title: Rsync
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815066
+created: 1642441815066
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Transfer files either to or from a remote host (not between two remote hosts).
 > Can transfer single files, or multiple files matching a pattern.
+> More information: <https://manned.org/rsync>.
 
 - Transfer file from local to remote host:
 
@@ -40,7 +42,7 @@ sources:
 
 `rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer file over SSH and delete local files that do not exist on remote host:
+- Transfer file over SSH and delete remote files that do not exist locally:
 
 `rsync -e ssh --delete {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
 

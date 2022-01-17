@@ -2,8 +2,9 @@
 id: linux.pkgfile
 title: Pkgfile
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815108
+created: 1642441815108
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `pkgfile --list --binaries {{package_name}}`
 
-- Search for a package that owns a specific file using case insensitive matching:
+- Search for a package that owns a specific file using case-insensitive matching:
 
 `pkgfile --ignorecase {{filename}}`
 

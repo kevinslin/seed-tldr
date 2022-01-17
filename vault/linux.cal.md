@@ -2,8 +2,9 @@
 id: linux.cal
 title: Cal
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815090
+created: 1642441815090
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # cal
 
 > Prints calendar information, with the current day highlighted.
+> More information: <https://manned.org/cal>.
 
 - Display a calendar for the current month:
 
@@ -23,7 +25,7 @@ sources:
 
 `cal -3`
 
-- Use monday as the first day of the week:
+- Use Monday as the first day of the week:
 
 `cal --monday`
 

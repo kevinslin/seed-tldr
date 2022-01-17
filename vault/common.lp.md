@@ -2,8 +2,9 @@
 id: common.lp
 title: Lp
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815042
+created: 1642441815042
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lp
 
 > Print files.
+> More information: <https://manned.org/lp>.
 
 - Print the output of a command to the default printer (see `lpstat` command):
 

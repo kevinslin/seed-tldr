@@ -2,8 +2,9 @@
 id: common.type
 title: Type
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,9 +14,10 @@ sources:
 ---
 # type
 
-> Display the kind of command the shell will execute.
+> Display the type of command the shell will execute.
+> More information: <https://manned.org/type>.
 
-- Display the kind of a command:
+- Display the type of a command:
 
 `type {{command}}`
 

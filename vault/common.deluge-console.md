@@ -2,8 +2,9 @@
 id: common.deluge-console
 title: Deluge Console
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

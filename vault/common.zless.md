@@ -2,8 +2,9 @@
 id: common.zless
 title: Zless
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815086
+created: 1642441815086
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # zless
 
 > View compressed files.
+> More information: <https://manned.org/zless>.
 
 - Page through a compressed archive with `less`:
 

@@ -2,8 +2,9 @@
 id: common.boot
 title: Boot
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814999
+created: 1642441814999
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

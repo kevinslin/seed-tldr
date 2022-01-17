@@ -2,8 +2,9 @@
 id: common.wget
 title: Wget
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815083
+created: 1642441815083
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,11 +18,11 @@ sources:
 > Supports HTTP, HTTPS, and FTP.
 > More information: <https://www.gnu.org/software/wget>.
 
-- Download the contents of an URL to a file (named "foo" in this case):
+- Download the contents of a URL to a file (named "foo" in this case):
 
 `wget {{https://example.com/foo}}`
 
-- Download the contents of an URL to a file (named "bar" in this case):
+- Download the contents of a URL to a file (named "bar" in this case):
 
 `wget --output-document {{bar}} {{https://example.com/foo}}`
 

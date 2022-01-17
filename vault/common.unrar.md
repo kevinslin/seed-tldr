@@ -2,8 +2,9 @@
 id: common.unrar
 title: Unrar
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815079
+created: 1642441815079
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # unrar
 
 > Extract RAR archives.
+> More information: <https://manned.org/unrar>.
 
 - Extract files with original directory structure:
 

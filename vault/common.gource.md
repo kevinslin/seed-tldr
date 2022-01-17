@@ -2,8 +2,9 @@
 id: common.gource
 title: Gource
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815030
+created: 1642441815030
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -25,7 +26,7 @@ sources:
 
 `gource -{{width}}x{{height}}`
 
-- Set a custom time scale for the animation:
+- Set a custom timescale for the animation:
 
 `gource -c {{time_scale_multiplier}}`
 

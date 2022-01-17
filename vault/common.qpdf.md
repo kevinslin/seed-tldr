@@ -2,8 +2,9 @@
 id: common.qpdf
 title: Qpdf
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815063
+created: 1642441815063
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,11 +33,11 @@ sources:
 
 `qpdf --split-pages=n {{input.pdf}} {{out_%d.pdf}}`
 
-- Rotate certain pages of a pdf with a given angle:
+- Rotate certain pages of a PDF with a given angle:
 
 `qpdf --rotate={{90:2,4,6}} --rotate={{180:7-8}} {{input.pdf}} {{output.pdf}}`
 
-- Remove the password from a password protected file:
+- Remove the password from a password-protected file:
 
 `qpdf --password={{password}} --decrypt {{input.pdf}} {{output.pdf}}`
 

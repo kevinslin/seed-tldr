@@ -2,8 +2,9 @@
 id: linux.watch
 title: Watch
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # watch
 
 > Execute a command repeatedly, and monitor the output in full-screen mode.
+> More information: <https://manned.org/watch>.
 
 - Monitor files in the current directory:
 

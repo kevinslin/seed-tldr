@@ -2,8 +2,9 @@
 id: common.sdiff
 title: Sdiff
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # sdiff
 
 > Compare the differences between and optionally merge 2 files.
+> More information: <https://manned.org/sdiff>.
 
 - Compare 2 files:
 

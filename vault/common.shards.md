@@ -2,8 +2,9 @@
 id: common.shards
 title: Shards
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

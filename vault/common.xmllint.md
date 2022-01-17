@@ -2,8 +2,9 @@
 id: common.xmllint
 title: Xmllint
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815084
+created: 1642441815084
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xmllint
 
 > XML parser and linter that supports XPath, a syntax for navigating XML trees.
+> More information: <https://manned.org/xmllint>.
 
 - Return all nodes (tags) named "foo":
 
@@ -23,7 +25,7 @@ sources:
 
 `xmllint --xpath "string(//{{foo}})" {{source_file.xml}}`
 
-- Return the href attribute of the second anchor element in an html file:
+- Return the href attribute of the second anchor element in an HTML file:
 
 `xmllint --html --xpath "string(//a[2]/@href)" webpage.xhtml`
 
@@ -31,7 +33,7 @@ sources:
 
 `xmllint --format {{source_file.xml}}`
 
-- Check that a XML file meets the requirements of its DOCTYPE declaration:
+- Check that an XML file meets the requirements of its DOCTYPE declaration:
 
 `xmllint --valid {{source_file.xml}}`
 

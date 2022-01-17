@@ -2,8 +2,9 @@
 id: common.tmux
 title: Tmux
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815076
+created: 1642441815076
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # tmux
 
 > Terminal multiplexer. It allows multiple sessions with windows, panes, and more.
+> See also `zellij` and `screen`.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:

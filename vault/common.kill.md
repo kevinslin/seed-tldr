@@ -2,8 +2,9 @@
 id: common.kill
 title: Kill
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Sends a signal to a process, usually related to stopping the process.
 > All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
+> More information: <https://manned.org/kill>.
 
 - Terminate a program using the default SIGTERM (terminate) signal:
 

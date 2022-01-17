@@ -2,8 +2,9 @@
 id: linux.reportbug
 title: Reportbug
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815110
+created: 1642441815110
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # reportbug
 
 > Bug report tool of Debian distribution.
-> More information: <https://manpages.debian.org/buster/reportbug/reportbug.1.en.html>.
+> More information: <https://manpages.debian.org/latest/reportbug/reportbug.html>.
 
 - Generate a bug report about a specific package, then send it by e-mail:
 

@@ -2,8 +2,9 @@
 id: common.jigsaw
 title: Jigsaw
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815037
+created: 1642441815037
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

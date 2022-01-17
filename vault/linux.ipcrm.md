@@ -2,8 +2,9 @@
 id: linux.ipcrm
 title: Ipcrm
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ipcrm
 
 > Delete IPC (Inter-process Communication) resources.
+> More information: <https://manned.org/ipcrm>.
 
 - Delete a shared memory segment by ID:
 

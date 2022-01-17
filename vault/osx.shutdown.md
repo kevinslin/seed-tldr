@@ -2,8 +2,9 @@
 id: osx.shutdown
 title: Shutdown
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # shutdown
 
 > Shutdown and reboot the system.
+> More information: <https://ss64.com/osx/shutdown.html>.
 
 - Power off (halt) immediately:
 

@@ -2,8 +2,9 @@
 id: common.aws-glue
 title: Aws Glue
 desc: ''
-updated: 1623965306174
-created: 1623965306174
+updated: 1642441814996
+created: 1642441814996
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

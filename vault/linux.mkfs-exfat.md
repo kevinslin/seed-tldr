@@ -2,8 +2,9 @@
 id: linux.mkfs-exfat
 title: Mkfs Exfat
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mkfs.exfat
 
 > Creates an exfat filesystem inside a partition.
+> More information: <https://manned.org/mkfs.exfat>.
 
 - Create an exfat filesystem inside partition 1 on device b (`sdb1`):
 

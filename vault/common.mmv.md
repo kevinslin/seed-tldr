@@ -2,8 +2,9 @@
 id: common.mmv
 title: Mmv
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815047
+created: 1642441815047
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mmv
 
 > Move and rename files in bulk.
+> More information: <https://manned.org/mmv.1>.
 
 - Rename all files with a certain extension to a different extension:
 

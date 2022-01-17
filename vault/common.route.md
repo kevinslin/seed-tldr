@@ -2,8 +2,9 @@
 id: common.route
 title: Route
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815066
+created: 1642441815066
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # route
 
 > Use route cmd to set the route table.
+> More information: <https://manned.org/route>.
 
 - Display the information of route table:
 

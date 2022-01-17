@@ -2,8 +2,9 @@
 id: common.pdfimages
 title: Pdfimages
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pdfimages
 
 > Utility for extracting images from PDFs.
+> More information: <https://manned.org/pdfimages>.
 
 - Extract all images from a PDF file and save them as PNGs:
 

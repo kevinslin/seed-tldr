@@ -2,8 +2,9 @@
 id: linux.isoinfo
 title: Isoinfo
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # isoinfo
 
 > Utility programs for dumping and verifying ISO disk images.
+> More information: <https://manned.org/isoinfo>.
 
 - List all the files included in an ISO image:
 

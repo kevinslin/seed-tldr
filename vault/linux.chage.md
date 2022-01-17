@@ -2,8 +2,9 @@
 id: linux.chage
 title: Chage
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815090
+created: 1642441815090
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,24 +15,25 @@ sources:
 # chage
 
 > Change user account and password expiry information.
+> More information: <https://manned.org/chage>.
 
 - List password information for the user:
 
-`chage -l {{username}}`
+`chage --list {{username}}`
 
 - Enable password expiration in 10 days:
 
-`sudo chage -M {{10}} {{username}}`
+`sudo chage --maxdays {{10}} {{username}}`
 
 - Disable password expiration:
 
-`sudo chage -M -1 {{username}}`
+`sudo chage --maxdays {{-1}} {{username}}`
 
 - Set account expiration date:
 
-`sudo chage -E {{YYYY-MM-DD}}`
+`sudo chage --expiredate {{YYYY-MM-DD}} {{username}}`
 
 - Force user to change password on next log in:
 
-`sudo chage -d 0`
+`sudo chage --lastday {{0}} {{username}}`
 

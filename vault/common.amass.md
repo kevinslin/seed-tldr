@@ -2,8 +2,9 @@
 id: common.amass
 title: Amass
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814993
+created: 1642441814993
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # amass
 
 > In-depth Attack Surface Mapping and Asset Discovery tool.
+> Some subcommands such as `amass db` have their own usage documentation.
 > More information: <https://github.com/OWASP/Amass>.
 
 - Check the Amass version:

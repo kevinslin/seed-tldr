@@ -2,8 +2,9 @@
 id: common.watch
 title: Watch
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # watch
 
 > Execute a program periodically, showing output fullscreen.
+> More information: <https://manned.org/watch>.
 
 - Repeatedly run a command and show the result:
 

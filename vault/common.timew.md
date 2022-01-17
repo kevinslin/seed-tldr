@@ -2,8 +2,9 @@
 id: common.timew
 title: Timew
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815076
+created: 1642441815076
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # timew
 
 > A time tracking tool used to measure the duration of activities.
-> More information: <https://taskwarrior.org/docs/timewarrior>.
+> More information: <https://timewarrior.net/docs>.
 
 - Start a new stopwatch, giving a tag name to the activity being tracked:
 

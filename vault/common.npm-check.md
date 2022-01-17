@@ -2,8 +2,9 @@
 id: common.npm-check
 title: Npm Check
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

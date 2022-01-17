@@ -2,8 +2,9 @@
 id: linux.gnome-terminal
 title: Gnome Terminal
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # gnome-terminal
 
 > The GNOME Terminal emulator.
+> More information: <https://help.gnome.org/users/gnome-terminal/stable/>.
 
 - Open a new GNOME terminal window:
 

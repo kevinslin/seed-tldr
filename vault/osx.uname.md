@@ -2,8 +2,9 @@
 id: osx.uname
 title: Uname
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,20 +16,25 @@ sources:
 
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `sw_vers` command.
+> More information: <https://ss64.com/osx/uname.html>.
 
-- Print hardware-related information: machine and processor:
+- Print kernel name:
+
+`uname`
+
+- Print system architecture and processor information:
 
 `uname -mp`
 
-- Print software-related information: operating system, release number, and version:
+- Print kernel name, kernel release and kernel version:
 
 `uname -srv`
 
-- Print the nodename (hostname) of the system:
+- Print system hostname:
 
 `uname -n`
 
-- Print all available system information (hardware, software, nodename):
+- Print all available system information:
 
 `uname -a`
 

@@ -2,8 +2,9 @@
 id: common.httping
 title: Httping
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815034
+created: 1642441815034
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # httping
 
 > Measure the latency and throughput of a web server.
-> More information: <https://www.vanheusden.com/httping>.
+> More information: <https://manned.org/httping>.
 
 - Ping the specified URL:
 

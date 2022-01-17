@@ -2,8 +2,9 @@
 id: common.deemix
 title: Deemix
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # deemix
 
 > A barebone deezer downloader library built from the ashes of Deezloader Remix.
-> It can be used as a standalone CLI app or implemented in an UI using the API.
+> It can be used as a standalone CLI app or implemented in a UI using the API.
 > More information: <https://deemix.app>.
 
 - Download a track or playlist:

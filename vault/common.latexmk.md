@@ -2,8 +2,9 @@
 id: common.latexmk
 title: Latexmk
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815040
+created: 1642441815040
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -25,7 +26,7 @@ sources:
 
 `latexmk {{source.tex}}`
 
-- Compile a pdf document:
+- Compile a PDF document:
 
 `latexmk -pdf {{source.tex}}`
 
@@ -33,11 +34,11 @@ sources:
 
 `latexmk -f {{source.tex}}`
 
-- Clean up temporary tex files created for a specific tex file:
+- Clean up temporary TEX files created for a specific TEX file:
 
 `latexmk -c {{source.tex}}`
 
-- Clean up all temporary tex files in the current directory:
+- Clean up all temporary TEX files in the current directory:
 
 `latexmk -c`
 

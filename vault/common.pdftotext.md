@@ -2,8 +2,9 @@
 id: common.pdftotext
 title: Pdftotext
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pdftotext
 
 > Convert PDF files to plain text format.
+> More information: <https://www.xpdfreader.com/pdftotext-man.html>.
 
 - Convert `filename.pdf` to plain text and print it to standard output:
 

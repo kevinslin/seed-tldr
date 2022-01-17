@@ -2,8 +2,9 @@
 id: common.ln
 title: Ln
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815042
+created: 1642441815042
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: common.shc
 title: Shc
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # shc
 
 > Generic shell script compiler.
+> More information: <https://manned.org/shc>.
 
 - Compile a shell script:
 

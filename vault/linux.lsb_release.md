@@ -2,8 +2,9 @@
 id: linux.lsb_release
 title: Lsb_release
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lsb_release
 
 > Provides certain LSB (Linux Standard Base) and distribution-specific information.
+> More information: <https://manned.org/lsb_release>.
 
 - Print all available information:
 

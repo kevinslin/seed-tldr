@@ -2,8 +2,9 @@
 id: common.podman
 title: Podman
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815060
+created: 1642441815060
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,7 +16,7 @@ sources:
 
 > Simple management tool for pods, containers and images.
 > Podman provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`.
-> More information: <https://github.com/containers/libpod/blob/master/commands.md>.
+> More information: <https://github.com/containers/podman/blob/main/commands-demo.md>.
 
 - Print out information about containers:
 
@@ -37,7 +38,7 @@ sources:
 
 `podman pull {{image_name}}:{{image_tag}}`
 
-- Open a shell inside of an already running container:
+- Open a shell inside an already running container:
 
 `podman exec --interactive --tty {{container_name}} {{sh}}`
 

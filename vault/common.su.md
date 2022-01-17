@@ -2,8 +2,9 @@
 id: common.su
 title: Su
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815073
+created: 1642441815073
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

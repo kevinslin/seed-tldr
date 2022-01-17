@@ -2,8 +2,9 @@
 id: linux.file-rename
 title: File Rename
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,8 @@ sources:
 # rename
 
 > Rename multiple files.
-> NOTE: this page refers to the command from the `file-rename` Debian package.
+> NOTE: this page refers to the command from the `rename` Debian package.
+> More information: <https://manned.org/file-rename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 

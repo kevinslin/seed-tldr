@@ -2,8 +2,9 @@
 id: linux.unix2mac
 title: Unix2mac
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Change Unix-style line endings to macOS-style.
 > Replaces CR with LF.
+> More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
 
 - Change the line endings of a file:
 

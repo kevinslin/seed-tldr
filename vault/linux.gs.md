@@ -2,8 +2,9 @@
 id: linux.gs
 title: Gs
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # gs
 
 > GhostScript is a PDF and PostScript interpreter.
+> More information: <https://manned.org/gs>.
 
 - To view a file:
 

@@ -2,8 +2,9 @@
 id: common.lumen
 title: Lumen
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815045
+created: 1642441815045
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

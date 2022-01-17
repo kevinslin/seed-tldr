@@ -2,8 +2,9 @@
 id: linux.slapt-src
 title: Slapt Src
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -29,7 +30,7 @@ sources:
 
 `slapt-src --install {{slackbuild_name}}`
 
-- Locate slackbuilds of interest by their name or description:
+- Locate slackbuilds by their name or description:
 
 `slapt-src --search {{search_term}}`
 

@@ -2,8 +2,9 @@
 id: common.trash-cli
 title: Trash CLI
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815077
+created: 1642441815077
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

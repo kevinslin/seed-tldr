@@ -2,8 +2,9 @@
 id: linux.foreman
 title: Foreman
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # foreman
 
 > Manage Procfile-based applications.
+> More information: <https://manned.org/foreman>.
 
 - Start an application with the Procfile in the current directory:
 

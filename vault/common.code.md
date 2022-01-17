@@ -2,8 +2,9 @@
 id: common.code
 title: Code
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815003
+created: 1642441815003
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `code -d {{file1}} {{file2}}`
 
-- Open VS Code with super user (sudo) permissions:
+- Open VS Code with superuser (sudo) permissions:
 
 `sudo code {{path/to/file_or_directory}} --user-data-dir`
 

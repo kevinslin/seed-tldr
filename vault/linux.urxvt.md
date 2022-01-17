@@ -2,8 +2,9 @@
 id: linux.urxvt
 title: Urxvt
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815116
+created: 1642441815116
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

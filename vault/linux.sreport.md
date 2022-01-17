@@ -2,8 +2,9 @@
 id: linux.sreport
 title: Sreport
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `sreport job sizes printjobcount`
 
-- Show users with highest cpu time use:
+- Show users with the highest CPU time use:
 
 `sreport user topuser`
 

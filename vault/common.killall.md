@@ -2,8 +2,9 @@
 id: common.killall
 title: Killall
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Send kill signal to all instances of a process by name (must be exact name).
 > All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit.
+> More information: <https://manned.org/killall>.
 
 - Terminate a process using the default SIGTERM (terminate) signal:
 

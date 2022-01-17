@@ -2,8 +2,9 @@
 id: common.shift
 title: Shift
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

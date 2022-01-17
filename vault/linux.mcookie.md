@@ -2,8 +2,9 @@
 id: linux.mcookie
 title: Mcookie
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,8 @@ sources:
 ---
 # mcookie
 
-> Generates random 128 bit hexadecimal numbers.
+> Generates random 128-bit hexadecimal numbers.
+> More information: <https://manned.org/mcookie>.
 
 - Generate a random number:
 

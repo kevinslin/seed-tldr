@@ -2,8 +2,9 @@
 id: common.go
 title: Go
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815030
+created: 1642441815030
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # go
 
 > Tool for managing go source code.
+> Some subcommands such as `go build` have their own usage documentation.
 > More information: <https://golang.org>.
 
 - Download and install a package, specified by its import path:

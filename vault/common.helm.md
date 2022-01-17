@@ -2,8 +2,9 @@
 id: common.helm
 title: Helm
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815032
+created: 1642441815032
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # helm
 
 > Helm is a package manager for Kubernetes.
+> Some subcommands such as `helm install` have their own usage documentation.
 > More information: <https://helm.sh/>.
 
 - Create a helm chart:
@@ -22,7 +24,7 @@ sources:
 
 - Add a new helm repository:
 
-`helm repo add {{repo_name}}`
+`helm repo add {{repository_name}}`
 
 - List helm repositories:
 
@@ -34,11 +36,11 @@ sources:
 
 - Delete a helm repository:
 
-`helm repo remove {{repo_name}}`
+`helm repo remove {{repository_name}}`
 
 - Install a helm chart:
 
-`helm install {{repo_name}}/{{chart_name}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}}`
 
 - Download helm chart as a tar archive:
 

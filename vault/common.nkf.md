@@ -2,8 +2,9 @@
 id: common.nkf
 title: Nkf
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815051
+created: 1642441815051
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Network kanji filter.
 > Converts kanji code from one encoding to another.
+> More information: <https://manned.org/nkf>.
 
 - Convert to UTF-8 encoding:
 
@@ -28,7 +30,7 @@ sources:
 
 `nkf -w --overwrite {{path/to/file.txt}}`
 
-- Set new line code to LF and overwrite (unix type):
+- Set new line code to LF and overwrite (UNIX type):
 
 `nkf -d --overwrite {{path/to/file.txt}}`
 

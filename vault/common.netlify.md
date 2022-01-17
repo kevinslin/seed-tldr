@@ -2,8 +2,9 @@
 id: common.netlify
 title: Netlify
 desc: ''
-updated: 1623965306199
-created: 1623965306199
+updated: 1642441815050
+created: 1642441815050
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

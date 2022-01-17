@@ -2,8 +2,9 @@
 id: common.jobs
 title: Jobs
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815037
+created: 1642441815037
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # jobs
 
 > Display status of jobs in the current session.
+> More information: <https://manned.org/jobs>.
 
 - Show status of all jobs:
 

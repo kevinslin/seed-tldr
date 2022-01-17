@@ -2,8 +2,9 @@
 id: osx.md5
 title: Osx
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # md5
 
 > Calculate MD5 cryptographic checksums.
+> More information: <https://ss64.com/osx/md5.html>.
 
 - Calculate the MD5 checksum for a file:
 

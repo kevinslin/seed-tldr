@@ -2,8 +2,9 @@
 id: common.nslookup
 title: Nslookup
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # nslookup
 
 > Query name server(s) for various domain records.
+> More information: <https://manned.org/nslookup>.
 
 - Query your system's default name server for an IP address (A record) of the domain:
 

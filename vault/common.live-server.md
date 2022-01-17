@@ -2,8 +2,9 @@
 id: common.live-server
 title: Live Server
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815041
+created: 1642441815041
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # live-server
 
-> A simple development http server with live reload capability.
+> A simple development HTTP server with live reload capability.
 > More information: <https://www.npmjs.com/package/live-server>.
 
 - Serve an `index.html` file and reload on changes:

@@ -2,8 +2,9 @@
 id: linux.systemd-analyze
 title: Systemd Analyze
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815114
+created: 1642441815114
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,13 +14,15 @@ sources:
 ---
 # systemd-analyze
 
+> Analyze and debug system manager.
 > Show timing details about the boot process of units (services, mount points, devices, sockets).
+> More information: <https://manned.org/systemd-analyze>.
 
 - List time of each unit to start up:
 
 `systemd-analyze blame`
 
-- Print a tree of the time critical chain of units:
+- Print a tree of the time-critical chain of units:
 
 `systemd-analyze critical-chain`
 
@@ -30,4 +33,8 @@ sources:
 - Plot a dependency graph and convert it to an SVG file:
 
 `systemd-analyze dot | dot -T{{svg}} > {{path/to/file.svg}}`
+
+- Show security scores of running units:
+
+`systemd-analyze security`
 

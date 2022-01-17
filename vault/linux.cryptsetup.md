@@ -2,8 +2,9 @@
 id: linux.cryptsetup
 title: Cryptsetup
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # cryptsetup
 
 > Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes.
+> More information: <https://gitlab.com/cryptsetup/cryptsetup/>.
 
 - Initialize a LUKS volume (overwrites all data on the partition):
 

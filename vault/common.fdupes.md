@@ -2,8 +2,9 @@
 id: common.fdupes
 title: Fdupes
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815017
+created: 1642441815017
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: linux.inxi
 title: Inxi
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815098
+created: 1642441815098
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,8 +15,9 @@ sources:
 # inxi
 
 > Print a summary of system information and resources for debugging purposes.
+> More information: <https://manned.org/inxi>.
 
-- Print a short summary of CPU, memory, hard drive and kernel information:
+- Print a summary of CPU, memory, hard drive and kernel information:
 
 `inxi`
 

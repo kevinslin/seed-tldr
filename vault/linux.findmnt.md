@@ -2,8 +2,9 @@
 id: linux.findmnt
 title: Findmnt
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # findmnt
 
 > Find your filesystem.
+> More information: <https://manned.org/findmnt>.
 
 - List all mounted filesystems:
 

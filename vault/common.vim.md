@@ -2,8 +2,9 @@
 id: common.vim
 title: Vim
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815080
+created: 1642441815080
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,16 @@ sources:
 # vim
 
 > Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Vim commands.
 > More information: <https://www.vim.org>.
 
 - Open a file:
 
 `vim {{path/to/file}}`
+
+- Open a file at a specified line number:
+
+`vim +{{line_number}} {{path/to/file}}`
 
 - View Vim's help manual:
 
@@ -28,10 +33,6 @@ sources:
 - Save and Quit:
 
 `:wq<Enter>`
-
-- Open a file at a specified line number:
-
-`vim +{{line_number}} {{path/to/file}}`
 
 - Undo the last operation:
 

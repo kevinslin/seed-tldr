@@ -2,8 +2,9 @@
 id: common.vela
 title: Vela
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815079
+created: 1642441815079
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # vela
 
 > Command-line tools for the Vela pipeline.
-> More information: <https://go-vela.github.io/docs/cli/>.
+> More information: <https://go-vela.github.io/docs/reference/cli/>.
 
 - Trigger a pipeline to run from a Git branch, commit or tag:
 

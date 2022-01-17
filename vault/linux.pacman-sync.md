@@ -2,8 +2,9 @@
 id: linux.pacman-sync
 title: Pacman Sync
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

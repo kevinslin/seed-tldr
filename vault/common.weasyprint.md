@@ -2,8 +2,9 @@
 id: common.weasyprint
 title: Weasyprint
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815083
+created: 1642441815083
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,11 +17,11 @@ sources:
 > Render HTML to PDF or PNG.
 > More information: <https://weasyprint.org/>.
 
-- Render a HTML file to PDF:
+- Render an HTML file to PDF:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.pdf`
 
-- Render a HTML file to PNG, including an additional user stylesheet:
+- Render an HTML file to PNG, including an additional user stylesheet:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --stylesheet {{path/to/stylesheet.css}}`
 

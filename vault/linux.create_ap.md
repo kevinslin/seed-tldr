@@ -2,8 +2,9 @@
 id: linux.create_ap
 title: Create_ap
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # create_ap
 
 > Create an AP (Access Point) at any channel.
+> More information: <https://github.com/oblique/create_ap>.
 
 - Create an open network with no passphrase:
 
@@ -35,11 +37,11 @@ sources:
 
 `create_ap -m bridge {{wlan0}} {{br0}} {{access_point_ssid}} {{passphrase}}`
 
-- Create an access port for Internet sharing from the same WiFi interface:
+- Create an access port for Internet sharing from the same Wi-Fi interface:
 
 `create_ap {{wlan0}} {{wlan0}} {{access_point_ssid}} {{passphrase}}`
 
-- Choose a different WiFi adapter driver:
+- Choose a different Wi-Fi adapter driver:
 
 `create_ap --driver {{wifi_adapter}} {{wlan0}} {{eth0}} {{access_point_ssid}} {{passphrase}}`
 

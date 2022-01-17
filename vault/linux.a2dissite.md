@@ -2,8 +2,9 @@
 id: linux.a2dissite
 title: A2dissite
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815086
+created: 1642441815086
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

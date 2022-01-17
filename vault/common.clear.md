@@ -2,8 +2,9 @@
 id: common.clear
 title: Clear
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815002
+created: 1642441815002
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

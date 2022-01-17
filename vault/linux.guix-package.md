@@ -2,8 +2,9 @@
 id: linux.guix-package
 title: Guix Package
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # guix package
 
 > Install, upgrade and remove Guix packages, or rollback to previous configurations.
+> More information: <https://guix.gnu.org/manual/html_node/Invoking-guix-package.html>.
 
 - Install a new package:
 

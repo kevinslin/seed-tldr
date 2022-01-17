@@ -2,8 +2,9 @@
 id: linux.yum
 title: Yum
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `yum check-update`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `yum upgrade`
 

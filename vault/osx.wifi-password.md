@@ -2,8 +2,9 @@
 id: osx.wifi-password
 title: Wifi Password
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,14 +14,14 @@ sources:
 ---
 # wifi-password
 
-> Get the password of the wifi.
+> Get the password of the Wi-Fi.
 > More information: <https://github.com/rauchg/wifi-password>.
 
-- Get the password for the wifi you are currently logged onto:
+- Get the password for the Wi-Fi you are currently logged onto:
 
 `wifi-password`
 
-- Get the password for the wifi with a specific SSID:
+- Get the password for the Wi-Fi with a specific SSID:
 
 `wifi-password {{ssid}}`
 

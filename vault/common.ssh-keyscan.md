@@ -2,8 +2,9 @@
 id: common.ssh-keyscan
 title: Ssh Keyscan
 desc: ''
-updated: 1623965306211
-created: 1623965306211
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ssh-keyscan
 
 > Get the public ssh keys of remote hosts.
+> More information: <https://man.openbsd.org/ssh-keyscan>.
 
 - Retrieve all public ssh keys of a remote host:
 

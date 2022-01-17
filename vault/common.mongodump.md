@@ -2,8 +2,9 @@
 id: common.mongodump
 title: Mongodump
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815048
+created: 1642441815048
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -39,4 +40,8 @@ sources:
 - Create a dump of a given database with a given username; user will be prompted for password:
 
 `mongodump --username {{username}} {{database}} --password`
+
+- Create a dump from a specific instance; host, user, password and database will be defined in the connection string:
+
+`mongodump --uri {{connection_string}}`
 

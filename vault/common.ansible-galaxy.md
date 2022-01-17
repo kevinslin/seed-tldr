@@ -2,8 +2,9 @@
 id: common.ansible-galaxy
 title: Ansible Galaxy
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814994
+created: 1642441814994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,11 +19,11 @@ sources:
 
 - Install a role:
 
-`ansible-galaxy install {{username.role_name}}`
+`ansible-galaxy install {{username}}.{{role_name}}`
 
 - Remove a role:
 
-`ansible-galaxy remove {{username.role_name}}`
+`ansible-galaxy remove {{username}}.{{role_name}}`
 
 - List installed roles:
 
@@ -35,4 +36,12 @@ sources:
 - Create a new role:
 
 `ansible-galaxy init {{role_name}}`
+
+- Get information about a user role:
+
+`ansible-galaxy role info {{username}}.{{role_name}}`
+
+- Get information about a collection:
+
+`ansible-galaxy collection info {{username}}.{{collection_name}}`
 

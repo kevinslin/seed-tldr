@@ -2,8 +2,9 @@
 id: common.df
 title: Df
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `df`
 
-- Display all filesystems and their disk usage in human readable form:
+- Display all filesystems and their disk usage in human-readable form:
 
 `df -h`
 

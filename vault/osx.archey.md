@@ -2,8 +2,9 @@
 id: osx.archey
 title: Archey
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # archey
 
 > Simple tool for stylishly displaying system information.
+> More information: <https://github.com/joshfinnie/archey-osx>.
 
 - Show system information:
 

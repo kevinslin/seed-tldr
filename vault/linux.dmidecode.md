@@ -2,8 +2,9 @@
 id: linux.dmidecode
 title: Dmidecode
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Display the DMI (alternatively known as SMBIOS) table contents in a human-readable format.
 > Requires root privileges.
+> More information: <https://manned.org/dmidecode>.
 
 - Show all DMI table contents:
 

@@ -2,8 +2,9 @@
 id: common.lorem
 title: Lorem
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815042
+created: 1642441815042
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lorem
 
 > Create more or less random lorem ipsum text.
+> More information: <https://manned.org/lorem>.
 
 - Print the specified number of words:
 
@@ -27,7 +29,7 @@ sources:
 
 `lorem -s {{5}} --raven`
 
-- Print 40 random characters from Boccacio's Decameron:
+- Print 40 random characters from Boccaccio's Decameron:
 
 `lorem --randomize -c {{40}} --decamerone`
 

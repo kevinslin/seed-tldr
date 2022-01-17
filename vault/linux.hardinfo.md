@@ -2,8 +2,9 @@
 id: linux.hardinfo
 title: Hardinfo
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # hardinfo
 
 > Show hardware information in GUI window.
+> More information: <https://github.com/lpereira/hardinfo>.
 
 - Start hardinfo:
 

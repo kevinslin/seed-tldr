@@ -2,8 +2,9 @@
 id: common.git-mergetool
 title: Git Mergetool
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815025
+created: 1642441815025
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

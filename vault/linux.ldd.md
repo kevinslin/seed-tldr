@@ -2,8 +2,9 @@
 id: linux.ldd
 title: Ldd
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ldd
 
 > Display shared library dependencies.
+> More information: <https://manned.org/ldd>.
 
 - Display shared library dependencies of a binary:
 

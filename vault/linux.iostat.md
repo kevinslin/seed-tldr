@@ -2,8 +2,9 @@
 id: linux.iostat
 title: Iostat
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815098
+created: 1642441815098
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # iostat
 
 > Report statistics for devices and partitions.
+> More information: <https://manned.org/iostat>.
 
 - Display a report of CPU and disk statistics since system startup:
 

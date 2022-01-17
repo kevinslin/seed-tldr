@@ -2,8 +2,9 @@
 id: linux.xinput
 title: Xinput
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -34,4 +35,12 @@ sources:
 - Reattach an input as slave to a master:
 
 `xinput reattach {{id}} {{master_id}}`
+
+- List settings of an input device:
+
+`xinput list-props {{id}}`
+
+- Change a setting of an input device:
+
+`xinput set-prop {{id}} {{setting_id}} {{value}}`
 

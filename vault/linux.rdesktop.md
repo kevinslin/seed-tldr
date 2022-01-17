@@ -2,8 +2,9 @@
 id: linux.rdesktop
 title: Rdesktop
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815110
+created: 1642441815110
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `rdesktop -u {{username}} -p {{password}} -d {{domainname}} {{host:port}}`
 
-- Use the 16 bit color (speed up):
+- Use the 16-bit color (speed up):
 
 `rdesktop -u {{username}} -p {{password}} -a 16 {{host:port}}`
 

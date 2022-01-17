@@ -2,8 +2,9 @@
 id: common.diffstat
 title: Diffstat
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815008
+created: 1642441815008
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

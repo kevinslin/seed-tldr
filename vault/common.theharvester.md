@@ -2,8 +2,9 @@
 id: common.theharvester
 title: Theharvester
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815075
+created: 1642441815075
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `theHarvester --domain {{domain_name}} --source {{google}} --limit {{200}}`
 
-- Save the output to two files in xml and html format:
+- Save the output to two files in XML and HTML format:
 
 `theHarvester --domain {{domain_name}} --source {{google}} --file {{output_file_name}}`
 

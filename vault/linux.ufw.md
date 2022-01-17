@@ -2,8 +2,9 @@
 id: linux.ufw
 title: Ufw
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Uncomplicated Firewall.
 > Frontend for iptables aiming to make configuration of a firewall easier.
+> More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Enable ufw:
 

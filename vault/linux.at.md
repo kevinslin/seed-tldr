@@ -2,8 +2,9 @@
 id: linux.at
 title: At
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `at {{hh:mm}}`
 
-- Execute the commands and email the result using a local mailing program such as sendmail:
+- Execute the commands and email the result using a local mailing program such as Sendmail:
 
 `at {{hh:mm}} -m`
 

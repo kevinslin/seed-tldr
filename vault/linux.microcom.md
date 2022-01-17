@@ -2,8 +2,9 @@
 id: linux.microcom
 title: Microcom
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # microcom
 
 > A minimalistic terminal program, used to access remote devices via a serial, CAN or telnet connection from the console.
+> More information: <https://manned.org/microcom>.
 
 - Open a serial port using the specified baud rate:
 

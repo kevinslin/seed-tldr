@@ -2,8 +2,9 @@
 id: common.git-describe
 title: Git Describe
 desc: ''
-updated: 1623965306187
-created: 1623965306187
+updated: 1642441815023
+created: 1642441815023
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # git describe
 
-> Give an object a human readable name based on an available ref.
+> Give an object a human-readable name based on an available ref.
 > More information: <https://git-scm.com/docs/git-describe>.
 
 - Create a unique name for the current commit (the name contains the most recent annotated tag, the number of additional commits, and the abbreviated commit hash):

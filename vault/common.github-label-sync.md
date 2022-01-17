@@ -2,8 +2,9 @@
 id: common.github-label-sync
 title: GitHub Label Sync
 desc: ''
-updated: 1623965306189
-created: 1623965306189
+updated: 1642441815028
+created: 1642441815028
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # github-label-sync
 
 > A command-line interface for synchronising GitHub labels.
-> More information: <https://npmjs.com/package/github-label-sync>.
+> More information: <https://github.com/Financial-Times/github-label-sync>.
 
 - Synchronise labels using a local `labels.json` file:
 

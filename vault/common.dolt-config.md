@@ -2,8 +2,9 @@
 id: common.dolt-config
 title: Dolt Config
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815010
+created: 1642441815010
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,11 +25,11 @@ sources:
 
 `dolt config --get {{name}}`
 
-- Modify the value of a local configuration variable, creating it if does not exist:
+- Modify the value of a local configuration variable, creating it if it doesn't exist:
 
 `dolt config --add {{name}} {{value}}`
 
-- Modify the value of a global configuration variable, creating it if does not exist:
+- Modify the value of a global configuration variable, creating it if it doesn't exist:
 
 `dolt config --global --add {{name}} {{value}}`
 

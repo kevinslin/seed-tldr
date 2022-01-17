@@ -2,8 +2,9 @@
 id: osx.systemsetup
 title: Systemsetup
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,13 @@ sources:
 # systemsetup
 
 > Configure System Preferences machine settings.
+> More information: <https://ss64.com/osx/systemsetup.html>.
 
 - Enable remote login (SSH):
 
 `systemsetup -setremotelogin on`
 
-- Specify TimeZone, NTP Server and enable network time:
+- Specify timezone, NTP Server and enable network time:
 
 `systemsetup -settimezone {{US/Pacific}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 

@@ -2,8 +2,9 @@
 id: common.sftp
 title: Sftp
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,6 +17,7 @@ sources:
 > Secure File Transfer Program.
 > Interactive program to copy files between hosts over SSH.
 > For non-interactive file transfers, see `scp` or `rsync`.
+> More information: <https://manned.org/sftp>.
 
 - Connect to a remote server and enter an interactive command mode:
 

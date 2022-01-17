@@ -2,8 +2,9 @@
 id: common.apropos
 title: Apropos
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814994
+created: 1642441814994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `apropos -l {{regular_expression}}`
 
-- Search for pages that contain all of the expressions given:
+- Search for pages that contain all the expressions given:
 
 `apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}}`
 

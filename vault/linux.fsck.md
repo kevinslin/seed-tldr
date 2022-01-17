@@ -2,8 +2,9 @@
 id: linux.fsck
 title: Fsck
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,16 +15,17 @@ sources:
 # fsck
 
 > Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
+> More information: <https://manned.org/fsck>.
 
-- Check filesystem `/dev/sdX`, reporting any damaged blocks:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks:
 
-`fsck {{/dev/sdX}}`
+`sudo fsck {{/dev/sdXN}}`
 
-- Check filesystem `/dev/sdX`, reporting any damaged blocks and interactively letting the user choose to repair each one:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
-`fsck -r {{/dev/sdX}}`
+`sudo fsck -r {{/dev/sdXN}}`
 
-- Check filesystem `/dev/sdX`, reporting any damaged blocks and automatically repairing them:
+- Check filesystem `/dev/sdXN`, reporting any damaged blocks and automatically repairing them:
 
-`fsck -a {{/dev/sdX}}`
+`sudo fsck -a {{/dev/sdXN}}`
 

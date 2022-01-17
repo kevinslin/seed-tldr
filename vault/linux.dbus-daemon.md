@@ -2,8 +2,9 @@
 id: linux.dbus-daemon
 title: Dbus Daemon
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # dbus-daemon
 
 > The D-Bus message daemon, allowing multiple programs to exchange messages.
+> More information: <https://www.freedesktop.org/wiki/Software/dbus/>.
 
 - Run the daemon with a configuration file:
 
@@ -31,7 +33,7 @@ sources:
 
 `dbus-daemon --address {{address}}`
 
-- Output the process id to stdout:
+- Output the process ID to stdout:
 
 `dbus-daemon --print-pid`
 

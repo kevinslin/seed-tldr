@@ -2,8 +2,9 @@
 id: linux.notify-send
 title: Notify Send
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815106
+created: 1642441815106
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,7 +28,7 @@ sources:
 
 `notify-send -t 5000 "{{Test}}" "{{This is a test}}"`
 
-- Show a notification with an app's icon:
+- Show a notification with an app's icon and name:
 
-`notify-send "{{Test}}" --icon={{google-chrome}}`
+`notify-send "{{Test}}" --icon={{google-chrome}} --app-name="{{Google Chrome}}"`
 

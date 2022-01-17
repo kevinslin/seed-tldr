@@ -2,8 +2,9 @@
 id: common.serverless
 title: Serverless
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # serverless
 
 > Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk.
-> Commands can be run either using the `serverless` command or it's alias, `sls`.
+> Commands can be run either using the `serverless` command or its alias, `sls`.
 > More information: <https://serverless.com/>.
 
 - Create a serverless project:

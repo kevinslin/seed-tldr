@@ -2,8 +2,9 @@
 id: osx.cal
 title: Cal
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # cal
 
 > Prints calendar information.
+> More information: <https://ss64.com/osx/cal.html>.
 
 - Display a calendar for the current month:
 

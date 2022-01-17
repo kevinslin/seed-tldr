@@ -2,8 +2,9 @@
 id: common.tail
 title: Tail
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815074
+created: 1642441815074
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `tail -f {{file}}`
 
-- Keep reading file until `Ctrl + C`, even if the file is rotated:
+- Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
 `tail -F {{file}}`
 

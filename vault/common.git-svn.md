@@ -2,8 +2,9 @@
 id: common.git-svn
 title: Git Svn
 desc: ''
-updated: 1623965306189
-created: 1623965306189
+updated: 1642441815027
+created: 1642441815027
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `git svn clone {{https://example.com/subversion_repo}} {{local_dir}}`
 
-- Clone a SVN repository starting at a given revision number:
+- Clone an SVN repository starting at a given revision number:
 
 `git svn clone -r{{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
 

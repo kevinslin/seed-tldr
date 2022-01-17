@@ -2,8 +2,9 @@
 id: linux.ldconfig
 title: Ldconfig
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ldconfig
 
 > Configure symlinks and cache for shared library dependencies.
+> More information: <https://manned.org/ldconfig>.
 
 - Update symlinks and rebuild the cache (usually run when a new library is installed):
 

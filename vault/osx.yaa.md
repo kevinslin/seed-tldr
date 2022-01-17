@@ -2,8 +2,9 @@
 id: osx.yaa
 title: Yaa
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815125
+created: 1642441815125
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -35,7 +36,7 @@ sources:
 
 `yaa archive -a {{algorithm}} -d {{path/to/directory}} -o {{path/to/output.yaa}}`
 
-- Create an archive with an 8MB block size:
+- Create an archive with an 8 MB block size:
 
 `yaa archive -b {{8m}} -d {{path/to/directory}} -o {{path/to/output.yaa}}`
 

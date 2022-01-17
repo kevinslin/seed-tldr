@@ -2,8 +2,9 @@
 id: common.gh-alias
 title: Gh Alias
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815019
+created: 1642441815019
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `gh alias`
 
-- List all of the aliases `gh` is configured to use:
+- List all the aliases `gh` is configured to use:
 
 `gh alias list`
 

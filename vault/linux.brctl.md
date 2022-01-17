@@ -2,8 +2,9 @@
 id: linux.brctl
 title: Brctl
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815089
+created: 1642441815089
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,16 +15,17 @@ sources:
 # brctl
 
 > Ethernet bridge administration.
+> More information: <https://manned.org/brctl>.
 
-- Show a list with information about currently existing ethernet bridges:
+- Show a list with information about currently existing Ethernet bridges:
 
 `sudo brctl show`
 
-- Create a new ethernet bridge interface:
+- Create a new Ethernet bridge interface:
 
 `sudo brctl add {{bridge_name}}`
 
-- Delete an existing ethernet bridge interface:
+- Delete an existing Ethernet bridge interface:
 
 `sudo brctl del {{bridge_name}}`
 

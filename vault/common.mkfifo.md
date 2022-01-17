@@ -2,8 +2,9 @@
 id: common.mkfifo
 title: Mkfifo
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815047
+created: 1642441815047
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

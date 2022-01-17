@@ -2,8 +2,9 @@
 id: common.java
 title: Java
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815036
+created: 1642441815036
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,11 +15,15 @@ sources:
 # java
 
 > Java Application Launcher.
-> More information: <https://java.com>.
+> More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - Execute a java `.class` file that contains a main method by using just the class name:
 
 `java {{classname}}`
+
+- Execute a java program and use additional third-party or user-defined classes:
+
+`java -classpath {{path/to/classes1}}:{{path/to/classes2}}:. {{classname}}`
 
 - Execute a `.jar` program:
 

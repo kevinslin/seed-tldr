@@ -2,8 +2,9 @@
 id: linux.pacman
 title: Pacman
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,19 +15,20 @@ sources:
 # pacman
 
 > Arch Linux package manager utility.
+> Some subcommands such as `pacman sync` have their own usage documentation.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronize and update all packages:
 
-`pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade`
 
 - Install a new package:
 
-`pacman --sync {{package_name}}`
+`sudo pacman --sync {{package_name}}`
 
 - Remove a package and its dependencies:
 
-`pacman --remove --recursive {{package_name}}`
+`sudo pacman --remove --recursive {{package_name}}`
 
 - Search the package database for a regular expression or keyword:
 
@@ -46,5 +48,5 @@ sources:
 
 - Empty the entire pacman cache:
 
-`pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean`
 

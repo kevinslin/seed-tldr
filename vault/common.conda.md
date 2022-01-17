@@ -2,8 +2,9 @@
 id: common.conda
 title: Conda
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815004
+created: 1642441815004
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # conda
 
 > Package, dependency and environment management for any programming language.
+> Some subcommands such as `conda create` have their own usage documentation.
 > More information: <https://github.com/conda/conda>.
 
 - Create a new environment, installing named packages into it:

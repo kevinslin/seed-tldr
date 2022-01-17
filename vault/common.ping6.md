@@ -2,8 +2,9 @@
 id: common.ping6
 title: Ping6
 desc: ''
-updated: 1623965306204
-created: 1623965306204
+updated: 1642441815058
+created: 1642441815058
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ping6
 
 > Send ICMP ECHO_REQUEST packets to network hosts via IPv6 address.
+> More information: <https://manned.org/ping6>.
 
 - Ping a host:
 

@@ -2,8 +2,9 @@
 id: common.detox
 title: Detox
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,7 +22,7 @@ sources:
 
 `detox {{file}}`
 
-- Show how detox would rename all of the files in a directory tree:
+- Show how detox would rename all the files in a directory tree:
 
 `detox --dry-run -r {{directory}}`
 

@@ -2,8 +2,9 @@
 id: common.wasm-opt
 title: Wasm Opt
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wasm-opt
 
 > Optimize WebAssembly binary files.
+> More information: <https://github.com/webassembly/binaryen>.
 
 - Apply default optimizations and write to a given file:
 

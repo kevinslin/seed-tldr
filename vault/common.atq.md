@@ -2,8 +2,9 @@
 id: common.atq
 title: Atq
 desc: ''
-updated: 1623965306174
-created: 1623965306174
+updated: 1642441814995
+created: 1642441814995
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `atq -q {{a}}`
 
-- Show jobs of all users (run as super user):
+- Show jobs of all users (run as superuser):
 
 `sudo atq`
 

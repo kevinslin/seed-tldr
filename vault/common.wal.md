@@ -2,8 +2,9 @@
 id: common.wal
 title: Wal
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

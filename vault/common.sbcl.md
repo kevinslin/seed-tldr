@@ -2,8 +2,9 @@
 id: common.sbcl
 title: Sbcl
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > High performance Common Lisp compiler.
 > More information: <http://www.sbcl.org/>.
 
-- Start an SBCL interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `sbcl`
 

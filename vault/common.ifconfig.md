@@ -2,8 +2,9 @@
 id: common.ifconfig
 title: Ifconfig
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815035
+created: 1642441815035
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,8 +15,9 @@ sources:
 # ifconfig
 
 > Network Interface Configurator.
+> More information: <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
-- View network settings of an ethernet adapter:
+- View network settings of an Ethernet adapter:
 
 `ifconfig eth0`
 

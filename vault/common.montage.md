@@ -2,8 +2,9 @@
 id: common.montage
 title: Montage
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815048
+created: 1642441815048
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 -tile 2x3 montage_%d.jpg`
 
-- Resize and crop images to completely fill their grid cells before tiling:
+- Resize and crop images to fill their grid cells before tiling:
 
 `montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 -resize 640x480^ -gravity center -crop 640x480+0+0 montage.jpg`
 

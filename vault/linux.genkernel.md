@@ -2,8 +2,9 @@
 id: linux.genkernel
 title: Genkernel
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # genkernel
 
 > Gentoo Linux utility to compile and install kernels.
+> More information: <https://wiki.gentoo.org/wiki/Genkernel>.
 
 - Automatically compile and install a generic kernel:
 
@@ -31,7 +33,7 @@ sources:
 
 `sudo genkernel --kernname={{custom_name}} all`
 
-- Use a kernel source outside of the default directory `/usr/src/linux`:
+- Use a kernel source outside the default directory `/usr/src/linux`:
 
 `sudo genkernel --kerneldir={{path/to/directory}} all`
 

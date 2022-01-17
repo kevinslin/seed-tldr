@@ -2,8 +2,9 @@
 id: linux.xtrlock
 title: Xtrlock
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

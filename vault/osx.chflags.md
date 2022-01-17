@@ -2,8 +2,9 @@
 id: osx.chflags
 title: Chflags
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # chflags
 
 > Change file or directory flags.
+> More information: <https://ss64.com/osx/chflags.html>.
 
 - Set the `hidden` flag for a file:
 

@@ -2,8 +2,9 @@
 id: linux.swupd
 title: Swupd
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815114
+created: 1642441815114
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Package management utility for Clear Linux.
 > More information: <https://docs.01.org/clearlinux/latest/guides/clear/swupd.html>.
 
-- Update to latest version:
+- Update to the latest version:
 
 `sudo swupd update`
 

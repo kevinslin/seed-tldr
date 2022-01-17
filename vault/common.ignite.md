@@ -2,8 +2,9 @@
 id: common.ignite
 title: Ignite
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815035
+created: 1642441815035
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

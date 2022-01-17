@@ -2,8 +2,9 @@
 id: common.dfc
 title: Dfc
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Gives an overview of the filesystem disk space usage with colours and graphs.
 > More information: <https://projects.gw-computing.net/projects/dfc/wiki>.
 
-- Display filesystems and their disk usage in human readable form with colours and graphs:
+- Display filesystems and their disk usage in human-readable form with colours and graphs:
 
 `dfc`
 

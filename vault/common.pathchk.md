@@ -2,8 +2,9 @@
 id: common.pathchk
 title: Pathchk
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Check the validity and portability of one or more pathnames.
 > More information: <https://www.gnu.org/software/coreutils/pathchk>.
 
-- Check pathames for validity in the current system:
+- Check pathnames for validity in the current system:
 
 `pathchk {{path1 path2 …}}`
 

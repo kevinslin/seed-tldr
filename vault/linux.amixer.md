@@ -2,8 +2,9 @@
 id: linux.amixer
 title: Amixer
 desc: ''
-updated: 1623965306218
-created: 1623965306218
+updated: 1642441815087
+created: 1642441815087
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # amixer
 
 > Mixer for ALSA soundcard driver.
+> More information: <https://manned.org/amixer>.
 
 - Turn up the master volume by 10%:
 

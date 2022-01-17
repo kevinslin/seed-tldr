@@ -2,8 +2,9 @@
 id: osx.diskutil
 title: Diskutil
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # diskutil
 
 > Utility to manage local disks and volumes.
+> More information: <https://ss64.com/osx/diskutil.html>.
 
 - List all currently available disks, partitions and mounted volumes:
 

@@ -2,8 +2,9 @@
 id: common.micro
 title: Micro
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815047
+created: 1642441815047
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,6 +21,10 @@ sources:
 - Open a file:
 
 `micro {{file}}`
+
+- Save a file:
+
+`Ctrl + S`
 
 - Cut the entire line:
 

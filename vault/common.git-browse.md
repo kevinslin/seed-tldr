@@ -2,8 +2,9 @@
 id: common.git-browse
 title: Git Browse
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815021
+created: 1642441815021
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

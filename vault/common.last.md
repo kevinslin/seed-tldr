@@ -2,8 +2,9 @@
 id: common.last
 title: Last
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815040
+created: 1642441815040
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # last
 
 > View the last logged in users.
+> More information: <https://manned.org/last>.
 
 - View last logins, their duration and other information as read from `/var/log/wtmp`:
 
@@ -27,7 +29,7 @@ sources:
 
 `last -F -a`
 
-- View all logins by a specific user and show the ip address instead of the hostname:
+- View all logins by a specific user and show the IP address instead of the hostname:
 
 `last {{username}} -i`
 

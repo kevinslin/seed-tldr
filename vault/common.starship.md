@@ -2,8 +2,9 @@
 id: common.starship
 title: Starship
 desc: ''
-updated: 1623965306211
-created: 1623965306211
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # starship
 
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell.
+> Some subcommands such as `starship init` have their own usage documentation.
 > More information: <https://starship.rs>.
 
 - Print the starship integration code for the specified shell:

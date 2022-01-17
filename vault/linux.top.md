@@ -2,8 +2,9 @@
 id: linux.top
 title: Top
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # top
 
 > Display dynamic real-time information about running processes.
+> More information: <https://manned.org/top>.
 
 - Start top:
 

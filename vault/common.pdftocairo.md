@@ -2,8 +2,9 @@
 id: common.pdftocairo
 title: Pdftocairo
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `pdftocairo {{path/to/file.pdf}} -tiff -gray -paper A3`
 
-- Convert to PNG cropping x and y pixels from the top left corner:
+- Convert to PNG cropping x and y pixels from the top-left corner:
 
 `pdftocairo {{path/to/file.pdf}} -png -x {{x_pixels}} -y {{y_pixels}}`
 

@@ -2,8 +2,9 @@
 id: linux.disown
 title: Disown
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Allow sub-processes to live beyond the shell that they are attached to.
 > See also the `jobs` command.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
 
 - Disown the current job:
 

@@ -2,8 +2,9 @@
 id: common.dotnet-restore
 title: Dotnet Restore
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815011
+created: 1642441815011
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

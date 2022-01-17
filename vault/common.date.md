@@ -2,8 +2,9 @@
 id: common.date
 title: Date
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -39,4 +40,8 @@ sources:
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
 `date --rfc-3339=s`
+
+- Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
+
+`date {{093023592021.59}}`
 

@@ -2,8 +2,9 @@
 id: linux.jpegtran
 title: Jpegtran
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `jpegtran -rotate {{90|180|270}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
-- Transpose the image across the upper left to lower right axis:
+- Transpose the image across the upper-left to lower right axis:
 
 `jpegtran -transpose {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
@@ -36,11 +37,11 @@ sources:
 
 `jpegtran -grayscale {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
-- Crop the image to a rectangular region of width `W` and height `H` from the upper left corner, saving the output to a specific file:
+- Crop the image to a rectangular region of width `W` and height `H` from the upper-left corner, saving the output to a specific file:
 
 `jpegtran -crop {{W}}x{{H}} -outfile {{path/to/output.jpg}} {{path/to/image.jpg}}`
 
-- Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper left corner:
+- Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper-left corner:
 
 `jpegtran -crop {{W}}x{{H}}+{{X}}+{{Y}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 

@@ -2,8 +2,9 @@
 id: common.watson
 title: Watson
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `watson stop`
 
-- Display latest working sessions:
+- Display the latest working sessions:
 
 `watson log`
 

@@ -2,8 +2,9 @@
 id: osx.top
 title: Top
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # top
 
 > Display dynamic real-time information about running processes.
+> More information: <https://ss64.com/osx/top.html>.
 
 - Start top, all options are available in the interface:
 

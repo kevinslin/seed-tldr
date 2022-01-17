@@ -2,8 +2,9 @@
 id: common.xgettext
 title: Xgettext
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815084
+created: 1642441815084
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

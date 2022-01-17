@@ -2,8 +2,9 @@
 id: common.ocamlfind
 title: Ocamlfind
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

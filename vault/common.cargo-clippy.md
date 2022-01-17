@@ -2,8 +2,9 @@
 id: common.cargo-clippy
 title: Cargo Clippy
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815000
+created: 1642441815000
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -34,13 +35,13 @@ sources:
 
 - Treat warnings as errors:
 
-`RUSTFLAGS="-Dwarnings" cargo clippy -- -D warnings`
+`cargo clippy -- --deny warnings`
 
 - Run checks and ignore warnings:
 
-`cargo clippy -- -A warnings`
+`cargo clippy -- --allow warnings`
 
-- Apply Clippy suggestion automatically (experimental and only supported on the nightly channel):
+- Apply Clippy suggestions automatically:
 
-`cargo clippy --fix -Z unstable-options`
+`cargo clippy --fix`
 

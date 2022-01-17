@@ -2,8 +2,9 @@
 id: android.am
 title: Am
 desc: ''
-updated: 1623965306171
-created: 1623965306171
+updated: 1642441814990
+created: 1642441814990
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Convert an intent to an URI:
+- Convert an intent to a URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 

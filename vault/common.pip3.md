@@ -2,8 +2,9 @@
 id: common.pip3
 title: Pip3
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815060
+created: 1642441815060
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -42,7 +43,7 @@ sources:
 
 - Install packages from a file:
 
-`pip3 install --requirements {{requirements.txt}}`
+`pip3 install --requirement {{requirements.txt}}`
 
 - Show installed package info:
 

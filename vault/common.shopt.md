@@ -2,8 +2,9 @@
 id: common.shopt
 title: Shopt
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Manage Bash shell options: variables (stored in `$BASHOPTS`) that control behavior specific to the Bash shell.
 > Generic POSIX shell variables (stored in `$SHELLOPTS`) are managed with the `set` command instead.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html>.
 
 - List of all settable options and whether they are set:
 

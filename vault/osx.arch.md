@@ -2,8 +2,9 @@
 id: osx.arch
 title: Arch
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Display the name of the system architecture, or run a command under a different architecture.
 > See also `uname`.
+> More information: <https://www.unix.com/man-page/osx/1/arch/>.
 
 - Display the system's architecture:
 

@@ -2,8 +2,9 @@
 id: common.fswebcam
 title: Fswebcam
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815019
+created: 1642441815019
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

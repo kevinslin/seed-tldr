@@ -2,8 +2,9 @@
 id: linux.libreoffice
 title: Libreoffice
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `libreoffice --pt {{printer_name}} {{path/to/file1}} {{path/to/file2}}`
 
-- Convert all `.doc` files in current directory to pdf:
+- Convert all `.doc` files in current directory to PDF:
 
 `libreoffice --convert-to {{pdf}} {{*.doc}}`
 

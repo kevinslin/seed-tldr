@@ -2,8 +2,9 @@
 id: common.ghost
 title: Ghost
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815021
+created: 1642441815021
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `ghost restart`
 
-- Check the system for any potential hiccups when on install or update of Ghost:
+- Check the system for any potential hiccups while installing or updating Ghost:
 
 `ghost doctor`
 

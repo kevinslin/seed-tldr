@@ -2,8 +2,9 @@
 id: linux.ipcalc
 title: Ipcalc
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ipcalc
 
 > Perform simple operations and calculations on IP addresses and networks.
+> More information: <https://manned.org/ipcalc>.
 
 - Show information about an address or network with a given subnet mask:
 

@@ -2,8 +2,9 @@
 id: common.fkill
 title: Fkill
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815018
+created: 1642441815018
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `fkill`
 
-- Kill the process by pid, name or port:
+- Kill the process by PID, name or port:
 
 `fkill {{pid|name|:port}}`
 

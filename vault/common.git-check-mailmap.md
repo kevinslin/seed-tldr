@@ -2,8 +2,9 @@
 id: common.git-check-mailmap
 title: Git Check Mailmap
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815022
+created: 1642441815022
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

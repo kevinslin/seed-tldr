@@ -2,8 +2,9 @@
 id: linux.ip-link
 title: Ip Link
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815099
+created: 1642441815099
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

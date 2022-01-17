@@ -2,8 +2,9 @@
 id: linux.netselect-apt
 title: Netselect Apt
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # netselect-apt
 
 > Create a `sources.list` file for a Debian mirror with the lowest latency.
-> More information: <https://manpages.debian.org/buster/netselect-apt/netselect-apt.1.html>.
+> More information: <https://manpages.debian.org/latest/netselect-apt/netselect-apt.html>.
 
 - Create `sources.list` using the lowest latency server:
 

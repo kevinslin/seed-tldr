@@ -2,8 +2,9 @@
 id: linux.bpftrace
 title: Bpftrace
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815089
+created: 1642441815089
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `sudo bpftrace -l`
 
-- Run a one-liner program (e.g syscall count by program):
+- Run a one-liner program (e.g. syscall count by program):
 
 `sudo bpftrace -e '{{tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }}}'`
 

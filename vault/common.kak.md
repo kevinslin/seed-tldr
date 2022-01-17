@@ -2,8 +2,9 @@
 id: common.kak
 title: Kak
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `%s{{foo}}<Enter>c{{bar}}<Escape>`
 
-- Un-select all secondary selections, and keep only the main one:
+- Unselect all secondary selections, and keep only the main one:
 
 `<Space>`
 

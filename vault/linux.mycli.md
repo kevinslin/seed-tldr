@@ -2,8 +2,9 @@
 id: linux.mycli
 title: Mycli
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mycli
 
 > A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting.
+> More information: <https://manned.org/mycli>.
 
 - Connect to a database with the currently logged in user:
 

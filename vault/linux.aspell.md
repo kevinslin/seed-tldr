@@ -2,8 +2,9 @@
 id: linux.aspell
 title: Aspell
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # aspell
 
 > Interactive spell checker.
+> More information: <http://aspell.net/>.
 
 - Spell check a single file:
 
@@ -27,7 +29,7 @@ sources:
 
 `aspell dicts`
 
-- Run aspell with different language (takes two letter ISO 639 language code):
+- Run aspell with a different language (takes two-letter ISO 639 language code):
 
 `aspell --lang={{cs}}`
 

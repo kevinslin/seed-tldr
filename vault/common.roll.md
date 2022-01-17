@@ -2,8 +2,9 @@
 id: common.roll
 title: Roll
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815066
+created: 1642441815066
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # roll
 
 > Rolls a user-defined dice sequence.
+> More information: <https://manned.org/roll>.
 
 - Roll 3 6-sided dice and sums the results:
 

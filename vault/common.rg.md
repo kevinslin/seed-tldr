@@ -2,8 +2,9 @@
 id: common.rg
 title: Rg
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -25,7 +26,7 @@ sources:
 
 `rg --no-ignore --hidden {{regular_expression}}`
 
-- Search for a regular expression only in a certain filetype (e.g., html, css, etc.):
+- Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
 
 `rg --type {{filetype}} {{regular_expression}}`
 
@@ -33,7 +34,7 @@ sources:
 
 `rg {{regular_expression}} {{set_of_subdirs}}`
 
-- Search for a regular expression in files matching a glob (e.g., `README.*`):
+- Search for a regular expression in files matching a glob (e.g. `README.*`):
 
 `rg {{regular_expression}} --glob {{glob}}`
 

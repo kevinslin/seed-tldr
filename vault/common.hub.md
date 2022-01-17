@@ -2,8 +2,9 @@
 id: common.hub
 title: Hub
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815034
+created: 1642441815034
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,11 +18,7 @@ sources:
 > If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
 > More information: <https://hub.github.com>.
 
-- Clone a repository you own, using just the repository name rather than the full URL:
-
-`hub clone {{repo_name}}`
-
-- Clone another user's repository, using their GitHub username and the repository name:
+- Clone a repository using its slug (owners can omit the username):
 
 `hub clone {{username}}/{{repo_name}}`
 
@@ -44,4 +41,8 @@ sources:
 - Upload the current (local-only) repository to your GitHub account:
 
 `hub create`
+
+- Fetch Git objects from upstream and update local branches:
+
+`hub sync`
 

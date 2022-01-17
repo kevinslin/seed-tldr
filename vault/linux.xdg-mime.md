@@ -2,8 +2,9 @@
 id: linux.xdg-mime
 title: Xdg Mime
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `xdg-mime query filetype {{path/to/file}}`
 
-- Display the default application for opening PNG images:
+- Display the default application for opening PNGs:
 
 `xdg-mime query default {{image/png}}`
 

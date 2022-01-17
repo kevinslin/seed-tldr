@@ -2,8 +2,9 @@
 id: common.pkill
 title: Pkill
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815060
+created: 1642441815060
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -19,11 +20,15 @@ sources:
 
 - Kill all processes which match:
 
-`pkill -9 "{{process_name}}"`
+`pkill "{{process_name}}"`
 
 - Kill all processes which match their full command instead of just the process name:
 
-`pkill -9 --full "{{command_name}}"`
+`pkill -f "{{command_name}}"`
+
+- Force kill matching processes (can't be blocked):
+
+`pkill -9 "{{process_name}}"`
 
 - Send SIGUSR1 signal to processes which match:
 

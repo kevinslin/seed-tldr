@@ -2,8 +2,9 @@
 id: common.wp
 title: Wp
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815083
+created: 1642441815083
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,6 +24,14 @@ sources:
 - Update WP-CLI:
 
 `wp cli update`
+
+- Download a fresh WordPress installation to current directory, optionally specifying the locale:
+
+`wp core download --locale={{locale}}`
+
+- Create basic `wpconfig` file (assuming database on `localhost`):
+
+`wp config create --dbname={{dbname}} --dbuser={{dbuser}} --dbpass={{dbpass}}`
 
 - Install and activate a WordPress plugin:
 

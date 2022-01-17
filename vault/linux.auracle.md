@@ -2,8 +2,9 @@
 id: linux.auracle
 title: Auracle
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

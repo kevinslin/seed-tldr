@@ -2,8 +2,9 @@
 id: osx.hdiutil
 title: Hdiutil
 desc: ''
-updated: 1623965306234
-created: 1623965306234
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # hdiutil
 
 > Utility to create and manage disk images.
+> More information: <https://ss64.com/osx/hdiutil.html>.
 
 - Mount an image:
 

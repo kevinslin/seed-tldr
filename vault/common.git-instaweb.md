@@ -2,8 +2,9 @@
 id: common.git-instaweb
 title: Git Instaweb
 desc: ''
-updated: 1623965306187
-created: 1623965306187
+updated: 1642441815024
+created: 1642441815024
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,10 +14,10 @@ sources:
 ---
 # git instaweb
 
-> Helper to launch a gitweb server.
+> Helper to launch a GitWeb server.
 > More information: <https://git-scm.com/docs/git-instaweb>.
 
-- Launch a gitweb server for the current Git repository:
+- Launch a GitWeb server for the current Git repository:
 
 `git instaweb --start`
 
@@ -28,7 +29,7 @@ sources:
 
 `git instaweb --start --port {{1234}}`
 
-- Use a specified http daemon:
+- Use a specified HTTP daemon:
 
 `git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
@@ -36,11 +37,11 @@ sources:
 
 `git instaweb --start --browser`
 
-- Stop the currently running gitweb server:
+- Stop the currently running GitWeb server:
 
 `git instaweb --stop`
 
-- Restart the currently running gitweb server:
+- Restart the currently running GitWeb server:
 
 `git instaweb --restart`
 

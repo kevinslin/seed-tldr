@@ -2,8 +2,9 @@
 id: linux.dpkg
 title: Dpkg
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,8 @@ sources:
 # dpkg
 
 > Debian package manager.
-> More information: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+> Some subcommands such as `dpkg deb` have their own usage documentation.
+> More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Install a package:
 

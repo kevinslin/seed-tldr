@@ -2,8 +2,9 @@
 id: common.unclutter
 title: Unclutter
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # unclutter
 
 > Hides the mouse cursor.
+> More information: <https://manned.org/unclutter.1x>.
 
 - Hide mouse cursor after 3 seconds:
 

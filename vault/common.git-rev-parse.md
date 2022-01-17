@@ -2,8 +2,9 @@
 id: common.git-rev-parse
 title: Git Rev Parse
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815026
+created: 1642441815026
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

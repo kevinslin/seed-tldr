@@ -2,8 +2,9 @@
 id: common.acme-sh-dns
 title: Acme Sh DNS
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814991
+created: 1642441814991
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -22,7 +23,7 @@ sources:
 
 - Issue a wildcard certificate (denoted by an asterisk) using an automatic DNS API mode:
 
-`acme.sh --issue --dns {{dns_namesilo}} --domain  {{example.com}} --domain {{*.example.com}}`
+`acme.sh --issue --dns {{dns_namesilo}} --domain {{example.com}} --domain {{*.example.com}}`
 
 - Issue a certificate using a DNS alias mode:
 

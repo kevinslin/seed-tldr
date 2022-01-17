@@ -2,8 +2,9 @@
 id: linux.daemonize
 title: Daemonize
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `daemonize {{command}} {{command_arguments}}`
 
-- Write the pid to the specified file:
+- Write the PID to the specified file:
 
 `daemonize -p {{path/to/pidfile}} {{command}} {{command_arguments}}`
 

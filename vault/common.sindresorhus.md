@@ -2,8 +2,9 @@
 id: common.sindresorhus
 title: Sindresorhus
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815069
+created: 1642441815069
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

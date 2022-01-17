@@ -2,8 +2,9 @@
 id: common.basename
 title: Basename
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814998
+created: 1642441814998
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

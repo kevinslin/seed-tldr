@@ -2,8 +2,9 @@
 id: common.pinky
 title: Pinky
 desc: ''
-updated: 1623965306204
-created: 1623965306204
+updated: 1642441815058
+created: 1642441815058
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pinky
 
 > Print user information using the `finger` protocol.
+> More information: <https://manned.org/pinky>.
 
 - Display details about the current user:
 

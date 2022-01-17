@@ -2,8 +2,9 @@
 id: osx.drutil
 title: Drutil
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # drutil
 
 > Interact with DVD burners.
+> More information: <https://ss64.com/osx/drutil.html>.
 
 - Eject a disk from the drive:
 

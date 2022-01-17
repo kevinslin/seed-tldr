@@ -2,8 +2,9 @@
 id: common.import
 title: Import
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815035
+created: 1642441815035
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,14 +16,15 @@ sources:
 
 > Capture some or all of an X server screen, and save the image to a file.
 > Part of the ImageMagick library.
+> More information: <https://imagemagick.org/script/import.php>.
 
 - Capture the entire X server screen in the PostScript image format:
 
 `import -window root {{output.postscript}}`
 
-- Capture contents of a remote X server screen in the PNG image format:
+- Capture contents of a remote X server screen in the PNG format:
 
-`import -window root -display {{remote_host}}:{screen}.{display} {{output.png}}`
+`import -window root -display {{remote_host}}:{{screen}}.{{display}} {{output.png}}`
 
 - Capture a specific window, given its ID as displayed by `xwininfo`, into the JPEG format:
 

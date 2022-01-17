@@ -2,8 +2,9 @@
 id: linux.xbps
 title: Xbps
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,7 +19,7 @@ sources:
 
 - Install packages and synchronize them with the remote repository:
 
-`xbps-install --synchronize {{package_name1}} {{package_name2}}`
+`xbps-install --sync {{package_name1}} {{package_name2}}`
 
 - Search for a package in the remote repository:
 
@@ -34,7 +35,7 @@ sources:
 
 - Synchronize your repository databases and update your system and dependencies:
 
-`xbps-install --synchronize -u`
+`xbps-install --sync --update`
 
 - Remove packages that were installed as dependencies and aren't currently needed:
 

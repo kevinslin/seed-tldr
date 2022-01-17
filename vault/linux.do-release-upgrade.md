@@ -2,8 +2,9 @@
 id: linux.do-release-upgrade
 title: Do Release Upgrade
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # do-release-upgrade
 
 > The Ubuntu release upgrader.
+> More information: <https://ubuntu.com/server/docs/upgrade-introduction>.
 
 - Upgrade to the latest release:
 

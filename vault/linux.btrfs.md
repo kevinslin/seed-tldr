@@ -2,8 +2,9 @@
 id: linux.btrfs
 title: Btrfs
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815090
+created: 1642441815090
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,8 @@ sources:
 # btrfs
 
 > A filesystem based on the copy-on-write (COW) principle for Linux.
+> Some subcommands such as `btrfs device` have their own usage documentation.
+> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
 - Create subvolume:
 

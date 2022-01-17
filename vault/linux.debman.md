@@ -2,8 +2,9 @@
 id: linux.debman
 title: Debman
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # debman
 
 > Read man pages from uninstalled packages.
+> More information: <https://manpages.debian.org/latest/debian-goodies/debman.1.html>.
 
 - Read a man page for a command that is provided by a specified package name:
 

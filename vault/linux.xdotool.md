@@ -2,8 +2,9 @@
 id: linux.xdotool
 title: Xdotool
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,11 +24,11 @@ sources:
 
 `xdotool click {{3}}`
 
-- Get the id of the currently active window:
+- Get the ID of the currently active window:
 
 `xdotool getactivewindow`
 
-- Focus on the window with id of 12345:
+- Focus on the window with ID of 12345:
 
 `xdotool windowfocus --sync {{12345}}`
 

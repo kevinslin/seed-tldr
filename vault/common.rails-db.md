@@ -2,8 +2,9 @@
 id: common.rails-db
 title: Rails Db
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # rails db
 
 > Various database-related subcommands for Ruby on Rails.
+> More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create databases, load the schema, and initialize with seed data:
 

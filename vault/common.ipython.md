@@ -2,8 +2,9 @@
 id: common.ipython
 title: Ipython
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815036
+created: 1642441815036
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,9 +15,9 @@ sources:
 # IPython
 
 > A Python shell with automatic history, dynamic object introspection, easier configuration, command completion, access to the system shell and more.
-> More information: <https://ipython.org/documentation.html>.
+> More information: <https://ipython.readthedocs.io>.
 
-- Start an interactive IPython session:
+- Start a REPL (interactive shell):
 
 `ipython`
 

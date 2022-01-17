@@ -2,8 +2,9 @@
 id: common.nvm
 title: Nvm
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # nvm
 
 > Install, uninstall or switch between Node.js versions.
-> Supports version numbers like "0.12" or "v4.2", and labels like "stable", "system", etc.
+> Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 > More information: <https://github.com/creationix/nvm>.
 
 - Install a specific version of Node.js:

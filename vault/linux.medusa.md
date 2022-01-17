@@ -2,8 +2,9 @@
 id: linux.medusa
 title: Medusa
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,13 @@ sources:
 # Medusa
 
 > A modular and parallel login brute-forcer for a variety of protocols.
+> More information: <https://manned.org/medusa>.
 
 - Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
 
 `medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
 
-- Execute a login attempt against a HTTP server using the username, password and user-agent specified:
+- Execute a login attempt against an HTTP server using the username, password and user-agent specified:
 
 `medusa -M HTTP -h host -u {{username}} -p {{password}} -m USER-AGENT:"{{Agent}}"`
 

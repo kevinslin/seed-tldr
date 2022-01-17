@@ -2,8 +2,9 @@
 id: linux.mssh
 title: Mssh
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mssh
 
 > GTK+ based SSH client for interacting with multiple SSH servers at once.
+> More information: <https://manned.org/mssh>.
 
 - Open a new window and connect to multiple SSH servers:
 

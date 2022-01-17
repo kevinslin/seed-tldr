@@ -2,8 +2,9 @@
 id: linux.lastcomm
 title: Lastcomm
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Show last commands executed.
 > More information: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
 
-- Print information about all of the commands in the acct (record file):
+- Print information about all the commands in the acct (record file):
 
 `lastcomm`
 

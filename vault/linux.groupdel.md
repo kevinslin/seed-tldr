@@ -2,8 +2,9 @@
 id: linux.groupdel
 title: Groupdel
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

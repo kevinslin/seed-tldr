@@ -2,8 +2,9 @@
 id: common.vimtutor
 title: Vimtutor
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815080
+created: 1642441815080
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # vimtutor
 
 > Vim tutor, teaching the basic vim commands.
+> More information: <https://manned.org/vimtutor>.
 
 - Launch the vim tutor using the given language (en, fr, de, ...):
 

@@ -2,8 +2,9 @@
 id: linux.wodim
 title: Wodim
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Command (aliased as `cdrecord` on some systems) for recording data to CDs or DVDs.
 > Some invocations of wodim can cause destructive actions, such as erasing all the data on a disc.
+> More information: <https://manned.org/wodim>.
 
 - Display optical drives available to `wodim`:
 

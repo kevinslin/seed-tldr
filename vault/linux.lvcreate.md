@@ -2,8 +2,9 @@
 id: linux.lvcreate
 title: Lvcreate
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -29,7 +30,7 @@ sources:
 
 `lvcreate -l {{60%VG}} -n {{mylv}} {{vg1}}`
 
-- Create a logical volume called mylv that uses all of the unallocated space in the volume group vg1:
+- Create a logical volume called mylv that uses all the unallocated space in the volume group vg1:
 
 `lvcreate -l {{100%FREE}} -n {{mylv}} {{vg1}}`
 

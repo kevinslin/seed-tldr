@@ -2,8 +2,9 @@
 id: osx.xattr
 title: Xattr
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xattr
 
 > Utility to work with extended filesystem attributes.
+> More information: <https://ss64.com/osx/xattr.html>.
 
 - List key:value extended attributes for a given file:
 

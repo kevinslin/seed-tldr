@@ -2,8 +2,9 @@
 id: linux.flatpak-builder
 title: Flatpak Builder
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

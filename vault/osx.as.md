@@ -2,8 +2,9 @@
 id: osx.as
 title: As
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Portable GNU assembler.
 > Primarily intended to assemble output from `gcc` to be used by `ld`.
+> More information: <https://www.unix.com/man-page/osx/1/as/>.
 
 - Assemble a file, writing the output to `a.out`:
 

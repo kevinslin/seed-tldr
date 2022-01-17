@@ -2,8 +2,9 @@
 id: linux.login
 title: Login
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # login
 
 > Initiates a session for a user.
+> More information: <https://manned.org/login>.
 
 - Log in as a user:
 

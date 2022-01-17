@@ -2,8 +2,9 @@
 id: common.git-for-each-repo
 title: Git for Each Repo
 desc: ''
-updated: 1623965306187
-created: 1623965306187
+updated: 1642441815024
+created: 1642441815024
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

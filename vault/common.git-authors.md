@@ -2,8 +2,9 @@
 id: common.git-authors
 title: Git Authors
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815021
+created: 1642441815021
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,11 +22,11 @@ sources:
 
 `git authors --list`
 
-- Append the list of committers to the the `AUTHORS` file and open it in the default editor:
+- Append the list of committers to the `AUTHORS` file and open it in the default editor:
 
 `git authors`
 
-- Append the list of committers, excluding emails, to the the `AUTHORS` file and open it in the default editor:
+- Append the list of committers, excluding emails, to the `AUTHORS` file and open it in the default editor:
 
 `git authors --no-email`
 

@@ -2,8 +2,9 @@
 id: common.iconv
 title: Iconv
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815034
+created: 1642441815034
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # iconv
 
 > Converts text from one encoding to another.
+> More information: <https://manned.org/iconv>.
 
 - Convert file to a specific encoding, and print to stdout:
 

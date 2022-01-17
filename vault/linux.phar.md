@@ -2,8 +2,9 @@
 id: linux.phar
 title: Phar
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # phar
 
 > Create, update or extract PHP archives (PHAR).
+> More information: <https://manned.org/phar>.
 
 - Add space-separated files or directories to a Phar file:
 

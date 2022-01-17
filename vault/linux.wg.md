@@ -2,8 +2,9 @@
 id: linux.wg
 title: Wg
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,17 +19,21 @@ sources:
 
 - Check status of currently active interfaces:
 
-`sudo wg`
+`wg`
 
-- Print a new private key:
+- Generate a new private key:
 
 `wg genkey`
 
-- Print a new public key:
+- Generate a public key from a private key:
 
-`echo {{private_key}} | wg pubkey`
+`wg pubkey < {{path/to/private_key}} > {{path/to/public_key}}`
 
 - Generate a public and private key:
 
-`wg genkey | tee {{privatekey.txt}} | wg pubkey > {{publickey.txt}}`
+`wg genkey | tee {{path/to/private_key}} | wg pubkey > {{path/to/public_key}}`
+
+- Show the current configuration of a wireguard interface:
+
+`wg showconf {{wg0}}`
 

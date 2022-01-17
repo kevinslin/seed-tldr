@@ -2,8 +2,9 @@
 id: windows.tskill
 title: Tskill
 desc: ''
-updated: 1623965306239
-created: 1623965306239
+updated: 1642441815130
+created: 1642441815130
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

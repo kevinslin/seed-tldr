@@ -2,8 +2,9 @@
 id: linux.lslogins
 title: Lslogins
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

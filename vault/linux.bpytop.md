@@ -2,8 +2,9 @@
 id: linux.bpytop
 title: Bpytop
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815089
+created: 1642441815089
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

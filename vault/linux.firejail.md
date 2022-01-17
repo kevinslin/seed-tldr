@@ -2,8 +2,9 @@
 id: linux.firejail
 title: Firejail
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # firejail
 
 > Securely sandboxes processes to containers using built-in Linux capabilities.
+> More information: <https://manned.org/firejail>.
 
 - Integrate firejail with your desktop environment:
 

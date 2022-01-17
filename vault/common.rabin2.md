@@ -2,8 +2,9 @@
 id: common.rabin2
 title: Rabin2
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Get information about binary files (ELF, PE, Java CLASS, Mach-O) - symbols, sections, linked libraries, etc.
 > Comes bundled with `radare2`.
+> More information: <https://manned.org/rabin2>.
 
 - Display general information about a binary (architecture, type, endianness):
 

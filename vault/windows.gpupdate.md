@@ -2,8 +2,9 @@
 id: windows.gpupdate
 title: Gpupdate
 desc: ''
-updated: 1623965306238
-created: 1623965306238
+updated: 1642441815128
+created: 1642441815128
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -22,7 +23,7 @@ sources:
 
 - Specify the target Group Policy settings to check for update:
 
-`gpupdate /target=:{{computer|user}}`
+`gpupdate /target:{{computer|user}}`
 
 - Force all Group Policy settings to be reapplied:
 

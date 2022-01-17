@@ -2,8 +2,9 @@
 id: linux.lsusb
 title: Lsusb
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lsusb
 
 > Display information about USB buses and devices connected to them.
+> More information: <https://manned.org/lsusb>.
 
 - List all the USB devices available:
 
@@ -31,7 +33,7 @@ sources:
 
 `lsusb -D {{device}}`
 
-- List devices with a specified vendor and product id only:
+- List devices with a specified vendor and product ID only:
 
 `lsusb -d {{vendor}}:{{product}}`
 

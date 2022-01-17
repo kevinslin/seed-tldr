@@ -2,8 +2,9 @@
 id: common.for
 title: For
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815018
+created: 1642441815018
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

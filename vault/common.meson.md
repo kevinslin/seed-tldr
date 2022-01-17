@@ -2,8 +2,9 @@
 id: common.meson
 title: Meson
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815047
+created: 1642441815047
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > SCons-like build system that uses python as a front-end language and Ninja as a building backend.
 > More information: <https://mesonbuild.com>.
 
-- Generate a c project with a given name and version:
+- Generate a C project with a given name and version:
 
 `meson init --language={{c}} --name={{myproject}} --version={{0.1}}`
 

@@ -2,8 +2,9 @@
 id: linux.kde-inhibit
 title: Kde Inhibit
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,7 +24,7 @@ sources:
 
 `kde-inhibit --screenSaver {{command}} {{command_arguments}}`
 
-- Launch vlc, and inhibit colour correction (night mode) while it's running:
+- Launch VLC, and inhibit color correction (night mode) while it's running:
 
 `kde-inhibit --colorCorrect {{vlc}}`
 

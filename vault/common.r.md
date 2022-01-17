@@ -2,8 +2,9 @@
 id: common.r
 title: R
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > R language interpreter.
 > More information: <https://www.r-project.org>.
 
-- Start an R interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `R`
 

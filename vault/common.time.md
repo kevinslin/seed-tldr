@@ -2,8 +2,9 @@
 id: common.time
 title: Time
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815075
+created: 1642441815075
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # time
 
 > See how long a command takes.
+> More information: <https://manned.org/time>.
 
 - Time "ls":
 

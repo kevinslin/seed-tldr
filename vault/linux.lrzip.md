@@ -2,8 +2,9 @@
 id: linux.lrzip
 title: Lrzip
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A large file compression program.
 > See also `lrunzip`, `lrztar`, `lrzuntar`.
+> More information: <https://manned.org/lrzip>.
 
 - Compress a file with LZMA - slow compression, fast decompression:
 

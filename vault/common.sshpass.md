@@ -2,8 +2,9 @@
 id: common.sshpass
 title: Sshpass
 desc: ''
-updated: 1623965306211
-created: 1623965306211
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > An ssh password provider.
 > It works by creating a TTY, feeding the password into it, and then redirecting stdin to the ssh session.
+> More information: <https://manned.org/sshpass>.
 
 - Connect to a remote server using a password supplied on a file descriptor (in this case, stdin):
 

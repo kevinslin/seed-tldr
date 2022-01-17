@@ -2,8 +2,9 @@
 id: linux.vrms
 title: Vrms
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

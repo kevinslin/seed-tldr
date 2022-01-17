@@ -2,8 +2,9 @@
 id: common.aria2
 title: Aria2
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814995
+created: 1642441814995
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

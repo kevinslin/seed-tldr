@@ -2,8 +2,9 @@
 id: common.latex
 title: Latex
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815040
+created: 1642441815040
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `latex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a DVI document, halting on each error:
+- Compile a DVI document, exiting on each error:
 
 `latex -halt-on-error {{source.tex}}`
 

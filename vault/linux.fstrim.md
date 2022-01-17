@@ -2,8 +2,9 @@
 id: linux.fstrim
 title: Fstrim
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Discard unused blocks on a mounted filesystem.
 > Only supported by flash memory devices such as SSDs and microSD cards.
+> More information: <https://manned.org/fstrim>.
 
 - Trim unused blocks on all mounted partitions that support it:
 

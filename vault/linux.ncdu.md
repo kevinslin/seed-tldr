@@ -2,8 +2,9 @@
 id: linux.ncdu
 title: Ncdu
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,10 +15,15 @@ sources:
 # ncdu
 
 > Disk usage analyzer with an ncurses interface.
+> More information: <https://manned.org/ncdu>.
 
 - Analyze the current working directory:
 
 `ncdu`
+
+- Colorize output:
+
+`ncdu --color {{dark|off}}`
 
 - Analyze a given directory:
 

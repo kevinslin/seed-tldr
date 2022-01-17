@@ -2,8 +2,9 @@
 id: sunos.dmesg
 title: Dmesg
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815125
+created: 1642441815125
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

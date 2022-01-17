@@ -2,8 +2,9 @@
 id: common.ssh-copy-id
 title: Ssh Copy Id
 desc: ''
-updated: 1623965306211
-created: 1623965306211
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ssh-copy-id
 
 > Install your public key in a remote machine's authorized_keys.
+> More information: <https://manned.org/ssh-copy-id>.
 
 - Copy your keys to the remote machine:
 

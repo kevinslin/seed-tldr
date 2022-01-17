@@ -2,8 +2,9 @@
 id: linux.faketime
 title: Faketime
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # faketime
 
 > Fake the system time for a given command.
-> More information: <https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html>.
+> More information: <https://manned.org/faketime>.
 
 - Fake the time to this evening, before printing the result of `date`:
 
@@ -24,7 +25,7 @@ sources:
 
 `faketime '{{yesterday}}' {{bash}}`
 
-- Simulate how any program would act next friday night:
+- Simulate how a program would act next Friday night:
 
-`faketime '{{next Friday 1 am}}' {{path/to/any/program}}`
+`faketime '{{next Friday 1 am}}' {{path/to/program}}`
 

@@ -2,8 +2,9 @@
 id: common.docker-exec
 title: Docker Exec
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815009
+created: 1642441815009
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `docker exec --interactive --detach {{container_name}} {{command}}`
 
-- Set an environment variable in a running bash session:
+- Set an environment variable in a running Bash session:
 
 `docker exec --interactive --tty --env {{variable_name}}={{value}} {{container_name}} {{/bin/bash}}`
 

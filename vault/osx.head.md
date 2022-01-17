@@ -2,8 +2,9 @@
 id: osx.head
 title: Head
 desc: ''
-updated: 1623965306234
-created: 1623965306234
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # head
 
 > Output the first part of files.
+> More information: <https://ss64.com/osx/head.html>.
 
 - Output the first few lines of a file:
 

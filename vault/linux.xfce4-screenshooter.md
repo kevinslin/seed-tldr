@@ -2,8 +2,9 @@
 id: linux.xfce4-screenshooter
 title: Xfce4 Screenshooter
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

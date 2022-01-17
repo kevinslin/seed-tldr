@@ -2,8 +2,9 @@
 id: common.bundletool
 title: Bundletool
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815000
+created: 1642441815000
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # bundletool
 
 > Command-line tool to manipulate Android Application Bundles.
+> Some subcommands such as `bundletool validate` have their own usage documentation.
 > More information: <https://developer.android.com/studio/command-line/bundletool>.
 
 - Display help for a subcommand:

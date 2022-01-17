@@ -2,8 +2,9 @@
 id: common.repren
 title: Repren
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,15 +17,15 @@ sources:
 > Multi-pattern string replacement and file renaming tool.
 > More information: <https://github.com/jlevy/repren>.
 
-- Do a dry-run renaming a directory of pngs with a literal string replacement:
+- Do a dry-run renaming a directory of PNGs with a literal string replacement:
 
 `repren --dry-run --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' {{*.png}}`
 
-- Do a dry-run renaming a directory of jpegs with a regular expression:
+- Do a dry-run renaming a directory of JPEGs with a regular expression:
 
 `repren --rename --dry-run --from '{{regular_expression}}' --to '{{replacement_string}}' {{*.jpg}} {{*.jpeg}}`
 
-- Do a find-and-replace on the contents of a directory of csv files:
+- Do a find-and-replace on the contents of a directory of CSV files:
 
 `repren --from '{{([0-9]+) example_string}}' --to '{{replacement_string \1}}' {{*.csv}}`
 

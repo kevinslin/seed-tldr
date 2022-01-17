@@ -2,8 +2,9 @@
 id: linux.as
 title: As
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Portable GNU assembler.
 > Primarily intended to assemble output from `gcc` to be used by `ld`.
+> More information: <https://manned.org/as>.
 
 - Assemble a file, writing the output to `a.out`:
 

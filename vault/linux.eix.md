@@ -2,8 +2,9 @@
 id: linux.eix
 title: Eix
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Utilities for searching local Gentoo packages.
 > Update local package cache using `eix-update`.
+> More information: <https://wiki.gentoo.org/wiki/Eix>.
 
 - Search for a package:
 

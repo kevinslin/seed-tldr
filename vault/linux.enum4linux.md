@@ -2,8 +2,9 @@
 id: linux.enum4linux
 title: Enum4linux
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,8 @@ sources:
 # enum4linux
 
 > Tool for enumerating Windows and Samba information from remote systems.
-> It attempts to offer similar functionality to enum.exe formerly available from [www.bindview.com](http://www.bindview.com).
+> It attempts to offer similar functionality to enum.exe formerly available from [www.bindview.com.](http://www.bindview.com.)
+> More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:
 
@@ -22,17 +24,17 @@ sources:
 
 - Enumerate using given login credentials:
 
-`enum4liux -u {{user_name}} -p {{password}} {{remote_host}}`
+`enum4linux -u {{user_name}} -p {{password}} {{remote_host}}`
 
 - List usernames from a given host:
 
-`enum4liux -U {{remote_host}}`
+`enum4linux -U {{remote_host}}`
 
 - List shares:
 
-`enum4liux -S {{remote_host}}`
+`enum4linux -S {{remote_host}}`
 
 - Get OS information:
 
-`enum4liux -o {{remote_host}}`
+`enum4linux -o {{remote_host}}`
 

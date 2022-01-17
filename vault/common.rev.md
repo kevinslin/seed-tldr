@@ -2,8 +2,9 @@
 id: common.rev
 title: Rev
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # rev
 
 > Reverse a line of text.
+> More information: <https://manned.org/rev>.
 
 - Reverse the text string "hello":
 

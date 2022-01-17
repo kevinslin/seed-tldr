@@ -2,8 +2,9 @@
 id: common.keepass2
 title: Keepass2
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > A light-weight password manager.
 > More information: <https://keepass.info>.
 
-- Start KeePass 2, opening the most recently-opened password database:
+- Start KeePass 2, opening the most recently opened password database:
 
 `keepass2`
 

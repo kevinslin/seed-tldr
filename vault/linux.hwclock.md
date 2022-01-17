@@ -2,8 +2,9 @@
 id: linux.hwclock
 title: Hwclock
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # hwclock
 
 > Used for reading or changing the hardware clock. Usually requires root.
+> More information: <https://manned.org/hwclock>.
 
 - Display the current time as reported by the hardware clock:
 

@@ -2,8 +2,9 @@
 id: osx.tmutil
 title: Tmutil
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,11 +17,11 @@ sources:
 > Utility for managing Time Machine backups. Most verbs require root privileges.
 > More information: <https://ss64.com/osx/tmutil.html>.
 
-- Set a HFS+ drive as the backup destination:
+- Set an HFS+ drive as the backup destination:
 
 `sudo tmutil setdestination {{path/to/disk_mount_point}}`
 
-- Set a APF share or SMB share as the backup destination:
+- Set an APF share or SMB share as the backup destination:
 
 `sudo tmutil setdestination {{protocol://user[:password]@host/share}}`
 

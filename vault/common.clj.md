@@ -2,8 +2,9 @@
 id: common.clj
 title: Clj
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815002
+created: 1642441815002
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > All options can be defined in a `deps.edn` file.
 > More information: <https://clojure.org/guides/deps_and_cli>.
 
-- Start a REPL:
+- Start a REPL (interactive shell):
 
 `clj`
 

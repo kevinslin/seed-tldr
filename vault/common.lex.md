@@ -2,8 +2,9 @@
 id: common.lex
 title: Lex
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815041
+created: 1642441815041
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Lexical analyser generator.
 > Given the specification for a lexical analyser, generates C code implementing it.
+> More information: <https://manned.org/lex.1>.
 
 - Generate an analyser from a Lex file:
 

@@ -2,8 +2,9 @@
 id: common.scheme
 title: Scheme
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > MIT Scheme language interpreter and REPL (interactive shell).
 > More information: <https://www.gnu.org/software/mit-scheme>.
 
-- Open an interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `scheme`
 

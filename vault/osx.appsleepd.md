@@ -1,0 +1,23 @@
+---
+id: osx.appsleepd
+title: Appsleepd
+desc: ''
+updated: 1642441815119
+created: 1642441815119
+stub: false
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# appsleepd
+
+> Provides app sleep services.
+> It should not be invoked manually.
+
+- Start the daemon:
+
+`appsleepd`
+

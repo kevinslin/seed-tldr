@@ -2,8 +2,9 @@
 id: common.scrapy
 title: Scrapy
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,15 +33,15 @@ sources:
 
 `scrapy crawl {{spider_name}}`
 
-- Fetch a webpage as scrapy sees it and print source in stdout:
+- Fetch a webpage as Scrapy sees it and print the source to stdout:
 
 `scrapy fetch {{url}}`
 
-- Open a webpage in the default browser as scrapy sees it (disable JavaScript for extra fidelity):
+- Open a webpage in the default browser as Scrapy sees it (disable JavaScript for extra fidelity):
 
 `scrapy view {{url}}`
 
-- Open scrapy shell for URL, which allows interaction with the page source in python shell (or ipython if available):
+- Open Scrapy shell for URL, which allows interaction with the page source in a Python shell (or IPython if available):
 
 `scrapy shell {{url}}`
 

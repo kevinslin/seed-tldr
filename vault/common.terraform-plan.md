@@ -1,0 +1,47 @@
+---
+id: common.terraform-plan
+title: Terraform Plan
+desc: ''
+updated: 1642441815075
+created: 1642441815075
+stub: false
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# terraform plan
+
+> Generate and show Terraform execution plans.
+> More information: <https://www.terraform.io/docs/cli/commands/plan.html>.
+
+- Generate and show the execution plan in the currently directory:
+
+`terraform plan`
+
+- Show a plan to destroy all remote objects that currently exist:
+
+`terraform plan -destroy`
+
+- Show a plan to update the Terraform state and output values:
+
+`terraform plan -refresh-only`
+
+- Specify values for input variables:
+
+`terraform plan -var '{{name1}}={{value1}}' -var '{{name2}}={{value2}}'`
+
+- Focus Terraform's attention on only a subset of resources:
+
+`terraform plan -target {{resource_type.resource_name[instance index]}}`
+
+- Output a plan as JSON:
+
+`terraform plan -json`
+
+- Write a plan to a specific file:
+
+`terraform plan -no-color > {{path/to/file}}`
+

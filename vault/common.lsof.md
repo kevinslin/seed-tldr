@@ -2,8 +2,9 @@
 id: common.lsof
 title: Lsof
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815043
+created: 1642441815043
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Lists open files and the corresponding processes.
 > Note: Root privileges (or sudo) is required to list files opened by others.
+> More information: <https://manned.org/lsof>.
 
 - Find the processes that have a given file open:
 
@@ -44,7 +46,7 @@ sources:
 
 `lsof +D {{path/to/directory}}`
 
-- Find the process that is listening on a local TCP port:
+- Find the process that is listening on a local IPv6 TCP port and don't convert network or port numbers:
 
-`lsof -iTCP:{{port}} -sTCP:LISTEN`
+`lsof -i6TCP:{{port}} -sTCP:LISTEN -n -P`
 

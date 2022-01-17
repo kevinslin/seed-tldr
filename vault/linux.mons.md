@@ -2,8 +2,9 @@
 id: linux.mons
 title: Mons
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

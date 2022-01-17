@@ -2,8 +2,9 @@
 id: common.parquet-tools
 title: Parquet Tools
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # parquet-tools
 
 > A tool to show, inspect and manipulate Parquet file.
-> More information: <https://github.com/apache/parquet-mr/tree/master/parquet-tools>.
+> More information: <https://github.com/apache/parquet-mr/tree/master/parquet-tools-deprecated>.
 
 - Display the content of a Parquet file:
 

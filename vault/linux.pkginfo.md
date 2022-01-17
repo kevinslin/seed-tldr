@@ -2,8 +2,9 @@
 id: linux.pkginfo
 title: Pkginfo
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815108
+created: 1642441815108
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pkginfo
 
 > Query the package database on a CRUX system.
+> More information: <https://crux.nu/Main/Handbook3-6#ntoc19>.
 
 - List installed packages and their versions:
 

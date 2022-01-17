@@ -2,8 +2,9 @@
 id: common.git-delete-tag
 title: Git Delete Tag
 desc: ''
-updated: 1623965306187
-created: 1623965306187
+updated: 1642441815023
+created: 1642441815023
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # git delete-tag
 
 > Delete existing local and remote tags.
-> Part of git-extras.
+> Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delete-tag>.
 
 - Delete a tag:

@@ -2,8 +2,9 @@
 id: common.go-doc
 title: Go Doc
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815029
+created: 1642441815029
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

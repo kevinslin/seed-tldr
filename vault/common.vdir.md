@@ -2,8 +2,9 @@
 id: common.vdir
 title: Vdir
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815079
+created: 1642441815079
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,7 +22,7 @@ sources:
 
 `vdir`
 
-- List with sizes displayed in human readable units (KB, MB, GB):
+- List with sizes displayed in human-readable units (KB, MB, GB):
 
 `vdir -h`
 

@@ -2,8 +2,9 @@
 id: linux.zypper
 title: Zypper
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # zypper
 
 > SUSE & openSUSE package management utility.
+> More information: <https://en.opensuse.org/SDB:Zypper_manual>.
 
 - Synchronize list of packages and versions available:
 
@@ -27,11 +29,15 @@ sources:
 
 `zypper remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `zypper update`
 
 - Search package via keyword:
 
 `zypper search {{keyword}}`
+
+- Show information related to configured repositories:
+
+`zypper repos --sort-by-priority`
 

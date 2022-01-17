@@ -2,8 +2,9 @@
 id: osx.base64
 title: Base64
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # base64
 
 > Encode and decode using Base64 representation.
+> More information: <https://www.unix.com/man-page/osx/1/base64/>.
 
 - Encode a file:
 

@@ -2,8 +2,9 @@
 id: osx.afinfo
 title: Afinfo
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Audio file metadata parser for OS X.
 > Built-in command of OS X.
+> More information: <https://ss64.com/osx/afinfo.html>.
 
 - Display info of a given audio file:
 
@@ -28,7 +30,7 @@ sources:
 
 `afinfo -i {{path/to/file}}`
 
-- Print output in xml format:
+- Print output in XML format:
 
 `afinfo -x {{path/to/file}}`
 

@@ -2,8 +2,9 @@
 id: common.gist
 title: Gist
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815021
+created: 1642441815021
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,7 +41,7 @@ sources:
 
 `gist --list {{username}}`
 
-- Update a gist using the id from URL:
+- Update a gist using the ID from URL:
 
 `gist --update {{GIST_ID}} {{file.txt}}`
 

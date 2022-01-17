@@ -2,8 +2,9 @@
 id: common.fastboot
 title: Fastboot
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815016
+created: 1642441815016
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # fastboot
 
 > Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work).
-> More information: <https://android.googlesource.com/platform/system/core/+/master/fastboot/#fastboot>.
+> More information: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
 
 - Unlock the bootloader:
 
@@ -30,7 +31,7 @@ sources:
 
 - Flash a given image:
 
-`fastboot flash {{file.zip}}`
+`fastboot flash {{file.img}}`
 
 - Flash a custom recovery image:
 

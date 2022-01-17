@@ -2,8 +2,9 @@
 id: linux.ac
 title: Ac
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815087
+created: 1642441815087
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ac
 
 > Print statistics on how long users have been connected.
+> More information: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
 
 - Print how long the current user has been connected in hours:
 

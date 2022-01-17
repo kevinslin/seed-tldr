@@ -2,8 +2,9 @@
 id: linux.pi
 title: Pi
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # pi
 
 > Compute decimal Archimedes' constant Pi on the command-line.
-> More information: <http://manpages.ubuntu.com/manpages/trusty/man1/pi.1.html>.
+> More information: <https://manned.org/pi>.
 
 - Display 100 decimal digits of Archimedes' constant Pi:
 

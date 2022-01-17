@@ -2,8 +2,9 @@
 id: osx.afplay
 title: Afplay
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # afplay
 
 > Command-line audio player.
+> More information: <https://ss64.com/osx/afplay.html>.
 
 - Play a sound file (waits until playback ends):
 

@@ -2,8 +2,9 @@
 id: common.which
 title: Which
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815083
+created: 1642441815083
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # which
 
 > Locate a program in the user's path.
+> More information: <https://manned.org/which>.
 
 - Search the PATH environment variable and display the location of any matching executables:
 

@@ -2,8 +2,9 @@
 id: windows.taskkill
 title: Taskkill
 desc: ''
-updated: 1623965306239
-created: 1623965306239
+updated: 1642441815129
+created: 1642441815129
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,10 +14,10 @@ sources:
 ---
 # taskkill
 
-> Terminate a process by its process id or name.
+> Terminate a process by its process ID or name.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
-- Terminate a process by its id:
+- Terminate a process by its ID:
 
 `taskkill /pid {{process_id}}`
 

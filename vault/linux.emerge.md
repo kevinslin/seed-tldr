@@ -2,8 +2,9 @@
 id: linux.emerge
 title: Emerge
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # emerge
 
 > Gentoo Linux package manager utility.
+> More information: <https://wiki.gentoo.org/wiki/Portage#emerge>.
 
 - Synchronize all packages:
 

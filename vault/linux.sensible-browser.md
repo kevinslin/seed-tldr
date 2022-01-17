@@ -2,8 +2,9 @@
 id: linux.sensible-browser
 title: Sensible Browser
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815112
+created: 1642441815112
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

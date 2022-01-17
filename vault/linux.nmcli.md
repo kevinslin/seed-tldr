@@ -2,8 +2,9 @@
 id: linux.nmcli
 title: Nmcli
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,21 +15,22 @@ sources:
 # nmcli
 
 > A command-line tool for controlling NetworkManager.
-> More information: <https://man.archlinux.org/man/nmcli.1>.
+> Some subcommands such as `nmcli monitor` have their own usage documentation.
+> More information: <https://manned.org/nmcli>.
 
-- Check the nmcli version:
+- Run an `nmcli` subcommand:
+
+`nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}`
+
+- Display the current version of NetworkManager:
 
 `nmcli --version`
 
-- Call general help:
+- Display help:
 
 `nmcli --help`
 
-- Call help on a command:
+- Display help for a subcommand:
 
-`nmcli {{command}} --help`
-
-- Execute an `nmcli` command:
-
-`nmcli {{command}}`
+`nmcli {{subcommand}} --help`
 

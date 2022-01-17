@@ -2,8 +2,9 @@
 id: common.du
 title: Du
 desc: ''
-updated: 1623965306182
-created: 1623965306182
+updated: 1642441815011
+created: 1642441815011
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Disk usage: estimate and summarize file and directory space usage.
 > More information: <https://www.gnu.org/software/coreutils/du>.
 
-- List the sizes of a directory and any subdirectories, in the given unit (B/KB/MB):
+- List the sizes of a directory and any subdirectories, in the given unit (B/KiB/MiB):
 
 `du -{{b|k|m}} {{path/to/directory}}`
 
@@ -24,7 +25,7 @@ sources:
 
 `du -h {{path/to/directory}}`
 
-- Show the size of a single directory, in human readable units:
+- Show the size of a single directory, in human-readable units:
 
 `du -sh {{path/to/directory}}`
 
@@ -38,5 +39,5 @@ sources:
 
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`
 

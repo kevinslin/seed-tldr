@@ -2,8 +2,9 @@
 id: common.mesg
 title: Mesg
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815046
+created: 1642441815046
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Check or set a terminal's ability to receive messages from other users, usually from the write command.
 > See also `write`.
+> More information: <https://manned.org/mesg>.
 
 - Check terminal's openness to write messages:
 

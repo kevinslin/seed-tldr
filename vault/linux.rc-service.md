@@ -2,8 +2,9 @@
 id: linux.rc-service
 title: Rc Service
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815110
+created: 1642441815110
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

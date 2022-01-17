@@ -2,8 +2,9 @@
 id: linux.iptables
 title: Iptables
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -31,6 +32,10 @@ sources:
 - Append rule to chain policy for IP considering protocol and port:
 
 `sudo iptables -A {{chain}} -s {{ip}} -p {{protocol}} --dport {{port}} -j {{rule}}`
+
+- Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
+
+`sudo iptables -t {{nat}} -A {{POSTROUTING}} -s {{192.168.0.0/24}} -j {{MASQUERADE}}`
 
 - Delete chain rule:
 

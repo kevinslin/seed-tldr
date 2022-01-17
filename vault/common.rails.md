@@ -2,8 +2,9 @@
 id: common.rails
 title: Rails
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # rails
 
 > A server-side MVC framework written in Ruby.
+> Some subcommands such as `rails generate` have their own usage documentation.
 > More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create a new rails project:

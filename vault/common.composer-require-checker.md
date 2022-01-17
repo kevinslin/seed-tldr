@@ -2,8 +2,9 @@
 id: common.composer-require-checker
 title: Composer Require Checker
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815003
+created: 1642441815003
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

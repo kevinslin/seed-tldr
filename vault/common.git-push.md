@@ -2,8 +2,9 @@
 id: common.git-push
 title: Git Push
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815025
+created: 1642441815025
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,17 +17,21 @@ sources:
 > Push commits to a remote repository.
 > More information: <https://git-scm.com/docs/git-push>.
 
-- Send local changes in the current branch to its remote counterpart:
+- Send local changes in the current branch to its default remote counterpart:
 
 `git push`
 
-- Send local changes in a given branch to its remote counterpart:
+- Send changes from a specific local branch to its remote counterpart:
 
 `git push {{remote_name}} {{local_branch}}`
 
-- Publish the current branch to a remote repository, setting the remote branch name:
+- Send changes from a specific local branch to its remote counterpart, and set the remote one as the default push/pull target of the local one:
 
-`git push {{remote_name}} -u {{remote_branch}}`
+`git push -u {{remote_name}} {{local_branch}}`
+
+- Send changes from a specific local branch to a specific remote branch:
+
+`git push {{remote_name}} {{local_branch}}:{{remote_branch}}`
 
 - Send changes on all local branches to their counterparts in a given remote repository:
 
