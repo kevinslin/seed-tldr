@@ -2,8 +2,8 @@
 id: common.netlify
 title: Netlify
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1642574148966
+created: 1642574148966
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # netlify
 
 > Deploy sites and configure continuous deployment to the Netlify platform.
-> More information: <https://www.netlify.com/docs/cli/>.
+> More information: <https://cli.netlify.com>.
 
 - Log in to the Netlify account:
 
