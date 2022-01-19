@@ -37,7 +37,7 @@ jobs:
         echo "Changed files:"
         echo "${PAGE_FILES}"
 
-        VAULT_FILES=$(echo "${PAGE_FILES}" | sed -r 's|pages\/(.+?)\/(\w+?)\.md|vault\/\1.\2.md|g')
+        VAULT_FILES=$(echo "${PAGE_FILES}" | sed -r 's|pages\/(.+?)\/(.+?)\.md|vault\/\1.\2.md|g')
         echo "::set-output name=FILES::$(echo ${VAULT_FILES} | xargs)"
       env:
         OLD_SHA: ${{ steps.tldr-cached.outputs.SHA }}
