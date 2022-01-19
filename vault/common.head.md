@@ -2,8 +2,8 @@
 id: common.head
 title: Head
 desc: ''
-updated: 1642441815032
-created: 1642441815032
+updated: 1642609744898
+created: 1642609744898
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,17 @@ sources:
 
 - Output the first few lines of a file:
 
-`head -n {{count_of_lines}} {{filename}}`
+`head --lines {{count}} {{path/to/file}}`
 
 - Output the first few bytes of a file:
 
-`head -c {{size_in_bytes}} {{filename}}`
+`head --bytes {{count}} {{path/to/file}}`
 
 - Output everything but the last few lines of a file:
 
-`head -n -{{count_of_lines}} {{filename}}`
+`head --lines -{{count}} {{path/to/file}}`
 
 - Output everything but the last few bytes of a file:
 
-`head -c -{{size_in_bytes}} {{filename}}`
+`head --bytes -{{count}} {{path/to/file}}`
 
