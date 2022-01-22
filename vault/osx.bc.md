@@ -1,9 +1,9 @@
 ---
-id: common.bc
+id: osx.bc
 title: Bc
 desc: ''
-updated: 1642832514050
-created: 1642832514050
+updated: 1642832514288
+created: 1642832514288
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > An arbitrary precision calculator language.
 > See also: `dc`.
-> More information: <https://manned.org/man/bc.1>.
+> More information: <https://manned.org/man/freebsd-13.0/bc.1>.
 
 - Start an interactive session:
 
@@ -28,7 +28,7 @@ sources:
 
 - Calculate an expression:
 
-`echo '{{5 / 3}}' | bc`
+`bc --expression='{{5 / 3}}'`
 
 - Execute a script:
 
@@ -36,9 +36,9 @@ sources:
 
 - Calculate an expression with the specified scale:
 
-`echo 'scale = {{10}}; {{5 / 3}}' | bc`
+`bc --expression='scale = {{10}}; {{5 / 3}}'`
 
 - Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
 
-`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`
+`bc --mathlib --expression='{{s|c|a|l|e}}({{1}})'`
 
