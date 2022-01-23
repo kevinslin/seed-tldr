@@ -2,8 +2,8 @@
 id: common.tail
 title: Tail
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1642905021635
+created: 1642905021635
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,29 +15,30 @@ sources:
 # tail
 
 > Display the last part of a file.
+> See also: `head`.
 > More information: <https://www.gnu.org/software/coreutils/tail>.
 
-- Show last 'num' lines in file:
+- Show last 'count' lines in file:
 
-`tail -n {{num}} {{file}}`
+`tail --lines {{count}} {{path/to/file}}`
 
-- Show all file since line 'num':
+- Print a file from a specific line number:
 
-`tail -n +{{num}} {{file}}`
+`tail --lines +{{count}} {{path/to/file}}`
 
-- Show last 'num' bytes in file:
+- Print a specific count of bytes from the end of a given file:
 
-`tail -c {{num}} {{file}}`
+`tail --bytes {{count}} {{path/to/file}}`
 
-- Keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading file until `Ctrl + C`:
 
-`tail -f {{file}}`
+`tail --follow {{path/to/file}}`
 
 - Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
-`tail -F {{file}}`
+`tail --retry --follow {{path/to/file}}`
 
 - Show last 'num' lines in 'file' and refresh every 'n' seconds:
 
-`tail -n {{num}} -s {{n}} -f {{file}}`
+`tail --lines {{count}} --sleep-interval {{seconds}} --follow {{path/to/file}}`
 
