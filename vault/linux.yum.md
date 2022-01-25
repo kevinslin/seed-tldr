@@ -2,8 +2,8 @@
 id: linux.yum
 title: Yum
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1643128140548
+created: 1643128140548
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # yum
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
-> More information: <https://man7.org/linux/man-pages/man8/yum.8.html>.
+> More information: <https://manned.org/yum>.
 
 - Install a new package:
 

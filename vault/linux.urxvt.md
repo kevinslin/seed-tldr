@@ -2,8 +2,8 @@
 id: linux.urxvt
 title: Urxvt
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1643128140542
+created: 1643128140542
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Rxvt-unicode.
 > A customizable terminal emulator.
+> More information: <https://manned.org/urxvt>.
 
 - Open a new urxvt window:
 

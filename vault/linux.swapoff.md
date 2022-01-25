@@ -2,8 +2,8 @@
 id: linux.swapoff
 title: Swapoff
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1643128140536
+created: 1643128140536
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # swapoff
 
 > Disables device or file for swapping.
+> More information: <https://manned.org/swapoff>.
 
 - Disable a given swap partition:
 

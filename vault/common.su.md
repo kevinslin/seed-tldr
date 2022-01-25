@@ -2,8 +2,8 @@
 id: common.su
 title: Su
 desc: ''
-updated: 1642441815073
-created: 1642441815073
+updated: 1643128140422
+created: 1643128140422
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # su
 
 > Switch shell to another user.
+> More information: <https://manned.org/su>.
 
 - Switch to superuser (requires the root password):
 
