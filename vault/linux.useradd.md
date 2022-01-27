@@ -2,8 +2,8 @@
 id: linux.useradd
 title: Useradd
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1643318158495
+created: 1643318158495
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,25 +15,34 @@ sources:
 # useradd
 
 > Create a new user.
+> See also: `users`, `userdel`, `usermod`.
 > More information: <https://manned.org/useradd>.
 
-- Create new user:
+- Create a new user:
 
-`useradd {{name}}`
+`sudo useradd {{username}}`
 
-- Create new user with a default home directory:
+- Create a new user with the specified user id:
 
-`useradd --create-home {{name}}`
+`sudo useradd --uid {{id}} {{username}}`
 
-- Create new user with specified shell:
+- Create a new user with the specified shell:
 
-`useradd --shell {{path/to/shell}} {{name}}`
+`sudo useradd --shell {{path/to/shell}} {{username}}`
 
-- Create new user belonging to additional groups (mind the lack of whitespace):
+- Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`useradd --groups {{group1,group2}} {{name}}`
+`sudo useradd --groups {{group1,group2,...}} {{username}}`
 
-- Create new system user without a home directory:
+- Create a new user with the default home directory:
 
-`useradd --no-create-home --system {{name}}`
+`sudo useradd --create-home {{username}}`
+
+- Create a new user with the home directory filled by template directory files:
+
+`sudo useradd --skel {{path/to/template_directory}} --create-home {{username}}`
+
+- Create a new system user without the home directory:
+
+`sudo useradd --system {{username}}`
 

@@ -2,8 +2,8 @@
 id: linux.groupmod
 title: Groupmod
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1643318158468
+created: 1643318158468
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,13 +15,14 @@ sources:
 # groupmod
 
 > Modify existing user groups in the system.
+> See also: `groups`, `groupadd`, `groupdel`.
 > More information: <https://manned.org/groupmod>.
 
 - Change the group name:
 
-`groupmod -n {{new_group_name}} {{old_group_name}}`
+`sudo groupmod --new-name {{new_group}} {{group_name}}`
 
 - Change the group id:
 
-`groupmod -g {{new_group_id}} {{old_group_name}}`
+`sudo groupmod --gid {{new_id}} {{group_name}}`
 
