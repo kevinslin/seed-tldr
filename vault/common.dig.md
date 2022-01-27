@@ -2,8 +2,8 @@
 id: common.dig
 title: Dig
 desc: ''
-updated: 1642441815008
-created: 1642441815008
+updated: 1643314725492
+created: 1643314725492
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dig
 
 > DNS Lookup utility.
-> More information: <https://manpages.debian.org/dnsutils/dig.1.html>.
+> More information: <https://manned.org/dig>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 
