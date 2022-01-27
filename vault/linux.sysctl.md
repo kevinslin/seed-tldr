@@ -2,8 +2,8 @@
 id: linux.sysctl
 title: Sysctl
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1643293083769
+created: 1643293083769
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sysctl
 
 > List and change kernel runtime variables.
+> More information: <https://manned.org/sysctl.8>.
 
 - Show all available variables and their values:
 
