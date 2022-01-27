@@ -2,8 +2,8 @@
 id: linux.xinput
 title: Xinput
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1643296751743
+created: 1643296751743
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xinput
 
 > List available input devices, query information about a device and change input device settings.
+> More information: <https://manned.org/xinput>.
 
 - List all input devices:
 

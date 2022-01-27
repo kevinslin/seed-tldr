@@ -2,8 +2,8 @@
 id: linux.xclock
 title: Xclock
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1643296751742
+created: 1643296751742
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xclock
 
 > Display the time in analog or digital form.
+> More information: <https://manned.org/xclock>.
 
 - Display an analog clock:
 
