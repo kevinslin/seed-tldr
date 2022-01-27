@@ -2,8 +2,8 @@
 id: linux.rc-update
 title: Rc Update
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1643286593627
+created: 1643286593627
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Add and remove OpenRC services to and from runlevels.
 > See also `openrc`.
+> More information: <https://manned.org/rc-update>.
 
 - List all services and the runlevels they are added to:
 
