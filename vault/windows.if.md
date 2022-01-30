@@ -2,8 +2,8 @@
 id: windows.if
 title: If
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1643509837413
+created: 1643509837413
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,11 +35,11 @@ sources:
 
 - Check whether two strings are equal:
 
-`if {{string}} == {{string}} ({{echo Condition is true}})`
+`if %{{variable}}% == {{string}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal without respecting letter case:
 
-`if /i {{string}} == {{string}} ({{echo Condition is true}})`
+`if /i %{{variable}}% == {{string}} ({{echo Condition is true}})`
 
 - Check whether a file exist:
 
