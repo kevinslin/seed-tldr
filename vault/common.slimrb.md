@@ -2,8 +2,8 @@
 id: common.slimrb
 title: Slimrb
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1643710045553
+created: 1643710045553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # slimrb
 
 > Convert Slim files to HTML.
+> More information: <https://rdoc.info/gems/slim/frames#slim-command-slimrb>.
 
 - Convert a Slim file to HTML:
 

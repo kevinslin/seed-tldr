@@ -2,8 +2,8 @@
 id: common.socat
 title: Socat
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1643710045553
+created: 1643710045553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # socat
 
 > Multipurpose relay (SOcket CAT).
+> More information: <http://www.dest-unreach.org/socat/>.
 
 - Listen to a port, wait for an incoming connection and transfer data to STDIO:
 

@@ -2,8 +2,8 @@
 id: common.sn
 title: Sn
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1643710045553
+created: 1643710045553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sn
 
 > Mono StrongName utility for signing and verifying IL assemblies.
+> More information: <https://manned.org/sn>.
 
 - Generate a new StrongNaming key:
 
