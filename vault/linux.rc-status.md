@@ -2,8 +2,9 @@
 id: linux.rc-status
 title: Rc Status
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1643286593627
+created: 1643286593627
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Show status info about runlevels.
 > See also `openrc`.
+> More information: <https://manned.org/rc-status>.
 
 - Show a summary of services and their status:
 

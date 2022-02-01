@@ -2,8 +2,9 @@
 id: common.paci
 title: Paci
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,8 @@ sources:
 ---
 # paci
 
-> A package manager for bash scripts.
+> A package manager for Bash scripts.
+> More information: <https://github.com/tradebyte/paci>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `paci` commands):
 

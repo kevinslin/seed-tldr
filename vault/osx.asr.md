@@ -2,8 +2,9 @@
 id: osx.asr
 title: Asr
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Restore (copy) a disk image onto a volume.
 > The command name stands for Apple Software Restore.
+> More information: <https://www.unix.com/man-page/osx/8/asr/>.
 
 - Restore a disk image to a target volume:
 

@@ -2,8 +2,9 @@
 id: common.guetzli
 title: Guetzli
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815031
+created: 1642441815031
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,11 +21,11 @@ sources:
 
 `guetzli {{input.jpg}} {{output.jpg}}`
 
-- Create compressed JPEG image from PNG image:
+- Create a compressed JPEG from a PNG:
 
 `guetzli {{input.png}} {{output.jpg}}`
 
-- Compress a JPEG image with desired visual quality (84-100):
+- Compress a JPEG with the desired visual quality (84-100):
 
 `guetzli --quality {{quality_value}} {{input.jpg}} {{output.jpg}}`
 

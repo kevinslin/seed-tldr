@@ -2,8 +2,9 @@
 id: common.aws-s3
 title: Aws S3
 desc: ''
-updated: 1623965306174
-created: 1623965306174
+updated: 1642441814996
+created: 1642441814996
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # aws s3
 
 > CLI for AWS S3 - provides storage through web services interfaces.
-> More information: <https://aws.amazon.com/cli>.
+> More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - Show files in a bucket:
 

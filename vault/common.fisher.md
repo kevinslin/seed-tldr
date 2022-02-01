@@ -2,8 +2,9 @@
 id: common.fisher
 title: Fisher
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815018
+created: 1642441815018
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -25,7 +26,7 @@ sources:
 
 `fisher {{gist_url}}`
 
-- Edit 'fishfile' by hand with your favorite editor and install multiple plugins:
+- Edit 'fishfile' manually with your favorite editor and install multiple plugins:
 
 `{{editor}} ~/.config/fish/fishfile; fisher`
 

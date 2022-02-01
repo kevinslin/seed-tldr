@@ -2,8 +2,9 @@
 id: linux.lsmod
 title: Lsmod
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,8 +14,9 @@ sources:
 ---
 # lsmod
 
-> Shows the status of linux kernel modules.
+> Shows the status of Linux kernel modules.
 > See also `modprobe`, which loads kernel modules.
+> More information: <https://manned.org/lsmod>.
 
 - List all currently loaded kernel modules:
 

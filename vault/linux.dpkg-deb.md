@@ -2,8 +2,9 @@
 id: linux.dpkg-deb
 title: Dpkg Deb
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # dpkg-deb
 
 > Pack, unpack and provide information about Debian archives.
-> More information: <https://manpages.debian.org/buster/dpkg/dpkg-deb.1.en.html>.
+> More information: <https://manpages.debian.org/latest/dpkg/dpkg-deb.html>.
 
 - Display information about a package:
 

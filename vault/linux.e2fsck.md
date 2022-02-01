@@ -2,8 +2,9 @@
 id: linux.e2fsck
 title: E2fsck
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # e2fsck
 
 > Check a Linux ext2/ext3/ext4 filesystem. The filesystem should be unmounted at the time the command is run.
+> More information: <https://manned.org/e2fsck>.
 
 - Check filesystem, reporting any damaged blocks:
 

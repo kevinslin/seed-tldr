@@ -2,8 +2,9 @@
 id: common.source
 title: Source
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815069
+created: 1642441815069
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,8 +15,13 @@ sources:
 # source
 
 > Execute commands from a file in the current shell.
+> More information: <https://manned.org/source>.
 
 - Evaluate contents of a given file:
 
 `source {{path/to/file}}`
+
+- Evaluate contents of a given file (alternatively replacing `source` with `.`):
+
+`. {{path/to/file}}`
 

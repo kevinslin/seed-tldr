@@ -2,8 +2,9 @@
 id: linux.swapon
 title: Swapon
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1643128140538
+created: 1643128140538
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # swapon
 
 > Enables device or file for swapping.
+> More information: <https://manned.org/swapon>.
 
 - Get swap information:
 

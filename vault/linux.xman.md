@@ -2,8 +2,9 @@
 id: linux.xman
 title: Xman
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1643293083777
+created: 1643293083777
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xman
 
 > Manual page viewer for X Window System.
+> More information: <https://manned.org/xman>.
 
 - Start xman in three-button window:
 

@@ -2,8 +2,9 @@
 id: common.unar
 title: Unar
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # unar
 
 > Extract contents from archive files.
+> More information: <https://manned.org/unar>.
 
 - Extract an archive to the current directory:
 

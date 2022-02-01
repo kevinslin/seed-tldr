@@ -2,8 +2,9 @@
 id: linux.xinput
 title: Xinput
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1643296751743
+created: 1643296751743
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xinput
 
 > List available input devices, query information about a device and change input device settings.
+> More information: <https://manned.org/xinput>.
 
 - List all input devices:
 
@@ -34,4 +36,12 @@ sources:
 - Reattach an input as slave to a master:
 
 `xinput reattach {{id}} {{master_id}}`
+
+- List settings of an input device:
+
+`xinput list-props {{id}}`
+
+- Change a setting of an input device:
+
+`xinput set-prop {{id}} {{setting_id}} {{value}}`
 

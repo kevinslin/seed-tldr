@@ -2,8 +2,9 @@
 id: common.zfs
 title: Zfs
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815086
+created: 1642441815086
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # zfs
 
 > Manage ZFS filesystems.
+> More information: <https://manned.org/zfs>.
 
 - List all available zfs filesystems:
 

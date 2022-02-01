@@ -2,8 +2,9 @@
 id: linux.pacman-deptest
 title: Pacman Deptest
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815106
+created: 1642441815106
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

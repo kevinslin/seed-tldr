@@ -2,8 +2,9 @@
 id: common.find
 title: Find
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815017
+created: 1642441815017
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -22,7 +23,7 @@ sources:
 
 - Find files matching multiple path/name patterns:
 
-`find {{root_path}} -path '{{**/path/**/*.ext}} -or -name '{{*pattern*}}'`
+`find {{root_path}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
 
 - Find directories matching a given name, in case-insensitive mode:
 
@@ -42,7 +43,7 @@ sources:
 
 - Find files modified in the last 7 days and delete them:
 
-`find {{root_path}} -mtime -{{7}} -delete`
+`find {{root_path}} -daystart -mtime -{{7}} -delete`
 
 - Find empty (0 byte) files and delete them:
 

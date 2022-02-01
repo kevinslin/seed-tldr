@@ -2,8 +2,9 @@
 id: osx.m
 title: M
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,13 @@ sources:
 # m
 
 > Swiss Army Knife for macOS.
+> More information: <https://github.com/rgcr/m-cli>.
 
 - Get the battery status:
 
 `m battery status`
 
-- Turn off bluetooth:
+- Turn off Bluetooth:
 
 `m bluetooth off`
 

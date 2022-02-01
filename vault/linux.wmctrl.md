@@ -2,8 +2,9 @@
 id: linux.wmctrl
 title: Wmctrl
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wmctrl
 
 > CLI for X Window Manager.
+> More information: <https://manned.org/wmctrl>.
 
 - List all windows, managed by the window manager:
 

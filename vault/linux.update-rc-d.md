@@ -2,8 +2,9 @@
 id: linux.update-rc-d
 title: Update Rc D
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Install and remove services which are System-V style init script links.
 > Init scripts are in the `/etc/init.d/`.
+> More information: <https://manned.org/update-rc.d>.
 
 - Install a service:
 

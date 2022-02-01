@@ -2,8 +2,9 @@
 id: common.install
 title: Install
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815035
+created: 1642441815035
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,23 +18,23 @@ sources:
 > Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
 > More information: <https://www.gnu.org/software/coreutils/install>.
 
-- Copy files to destination:
+- Copy files to the destination:
 
 `install {{path/to/source}} {{path/to/destination}}`
 
-- Copy files to destination, setting their ownership:
+- Copy files to the destination, setting their ownership:
 
-`install -o {{user}} {{path/to/source}} {{path/to/destination}}`
+`install --owner {{user}} {{path/to/source}} {{path/to/destination}}`
 
-- Copy files to destination, setting their group ownership:
+- Copy files to the destination, setting their group ownership:
 
-`install -g {{user}} {{path/to/source}} {{path/to/destination}}`
+`install --group {{user}} {{path/to/source}} {{path/to/destination}}`
 
-- Copy files to destination, setting their `mode`:
+- Copy files to the destination, setting their `mode`:
 
-`install -m {{+x}} {{path/to/source}} {{path/to/destination}}`
+`install --mode {{+x}} {{path/to/source}} {{path/to/destination}}`
 
-- Copy files and apply access/modification times of source to destination:
+- Copy files and apply access/modification times of source to the destination:
 
-`install -p {{path/to/source}} {{path/to/destination}}`
+`install --preserve-timestamps {{path/to/source}} {{path/to/destination}}`
 

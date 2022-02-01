@@ -2,8 +2,9 @@
 id: common.git-log
 title: Git Log
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815024
+created: 1642441815024
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -44,7 +45,7 @@ sources:
 
 `git log -n {{number}} --author={{author}}`
 
-- Show commits between two dates:
+- Show commits between two dates (yyyy-mm-dd):
 
-`git log --before={{date}} --after={{date}}`
+`git log --before="{{2017-01-29}}" --after="{{2017-01-17}}"`
 

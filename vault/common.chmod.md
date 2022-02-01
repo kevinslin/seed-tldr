@@ -2,8 +2,9 @@
 id: common.chmod
 title: Chmod
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815001
+created: 1642441815001
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -43,4 +44,8 @@ sources:
 - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
 
 `chmod -R g+w,o+w {{directory}}`
+
+- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
+
+`chmod -R a+rX {{directory}}`
 

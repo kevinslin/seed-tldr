@@ -2,8 +2,9 @@
 id: common.git-var
 title: Git Var
 desc: ''
-updated: 1623965306189
-created: 1623965306189
+updated: 1642441815028
+created: 1642441815028
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: linux.cpufreq-info
 title: Cpufreq Info
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # cpufreq-info
 
 > A tool to show CPU frequency information.
+> More information: <https://manned.org/cpufreq-info>.
 
 - Show CPU frequency information for all CPUs:
 

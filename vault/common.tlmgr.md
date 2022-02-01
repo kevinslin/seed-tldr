@@ -2,8 +2,9 @@
 id: common.tlmgr
 title: Tlmgr
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815076
+created: 1642441815076
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # tlmgr
 
 > Manages packages and configuration options of an existing TeX Live installation.
+> Some subcommands such as `tlmgr paper` have their own usage documentation.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Install a package and its dependencies:

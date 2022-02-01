@@ -2,8 +2,9 @@
 id: common.hg-serve
 title: Hg Serve
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815033
+created: 1642441815033
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

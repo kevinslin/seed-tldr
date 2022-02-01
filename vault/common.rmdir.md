@@ -2,8 +2,9 @@
 id: common.rmdir
 title: Rmdir
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: common.pio-system
 title: Pio System
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815059
+created: 1642441815059
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Miscellaneous system commands for PlatformIO.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/system/>.
 
-- Install shell completion for the current shell (supports bash, fish, zsh and powershell):
+- Install shell completion for the current shell (supports Bash, Fish, Zsh and PowerShell):
 
 `pio system completion install`
 

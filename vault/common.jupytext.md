@@ -2,8 +2,9 @@
 id: common.jupytext
 title: Jupytext
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815037
+created: 1642441815037
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # jupytext
 
 > Tool to convert Jupyter notebooks to plain text documents, and back again.
-> More information: <https://jupytext.readthedocs.io/en/latest/>.
+> More information: <https://jupytext.readthedocs.io>.
 
 - Turn a notebook into a paired `.ipynb`/`.py` notebook:
 

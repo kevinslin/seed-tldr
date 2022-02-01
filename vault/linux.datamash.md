@@ -2,8 +2,9 @@
 id: linux.datamash
 title: Datamash
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # datamash
 
 > Tool to perform basic numeric, textual and statistical operations on input textual data files.
+> More information: <http://www.gnu.org/software/datamash/>.
 
 - Get max, min, mean and median of a single column of numbers:
 

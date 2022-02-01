@@ -2,8 +2,9 @@
 id: common.obs
 title: Obs
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Open Broadcaster Software.
 > Video recording and livestreaming program.
+> More information: <https://obsproject.com/>.
 
 - Launch OBS:
 

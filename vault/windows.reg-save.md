@@ -2,8 +2,9 @@
 id: windows.reg-save
 title: Reg Save
 desc: ''
-updated: 1623965306238
-created: 1623965306238
+updated: 1642441815129
+created: 1642441815129
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

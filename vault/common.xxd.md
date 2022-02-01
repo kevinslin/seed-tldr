@@ -2,8 +2,9 @@
 id: common.xxd
 title: Xxd
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815085
+created: 1642441815085
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xxd
 
 > Create a hexadecimal representation (hexdump) from a binary file, or vice-versa.
+> More information: <https://manned.org/xxd>.
 
 - Generate a hexdump from a binary file and display the output:
 

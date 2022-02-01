@@ -2,8 +2,9 @@
 id: common.git-local-commits
 title: Git Local Commits
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815024
+created: 1642441815024
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

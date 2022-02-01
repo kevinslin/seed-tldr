@@ -2,8 +2,9 @@
 id: linux.asciiart
 title: Asciiart
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -26,7 +27,7 @@ sources:
 
 - Choose the output width (default is 100):
 
-`asciiart -width {{50}} {{path/to/image.jpg}}`
+`asciiart --width {{50}} {{path/to/image.jpg}}`
 
 - Colorize the ASCII output:
 

@@ -2,8 +2,9 @@
 id: android.bugreport
 title: Bugreport
 desc: ''
-updated: 1623965306171
-created: 1623965306171
+updated: 1642441814990
+created: 1642441814990
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,7 +16,7 @@ sources:
 
 > Show an Android bug report.
 > This command can only be used through `adb shell`.
-> More information: <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreport/>.
+> More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
 - Show a complete bug report of an Android device:
 

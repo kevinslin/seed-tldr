@@ -2,8 +2,9 @@
 id: osx.imgcat
 title: Imgcat
 desc: ''
-updated: 1623965306234
-created: 1623965306234
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A utility to display images directly on the command-line.
 > Requires a compatible terminal such as iTerm2.
+> More information: <https://github.com/danielgatis/imgcat>.
 
 - Display an image on the command-line:
 

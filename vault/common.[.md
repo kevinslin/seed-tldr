@@ -2,8 +2,9 @@
 id: 'common.['
 title: '['
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814991
+created: 1642441814991
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,27 +14,35 @@ sources:
 ---
 # \[
 
-> Evaluate condition.
+> Check file types and compare values.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
-> More information: <https://www.gnu.org/software/coreutils/test>.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-test>.
 
-- Test if a given variable is equal to a given string:
+- Test if a given variable is equal/not equal to the specified string:
 
-`[ "{{$VARIABLE}}" == "{{/bin/zsh}}" ]`
+`[ "${{variable}}" {{==|!=}} "{{string}}" ]`
 
-- Test if a given variable is empty:
+- Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number:
 
-`[ -z "{{$GIT_BRANCH}}" ]`
+`[ "${{variable}}" -{{eq|ne|gt|lt|ge|le}} {{integer}} ]`
 
-- Test if a file exists:
+- Test if the specified variable has a [n]on-empty value:
 
-`[ -f "{{path/to/file}}" ]`
+`[ -n "${{variable}}" ]`
 
-- Test if a directory does not exist:
+- Test if the specified variable has an empty value:
 
-`[ ! -d "{{path/to/directory}}" ]`
+`[ -z "${{variable}}" ]`
 
-- If-else statement:
+- Test if the specified [f]ile exists:
 
-`[ {{condition}} ] && {{echo "true"}} || {{echo "false"}}`
+`[ -f {{path/to/file}} ]`
+
+- Test if the specified [d]irectory exists:
+
+`[ -d {{path/to/directory}} ]`
+
+- Test if the specified file or directory [e]xists:
+
+`[ -e {{path/to/file_or_directory}} ]`
 

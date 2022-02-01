@@ -2,8 +2,9 @@
 id: linux.add-apt-repository
 title: Add Apt Repository
 desc: ''
-updated: 1623965306218
-created: 1623965306218
+updated: 1642441815087
+created: 1642441815087
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # add-apt-repository
 
 > Manages apt repository definitions.
+> More information: <https://manned.org/apt-add-repository>.
 
 - Add a new apt repository:
 
@@ -27,7 +29,7 @@ sources:
 
 `add-apt-repository --update {{repository_spec}}`
 
-- Enable source packages:
+- Allow source packages to be downloaded from the repository:
 
 `add-apt-repository --enable-source {{repository_spec}}`
 

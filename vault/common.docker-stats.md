@@ -2,8 +2,9 @@
 id: common.docker-stats
 title: Docker Stats
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815009
+created: 1642441815009
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `docker stats {{container_name}}`
 
-- Change the columns format to display container's cpu usage percentage:
+- Change the columns format to display container's CPU usage percentage:
 
 `docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
 

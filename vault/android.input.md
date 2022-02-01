@@ -2,8 +2,9 @@
 id: android.input
 title: Input
 desc: ''
-updated: 1623965306171
-created: 1623965306171
+updated: 1642441814990
+created: 1642441814990
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

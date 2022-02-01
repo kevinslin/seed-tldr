@@ -2,8 +2,9 @@
 id: linux.postfix
 title: Postfix
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815108
+created: 1642441815108
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,7 +16,7 @@ sources:
 
 > Postfix mail transfer agent (MTA) control program.
 > See also `dovecot`, a mail delivery agent (MDA) that integrates with Postfix.
-> More information: <http://postfix.org>.
+> More information: <http://www.postfix.org>.
 
 - Check the configuration:
 

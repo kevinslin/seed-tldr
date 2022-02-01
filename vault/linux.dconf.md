@@ -2,8 +2,9 @@
 id: linux.dconf
 title: Dconf
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

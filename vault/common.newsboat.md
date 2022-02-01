@@ -2,8 +2,9 @@
 id: common.newsboat
 title: Newsboat
 desc: ''
-updated: 1623965306199
-created: 1623965306199
+updated: 1642441815050
+created: 1642441815050
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,6 +28,10 @@ sources:
 - Start newsboat and refresh all feeds on startup:
 
 `newsboat -r`
+
+- Execute a space-separated list of commands in non-interactive mode:
+
+`newsboat -x {{reload print-unread ...}}`
 
 - See keyboard shortcuts (the most relevant are visible in the status line):
 

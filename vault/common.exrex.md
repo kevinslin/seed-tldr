@@ -2,8 +2,9 @@
 id: common.exrex
 title: Exrex
 desc: ''
-updated: 1623965306183
-created: 1623965306183
+updated: 1642441815016
+created: 1642441815016
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -29,7 +30,7 @@ sources:
 
 `exrex --max-number {{100}} '{{regular_expression}}'`
 
-- Generate all possible strings that match a regular expression, joined together by a custom delimiter string:
+- Generate all possible strings that match a regular expression, joined by a custom delimiter string:
 
 `exrex --delimiter "{{, }}" '{{regular_expression}}'`
 

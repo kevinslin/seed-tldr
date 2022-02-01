@@ -2,8 +2,9 @@
 id: common.peco
 title: Peco
 desc: ''
-updated: 1623965306203
-created: 1623965306203
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

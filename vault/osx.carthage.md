@@ -2,8 +2,9 @@
 id: osx.carthage
 title: Carthage
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # carthage
 
 > A dependency management tool for Cocoa applications.
+> More information: <https://github.com/Carthage/Carthage>.
 
 - Download the latest version of all dependencies mentioned in Cartfile, and build them:
 

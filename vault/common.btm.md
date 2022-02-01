@@ -2,8 +2,9 @@
 id: common.btm
 title: Btm
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815000
+created: 1642441815000
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > Aims to be lightweight, cross-platform and more graphical than `top`.
 > More information: <https://github.com/ClementTsang/bottom>.
 
-- Show the default layout (cpu, memory, temperatures, disk, network, and processes):
+- Show the default layout (CPU, memory, temperatures, disk, network, and processes):
 
 `btm`
 

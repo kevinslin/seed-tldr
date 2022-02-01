@@ -2,8 +2,9 @@
 id: common.set
 title: Set
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -30,4 +31,8 @@ sources:
 - Set various options, e.g. enable `vi` style line editing:
 
 `set -o {{vi}}`
+
+- Set the shell to exit as soon as the first error is encountered (mostly used in scripts):
+
+`set -e`
 

@@ -2,8 +2,9 @@
 id: common.ack
 title: Ack
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814991
+created: 1642441814991
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -31,11 +32,11 @@ sources:
 
 - Limit search to files of a specific type:
 
-`ack --type={{ruby}} "{{search_pattern}}`
+`ack --type={{ruby}} "{{search_pattern}}"`
 
 - Do not search in files of a specific type:
 
-`ack --type=no{{ruby}} "{{search_pattern}}`
+`ack --type=no{{ruby}} "{{search_pattern}}"`
 
 - Count the total number of matches found:
 
@@ -45,7 +46,7 @@ sources:
 
 `ack --count --files-with-matches "{{search_pattern}}"`
 
-- List all values that can be used with `--type`:
+- List all the values that can be used with `--type`:
 
 `ack --help-types`
 

@@ -2,8 +2,9 @@
 id: windows.whoami
 title: Whoami
 desc: ''
-updated: 1623965306239
-created: 1623965306239
+updated: 1642441815130
+created: 1642441815130
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `whoami /upn`
 
-- Display the logon id of the current user:
+- Display the logon ID of the current user:
 
 `whoami /logonid`
 

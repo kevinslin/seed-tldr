@@ -2,8 +2,9 @@
 id: common.telnet
 title: Telnet
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815075
+created: 1642441815075
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # telnet
 
 > Connect to a specified port of a host using the telnet protocol.
+> More information: <https://manned.org/telnet>.
 
 - Telnet to the default port of a host:
 

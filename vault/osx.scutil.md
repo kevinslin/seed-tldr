@@ -2,8 +2,9 @@
 id: osx.scutil
 title: Scutil
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815122
+created: 1642441815122
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Manage system configuration parameters.
 > Necessitates to be root when setting configuration.
+> More information: <https://ss64.com/osx/scutil.html>.
 
 - Display DNS Configuration:
 

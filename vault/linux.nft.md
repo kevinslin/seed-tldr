@@ -2,8 +2,9 @@
 id: linux.nft
 title: Nft
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 > Nftables replaces iptables.
+> More information: <https://wiki.nftables.org/wiki-nftables/index.php/Main_Page>.
 
 - View current configuration:
 
@@ -31,6 +33,10 @@ sources:
 - Add a new rule to accept several TCP ports:
 
 `sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \{ telnet, ssh, http, https \} accept}}`
+
+- Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
+
+`sudo nft add rule {{nat}} {{postrouting}} ip saddr {{192.168.0.0/24}} {{masquerade}}`
 
 - Show rule handles:
 

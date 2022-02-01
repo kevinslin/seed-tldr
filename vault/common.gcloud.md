@@ -2,8 +2,9 @@
 id: common.gcloud
 title: Gcloud
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815019
+created: 1642441815019
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

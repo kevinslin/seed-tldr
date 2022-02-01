@@ -2,8 +2,9 @@
 id: common.q
 title: Q
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815063
+created: 1642441815063
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

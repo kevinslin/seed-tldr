@@ -2,8 +2,9 @@
 id: common.solo
 title: Solo
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815069
+created: 1642441815069
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `solo key update`
 
-- Blink the led of a specific Solo:
+- Blink the LED of a specific Solo:
 
 `solo key wink --serial {{serial_number}}`
 

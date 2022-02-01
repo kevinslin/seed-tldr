@@ -2,8 +2,9 @@
 id: common.svgcleaner
 title: Svgcleaner
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815074
+created: 1642441815074
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,14 +14,14 @@ sources:
 ---
 # svgcleaner
 
-> SVG image optimizing utility.
+> SVG optimizing utility.
 > More information: <https://github.com/RazrFalcon/svgcleaner>.
 
-- Optimize an SVG image:
+- Optimize an SVG:
 
 `svgcleaner {{input.svg}} {{output.svg}}`
 
-- Optimize an SVG image multiple times:
+- Optimize an SVG multiple times:
 
 `svgcleaner --multipass {{input.svg}} {{output.svg}}`
 

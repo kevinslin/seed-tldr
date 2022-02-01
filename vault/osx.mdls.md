@@ -2,8 +2,9 @@
 id: osx.mdls
 title: Osx
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mdls
 
 > Display the metadata attributes for a file.
+> More information: <https://ss64.com/osx/mdls.html>.
 
 - Display the list of metadata attributes for file:
 

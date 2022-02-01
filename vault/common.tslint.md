@@ -2,8 +2,9 @@
 id: common.tslint
 title: Tslint
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > A pluggable linting utility for TypeScript.
 > More information: <https://palantir.github.io/tslint>.
 
-- Create tslint config:
+- Create TSLint config:
 
 `tslint --init`
 

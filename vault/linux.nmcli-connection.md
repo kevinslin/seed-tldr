@@ -2,8 +2,9 @@
 id: linux.nmcli-connection
 title: Nmcli Connection
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815105
+created: 1642441815105
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,11 +17,11 @@ sources:
 > Connection management with NetworkManager.
 > More information: <https://man.archlinux.org/man/nmcli.1>.
 
-- List all NetworkManager connections (shows name, uuid, type and device):
+- List all NetworkManager connections (shows name, UUID, type and device):
 
 `nmcli connection`
 
-- Activate a connection by specifying an uuid:
+- Activate a connection by specifying a UUID:
 
 `nmcli connection up uuid {{uuid}}`
 
@@ -39,4 +40,8 @@ sources:
 - Create a static IPv4-only connection:
 
 `nmcli connection add ifname {{interface_name}} type {{ethernet}} ip4 {{10.0.0.7/8}} gw4 {{10.0.0.1}} ipv4.dns {{10.0.0.1}} ipv6.method {{ignore}}`
+
+- Create a VPN connection using OpenVPN from a OVPN file:
+
+`nmcli connection import type {{openvpn}} file {{path/to/vpn_config.ovpn}}`
 

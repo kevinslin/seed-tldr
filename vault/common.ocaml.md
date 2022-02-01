@@ -2,8 +2,9 @@
 id: common.ocaml
 title: Ocaml
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,4 +25,8 @@ sources:
 - Read OCaml commands from a file and execute them:
 
 `ocaml {{path/to/file.ml}}`
+
+- Run OCaml script with modules:
+
+`ocaml {{module1}} {{module2}} {{path/to/file.ml}}`
 

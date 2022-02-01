@@ -2,8 +2,9 @@
 id: common.arping
 title: Arping
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814995
+created: 1642441814995
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -37,7 +38,7 @@ sources:
 
 `arping -U {{ip_to_broadcast}}`
 
-- Detect duplicated IP addresses in the network by sending ARP requests with a 3 seconds timeout:
+- Detect duplicated IP addresses in the network by sending ARP requests with a 3 second timeout:
 
 `arping -D -w {{3}} {{ip_to_check}}`
 

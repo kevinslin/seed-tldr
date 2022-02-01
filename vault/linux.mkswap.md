@@ -2,8 +2,9 @@
 id: linux.mkswap
 title: Mkswap
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mkswap
 
 > Sets up a Linux swap area on a device or in a file.
+> More information: <https://manned.org/mkswap>.
 
 - Setup a given partition as swap area:
 

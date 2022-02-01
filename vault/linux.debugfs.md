@@ -2,8 +2,9 @@
 id: linux.debugfs
 title: Debugfs
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # debugfs
 
 > An interactive ext2/ext3/ext4 filesystem debugger.
+> More information: <https://manned.org/debugfs>.
 
 - Open the filesystem in read only mode:
 

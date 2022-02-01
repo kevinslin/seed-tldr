@@ -2,8 +2,9 @@
 id: linux.iwconfig
 title: Iwconfig
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `iwconfig {{interface}}`
 
-- Set the ESSID (network name) of the specified interface (e.g., eth0 or wlp2s0):
+- Set the ESSID (network name) of the specified interface (e.g. eth0 or wlp2s0):
 
 `iwconfig {{interface}} {{new_network_name}}`
 

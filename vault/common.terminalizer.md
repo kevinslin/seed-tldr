@@ -2,8 +2,9 @@
 id: common.terminalizer
 title: Terminalizer
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815075
+created: 1642441815075
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # terminalizer
 
-> Utility program which records the terminal and generate animated gifs or share a video.
+> Utility program which records the terminal and generate animated GIFs or share a video.
 > More information: <https://terminalizer.com>.
 
 - Create the global config directory:
@@ -28,7 +29,7 @@ sources:
 
 `terminalizer play {{filename}}`
 
-- Render a recording file as an animated gif image:
+- Render a recording file as an animated GIF image:
 
 `terminalizer render {{filename}}`
 

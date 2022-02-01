@@ -2,8 +2,9 @@
 id: common.ned
 title: Ned
 desc: ''
-updated: 1623965306198
-created: 1623965306198
+updated: 1642441815050
+created: 1642441815050
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: common.adb
 title: Adb
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814992
+created: 1642441814992
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # adb
 
 > Android Debug Bridge: communicate with an Android emulator instance or connected Android devices.
+> Some subcommands such as `adb shell` have their own usage documentation.
 > More information: <https://developer.android.com/studio/command-line/adb>.
 
 - Check whether the adb server process is running and start it:

@@ -2,8 +2,9 @@
 id: windows.wsl
 title: Wsl
 desc: ''
-updated: 1623965306239
-created: 1623965306239
+updated: 1642441815130
+created: 1642441815130
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,7 +41,7 @@ sources:
 
 `wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
 
-- Change the version of the specified distribution:
+- Change the version of wsl used for the specified distribution:
 
 `wsl --set-version {{distribution}} {{version}}`
 

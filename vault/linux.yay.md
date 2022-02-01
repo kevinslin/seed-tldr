@@ -2,8 +2,9 @@
 id: linux.yay
 title: Yay
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,6 +41,10 @@ sources:
 - Search the package database for a keyword from the repos and AUR:
 
 `yay -Ss {{keyword}}`
+
+- Remove orphaned packages (installed as dependencies but not required by any package):
+
+`yay -Yc`
 
 - Show statistics for installed packages and system health:
 

@@ -2,8 +2,9 @@
 id: common.pass-otp
 title: Pass Otp
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

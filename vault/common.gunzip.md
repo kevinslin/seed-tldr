@@ -2,8 +2,9 @@
 id: common.gunzip
 title: Gunzip
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815031
+created: 1642441815031
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -22,9 +23,13 @@ sources:
 
 - Extract a file to a target destination:
 
-`gunzip -c {{archive.tar.gz}} > {{archive.tar}}`
+`gunzip --stdout {{archive.tar.gz}} > {{archive.tar}}`
+
+- Extract a file and keep the archive file:
+
+`gunzip --keep {{archive.tar.gz}}`
 
 - List the contents of a compressed file:
 
-`gunzip -l {{file.txt.gz}}`
+`gunzip --list {{file.txt.gz}}`
 

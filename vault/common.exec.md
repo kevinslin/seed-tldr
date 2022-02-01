@@ -2,8 +2,9 @@
 id: common.exec
 title: Exec
 desc: ''
-updated: 1623965306183
-created: 1623965306183
+updated: 1642441815013
+created: 1642441815013
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # exec
 
 > Replace the current process with another process.
+> More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
 
 - Replace with the specified command using the current environment variables:
 

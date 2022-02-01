@@ -2,8 +2,9 @@
 id: common.git-count-objects
 title: Git Count Objects
 desc: ''
-updated: 1623965306187
-created: 1623965306187
+updated: 1642441815023
+created: 1642441815023
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `git count-objects`
 
-- Display a count of all objects and their total disk usage, displaying sizes in human readable units:
+- Display a count of all objects and their total disk usage, displaying sizes in human-readable units:
 
 `git count-objects --human-readable`
 
@@ -28,7 +29,7 @@ sources:
 
 `git count-objects --verbose`
 
-- Display more verbose information, displaying sizes in human readable units:
+- Display more verbose information, displaying sizes in human-readable units:
 
 `git count-objects --human-readable --verbose`
 

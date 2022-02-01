@@ -2,8 +2,9 @@
 id: linux.hashcat
 title: Hashcat
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `hashcat --hash-type {{hash_type_id}} --attack-mode {{0}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
-- Perform a rule based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
+- Perform a rule-based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
 
 `hashcat --hash-type {{hash_type_id}} --attack-mode {{0}} --rules-file {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 

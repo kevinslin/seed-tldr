@@ -2,8 +2,9 @@
 id: linux.eyed3
 title: Eyed3
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # eyeD3
 
 > Read and manipulate metadata of MP3 files.
-> More information: <https://eyed3.readthedocs.io/en/latest/>.
+> More information: <https://eyed3.readthedocs.io>.
 
 - View information about an MP3 file:
 

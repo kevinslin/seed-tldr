@@ -2,8 +2,9 @@
 id: linux.lshw
 title: Lshw
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,13 @@ sources:
 # lshw
 
 > List detailed information about hardware configurations as root user.
+> More information: <https://manned.org/lshw>.
 
 - Launch the GUI:
 
 `sudo lshw -X`
 
-- List all hardwares in tabular format:
+- List all hardware in tabular format:
 
 `sudo lshw -short`
 

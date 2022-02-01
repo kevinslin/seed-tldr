@@ -2,8 +2,9 @@
 id: common.vectorize-pixelart
 title: Vectorize Pixelart
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815079
+created: 1642441815079
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Convert PNG pixel art graphics to SVG/EPS vector images.
 > More information: <https://github.com/und3f/vectorize-pixelart>.
 
-- Convert a PNG image to a vector image format:
+- Convert a PNG to a vector image format:
 
 `vectorize-pixelart {{path/to/input.png}} {{path/to/output.svg|.eps}}`
 

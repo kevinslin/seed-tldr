@@ -2,8 +2,9 @@
 id: linux.dmenu
 title: Dmenu
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Dynamic menu.
 > Creates a menu from a text input with each item on a new line.
+> More information: <https://manned.org/dmenu>.
 
 - Display a menu of the output of the `ls` command:
 

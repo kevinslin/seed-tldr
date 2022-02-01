@@ -2,8 +2,9 @@
 id: linux.iwctl
 title: Iwctl
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `iwctl --help`
 
-- Display your wifi stations:
+- Display your Wi-Fi stations:
 
 `iwctl station list`
 

@@ -2,8 +2,9 @@
 id: common.read
 title: Read
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # read
 
 > BASH builtin for retrieving data from standard input.
+> More information: <https://manned.org/read.1p>.
 
 - Store data that you type from the keyboard:
 

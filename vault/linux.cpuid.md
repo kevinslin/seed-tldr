@@ -2,8 +2,9 @@
 id: linux.cpuid
 title: Cpuid
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # cpuid
 
 > Display detailed information about all CPUs.
+> More information: <http://etallen.com/cpuid.html>.
 
 - Display information for all CPUs:
 

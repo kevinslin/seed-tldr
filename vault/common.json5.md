@@ -2,8 +2,9 @@
 id: common.json5
 title: Json5
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815037
+created: 1642441815037
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

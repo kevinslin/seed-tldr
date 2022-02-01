@@ -2,8 +2,9 @@
 id: common.kdeconnect-cli
 title: Kdeconnect CLI
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `kdeconnect-cli --list-devices`
 
-- List all reachable devices:
+- List available (paired and reachable) devices:
 
 `kdeconnect-cli --list-available`
 
@@ -28,13 +29,13 @@ sources:
 
 `kdeconnect-cli --pair --device {{device_id}}`
 
-- Request pairing with a specific device, specifying its name:
-
-`kdeconnect-cli --pair --name {{device_name}}`
-
-- Ring a specific device:
+- Ring a device, specifying its name:
 
 `kdeconnect-cli --ring --name {{device_name}}`
+
+- Share an URL or file with a paired device, specifying its ID:
+
+`kdeconnect-cli --share {{URL|path/to/file}} --device {{device_id}}`
 
 - Send an SMS with an optional attachment to a specific number:
 

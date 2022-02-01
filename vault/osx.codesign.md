@@ -2,8 +2,9 @@
 id: osx.codesign
 title: Codesign
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # codesign
 
 > Create and manipulate code signatures for macOS.
+> More information: <https://www.unix.com/man-page/osx/1/codesign/>.
 
 - Sign an application with a certificate:
 

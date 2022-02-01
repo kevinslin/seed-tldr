@@ -2,8 +2,9 @@
 id: common.dotnet-publish
 title: Dotnet Publish
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815010
+created: 1642441815010
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

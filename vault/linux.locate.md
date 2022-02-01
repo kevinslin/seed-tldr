@@ -2,8 +2,9 @@
 id: linux.locate
 title: Locate
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # locate
 
 > Find filenames quickly.
+> More information: <https://manned.org/locate>.
 
 - Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
 

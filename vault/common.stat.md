@@ -2,8 +2,9 @@
 id: common.stat
 title: Stat
 desc: ''
-updated: 1623965306211
-created: 1623965306211
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # stat
 
 > Display file and filesystem information.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
 - Show file properties such as size, permissions, creation and access dates among others:
 

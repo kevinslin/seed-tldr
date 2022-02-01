@@ -2,8 +2,9 @@
 id: common.haxelib
 title: Haxelib
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815032
+created: 1642441815032
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,6 +25,10 @@ sources:
 
 `haxelib install {{libname}}`
 
+- Install a specific version of a Haxe library:
+
+`haxelib install {{libname}} {{version}}`
+
 - Upgrade all installed Haxe libraries:
 
 `haxelib upgrade`
@@ -31,4 +36,12 @@ sources:
 - Install the development version of a library from a Git repository:
 
 `haxelib git {{libname}} {{git_url}}`
+
+- Uninstall a Haxe library:
+
+`haxelib remove {{libname}}`
+
+- Print a tree of locally installed Haxe libraries:
+
+`haxelib list`
 

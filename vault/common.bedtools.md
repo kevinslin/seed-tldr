@@ -2,8 +2,9 @@
 id: common.bedtools
 title: Bedtools
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814998
+created: 1642441814998
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,9 +16,9 @@ sources:
 
 > A swiss-army knife of tools for genomic-analysis tasks.
 > Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF format.
-> More information: <https://bedtools.readthedocs.io/en/latest/>.
+> More information: <https://bedtools.readthedocs.io>.
 
-- Intersect two files with respect to the sequences' strand and save the result to {{`path/to/output_file`}}:
+- Intersect two files regarding the sequences' strand and save the result to the specified file:
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/to/output_file}}`
 

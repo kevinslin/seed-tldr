@@ -2,8 +2,9 @@
 id: linux.ip
 title: Ip
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815099
+created: 1642441815099
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ip
 
 > Show / manipulate routing, devices, policy routing and tunnels.
+> Some subcommands such as `ip address` have their own usage documentation.
 > More information: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - List interfaces with detailed info:
@@ -40,7 +42,7 @@ sources:
 
 `ip link set {{interface}} up/down`
 
-- Add/Delete an ip address to an interface:
+- Add/Delete an IP address to an interface:
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
 

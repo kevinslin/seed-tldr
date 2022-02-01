@@ -2,8 +2,9 @@
 id: windows.pathping
 title: Pathping
 desc: ''
-updated: 1623965306238
-created: 1623965306238
+updated: 1642441815128
+created: 1642441815128
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `pathping {{hostname}}`
 
-- Do not perform reverse lookup of ip-address to hostname:
+- Do not perform reverse lookup of IP address to hostname:
 
 `pathping {{hostname}} -n`
 

@@ -2,8 +2,9 @@
 id: linux.edit
 title: Edit
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > An alias to a `run-mailcap`'s action edit.
 > Originally `run-mailcap` is used to process/edit mime-type/file.
+> More information: <https://www.computerhope.com/unix/uedit.htm>.
 
 - Edit action can be used to view any file on default mailcap explorer:
 

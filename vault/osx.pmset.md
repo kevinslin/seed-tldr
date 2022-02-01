@@ -2,8 +2,9 @@
 id: osx.pmset
 title: Pmset
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815122
+created: 1642441815122
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
 > Commands that modify settings must begin with `sudo`.
+> More information: <https://ss64.com/osx/pmset.html>.
 
 - Display the current power management settings:
 

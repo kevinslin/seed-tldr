@@ -2,8 +2,9 @@
 id: common.sqsc
 title: Sqsc
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815070
+created: 1642441815070
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,7 +41,7 @@ sources:
 
 `sqsc query "SELECT body FROM {{queue_name}} WHERE body LIKE '%user%'"`
 
-- Pull all messages from a queue into a local sqlite database in your present working directory:
+- Pull all messages from a queue into a local SQLite database in your present working directory:
 
 `sqsc pull {{queue_name}}`
 

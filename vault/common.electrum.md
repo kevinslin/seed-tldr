@@ -2,8 +2,9 @@
 id: common.electrum
 title: Electrum
 desc: ''
-updated: 1623965306183
-created: 1623965306183
+updated: 1642441815012
+created: 1642441815012
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

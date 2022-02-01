@@ -2,8 +2,9 @@
 id: common.ansible-playbook
 title: Ansible Playbook
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814994
+created: 1642441814994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- Run tasks in playbook with extra variables defined in a json file:
+- Run tasks in playbook with extra variables defined in a JSON file:
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
 

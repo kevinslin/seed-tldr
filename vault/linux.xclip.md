@@ -2,8 +2,9 @@
 id: linux.xclip
 title: Xclip
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `xclip -sel clip {{input_file.txt}}`
 
-- Copy the contents of a PNG image into the system clipboard (can be pasted in other programs correctly):
+- Copy the contents of a PNG into the system clipboard (can be pasted in other programs correctly):
 
 `xclip -sel clip -t image/png {{input_file.png}}`
 

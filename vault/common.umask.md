@@ -2,8 +2,9 @@
 id: common.umask
 title: Umask
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642441815078
+created: 1642441815078
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # umask
 
 > Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.
+> More information: <https://manned.org/umask>.
 
 - Display the current mask in octal notation:
 

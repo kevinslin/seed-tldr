@@ -2,8 +2,9 @@
 id: common.groups
 title: Groups
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1643318158376
+created: 1643318158376
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,17 +15,14 @@ sources:
 # groups
 
 > Print group memberships for a user.
+> See also: `groupadd`, `groupdel`, `groupmod`.
 > More information: <https://www.gnu.org/software/coreutils/groups>.
 
 - Print group memberships for the current user:
 
 `groups`
 
-- Print group memberships for a specific user:
-
-`groups {{username}}`
-
 - Print group memberships for a list of users:
 
-`groups {{username1}} {{username2}} {{username3}}`
+`groups {{username1 username2 ...}}`
 

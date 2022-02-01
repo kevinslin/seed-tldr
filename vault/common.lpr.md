@@ -2,8 +2,9 @@
 id: common.lpr
 title: Lpr
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815043
+created: 1642441815043
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `lpr -o page-ranges={{2|2-16}} {{path/to/file}}`
 
-- Print double sided either in portrait (long) or in landscape (short):
+- Print double-sided either in portrait (long) or in landscape (short):
 
 `lpr -o sides={{two_sided_long_edge|two_sided_short_edge}} {{path/to/file}}`
 

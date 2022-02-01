@@ -2,8 +2,9 @@
 id: common.nmap
 title: Nmap
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815051
+created: 1642441815051
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,7 +22,7 @@ sources:
 
 `nmap -O {{ip_or_hostname}}`
 
-- Try to determine whether the specified hosts are up and what are their names:
+- Try to determine whether the specified hosts are up and what their names are:
 
 `nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
 

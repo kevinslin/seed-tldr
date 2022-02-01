@@ -2,8 +2,9 @@
 id: common.cargo-test
 title: Cargo Test
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815001
+created: 1642441815001
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -39,4 +40,8 @@ sources:
 - Run tests for a package:
 
 `cargo test --package {{package}}`
+
+- Run tests without hiding output from test executions:
+
+`cargo test -- --nocapture`
 

@@ -2,8 +2,9 @@
 id: linux.wipefs
 title: Wipefs
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wipefs
 
 > Wipe filesystem, raid, or partition-table signatures from a device.
+> More information: <https://manned.org/wipefs>.
 
 - Display signatures for specified device:
 

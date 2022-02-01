@@ -2,8 +2,9 @@
 id: common.git-revert
 title: Git Revert
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815026
+created: 1642441815026
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,7 +19,7 @@ sources:
 
 - Revert the most recent commit:
 
-`git revert {{@}}`
+`git revert {{HEAD}}`
 
 - Revert the 5th last commit:
 

@@ -2,8 +2,9 @@
 id: android.getprop
 title: Getprop
 desc: ''
-updated: 1623965306171
-created: 1623965306171
+updated: 1642441814990
+created: 1642441814990
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,7 +41,7 @@ sources:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Display the MAC address of the Android's WiFi card:
+- Display the MAC address of the Android's Wi-Fi card:
 
 `getprop {{ro.boot.wifimacaddr}}`
 

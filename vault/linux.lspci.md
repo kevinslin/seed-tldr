@@ -2,8 +2,9 @@
 id: linux.lspci
 title: Lspci
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lspci
 
 > List all PCI devices.
+> More information: <https://manned.org/lspci>.
 
 - Show a brief list of devices:
 

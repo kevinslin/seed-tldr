@@ -2,8 +2,9 @@
 id: linux.kpackagetool5
 title: Kpackagetool5
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

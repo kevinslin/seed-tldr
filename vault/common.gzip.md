@@ -2,8 +2,9 @@
 id: common.gzip
 title: Gzip
 desc: ''
-updated: 1623965306191
-created: 1623965306191
+updated: 1642441815031
+created: 1642441815031
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,6 +24,10 @@ sources:
 - Decompress a file, replacing it with the original uncompressed version:
 
 `gzip -d {{file.ext}}.gz`
+
+- Compress a file, keeping the original file:
+
+`gzip --keep {{file.ext}}`
 
 - Compress a file specifying the output filename:
 

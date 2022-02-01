@@ -2,8 +2,9 @@
 id: linux.lastb
 title: Lastb
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lastb
 
 > Show a listing of last logged in users.
+> More information: <https://manned.org/lastb>.
 
 - Show a list of all last logged in users:
 

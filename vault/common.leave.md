@@ -2,8 +2,9 @@
 id: common.leave
 title: Leave
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815040
+created: 1642441815040
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,14 +14,15 @@ sources:
 ---
 # leave
 
-> Remind when it's time to leave.
+> Set a reminder for when it's time to leave.
 > To remove reminders use `kill $(pidof leave)`.
+> More information: <https://www.freebsd.org/cgi/man.cgi?query=leave>.
 
 - Set a reminder at a given time:
 
 `leave {{time_to_leave}}`
 
-- Remind to leave at noon:
+- Set a reminder to leave at noon:
 
 `leave {{1200}}`
 
@@ -28,7 +30,7 @@ sources:
 
 `leave +{{amount_of_time}}`
 
-- Remind to leave in 4 hours and 4 minutes:
+- Set a reminder to leave in 4 hours and 4 minutes:
 
 `leave +{{0404}}`
 

@@ -2,8 +2,9 @@
 id: common.kops
 title: Kops
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815039
+created: 1642441815039
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `kops export kubecfg {{cluster_name}}`
 
-- Get the cluster configuration as yaml:
+- Get the cluster configuration as YAML:
 
 `kops get cluster {{cluster_name}} -o yaml`
 

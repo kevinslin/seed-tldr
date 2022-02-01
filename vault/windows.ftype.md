@@ -2,8 +2,9 @@
 id: windows.ftype
 title: Ftype
 desc: ''
-updated: 1623965306238
-created: 1623965306238
+updated: 1642441815127
+created: 1642441815127
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

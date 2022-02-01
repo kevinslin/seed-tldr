@@ -2,8 +2,9 @@
 id: osx.lldb
 title: Lldb
 desc: ''
-updated: 1623965306234
-created: 1623965306234
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lldb
 
 > The LLVM Low-Level Debugger.
+> More information: <https://lldb.llvm.org>.
 
 - Debug an executable:
 

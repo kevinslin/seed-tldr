@@ -2,8 +2,9 @@
 id: common.docker-run
 title: Docker Run
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815009
+created: 1642441815009
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -39,4 +40,12 @@ sources:
 - Run command in a new container with published ports:
 
 `docker run -p {{host_port}}:{{container_port}} {{image}} {{command}}`
+
+- Run command in a new container overwriting the entrypoint of the image:
+
+`docker run --entrypoint {{command}} {{image}}`
+
+- Run command in a new container connecting it to a network:
+
+`docker run --network {{network}} {{image}}`
 

@@ -2,8 +2,9 @@
 id: linux.conky
 title: Conky
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `conky -C > ~/.conkyrc`
 
-- Launch conky with a given config file:
+- Launch Conky with a given config file:
 
 `conky -c {{path/to/config}}`
 
@@ -32,7 +33,7 @@ sources:
 
 `conky -d`
 
-- Align conky on the desktop:
+- Align Conky on the desktop:
 
 `conky -a {{{top,bottom,middle}_{left,right,middle}}}`
 

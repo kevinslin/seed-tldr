@@ -2,8 +2,9 @@
 id: common.7za
 title: 7za
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814991
+created: 1642441814991
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -39,7 +40,7 @@ sources:
 
 - [a]rchive using a specific archive type:
 
-`7z a -t{{7z|zip|gzip|bzip2|lzip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|zip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
 - [l]ist the contents of an archive:
 

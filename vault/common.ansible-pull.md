@@ -2,8 +2,9 @@
 id: common.ansible-pull
 title: Ansible Pull
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814994
+created: 1642441814994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

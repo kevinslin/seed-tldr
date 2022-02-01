@@ -2,8 +2,9 @@
 id: linux.apk
 title: Apk
 desc: ''
-updated: 1623965306218
-created: 1623965306218
+updated: 1642441815087
+created: 1642441815087
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # apk
 
 > Alpine Linux package management tool.
+> More information: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
 - Update repository indexes from all remote repositories:
 

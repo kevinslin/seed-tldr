@@ -2,8 +2,9 @@
 id: linux.firewall-cmd
 title: Firewall Cmd
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # firewall-cmd
 
 > The firewalld command-line client.
+> More information: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 
 - View the available firewall zones:
 

@@ -2,8 +2,9 @@
 id: linux.lsscsi
 title: Lsscsi
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lsscsi
 
 > List SCSI devices (or hosts) and their attributes.
+> More information: <https://manned.org/lspci>.
 
 - List all SCSI devices:
 
@@ -23,7 +25,7 @@ sources:
 
 `lsscsi -L`
 
-- List all SCSI devices with human readable disk capacity:
+- List all SCSI devices with human-readable disk capacity:
 
 `lsscsi -s`
 

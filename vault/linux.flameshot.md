@@ -2,8 +2,9 @@
 id: linux.flameshot
 title: Flameshot
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,21 +14,25 @@ sources:
 ---
 # flameshot
 
-> Screenshot utility with a gui interface.
+> Screenshot utility with a GUI.
 > Supports basic image editing, such as text, shapes, colors, and imgur.
-> More information: <https://flameshot.js.org>.
+> More information: <https://flameshot.org>.
 
-- Launch flameshot in gui mode:
+- Launch flameshot with a simpler interactive mode:
 
 `flameshot launcher`
 
-- Take a screenshot by clicking and dragging:
+- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot:
 
 `flameshot gui`
 
-- Take a full screen screenshot:
+- Take a full screenshot (all monitors):
 
 `flameshot full`
+
+- Take a screenshot from monitor 1:
+
+`flameshot screen --number {{1}}`
 
 - Set the save path to write screenshots to:
 
@@ -36,4 +41,8 @@ sources:
 - Delay the screenshot for N milliseconds and output to clipboard:
 
 `flameshot full --delay {{2000}} --clipboard`
+
+- Take a screenshot and export it to standard-output:
+
+`flameshot gui --raw`
 

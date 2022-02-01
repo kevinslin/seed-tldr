@@ -2,8 +2,9 @@
 id: linux.pstree
 title: Pstree
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815109
+created: 1642441815109
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pstree
 
 > A convenient tool to show running processes as a tree.
+> More information: <https://manned.org/pstree>.
 
 - Display a tree of processes:
 

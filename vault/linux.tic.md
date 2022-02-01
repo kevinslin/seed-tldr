@@ -2,8 +2,9 @@
 id: linux.tic
 title: Tic
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

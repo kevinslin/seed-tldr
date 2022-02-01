@@ -2,8 +2,9 @@
 id: common.samtools
 title: Samtools
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Tools for handling high-throughput sequencing (genomics) data.
 > Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.
+> More information: <https://www.htslib.org>.
 
 - Convert a SAM input file to BAM stream and save to file:
 

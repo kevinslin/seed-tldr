@@ -2,8 +2,9 @@
 id: common.rbenv
 title: Rbenv
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

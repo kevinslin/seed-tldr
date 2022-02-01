@@ -2,8 +2,9 @@
 id: linux.shutdown
 title: Shutdown
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # shutdown
 
 > Shutdown and reboot the system.
+> More information: <https://manned.org/shutdown.8>.
 
 - Power off (halt) immediately:
 

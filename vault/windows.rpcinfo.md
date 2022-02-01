@@ -2,8 +2,9 @@
 id: windows.rpcinfo
 title: Rpcinfo
 desc: ''
-updated: 1623965306239
-created: 1623965306239
+updated: 1642441815129
+created: 1642441815129
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: common.goreload
 title: Goreload
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815030
+created: 1642441815030
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

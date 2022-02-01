@@ -2,8 +2,9 @@
 id: common.kubectl-get
 title: Kubectl Get
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815039
+created: 1642441815039
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -35,6 +36,10 @@ sources:
 - Get services in a specified namespace:
 
 `kubectl get services -n {{namespace}}`
+
+- Get all resources in a specified namespace:
+
+`kubectl get all -n {{namespace}}`
 
 - Get Kubernetes objects defined in a YAML manifest:
 

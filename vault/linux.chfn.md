@@ -2,8 +2,9 @@
 id: linux.chfn
 title: Chfn
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815090
+created: 1642441815090
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # chfn
 
 > Update `finger` info for a user.
+> More information: <https://manned.org/chfn>.
 
 - Update a user's "Name" field in the output of `finger`:
 

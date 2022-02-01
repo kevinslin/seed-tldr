@@ -2,8 +2,9 @@
 id: common.docker-compose
 title: Docker Compose
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815008
+created: 1642441815008
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # docker-compose
 
 > Run and manage multi container docker applications.
-> More information: <https://docs.docker.com/compose/reference/overview/>.
+> More information: <https://docs.docker.com/compose/reference/>.
 
 - List all running containers:
 

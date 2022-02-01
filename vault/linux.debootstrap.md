@@ -2,8 +2,9 @@
 id: linux.debootstrap
 title: Debootstrap
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -19,6 +20,10 @@ sources:
 - Create a Debian stable release system inside the `debian-root` directory:
 
 `sudo debootstrap stable {{path/to/debian-root/}} http://deb.debian.org/debian`
+
+- Create a minimal system including only required packages:
+
+`sudo debootstrap --variant=minbase stable {{path/to/debian-root/}}`
 
 - Create an Ubuntu 20.04 system inside the `focal-root` directory with a local mirror:
 

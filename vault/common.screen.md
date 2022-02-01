@@ -2,8 +2,9 @@
 id: common.screen
 title: Screen
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,8 @@ sources:
 # screen
 
 > Hold a session open on a remote server. Manage multiple windows with a single SSH connection.
+> See also `tmux` and `zellij`.
+> More information: <https://manned.org/screen>.
 
 - Start a new screen session:
 

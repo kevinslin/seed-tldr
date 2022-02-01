@@ -2,8 +2,9 @@
 id: common.rar
 title: Rar
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815064
+created: 1642441815064
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # rar
 
 > The RAR archiver. Supports multi-volume archives that can be optionally self-extracting.
+> More information: <https://manned.org/rar>.
 
 - Archive 1 or more files:
 

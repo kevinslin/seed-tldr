@@ -2,8 +2,9 @@
 id: common.tldrl
 title: Tldrl
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815076
+created: 1642441815076
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # tldrl
 
 > This command is an alias of `tldr-lint`.
+> More information: <https://github.com/tldr-pages/tldr-lint>.
 
 - View documentation for the original command:
 

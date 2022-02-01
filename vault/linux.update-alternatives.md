@@ -2,8 +2,9 @@
 id: linux.update-alternatives
 title: Update Alternatives
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # update-alternatives
 
 > A convenient tool for maintaining symbolic links to determine default commands.
+> More information: <https://manned.org/update-alternatives>.
 
 - Add a symbolic link:
 

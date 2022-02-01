@@ -2,8 +2,9 @@
 id: common.ping
 title: Ping
 desc: ''
-updated: 1623965306204
-created: 1623965306204
+updated: 1642441815058
+created: 1642441815058
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
+> More information: <https://manned.org/ping>.
 
 - Ping host:
 

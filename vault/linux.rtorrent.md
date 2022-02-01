@@ -2,8 +2,9 @@
 id: linux.rtorrent
 title: Rtorrent
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815111
+created: 1642441815111
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # rtorrent
 
 > Download torrents over the command-line.
+> More information: <https://github.com/rakshasa/rtorrent>.
 
 - Add a torrent file or magnet to be downloaded:
 

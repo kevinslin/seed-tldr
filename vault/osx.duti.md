@@ -2,8 +2,9 @@
 id: osx.duti
 title: Duti
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # duti
 
 > Set default applications for document types and URL schemes on macOS.
+> More information: <https://github.com/moretension/duti>.
 
 - Set Safari as the default handler for HTML documents:
 

@@ -2,8 +2,9 @@
 id: common.code
 title: Code
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1643304013546
+created: 1643304013546
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,11 +33,15 @@ sources:
 
 `code --reuse-window {{path/to/file_or_directory}}`
 
+- Open a file or directory in a new VS Code window:
+
+`code --new-window {{path/to/file_or_directory}}`
+
 - Compare two files in VS Code:
 
 `code -d {{file1}} {{file2}}`
 
-- Open VS Code with super user (sudo) permissions:
+- Open VS Code with superuser (sudo) permissions:
 
 `sudo code {{path/to/file_or_directory}} --user-data-dir`
 

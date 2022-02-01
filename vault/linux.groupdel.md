@@ -2,8 +2,9 @@
 id: linux.groupdel
 title: Groupdel
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1643318158468
+created: 1643318158468
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,9 +15,10 @@ sources:
 # groupdel
 
 > Delete existing user groups from the system.
+> See also: `groups`, `groupadd`, `groupmod`.
 > More information: <https://manned.org/groupdel>.
 
 - Delete an existing group:
 
-`groupdel {{group_name}}`
+`sudo groupdel {{group_name}}`
 

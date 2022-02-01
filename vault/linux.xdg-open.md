@@ -2,8 +2,9 @@
 id: linux.xdg-open
 title: Xdg Open
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `xdg-open .`
 
-- Open an URL in the default browser:
+- Open a URL in the default browser:
 
 `xdg-open {{https://example.com}}`
 

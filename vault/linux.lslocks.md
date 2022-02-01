@@ -2,8 +2,9 @@
 id: linux.lslocks
 title: Lslocks
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lslocks
 
 > List local system locks.
+> More information: <https://manned.org/lslocks>.
 
 - List all local system locks:
 
@@ -31,7 +33,7 @@ sources:
 
 `lslocks --pid {{PID}}`
 
-- List locks with json output to stdout:
+- List locks with JSON output to stdout:
 
 `lslocks --json`
 

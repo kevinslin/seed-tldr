@@ -2,8 +2,9 @@
 id: common.go-list
 title: Go List
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815029
+created: 1642441815029
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `go list std`
 
-- List packages in json format:
+- List packages in JSON format:
 
 `go list -json time net/http`
 

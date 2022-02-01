@@ -2,8 +2,9 @@
 id: linux.lrunzip
 title: Lrunzip
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A large file decompression program.
 > See also `lrzip`, `lrztar`, `lrzuntar`.
+> More information: <https://manned.org/lrunzip>.
 
 - Decompress a file:
 

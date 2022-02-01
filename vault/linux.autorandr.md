@@ -2,8 +2,9 @@
 id: linux.autorandr
 title: Autorandr
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815088
+created: 1642441815088
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # autorandr
 
 > Automatically change screen layout.
+> More information: <https://github.com/phillipberndt/autorandr>.
 
 - Save the current screen layout:
 

@@ -2,8 +2,9 @@
 id: common.steam
 title: Steam
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,6 +24,10 @@ sources:
 - Launch Steam and enable its in-app debug console tab:
 
 `steam -console`
+
+- Enable and open the Steam console tab in a running Steam instance:
+
+`steam steam://open/console`
 
 - Log into Steam with the specified credentials:
 

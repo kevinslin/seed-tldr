@@ -2,8 +2,9 @@
 id: linux.eject
 title: Eject
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # eject
 
 > Eject cds, floppy disks and tape drives.
+> More information: <https://manned.org/eject>.
 
 - Display the default device:
 

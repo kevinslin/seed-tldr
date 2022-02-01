@@ -1,0 +1,52 @@
+---
+id: 'common.[['
+title: '[['
+desc: ''
+updated: 1642441814991
+created: 1642441814991
+stub: false
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# \[\[
+
+> Check file types and compare values.
+> Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-_005b_005b>.
+
+- Test if a given variable is equal/not equal to the specified string:
+
+`[[ ${{variable}} {{==|!=}} "{{string}}" ]]`
+
+- Test if a given string conforms the specified glob/regex:
+
+`[[ ${{variable}} {{==|=~}} {{pattern}} ]]`
+
+- Test if a given variable is [eq]ual/[n]ot [e]qual/[g]reater [t]han/[l]ess [t]han/[g]reater than or [e]qual/[l]ess than or [e]qual to the specified number:
+
+`[[ ${{variable}} -{{eq|ne|gt|lt|ge|le}} {{integer}} ]]`
+
+- Test if the specified variable has a [n]on-empty value:
+
+`[[ -n ${{variable}} ]]`
+
+- Test if the specified variable has an empty value:
+
+`[[ -z ${{variable}} ]]`
+
+- Test if the specified [f]ile exists:
+
+`[[ -f {{path/to/file}} ]]`
+
+- Test if the specified [d]irectory exists:
+
+`[[ -d {{path/to/directory}} ]]`
+
+- Test if the specified file or directory [e]xists:
+
+`[[ -e {{path/to/file_or_directory}} ]]`
+

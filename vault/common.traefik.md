@@ -2,8 +2,9 @@
 id: common.traefik
 title: Traefik
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815077
+created: 1642441815077
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # traefik
 
-> A HTTP reverse proxy and load balancer.
+> An HTTP reverse proxy and load balancer.
 > More information: <https://traefik.io>.
 
 - Start server with default config:

@@ -2,8 +2,9 @@
 id: osx.fdesetup
 title: Fdesetup
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # fdesetup
 
 > Set and retrieve FileVault related information.
+> Main information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
 
 - List current FileVault enabled users:
 

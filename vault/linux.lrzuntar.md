@@ -2,8 +2,9 @@
 id: linux.lrzuntar
 title: Lrzuntar
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A wrapper for `lrunzip` to simplify decompression of directories.
 > See also: `lrztar`, `lrzip`.
+> More information: <https://manned.org/lrzuntar>.
 
 - Decompress from a file to the current directory:
 

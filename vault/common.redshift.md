@@ -2,8 +2,9 @@
 id: common.redshift
 title: Redshift
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,13 +15,13 @@ sources:
 # redshift
 
 > Adjust the color temperature of your screen according to your surroundings.
-> More information: <https://jonls.dk/redshift>.
+> More information: <http://jonls.dk/redshift>.
 
 - Turn on Redshift with 5700K temperature during day and 3600K at night:
 
 `redshift -t {{5700}}:{{3600}}`
 
-- Turn on Redshift with a manually-specified custom location:
+- Turn on Redshift with a manually specified custom location:
 
 `redshift -l {{latitude}}:{{longitude}}`
 

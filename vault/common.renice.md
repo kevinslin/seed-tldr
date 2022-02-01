@@ -2,8 +2,9 @@
 id: common.renice
 title: Renice
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Alters the scheduling priority/nicenesses of one or more running processes.
 > Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
+> More information: <https://manned.org/renice>.
 
 - Change priority of a running process:
 

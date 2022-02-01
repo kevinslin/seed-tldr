@@ -2,8 +2,9 @@
 id: common.k8s-unused-secret-detector
 title: K8s Unused Secret Detector
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815038
+created: 1642441815038
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

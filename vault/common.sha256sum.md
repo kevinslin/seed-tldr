@@ -2,8 +2,9 @@
 id: common.sha256sum
 title: Sha256sum
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,21 +19,21 @@ sources:
 
 - Calculate the SHA256 checksum for a file:
 
-`sha256sum {{filename1}}`
+`sha256sum {{path/to/file}}`
 
 - Calculate SHA256 checksums for multiple files:
 
-`sha256sum {{filename1}} {{filename2}}`
+`sha256sum {{path/to/file1}} {{path/to/file2}}`
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`sha256sum {{filename1}} {{filename2}} > {{filename.sha256}}`
+`sha256sum {{path/to/file1}} {{path/to/file2}} > {{path/to/file.sha256}}`
 
 - Read a file of SHA256 sums and verify all files have matching checksums:
 
-`sha256sum --check {{filename.sha256}}`
+`sha256sum --check {{path/to/file.sha256}}`
 
 - Only show a message for files for which verification fails:
 
-`sha256sum --check --quiet {{filename.sha256}}`
+`sha256sum --check --quiet {{path/to/file.sha256}}`
 

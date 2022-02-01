@@ -2,8 +2,9 @@
 id: linux.diff3
 title: Diff3
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # diff3
 
 > Compare three files line by line.
+> More information: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-diff3.html>.
 
 - Compare files:
 

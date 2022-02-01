@@ -1,9 +1,10 @@
 ---
 id: common.php
-title: Php
+title: PHP
 desc: ''
-updated: 1623965306203
-created: 1623965306203
+updated: 1642441815057
+created: 1642441815057
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > PHP command-line interface.
 > More information: <https://php.net>.
 
-- Parse and execute a php script:
+- Parse and execute a PHP script:
 
 `php {{file}}`
 
@@ -43,4 +44,8 @@ sources:
 - Display information about the current PHP configuration:
 
 `php -i`
+
+- Display information about a specific function:
+
+`php --rf {{function_name}}`
 

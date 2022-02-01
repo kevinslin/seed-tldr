@@ -2,8 +2,9 @@
 id: common.script
 title: Script
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815067
+created: 1642441815067
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # script
 
 > Make a typescript file of a terminal session.
+> More information: <https://manned.org/script>.
 
 - Start recording in file named "typescript":
 

@@ -2,8 +2,9 @@
 id: common.cradle
 title: Cradle
 desc: ''
-updated: 1623965306178
-created: 1623965306178
+updated: 1642441815005
+created: 1642441815005
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # cradle
 
 > The Cradle PHP framework.
-> See `cradle-install`, `cradle-deploy` and other pages for additional information.
+> Some subcommands such as `cradle install` have their own usage documentation.
 > More information: <https://cradlephp.github.io>.
 
 - Connect to a server:

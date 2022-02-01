@@ -2,8 +2,9 @@
 id: common.git-branch
 title: Git Branch
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815021
+created: 1642441815021
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,13 +17,13 @@ sources:
 > Main Git command for working with branches.
 > More information: <https://git-scm.com/docs/git-branch>.
 
-- List local branches. The current branch is highlighted by `*`:
+- List all branches (local and remote; the current branch is highlighted by `*`):
 
-`git branch`
+`git branch --all`
 
-- List all branches (local and remote):
+- List which branches include a specific Git commit in their history:
 
-`git branch -a`
+`git branch --all --contains {{commit_hash}}`
 
 - Show the name of the current branch:
 

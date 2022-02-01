@@ -2,8 +2,9 @@
 id: linux.rc-service
 title: Rc Service
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1643296751728
+created: 1643296751728
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Locate and run OpenRC services with arguments.
 > See also `openrc`.
+> More information: <https://manned.org/rc-service>.
 
 - Show a service's status:
 

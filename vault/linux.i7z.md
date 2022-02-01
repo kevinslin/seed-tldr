@@ -2,8 +2,9 @@
 id: linux.i7z
 title: I7z
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,8 +15,9 @@ sources:
 # i7z
 
 > An Intel CPU (only i3, i5 and i7) realtime reporting tool.
+> More information: <https://manned.org/i7z>.
 
-- Start i7z (needs to be run in super user mode):
+- Start i7z (needs to be run in superuser mode):
 
 `sudo i7z`
 

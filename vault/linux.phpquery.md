@@ -2,8 +2,9 @@
 id: linux.phpquery
 title: Phpquery
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,7 +28,7 @@ sources:
 
 `sudo phpquery -v {{7.3}} -s {{cli}} -M`
 
-- Check if the json extension is enabled for PHP 7.3 with the apache2 SAPI:
+- Check if the JSON extension is enabled for PHP 7.3 with the apache2 SAPI:
 
 `sudo phpquery -v {{7.3}} -s {{apache2}} -m {{json}}`
 

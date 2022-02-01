@@ -2,8 +2,9 @@
 id: linux.ipcmk
 title: Ipcmk
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ipcmk
 
 > Create IPC (Inter-process Communication) resources.
+> More information: <https://manned.org/ipcmk>.
 
 - Create a shared memory segment:
 

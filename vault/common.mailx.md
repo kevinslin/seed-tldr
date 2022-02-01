@@ -2,8 +2,9 @@
 id: common.mailx
 title: Mailx
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815046
+created: 1642441815046
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mailx
 
 > Send and receive mail.
+> More information: <https://manned.org/mailx>.
 
 - Send mail (the content should be typed after the command, and ended with `Ctrl+D`):
 

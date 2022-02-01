@@ -2,8 +2,9 @@
 id: common.ansible
 title: Ansible
 desc: ''
-updated: 1623965306173
-created: 1623965306173
+updated: 1642441814994
+created: 1642441814994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,8 +14,8 @@ sources:
 ---
 # ansible
 
-> Manage groups of computers remotely over SSH.
-> Use the `/etc/ansible/hosts` file to add new groups/hosts.
+> Manage groups of computers remotely over SSH. (use the `/etc/ansible/hosts` file to add new groups/hosts).
+> Some subcommands such as `ansible galaxy` have their own usage documentation.
 > More information: <https://www.ansible.com/>.
 
 - List hosts belonging to a group:

@@ -2,8 +2,9 @@
 id: common.pio
 title: Pio
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815059
+created: 1642441815059
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pio
 
 > Development environment for embedded boards.
+> Some subcommands such as `pio run` have their own usage documentation.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Show help and list subcommands:

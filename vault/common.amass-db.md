@@ -2,8 +2,9 @@
 id: common.amass-db
 title: Amass Db
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642441814993
+created: 1642441814993
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

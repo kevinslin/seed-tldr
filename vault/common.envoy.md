@@ -2,8 +2,9 @@
 id: common.envoy
 title: Envoy
 desc: ''
-updated: 1623965306183
-created: 1623965306183
+updated: 1642441815013
+created: 1642441815013
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `envoy run --continue {{task_name}}`
 
-- Dump a task as a bash script for inspection:
+- Dump a task as a Bash script for inspection:
 
 `envoy run --pretend {{task_name}}`
 

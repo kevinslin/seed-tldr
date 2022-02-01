@@ -2,8 +2,9 @@
 id: common.clang
 title: Clang
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815002
+created: 1642441815002
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -31,4 +32,8 @@ sources:
 - Compile source code into LLVM Intermediate Representation (IR):
 
 `clang -S -emit-llvm {{file.c}} -o {{file.ll}}`
+
+- Compile source code without linking:
+
+`clang -c {{input_source.c}}`
 

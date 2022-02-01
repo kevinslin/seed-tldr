@@ -2,8 +2,9 @@
 id: common.convert
 title: Convert
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815004
+created: 1642441815004
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,11 +37,15 @@ sources:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
 
-- Create a gif from a series of images with 100ms delay between them:
+- Create a GIF from a series of images with 100ms delay between them:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{10}} {{animation.gif}}`
 
 - Create an image with nothing but a solid background:
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{image.png}}`
+
+- Create a favicon from several images of different sizes:
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} {{image.ico}}`
 

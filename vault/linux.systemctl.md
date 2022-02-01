@@ -2,8 +2,9 @@
 id: linux.systemctl
 title: Systemctl
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815114
+created: 1642441815114
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,10 @@ sources:
 
 > Control the systemd system and service manager.
 > More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+
+- Show all running services:
+
+`systemctl status`
 
 - List failed units:
 
@@ -39,10 +44,6 @@ sources:
 - Reload systemd, scanning for new or changed units:
 
 `systemctl daemon-reload`
-
-- Check if a unit is active:
-
-`systemctl is-active {{unit}}`
 
 - Check if a unit is enabled:
 

@@ -2,8 +2,9 @@
 id: linux.ethtool
 title: Ethtool
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815094
+created: 1642441815094
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,6 +24,10 @@ sources:
 - Display the driver information for an interface:
 
 `ethtool --driver {{eth0}}`
+
+- Display all supported features for an interface:
+
+`ethtool --show-features {{eth0}}`
 
 - Display the network usage statistics for an interface:
 

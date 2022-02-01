@@ -2,8 +2,9 @@
 id: linux.snap
 title: Snap
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

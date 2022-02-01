@@ -2,8 +2,9 @@
 id: common.phploc
 title: Phploc
 desc: ''
-updated: 1623965306204
-created: 1623965306204
+updated: 1642441815057
+created: 1642441815057
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

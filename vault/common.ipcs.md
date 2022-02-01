@@ -2,8 +2,9 @@
 id: common.ipcs
 title: Ipcs
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815036
+created: 1642441815036
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,8 +15,9 @@ sources:
 # ipcs
 
 > Display information about resources used in IPC (Inter-process Communication).
+> More information: <https://manned.org/ipcs>.
 
-- Specific information about the Message Queue which has the id 32768:
+- Specific information about the Message Queue which has the ID 32768:
 
 `ipcs -qi 32768`
 

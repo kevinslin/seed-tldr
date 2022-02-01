@@ -2,8 +2,9 @@
 id: common.column
 title: Column
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815003
+created: 1642441815003
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -25,7 +26,7 @@ sources:
 
 `printf "header1 header2\nbar foo\n" | column --table`
 
-- Specify the column delimiter character for the `--table` option (e.g. "," for csv) (defaults to whitespace):
+- Specify the column delimiter character for the `--table` option (e.g. "," for CSV) (defaults to whitespace):
 
 `printf "header1,header2\nbar,foo\n" | column --table --separator {{,}}`
 

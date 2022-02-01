@@ -2,8 +2,9 @@
 id: common.xplr
 title: Xplr
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815085
+created: 1642441815085
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # xplr
 
 > Terminal-based file system explorer.
-> More information: <https://github.com/sayanarijit/xplr>.
+> More information: <https://xplr.dev>.
 
 - Open a directory:
 
@@ -23,4 +24,12 @@ sources:
 - Focus on a file:
 
 `xplr {{path/to/file}}`
+
+- Focus on a directory:
+
+`xplr --force-focus {{path/to/directory}}`
+
+- Open a directory with specific files or directories selected:
+
+`xplr {{path/to/directory}} {{path/to/selected_file_or_directory1}} {{path/to/selected_file_or_directory2}}`
 

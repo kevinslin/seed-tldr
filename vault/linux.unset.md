@@ -2,8 +2,9 @@
 id: linux.unset
 title: Unset
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # unset
 
 > Remove shell variables or functions.
+> More information: <https://manned.org/unset>.
 
 - Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`:
 

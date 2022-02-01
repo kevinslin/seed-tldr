@@ -2,8 +2,9 @@
 id: common.xephyr
 title: Xephyr
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815084
+created: 1642441815084
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # Xephyr
 
 > A nested X server that runs as an X application.
+> More information: <https://manned.org/xserver-xephyr>.
 
 - Create a black window with display ID ":2":
 

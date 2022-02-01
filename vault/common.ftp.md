@@ -2,8 +2,9 @@
 id: common.ftp
 title: Ftp
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815019
+created: 1642441815019
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,10 +15,15 @@ sources:
 # ftp
 
 > Tools to interact with a server via File Transfer Protocol.
+> More information: <https://manned.org/ftp>.
 
 - Connect to an FTP server:
 
 `ftp {{ftp.example.com}}`
+
+- Connect to an FTP server specifying its IP address and port:
+
+`ftp {{ip_address}} {{port}}`
 
 - Switch to binary transfer mode (graphics, compressed files, etc):
 

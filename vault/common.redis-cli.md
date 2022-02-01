@@ -2,8 +2,9 @@
 id: common.redis-cli
 title: Redis CLI
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815065
+created: 1642441815065
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `redis-cli -h {{host}} -p {{port}}`
 
-- Connect to a remote server specifying an URI:
+- Connect to a remote server specifying a URI:
 
 `redis-cli -u {{uri}}`
 

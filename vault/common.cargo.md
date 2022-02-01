@@ -2,8 +2,9 @@
 id: common.cargo
 title: Cargo
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815001
+created: 1642441815001
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,8 +14,8 @@ sources:
 ---
 # cargo
 
-> Rust package manager.
 > Manage Rust projects and their module dependencies (crates).
+> Some subcommands such as `cargo build` have their own usage documentation.
 > More information: <https://crates.io/>.
 
 - Search for crates:
@@ -43,5 +44,5 @@ sources:
 
 - Build using a specific number of threads (default is the number of CPU cores):
 
-`cargo build -j {{jobs}}`
+`cargo build --jobs {{number_of_threads}}`
 

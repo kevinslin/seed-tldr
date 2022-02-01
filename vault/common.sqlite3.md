@@ -2,8 +2,9 @@
 id: common.sqlite3
 title: Sqlite3
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815070
+created: 1642441815070
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

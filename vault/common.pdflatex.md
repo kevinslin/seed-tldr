@@ -2,8 +2,9 @@
 id: common.pdflatex
 title: Pdflatex
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `pdflatex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a PDF document, halting on each error:
+- Compile a PDF document, exiting on each error:
 
 `pdflatex -halt-on-error {{source.tex}}`
 

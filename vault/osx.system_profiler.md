@@ -2,8 +2,9 @@
 id: osx.system_profiler
 title: System_profiler
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # system_profiler
 
 > Report system hardware and software configuration.
+> More information: <https://ss64.com/osx/system_profiler.html>.
 
 - Display a full system profiler report which can be opened by System Profiler.app:
 

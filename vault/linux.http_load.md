@@ -2,8 +2,9 @@
 id: linux.http_load
 title: Http_load
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # http_load
 
-> A HTTP benchmarking tool.
+> An HTTP benchmarking tool.
 > Runs multiple HTTP fetches in parallel to test the throughput of a web server.
 > More information: <http://www.acme.com/software/http_load/>.
 

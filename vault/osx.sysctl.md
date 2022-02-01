@@ -2,8 +2,9 @@
 id: osx.sysctl
 title: Sysctl
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # sysctl
 
 > Access kernel state information.
+> More information: <https://ss64.com/osx/sysctl.html>.
 
 - Show all available variables and their values:
 

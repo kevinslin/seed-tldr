@@ -2,8 +2,9 @@
 id: common.nimble
 title: Nimble
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815051
+created: 1642441815051
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

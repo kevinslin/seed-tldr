@@ -2,8 +2,9 @@
 id: common.esbuild
 title: Esbuild
 desc: ''
-updated: 1623965306183
-created: 1623965306183
+updated: 1642441815013
+created: 1642441815013
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,7 +41,7 @@ sources:
 
 `esbuild --bundle app.js --loader:{{.js=jsx}} {{path/to/file.js}}`
 
-- Bundle and serve JavaScript application on an HTTP server:
+- Bundle and serve a JavaScript application on an HTTP server:
 
 `esbuild --bundle --serve={{port}} --outfile={{index.js}} {{path/to/file.js}}`
 

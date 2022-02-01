@@ -2,8 +2,9 @@
 id: linux.kexec
 title: Kexec
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # kexec
 
 > Directly reboot into a new kernel.
+> More information: <https://manned.org/kexec>.
 
 - Load a new kernel:
 

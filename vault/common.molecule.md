@@ -2,8 +2,9 @@
 id: common.molecule
 title: Molecule
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815048
+created: 1642441815048
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,10 +14,10 @@ sources:
 ---
 # molecule
 
-> Molecule helps testing ansible roles.
+> Molecule helps testing Ansible roles.
 > More information: <https://molecule.readthedocs.io>.
 
-- Create a new ansible role:
+- Create a new Ansible role:
 
 `molecule init role --role-name {{role_name}}`
 

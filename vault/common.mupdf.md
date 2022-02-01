@@ -2,8 +2,9 @@
 id: common.mupdf
 title: Mupdf
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815049
+created: 1642441815049
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

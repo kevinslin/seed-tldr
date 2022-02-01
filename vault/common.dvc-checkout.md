@@ -2,8 +2,9 @@
 id: common.dvc-checkout
 title: Dvc Checkout
 desc: ''
-updated: 1623965306182
-created: 1623965306182
+updated: 1642441815011
+created: 1642441815011
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `dvc checkout`
 
-- Checkout to latest version of a specified target:
+- Checkout the latest version of a specified target:
 
 `dvc checkout {{target}}`
 

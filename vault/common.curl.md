@@ -2,8 +2,9 @@
 id: common.curl
 title: Curl
 desc: ''
-updated: 1623965306178
-created: 1623965306178
+updated: 1642441815006
+created: 1642441815006
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > Supports most protocols, including HTTP, FTP, and POP3.
 > More information: <https://curl.se>.
 
-- Download the contents of an URL to a file:
+- Download the contents of a URL to a file:
 
 `curl {{http://example.com}} --output {{filename}}`
 
@@ -25,9 +26,9 @@ sources:
 
 `curl --remote-name {{http://example.com/filename}}`
 
-- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer:
+- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 
@@ -41,7 +42,7 @@ sources:
 
 `curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass a user name and password for server authentication:
+- Pass a username and password for server authentication:
 
 `curl --user myusername:mypassword {{http://example.com}}`
 

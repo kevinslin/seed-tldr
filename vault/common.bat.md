@@ -2,8 +2,9 @@
 id: common.bat
 title: Bat
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814998
+created: 1642441814998
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `bat -n {{file}}`
 
-- Syntax highlight a json file:
+- Syntax highlight a JSON file:
 
 `bat --language json {{file.json}}`
 

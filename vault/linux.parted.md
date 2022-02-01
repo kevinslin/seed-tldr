@@ -2,8 +2,9 @@
 id: linux.parted
 title: Parted
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815107
+created: 1642441815107
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # parted
 
 > A partition manipulation program.
+> See also: `partprobe`.
 > More information: <https://www.gnu.org/software/parted/parted.html>.
 
 - List partitions on all block devices:
@@ -36,7 +38,7 @@ sources:
 
 `select {{/dev/sdX}}`
 
-- Create a 16GB partition with the specified filesystem in interactive mode:
+- Create a 16 GB partition with the specified filesystem in interactive mode:
 
 `mkpart {{primary|logical|extended}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
 

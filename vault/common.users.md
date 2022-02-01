@@ -2,8 +2,9 @@
 id: common.users
 title: Users
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1643318158443
+created: 1643318158443
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,13 +15,14 @@ sources:
 # users
 
 > Display a list of logged in users.
+> See also: `useradd`, `userdel`, `usermod`.
 > More information: <https://www.gnu.org/software/coreutils/users>.
 
-- Display a list of logged in users:
+- Print logged in usernames:
 
 `users`
 
-- Display a list of logged in users according to a specific file:
+- Print logged in usernames according to a given file:
 
 `users {{/var/log/wmtp}}`
 

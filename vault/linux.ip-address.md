@@ -2,8 +2,9 @@
 id: linux.ip-address
 title: Ip Address
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815099
+created: 1642441815099
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ip address
 
 > IP Address management subcommand.
+> More information: <https://manned.org/ip-address>.
 
 - List network interfaces and their associated IP addresses:
 

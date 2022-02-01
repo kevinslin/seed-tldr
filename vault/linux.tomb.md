@@ -2,8 +2,9 @@
 id: linux.tomb
 title: Tomb
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,13 +17,17 @@ sources:
 > Manage encrypted storage directories that can be safely transported and hidden in a filesystem.
 > More information: <https://www.dyne.org/software/tomb/>.
 
-- Create a new tomb with an initial size of 100MB:
+- Create a new tomb with an initial size of 100 MB:
 
 `tomb dig -s {{100}} {{encrypted_directory.tomb}}`
 
 - Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key:
 
 `tomb forge {{encrypted_directory.tomb.key}}`
+
+- Forcefully create a new key, even if the tomb isn't allowing key forging (due to swap):
+
+`tomb forge {{encrypted_directory.tomb.key}} -f`
 
 - Initialize and lock an empty tomb using a key made with `forge`:
 

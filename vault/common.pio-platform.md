@@ -2,8 +2,9 @@
 id: common.pio-platform
 title: Pio Platform
 desc: ''
-updated: 1623965306204
-created: 1623965306204
+updated: 1642441815059
+created: 1642441815059
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -34,7 +35,7 @@ sources:
 
 - Update installed development platforms:
 
-`pio platfom update`
+`pio platform update`
 
 - Uninstall a development platform:
 

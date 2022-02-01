@@ -2,8 +2,9 @@
 id: common.alias
 title: Alias
 desc: ''
-updated: 1623965306172
-created: 1623965306172
+updated: 1642574148833
+created: 1642574148833
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -35,9 +36,9 @@ sources:
 
 - Turn `rm` into an interactive command:
 
-`alias {{rm}}="{{rm -i}}"`
+`alias {{rm}}="{{rm --interactive}}"`
 
-- Create `la` as a shortcut for `ls -a`:
+- Create `la` as a shortcut for `ls --all`:
 
-`alias {{la}}="{{ls -a}}"`
+`alias {{la}}="{{ls --all}}"`
 

@@ -2,8 +2,9 @@
 id: linux.pihole
 title: Pihole
 desc: ''
-updated: 1623965306227
-created: 1623965306227
+updated: 1642441815108
+created: 1642441815108
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,12 +14,16 @@ sources:
 ---
 # pihole
 
-> Terminal interface for the Pi-Hole ad-blocking DNS server.
+> Terminal interface for the Pi-hole ad-blocking DNS server.
 > More information: <https://pi-hole.net>.
 
 - Check the Pi-hole daemon's status:
 
 `pihole status`
+
+- Update Pi-hole:
+
+`pihole updatePihole`
 
 - Monitor detailed system status:
 
@@ -39,4 +44,8 @@ sources:
 - Search the lists for a domain:
 
 `pihole query {{example.com}}`
+
+- Open a real-time log of connections:
+
+`pihole tail`
 

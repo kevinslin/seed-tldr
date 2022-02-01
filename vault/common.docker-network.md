@@ -2,8 +2,9 @@
 id: common.docker-network
 title: Docker Network
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815009
+created: 1642441815009
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `docker network ls`
 
-- Create a user defined network:
+- Create a user-defined network:
 
 `docker network create --driver {{driver_name}} {{network_name}}`
 

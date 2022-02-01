@@ -2,8 +2,9 @@
 id: common.nrm
 title: Nrm
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # nrm
 
-> NPM registry manager.
+> npm registry manager.
 > Helps to easily switch between different npm registries.
 > More information: <https://github.com/Pana/nrm>.
 

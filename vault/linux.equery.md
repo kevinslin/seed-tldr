@@ -2,8 +2,9 @@
 id: linux.equery
 title: Equery
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # equery
 
 > View information about Portage packages.
+> More information: <https://wiki.gentoo.org/wiki/Equery>.
 
 - List all installed packages:
 

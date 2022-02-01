@@ -2,8 +2,9 @@
 id: common.gem
 title: Gem
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815019
+created: 1642441815019
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `gem search {{regular_expression}} --all`
 
-- Install latest version of a gem:
+- Install the latest version of a gem:
 
 `gem install {{gemname}}`
 

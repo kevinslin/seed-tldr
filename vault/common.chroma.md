@@ -2,8 +2,9 @@
 id: common.chroma
 title: Chroma
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815001
+created: 1642441815001
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,11 +21,11 @@ sources:
 
 `chroma --lexer="{{python}}" {{source_file}}`
 
-- Highlight a source file with Go lexer and output to a HTML file:
+- Highlight a source file with the Go lexer and output to an HTML file:
 
 `chroma --lexer="{{go}}" --formatter="{{html}}" {{source_file}} > {{html_file}}`
 
-- Highlight a source file with C++ lexer and output to an SVG image, using the Monokai style:
+- Highlight a source file with the C++ lexer and output to an SVG, using the Monokai style:
 
 `chroma --lexer="{{c++}}" --formatter="{{svg}}" --syle="{{monokai}}" {{source_file}} > {{svg_file}}`
 

@@ -2,8 +2,9 @@
 id: linux.yetris
 title: Yetris
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Clone of the game Tetris in the terminal.
 > More information: <https://github.com/alexdantas/yetris>.
 
-- Start a tetris game:
+- Start a Tetris game:
 
 `yetris`
 

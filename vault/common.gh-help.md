@@ -2,8 +2,9 @@
 id: common.gh-help
 title: Gh Help
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815020
+created: 1642441815020
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -31,6 +32,14 @@ sources:
 - Display a markdown reference of all `gh` commands:
 
 `gh help reference`
+
+- Display help about formatting JSON output from `gh` using `jq`:
+
+`gh help formatting`
+
+- Display help about using `gh` with MinTTY:
+
+`gh help mintty`
 
 - Display help for a subcommand:
 

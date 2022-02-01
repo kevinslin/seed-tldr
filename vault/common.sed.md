@@ -2,8 +2,9 @@
 id: common.sed
 title: Sed
 desc: ''
-updated: 1623965306209
-created: 1623965306209
+updated: 1642441815068
+created: 1642441815068
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -44,7 +45,7 @@ sources:
 
 `sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
 
-- Replace separator `/` by any other character not used in the find or replace patterns, e.g., `#`:
+- Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
 

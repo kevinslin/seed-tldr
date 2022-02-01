@@ -2,8 +2,9 @@
 id: common.pass
 title: Pass
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -44,4 +45,8 @@ sources:
 - Initialize a new Git repository (any changes done by pass will be committed automatically):
 
 `pass git init`
+
+- Run a Git command on behalf of the password storage:
+
+`pass git {{command}}`
 

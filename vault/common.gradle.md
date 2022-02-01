@@ -2,8 +2,9 @@
 id: common.gradle
 title: Gradle
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815031
+created: 1642441815031
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `gradle build -x {{test}}`
 
-- Run in offline mode to prevent gradle from accessing the network during builds:
+- Run in offline mode to prevent Gradle from accessing the network during builds:
 
 `gradle build --offline`
 
@@ -32,7 +33,7 @@ sources:
 
 `gradle clean`
 
-- Compile and Release package:
+- Build an Android Package (APK) in release mode:
 
 `gradle assembleRelease`
 

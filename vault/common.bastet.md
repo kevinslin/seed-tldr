@@ -2,8 +2,9 @@
 id: common.bastet
 title: Bastet
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814998
+created: 1642441814998
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Clone of the game Tetris in the terminal.
 > More information: <https://fph.altervista.org/prog/bastet.html>.
 
-- Start a tetris game:
+- Start a Tetris game:
 
 `bastet`
 

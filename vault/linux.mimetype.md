@@ -2,8 +2,9 @@
 id: linux.mimetype
 title: Mimetype
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mimetype
 
 > Automatically determine the MIME type of a file.
+> More information: <https://manned.org/mimetype>.
 
 - Print the MIME type of a given file:
 

@@ -2,8 +2,9 @@
 id: linux.xrandr
 title: Xrandr
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xrandr
 
 > Set the size, orientation and/or reflection of the outputs for a screen.
+> More information: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Display the current state of the system (known screens, resolutions, ...):
 
@@ -35,11 +37,7 @@ sources:
 
 `xrandr --output {{VGA1}} --off`
 
-- Set brightness for LVDS1 to 50%:
+- Set the brightness for LVDS1 to 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
-
-- See display hardware information:
-
-`xrandr -q`
 

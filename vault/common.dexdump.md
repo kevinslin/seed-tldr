@@ -2,8 +2,9 @@
 id: common.dexdump
 title: Dexdump
 desc: ''
-updated: 1623965306179
-created: 1623965306179
+updated: 1642441815007
+created: 1642441815007
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # dexdump
 
 > Display information about Android DEX files.
-> More information: <https://manpages.ubuntu.com/manpages/latest/en/man1/dexdump.1.html>.
+> More information: <https://manned.org/dexdump>.
 
 - Extract classes and methods from an APK file:
 

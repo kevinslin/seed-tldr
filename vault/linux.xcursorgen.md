@@ -2,8 +2,9 @@
 id: linux.xcursorgen
 title: Xcursorgen
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815118
+created: 1642441815118
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,9 +14,9 @@ sources:
 ---
 # xcursorgen
 
-> Create an X cursor file from a collection of PNG images.
+> Create an X cursor file from a collection of PNGs.
 > If `--prefix` is omitted, the image files must be located in the current working directory.
-> More information: <https://manned.org/xcursorgen.1>.
+> More information: <https://manned.org/xcursorgen>.
 
 - Create an X cursor file using a config file:
 

@@ -2,8 +2,9 @@
 id: linux.inotifywait
 title: Inotifywait
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815098
+created: 1642441815098
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # inotifywait
 
 > Waits for changes to one or more files.
+> More information: <https://manned.org/inotifywait>.
 
 - Run a command when a file changes:
 
@@ -29,7 +31,7 @@ sources:
 
 - Exclude files matching a regular expression:
 
-`while inotifywait --recursive {{path/to/directory}} --exlude '{{regular_expression}}'; do {{command}}; done`
+`while inotifywait --recursive {{path/to/directory}} --exclude '{{regular_expression}}'; do {{command}}; done`
 
 - Wait at most 30 seconds:
 

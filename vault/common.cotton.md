@@ -2,8 +2,9 @@
 id: common.cotton
 title: Cotton
 desc: ''
-updated: 1623965306178
-created: 1623965306178
+updated: 1642441815004
+created: 1642441815004
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

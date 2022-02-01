@@ -2,8 +2,9 @@
 id: common.virsh
 title: Virsh
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815080
+created: 1642441815080
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,8 +14,8 @@ sources:
 ---
 # virsh
 
-> Manage virsh guest domains.
-> NOTE: 'guest_id' can be the id, name or UUID of the guest.
+> Manage virsh guest domains. (NOTE: 'guest_id' can be the id, name or UUID of the guest).
+> Some subcommands such as `virsh list` have their own usage documentation.
 > More information: <https://libvirt.org/virshcmdref.html>.
 
 - Connect to a hypervisor session:

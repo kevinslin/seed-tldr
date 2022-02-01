@@ -2,8 +2,9 @@
 id: linux.schroot
 title: Schroot
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815112
+created: 1642441815112
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `schroot --all {{command}}`
 
-- Start an interactive shell with in a specific chroot as a specific user:
+- Start an interactive shell within a specific chroot as a specific user:
 
 `schroot --chroot {{chroot}} --user {{user}}`
 

@@ -2,8 +2,9 @@
 id: linux.yaourt
 title: Yaourt
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # yaourt
 
 > Arch Linux utility for building packages from the Arch User Repository.
+> More information: <https://linuxcommandlibrary.com/man/yaourt>.
 
 - Synchronize and update all packages (including AUR):
 

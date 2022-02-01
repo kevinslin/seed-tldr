@@ -2,8 +2,9 @@
 id: common.git-rev-list
 title: Git Rev List
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815026
+created: 1642441815026
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,4 +28,8 @@ sources:
 - List all merge commits on a specific commit:
 
 `git rev-list --merges {{commit}}`
+
+- Print the number of commits since a specific tag:
+
+`git rev-list {{tag_name}}..HEAD --count`
 

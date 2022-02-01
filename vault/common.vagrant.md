@@ -2,8 +2,9 @@
 id: common.vagrant
 title: Vagrant
 desc: ''
-updated: 1623965306214
-created: 1623965306214
+updated: 1642601811676
+created: 1642601811676
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,9 +21,9 @@ sources:
 
 `vagrant init`
 
-- Create Vagrantfile with the Ubuntu 14.04 (Trusty Tahr) box from HashiCorp Atlas:
+- Create Vagrantfile with the Ubuntu 20.04 (Focal Fossa) box from HashiCorp Atlas:
 
-`vagrant init ubuntu/trusty32`
+`vagrant init ubuntu/focal64`
 
 - Start and provision the vagrant environment:
 

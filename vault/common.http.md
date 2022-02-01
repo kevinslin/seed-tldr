@@ -2,8 +2,9 @@
 id: common.http
 title: HTTP
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815034
+created: 1642441815034
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `http {{example.org}} {{X-MyHeader:123}}`
 
-- Pass a user name and password for server authentication:
+- Pass a username and password for server authentication:
 
 `http --auth {{username:password}} {{example.org}}`
 

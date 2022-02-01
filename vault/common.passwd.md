@@ -2,8 +2,9 @@
 id: common.passwd
 title: Passwd
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # passwd
 
 > Passwd is a tool used to change a user's password.
+> More information: <https://manned.org/passwd>.
 
 - Change the password of the current user interactively:
 

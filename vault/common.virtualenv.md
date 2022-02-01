@@ -2,8 +2,9 @@
 id: common.virtualenv
 title: Virtualenv
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815081
+created: 1642441815081
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: common.brotli
 title: Brotli
 desc: ''
-updated: 1623965306175
-created: 1623965306175
+updated: 1642441814999
+created: 1642441814999
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -11,9 +12,9 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# Brotli
+# brotli
 
-> Compress/uncompress files with brotli compression.
+> Compress/uncompress files with Brotli compression.
 > More information: <https://github.com/google/brotli>.
 
 - Compress a file, creating a compressed version next to the file:
@@ -28,7 +29,7 @@ sources:
 
 `brotli {{file.ext}} -o {{compressed_file.ext.br}}`
 
-- Decompress a brotli file specifying the output filename:
+- Decompress a Brotli file specifying the output filename:
 
 `brotli -d {{compressed_file.ext.br}} -o {{file.ext}}`
 

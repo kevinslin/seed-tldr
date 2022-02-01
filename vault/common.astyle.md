@@ -2,8 +2,9 @@
 id: common.astyle
 title: Astyle
 desc: ''
-updated: 1623965306174
-created: 1623965306174
+updated: 1642441814995
+created: 1642441814995
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,7 +22,7 @@ sources:
 
 `astyle {{source_file}}`
 
-- Apply the java style with attached braces:
+- Apply the Java style with attached braces:
 
 `astyle --style=java {{path/to/file}}`
 

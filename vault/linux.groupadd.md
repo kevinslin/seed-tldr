@@ -2,8 +2,9 @@
 id: linux.groupadd
 title: Groupadd
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1643318158468
+created: 1643318158468
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,13 +15,18 @@ sources:
 # groupadd
 
 > Add user groups to the system.
+> See also: `groups`, `groupdel`, `groupmod`.
 > More information: <https://manned.org/groupadd>.
 
-- Create a new Linux group:
+- Create a new group:
 
-`groupadd {{group_name}}`
+`sudo groupadd {{group_name}}`
 
-- Create new group with a specific groupid:
+- Create a new system group:
 
-`groupadd {{group_name}} -g {{group_id}}`
+`sudo groupadd --system {{group_name}}`
+
+- Create a new group with the specific groupid:
+
+`sudo groupadd --gid {{id}} {{group_name}}`
 

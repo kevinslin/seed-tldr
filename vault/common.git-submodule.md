@@ -2,8 +2,9 @@
 id: common.git-submodule
 title: Git Submodule
 desc: ''
-updated: 1623965306189
-created: 1623965306189
+updated: 1642441815027
+created: 1642441815027
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

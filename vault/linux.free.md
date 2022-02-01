@@ -2,8 +2,9 @@
 id: linux.free
 title: Free
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # free
 
 > Display amount of free and used memory in the system.
+> More information: <https://manned.org/free>.
 
 - Display system memory:
 
@@ -23,7 +25,7 @@ sources:
 
 `free -{{b|k|m|g}}`
 
-- Display memory in human readable units:
+- Display memory in human-readable units:
 
 `free -h`
 

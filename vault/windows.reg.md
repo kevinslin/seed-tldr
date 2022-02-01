@@ -2,8 +2,9 @@
 id: windows.reg
 title: Reg
 desc: ''
-updated: 1623965306238
-created: 1623965306238
+updated: 1642441815129
+created: 1642441815129
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # reg
 
 > A command-line interface for managing keys and their values in the Windows registry.
-> See `reg-query`, `reg-add` and other pages for additional information.
+> Some subcommands such as `reg add` have their own usage documentation.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Execute registry commands:

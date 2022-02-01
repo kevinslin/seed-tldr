@@ -4,6 +4,9 @@ on:
   push:
     branches:
     - main
+  # Run every hour
+  schedule:
+    - cron: "0 * * * *"
 
 jobs:
   build:
@@ -12,17 +15,79 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
 
+    - name: Retrieve cached commit SHA for tldr
+      id: tldr-cached
+      run: |
+        echo "::set-output name=SHA::$(git submodule status --cached | grep tldr | cut -d' ' -f1 | cut -c2-)"
+
+    - name: Checkout & update submodules
+      run: git submodule update --init --recursive --remote
+
+    - name: Retrieve updated commit SHA for tldr
+      id: tldr-updated
+      run: |
+        echo "::set-output name=SHA::$(cd repos/tldr && git rev-parse HEAD)"
+
+    - name: Retrieve list of updated tldr pages
+      id: updated-pages
+      run: |
+        FILES=$(cd repos/tldr && git diff --name-only "${OLD_SHA}" "${NEW_SHA}")
+        PAGE_FILES=$(echo "${FILES}" | grep '^pages/' | cat)
+
+        echo "Changed files:"
+        echo "${PAGE_FILES}"
+
+        VAULT_FILES=$(echo "${PAGE_FILES}" | sed -r 's|pages\/(.+?)\/(.+?)\.md|vault\/\1.\2.md|g')
+        echo "::set-output name=FILES::$(echo ${VAULT_FILES} | xargs)"
+      env:
+        OLD_SHA: ${{ steps.tldr-cached.outputs.SHA }}
+        NEW_SHA: ${{ steps.tldr-updated.outputs.SHA }}
+
+    - name: Restore Node modules cache
+      uses: actions/cache@v2
+      id: node-modules-cache
+      if: steps.updated-pages.outputs.FILES != ''
+      with:
+        path: |
+          node_modules
+        key: node-modules-${{ hashFiles('yarn.lock')}}
+
     - name: Install npm dependencies
-      run: npm install
+      if: steps.updated-pages.outputs.FILES != ''
+      run: yarn
+
+    - name: Generate docs
+      if: steps.updated-pages.outputs.FILES != ''
+      run: yarn dendron-cli importPod --wsRoot . --podId dendron.markdown
+
+    - name: Push changes
+      uses: EndBug/add-and-commit@v7.0.0
+      if: steps.updated-pages.outputs.FILES != ''
+      with:
+        add: "./repos ${{ steps.updated-pages.outputs.FILES }}"
+        message: "autoupdate docs"
+        author_name: 'github-actions[bot]'
+        author_email: 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Retrieve latest commit
+      id: commit
+      if: steps.updated-pages.outputs.FILES != ''
+      run: |
+        echo "::set-output name=SHA::$(git rev-parse HEAD)"
 
     - name: Build pod
-      run: npm run dendron-cli -- buildSiteV2 --wsRoot .  --stage prod
+      if: steps.updated-pages.outputs.FILES != ''
+      run: yarn dendron-cli buildSiteV2 --wsRoot .  --stage prod
 
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
+      if: steps.updated-pages.outputs.FILES != ''
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: pages
         publish_dir: docs/
+        full_commit_message: "deploy: ${{ steps.commit.outputs.SHA }}"
         force_orphan: true
         cname: "tldr.dendron.so"
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'

@@ -2,8 +2,9 @@
 id: linux.slapt-get
 title: Slapt Get
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -32,7 +33,7 @@ sources:
 
 `slapt-get --upgrade`
 
-- Locate packages of interest by the package name, disk set, or version:
+- Locate packages by the package name, disk set, or version:
 
 `slapt-get --search {{package_name}}`
 

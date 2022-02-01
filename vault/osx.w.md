@@ -2,8 +2,9 @@
 id: osx.w
 title: W
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815123
+created: 1642441815123
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Show who is logged on and what they are doing.
 > Print user login, TTY, remote host, login time, idle time, current process.
+> More information: <https://ss64.com/osx/w.html>.
 
 - Show logged-in users info:
 

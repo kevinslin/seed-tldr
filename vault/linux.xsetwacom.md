@@ -2,8 +2,9 @@
 id: linux.xsetwacom
 title: Xsetwacom
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,7 +16,7 @@ sources:
 
 > Command-line tool to change settings for Wacom pen tablets at runtime.
 
-- List all the available wacom devices. The device name is in the first column:
+- List all the available Wacom devices. The device name is in the first column:
 
 `xsetwacom list`
 

@@ -2,8 +2,9 @@
 id: osx.port
 title: Port
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815122
+created: 1642441815122
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,7 +28,7 @@ sources:
 
 `port installed`
 
-- Update port and fetch latest list of available packages:
+- Update port and fetch the latest list of available packages:
 
 `sudo port selfupdate`
 

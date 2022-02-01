@@ -2,8 +2,9 @@
 id: common.git-commit
 title: Git Commit
 desc: ''
-updated: 1623965306186
-created: 1623965306186
+updated: 1642441815022
+created: 1642441815022
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,6 +28,10 @@ sources:
 - Auto stage all modified files and commit with a message:
 
 `git commit -a -m "{{message}}"`
+
+- Commit staged files and [S]ign them with the GPG key defined in `~/.gitconfig`:
+
+`git commit -S -m "{{message}}"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 

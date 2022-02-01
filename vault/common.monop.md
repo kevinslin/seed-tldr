@@ -2,8 +2,9 @@
 id: common.monop
 title: Monop
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815048
+created: 1642441815048
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # monop
 
 > Finds and displays signatures of Types and methods inside .NET assemblies.
+> More information: <https://manned.org/monop>.
 
 - Show the structure of a Type built-in of the .NET Framework:
 

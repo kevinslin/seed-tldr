@@ -2,8 +2,9 @@
 id: common.nodemon
 title: Nodemon
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815051
+created: 1642441815051
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -18,7 +19,7 @@ sources:
 
 - Execute the specified file and watch a specific file for changes:
 
-`nodemon --inspect {{path/to/file.js}}`
+`nodemon {{path/to/file.js}}`
 
 - Manually restart nodemon (note nodemon must already be active for this to work):
 
@@ -32,7 +33,15 @@ sources:
 
 `nodemon {{path/to/file.js}} {{arguments}}`
 
-- Run non-node scripts:
+- Pass arguments to node itself if they're not nodemon arguments already (e.g. `--inspect`):
 
-`nodemon --exec "{{python --verbose}}" {{path/to/file.py}}`
+`nodemon {{arguments}} {{path/to/file.js}}`
+
+- Run an arbitrary non-node script:
+
+`nodemon --exec "{{command_to_run_script}} {{options}}" {{path/to/script}}`
+
+- Run a Python script:
+
+`nodemon --exec "python {{options}}" {{path/to/file.py}}`
 

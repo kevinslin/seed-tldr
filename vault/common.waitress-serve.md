@@ -2,8 +2,9 @@
 id: common.waitress-serve
 title: Waitress Serve
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -35,7 +36,7 @@ sources:
 
 `waitress-serve --call {{import.path.wsgi_factory}}`
 
-- Set the URL scheme to https&#x3A;
+- Set the URL scheme to HTTPS&#x3A;
 
 `waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`
 

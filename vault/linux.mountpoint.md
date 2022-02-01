@@ -2,8 +2,9 @@
 id: linux.mountpoint
 title: Mountpoint
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mountpoint
 
 > Test if a directory is a filesystem mountpoint.
+> More information: <https://manned.org/mountpoint>.
 
 - Check if a directory is a mountpoint:
 

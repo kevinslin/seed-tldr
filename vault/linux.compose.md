@@ -2,8 +2,9 @@
 id: linux.compose
 title: Compose
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > An alias to a `run-mailcap`'s action compose.
 > Originally `run-mailcap` is used to mime-type/file.
+> More information: <https://manned.org/compose>.
 
 - Compose action can be used to compose any existing file or new on default mailcap edit tool:
 

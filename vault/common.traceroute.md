@@ -2,8 +2,9 @@
 id: common.traceroute
 title: Traceroute
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815077
+created: 1642441815077
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # traceroute
 
 > Print the route packets trace to network host.
+> More information: <https://manned.org/traceroute>.
 
 - Traceroute to a host:
 

@@ -2,8 +2,9 @@
 id: common.yapf
 title: Yapf
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815085
+created: 1642441815085
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

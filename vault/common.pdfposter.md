@@ -2,8 +2,9 @@
 id: common.pdfposter
 title: Pdfposter
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815056
+created: 1642441815056
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,7 +14,7 @@ sources:
 ---
 # pdfposter
 
-> Convert a large-sheeted pdf into multiple A4 pages for printing.
+> Convert a large-sheeted PDF into multiple A4 pages for printing.
 > More information: <https://pdfposter.readthedocs.io>.
 
 - Convert an A2 poster into 4 A4 pages:

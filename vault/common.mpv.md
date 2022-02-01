@@ -2,8 +2,9 @@
 id: common.mpv
 title: Mpv
 desc: ''
-updated: 1623965306197
-created: 1623965306197
+updated: 1642441815049
+created: 1642441815049
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `mpv {{file}}`
 
-- Play a video or audio file from an URL:
+- Play a video or audio file from a URL:
 
 `mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'`
 
@@ -32,7 +33,7 @@ sources:
 
 `DOWN <or> UP`
 
-- Decrease or increase playback speed by 10 %:
+- Decrease or increase playback speed by 10%:
 
 `[ <or> ]`
 

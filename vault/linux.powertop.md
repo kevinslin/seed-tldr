@@ -2,8 +2,9 @@
 id: linux.powertop
 title: Powertop
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815108
+created: 1642441815108
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # powertop
 
 > Optimize battery power usage.
+> More information: <https://github.com/fenrus75/powertop>.
 
 - Calibrate power usage measurements:
 

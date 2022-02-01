@@ -2,8 +2,9 @@
 id: linux.flatpak
 title: Flatpak
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815095
+created: 1642441815095
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # flatpak
 
 > Build, install and run flatpak applications and runtimes.
+> More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - Run an installed application:
 

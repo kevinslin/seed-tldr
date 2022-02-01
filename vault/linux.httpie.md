@@ -2,8 +2,9 @@
 id: linux.httpie
 title: Httpie
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # httpie
 
 > A user friendly command-line HTTP tool.
+> More information: <https://github.com/httpie/httpie>.
 
 - Send a GET request (default method with no request data):
 
@@ -27,7 +29,7 @@ sources:
 
 `http {{https://example.com}} < {{file.json}}`
 
-- Send a PUT request with a given json body:
+- Send a PUT request with a given JSON body:
 
 `http PUT {{https://example.com/todos/7}} {{hello=world}}`
 

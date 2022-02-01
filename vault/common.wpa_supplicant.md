@@ -2,8 +2,9 @@
 id: common.wpa_supplicant
 title: Wpa_supplicant
 desc: ''
-updated: 1623965306216
-created: 1623965306216
+updated: 1642441815083
+created: 1642441815083
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wpa_supplicant
 
 > Manage protected wireless networks.
+> More information: <https://manned.org/wpa_supplicant.1>.
 
 - Join a protected wireless network:
 

@@ -2,8 +2,9 @@
 id: linux.usermod
 title: Usermod
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1643318158495
+created: 1643318158495
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,17 +15,26 @@ sources:
 # usermod
 
 > Modifies a user account.
+> See also: `users`, `useradd`, `userdel`.
 > More information: <https://manned.org/usermod>.
 
-- Change a user's name:
+- Change a username:
 
-`usermod -l {{newname}} {{user}}`
+`sudo usermod --login {{new_username}} {{username}}`
 
-- Add user to supplementary groups (mind the whitespace):
+- Change a user id:
 
-`usermod -a -G {{group1,group2}} {{user}}`
+`sudo usermod --uid {{id}} {{username}}`
 
-- Create a new home directory for a user and move their files to it:
+- Change a user shell:
 
-`usermod -m -d {{path/to/home}} {{user}}`
+`sudo usermod --shell {{path/to/shell}} {{username}}`
+
+- Add a user to supplementary groups (mind the lack of whitespace):
+
+`sudo usermod --append --groups {{group1,group2,...}} {{username}}`
+
+- Change a user home directory:
+
+`sudo usermod --move-home --home {{path/to/new_home}} {{username}}`
 

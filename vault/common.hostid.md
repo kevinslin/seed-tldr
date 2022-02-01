@@ -2,8 +2,9 @@
 id: common.hostid
 title: Hostid
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815033
+created: 1642441815033
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

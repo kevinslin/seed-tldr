@@ -2,8 +2,9 @@
 id: common.qemu-img
 title: Qemu Img
 desc: ''
-updated: 1623965306207
-created: 1623965306207
+updated: 1642441815063
+created: 1642441815063
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # qemu-img
 
 > Tool for Quick Emulator Virtual HDD image creation and manipulation.
+> More information: <https://qemu.readthedocs.io/en/latest/tools/qemu-img.html>.
 
 - Create disk image with a specific size (in gigabytes):
 
@@ -33,5 +35,5 @@ sources:
 
 - Convert a VMware .vmdk disk image to a KVM .qcow2 disk image:
 
-`qemu-img convert -O qcow2 {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}`
+`qemu-img convert -f {{vmdk}} -O {{qcow2}} {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}`
 

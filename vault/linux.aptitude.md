@@ -2,8 +2,9 @@
 id: linux.aptitude
 title: Aptitude
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815087
+created: 1642441815087
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -36,7 +37,7 @@ sources:
 
 `aptitude remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `aptitude upgrade`
 

@@ -2,8 +2,9 @@
 id: common.zsteg
 title: Zsteg
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815086
+created: 1642441815086
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > It detects LSB steganography, ZLIB-compressed data, OpenStego, Camouflage and LSB with the Eratosthenes set.
 > More information: <https://github.com/zed-0xff/zsteg>.
 
-- Detect embedded data in a PNG image:
+- Detect embedded data in a PNG:
 
 `zsteg {{path/to/image.png}}`
 
@@ -25,7 +26,7 @@ sources:
 
 `zsteg --all {{path/to/image.bmp}}`
 
-- Detect embedded data in a PNG image, iterating pixels vertically and using MSB first:
+- Detect embedded data in a PNG, iterating pixels vertically and using MSB first:
 
 `zsteg --msb --order yx {{path/to/image.png}}`
 
@@ -33,7 +34,7 @@ sources:
 
 `zsteg --bits {{1,2,3|1-3}} {{path/to/image.bmp}}`
 
-- Detect embedded data in a PNG image, extracting only prime pixels and inverting bits:
+- Detect embedded data in a PNG, extracting only prime pixels and inverting bits:
 
 `zsteg --prime --invert {{path/to/image.png}}`
 

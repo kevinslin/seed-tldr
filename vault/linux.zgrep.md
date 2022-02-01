@@ -2,8 +2,9 @@
 id: linux.zgrep
 title: Zgrep
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # zgrep
 
 > Grep text patterns from files within compressed file (equivalent to grep -Z).
+> More information: <https://manned.org/zgrep>.
 
 - Grep a pattern in a compressed file (case-sensitive):
 

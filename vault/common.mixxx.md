@@ -2,8 +2,9 @@
 id: common.mixxx
 title: Mixxx
 desc: ''
-updated: 1623965306196
-created: 1623965306196
+updated: 1642441815047
+created: 1642441815047
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -28,7 +29,7 @@ sources:
 
 `mixxx --debugAssertBreak --developer --loglevel trace`
 
-- Start mixxx using the specified settings file:
+- Start Mixxx using the specified settings file:
 
 `mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{path/to/settings-file}}`
 

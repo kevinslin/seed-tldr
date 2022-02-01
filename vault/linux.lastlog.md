@@ -2,8 +2,9 @@
 id: linux.lastlog
 title: Lastlog
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,20 +15,21 @@ sources:
 # lastlog
 
 > Show the most recent login of all users or of a given user.
+> More information: <https://manned.org/lastlog>.
 
 - Display the most recent login of all users:
 
 `lastlog`
 
-- Display lastlog record of the specified user:
+- Display the lastlog record of the specified user:
 
-`lastlog -u {{username}}`
+`lastlog --user {{username}}`
 
-- Display records before than 7 days:
+- Display records older than 7 days:
 
-`lastlog -b {{7}}`
+`lastlog --before {{7}}`
 
 - Display records more recent than 3 days:
 
-`lastlog -t {{3}}`
+`lastlog -time {{3}}`
 

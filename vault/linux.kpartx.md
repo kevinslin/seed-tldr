@@ -2,8 +2,9 @@
 id: linux.kpartx
 title: Kpartx
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # kpartx
 
 > Create device maps from partition tables.
+> More information: <https://manned.org/kpartx>.
 
 - Add partition mappings:
 

@@ -2,8 +2,9 @@
 id: common.objdump
 title: Objdump
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # objdump
 
 > View information about object files.
+> More information: <https://manned.org/objdump>.
 
 - Display the file header information:
 

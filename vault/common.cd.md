@@ -2,8 +2,9 @@
 id: common.cd
 title: CD
 desc: ''
-updated: 1623965306176
-created: 1623965306176
+updated: 1642441815001
+created: 1642441815001
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,13 +15,13 @@ sources:
 # cd
 
 > Change the current working directory.
-> More information: <https://man.archlinux.org/man/cd.n>.
+> More information: <https://manned.org/cd>.
 
 - Go to the given directory:
 
 `cd {{path/to/directory}}`
 
-- Go to home directory of current user:
+- Go to the home directory of the current user:
 
 `cd`
 

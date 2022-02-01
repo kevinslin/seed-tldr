@@ -2,8 +2,9 @@
 id: common.lpstat
 title: Lpstat
 desc: ''
-updated: 1623965306195
-created: 1623965306195
+updated: 1642441815043
+created: 1642441815043
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lpstat
 
 > Show status information about printers.
+> More information: <https://manned.org/lpstat>.
 
 - List printers present on the machine and whether they are enabled for printing:
 

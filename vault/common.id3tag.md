@@ -2,8 +2,9 @@
 id: common.id3tag
 title: Id3tag
 desc: ''
-updated: 1623965306192
-created: 1623965306192
+updated: 1642441815034
+created: 1642441815034
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # id3tag
 
 > Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags of MP3 files.
+> More information: <https://manned.org/id3tag>.
 
 - Set artist and title tag of an MP3 file:
 

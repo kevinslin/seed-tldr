@@ -2,8 +2,9 @@
 id: windows.cls
 title: Cls
 desc: ''
-updated: 1623965306237
-created: 1623965306237
+updated: 1642441815127
+created: 1642441815127
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

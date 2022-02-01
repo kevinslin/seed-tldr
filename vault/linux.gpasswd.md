@@ -2,8 +2,9 @@
 id: linux.gpasswd
 title: Gpasswd
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # gpasswd
 
 > Administer `/etc/group` and `/etc/gshadow`.
+> More information: <https://manned.org/gpasswd>.
 
 - Define group administrators:
 

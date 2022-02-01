@@ -2,8 +2,9 @@
 id: linux.rig
 title: Rig
 desc: ''
-updated: 1623965306228
-created: 1623965306228
+updated: 1642441815110
+created: 1642441815110
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # rig
 
 > Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code.
-> More information: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
+> More information: <https://manned.org/rig>.
 
 - Display a random name (male or female) and address:
 

@@ -2,8 +2,9 @@
 id: common.kubectl
 title: Kubectl
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815040
+created: 1642441815040
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # kubectl
 
 > Command-line interface for running commands against Kubernetes clusters.
-> See also `kubectl describe` and other pages for additional information.
+> Some subcommands such as `kubectl run` have their own usage documentation.
 > More information: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - List information about a resource with more details:

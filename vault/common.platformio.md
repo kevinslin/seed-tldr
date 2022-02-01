@@ -2,8 +2,9 @@
 id: common.platformio
 title: Platformio
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815060
+created: 1642441815060
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # platformio
 
 > This command is an alias of `pio`.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - View documentation for the original command:
 

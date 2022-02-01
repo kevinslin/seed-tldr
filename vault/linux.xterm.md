@@ -2,8 +2,9 @@
 id: linux.xterm
 title: Xterm
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642962064994
+created: 1642962064994
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # xterm
 
 > A terminal emulator for the X Window System.
+> More information: <https://manned.org/xterm>.
 
 - Open the terminal with a title of `Example`:
 

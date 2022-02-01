@@ -2,8 +2,9 @@
 id: linux.tune2fs
 title: Tune2fs
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Adjust parameters of an ext2, ext3 or ext4 filesystem.
 > May be used on mounted filesystems.
+> More information: <https://manned.org/tune2fs>.
 
 - Set the max number of counts before a filesystem is checked to 2:
 

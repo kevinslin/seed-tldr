@@ -2,8 +2,9 @@
 id: common.vegeta
 title: Vegeta
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815079
+created: 1642441815079
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -21,7 +22,7 @@ sources:
 
 `echo "{{GET https://example.com}}" | vegeta attack -duration={{30s}}`
 
-- Launch an attack on a server with a self-signed https certificate:
+- Launch an attack on a server with a self-signed HTTPS certificate:
 
 `echo "{{GET https://example.com}}" | vegeta attack -insecure -duration={{30s}}`
 

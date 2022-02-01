@@ -2,8 +2,9 @@
 id: common.svgo
 title: Svgo
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815074
+created: 1642441815074
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,10 +41,6 @@ sources:
 - Optimize a file and print out the result:
 
 `svgo {{test.svg}} -o -`
-
-- Optimize a file making sure a given plugin is enabled:
-
-`svgo --enable={{plugin_name}}`
 
 - Show available plugins:
 

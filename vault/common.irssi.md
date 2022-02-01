@@ -2,8 +2,9 @@
 id: common.irssi
 title: Irssi
 desc: ''
-updated: 1623965306193
-created: 1623965306193
+updated: 1642441815036
+created: 1642441815036
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,11 +17,11 @@ sources:
 > Text based IRC client.
 > More information: <https://irssi.org>.
 
-- Open irssi and connect to a server with a nickname:
+- Open Irssi and connect to a server with a nickname:
 
 `irssi -n {{nickname}} -c {{irc.example.com}}`
 
-- Open irssi and connect with a specific server on a given port:
+- Open Irssi and connect with a specific server on a given port:
 
 `irssi -c {{irc.example.com}} -p {{port}}`
 

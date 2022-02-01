@@ -2,8 +2,9 @@
 id: common.conan
 title: Conan
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815003
+created: 1642441815003
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # conan
 
 > The open source, decentralized and cross-platform package manager to create and share all your native binaries.
+> Some subcommands such as `conan frogarian` have their own usage documentation.
 > More information: <https://conan.io/>.
 
 - Install packages based on `conanfile.txt`:
@@ -38,5 +40,5 @@ sources:
 
 - List remotes:
 
-`conan remote --list`
+`conan remote list`
 

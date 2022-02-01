@@ -2,8 +2,9 @@
 id: common.git-pull
 title: Git Pull
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815025
+created: 1642441815025
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `git pull`
 
-- Download changes from default remote repository and use fast forward:
+- Download changes from default remote repository and use fast-forward:
 
 `git pull --rebase`
 

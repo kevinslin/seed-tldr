@@ -2,8 +2,9 @@
 id: common.singularity
 title: Singularity
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815069
+created: 1642441815069
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -19,11 +20,11 @@ sources:
 
 `singularity pull --name {{image.sif}} {{library://godlovedc/funny/lolcow:latest}}`
 
-- Rebuild a remote image using latest Singularity image format:
+- Rebuild a remote image using the latest Singularity image format:
 
 `singularity build {{image.sif}} {{docker://godlovedc/lolcow}}`
 
-- Start a container from an image and get a shell inside of it:
+- Start a container from an image and get a shell inside it:
 
 `singularity shell {{image.sif}}`
 

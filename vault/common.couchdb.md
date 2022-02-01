@@ -2,8 +2,9 @@
 id: common.couchdb
 title: Couchdb
 desc: ''
-updated: 1623965306178
-created: 1623965306178
+updated: 1642441815004
+created: 1642441815004
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,15 +17,15 @@ sources:
 > Command-line interface for Apache CouchDB database server.
 > More information: <https://couchdb.apache.org>.
 
-- Start couchdb:
+- Start CouchDB:
 
 `couchdb`
 
-- Start couchdb interactive shell:
+- Start CouchDB interactive shell:
 
 `couchdb -i`
 
-- Start couchdb as a background process:
+- Start CouchDB as a background process:
 
 `couchdb -b`
 

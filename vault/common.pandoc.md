@@ -2,8 +2,9 @@
 id: common.pandoc
 title: Pandoc
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Convert documents between various formats.
 > More information: <https://pandoc.org>.
 
-- Convert file to pdf (the output format is determined by file extension):
+- Convert file to PDF (the output format is determined by file extension):
 
 `pandoc {{input.md}} -o {{output.pdf}}`
 

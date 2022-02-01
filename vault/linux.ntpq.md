@@ -2,8 +2,9 @@
 id: linux.ntpq
 title: Ntpq
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815106
+created: 1642441815106
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

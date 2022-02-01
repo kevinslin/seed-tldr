@@ -2,8 +2,9 @@
 id: common.wasm2c
 title: Wasm2c
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wasm2c
 
 > Convert a file from the WebAssembly binary format to a C source file and header.
+> More information: <https://github.com/WebAssembly/wabt>.
 
 - Convert a file to a C source file and header and display it to the console:
 

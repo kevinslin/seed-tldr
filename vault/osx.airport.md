@@ -2,8 +2,9 @@
 id: osx.airport
 title: Airport
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1642441815119
+created: 1642441815119
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # airport
 
 > Wireless network configuration utility.
+> More information: <https://ss64.com/osx/airport.html>.
 
 - Show current wireless status information:
 

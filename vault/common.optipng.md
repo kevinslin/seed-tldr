@@ -2,8 +2,9 @@
 id: common.optipng
 title: Optipng
 desc: ''
-updated: 1623965306201
-created: 1623965306201
+updated: 1642441815054
+created: 1642441815054
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,18 +14,18 @@ sources:
 ---
 # optipng
 
-> PNG image file optimization utility.
+> PNG file optimization utility.
 > More information: <http://optipng.sourceforge.net>.
 
 - Compress a PNG with default settings:
 
 `optipng {{path/to/file.png}}`
 
-- Compress a PNG with best compression:
+- Compress a PNG with the best compression:
 
 `optipng -o{{7}} {{path/to/file.png}}`
 
-- Compress a PNG with fastest compression:
+- Compress a PNG with the fastest compression:
 
 `optipng -o{{0}} {{path/to/file.png}}`
 

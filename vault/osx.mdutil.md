@@ -2,8 +2,9 @@
 id: osx.mdutil
 title: Osx
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815121
+created: 1642441815121
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mdutil
 
 > Manage the metadata stores used by Spotlight for indexing.
+> More information: <https://ss64.com/osx/mdutil.html>.
 
 - Show the indexing status of the startup volume:
 

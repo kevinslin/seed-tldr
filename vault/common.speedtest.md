@@ -2,8 +2,9 @@
 id: common.speedtest
 title: Speedtest
 desc: ''
-updated: 1623965306210
-created: 1623965306210
+updated: 1642441815070
+created: 1642441815070
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `speedtest --precision={{precision}}`
 
-- Run a speed test and print it's progress (only available for output format `human-readable` and `json`):
+- Run a speed test and print its progress (only available for output format `human-readable` and `json`):
 
 `speedtest --progress={{yes|no}}`
 

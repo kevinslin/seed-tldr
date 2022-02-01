@@ -2,8 +2,9 @@
 id: linux.lvreduce
 title: Lvreduce
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815102
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,11 +18,11 @@ sources:
 > See also: `lvm`.
 > More information: <https://man7.org/linux/man-pages/man8/lvreduce.8.html>.
 
-- Reduce a volume's size to 120GB:
+- Reduce a volume's size to 120 GB:
 
 `lvreduce --size {{120G}} {{logical_volume}}`
 
-- Reduce a volume's size by 40GB as well as the underlying filesystem:
+- Reduce a volume's size by 40 GB as well as the underlying filesystem:
 
 `lvreduce --size -{{40G}} -r {{logical_volume}}`
 

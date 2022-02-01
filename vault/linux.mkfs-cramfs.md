@@ -2,8 +2,9 @@
 id: linux.mkfs-cramfs
 title: Mkfs Cramfs
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815103
+created: 1642441815103
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mkfs.cramfs
 
 > Creates a ROM filesystem inside a partition.
+> More information: <https://manned.org/mkfs.cramfs>.
 
 - Create a ROM filesystem inside partition 1 on device b (`sdb1`):
 

@@ -2,8 +2,9 @@
 id: linux.hdparm
 title: Hdparm
 desc: ''
-updated: 1623965306223
-created: 1623965306223
+updated: 1642441815097
+created: 1642441815097
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # hdparm
 
 > Get and set SATA and IDE hard drive parameters.
+> More information: <https://manned.org/hdparm>.
 
 - Request the identification info of a given device:
 

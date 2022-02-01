@@ -2,8 +2,9 @@
 id: linux.mpstat
 title: Mpstat
 desc: ''
-updated: 1623965306226
-created: 1623965306226
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # mpstat
 
 > Report CPU statistics.
+> More information: <https://manned.org/mpstat>.
 
 - Display CPU statistics every 2 seconds:
 

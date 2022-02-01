@@ -2,8 +2,9 @@
 id: common.npm
 title: Npm
 desc: ''
-updated: 1623965306200
-created: 1623965306200
+updated: 1642441815052
+created: 1642441815052
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -41,7 +42,7 @@ sources:
 
 `npm uninstall {{module_name}}`
 
-- Print a tree of locally-installed dependencies:
+- Print a tree of locally installed dependencies:
 
 `npm list`
 

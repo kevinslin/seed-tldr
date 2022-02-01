@@ -2,8 +2,9 @@
 id: linux.lrztar
 title: Lrztar
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815101
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A wrapper for `lrzip` to simplify compression of directories.
 > See also: `tar`, `lrzuntar`, `lrunzip`.
+> More information: <https://manned.org/lrztar>.
 
 - Archive a directory with `tar`, then compress:
 

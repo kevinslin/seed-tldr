@@ -2,8 +2,9 @@
 id: common.yesod
 title: Yesod
 desc: ''
-updated: 1623965306217
-created: 1623965306217
+updated: 1642441815085
+created: 1642441815085
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > All Yesod commands are invoked through the `stack` project manager.
 > More information: <https://github.com/yesodweb/yesod>.
 
-- Create a new scaffolded site, with sqlite as backend, in the `my-project` directory:
+- Create a new scaffolded site, with SQLite as backend, in the `my-project` directory:
 
 `stack new {{my-project}} {{yesod-sqlite}}`
 

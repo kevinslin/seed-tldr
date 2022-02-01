@@ -2,8 +2,9 @@
 id: osx.brightness
 title: Brightness
 desc: ''
-updated: 1623965306233
-created: 1623965306233
+updated: 1642441815120
+created: 1642441815120
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -19,11 +20,11 @@ sources:
 
 `brightness -l`
 
-- Set the brightness to 100%::
+- Set the brightness to 100%:
 
 `brightness {{1}}`
 
-- Set the brightness to 50%::
+- Set the brightness to 50%:
 
 `brightness {{0.5}}`
 

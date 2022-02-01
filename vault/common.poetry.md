@@ -2,8 +2,9 @@
 id: common.poetry
 title: Poetry
 desc: ''
-updated: 1623965306205
-created: 1623965306205
+updated: 1642441815060
+created: 1642441815060
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -23,6 +24,10 @@ sources:
 - Install a dependency and its subdependencies:
 
 `poetry add {{dependency}}`
+
+- Install a development dependency and its subdependencies:
+
+`poetry add --dev {{dependency}}`
 
 - Interactively initialize the current directory as a new Poetry project:
 

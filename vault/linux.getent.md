@@ -2,8 +2,9 @@
 id: linux.getent
 title: Getent
 desc: ''
-updated: 1623965306222
-created: 1623965306222
+updated: 1642441815096
+created: 1642441815096
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # getent
 
 > Get entries from Name Service Switch libraries.
+> More information: <https://manned.org/getent>.
 
 - Get list of all groups:
 

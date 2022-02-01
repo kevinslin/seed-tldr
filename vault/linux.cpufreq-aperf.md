@@ -2,8 +2,9 @@
 id: linux.cpufreq-aperf
 title: Cpufreq Aperf
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Calculate the average CPU frequency over a time period.
 > Requires root privileges.
+> More information: <https://manned.org/cpufreq-aperf>.
 
 - Start calculating, defaulting to all CPU cores and 1 second refresh interval:
 
@@ -24,7 +26,7 @@ sources:
 
 `sudo cpufreq-aperf -c {{1}}`
 
-- Start calculating with a 3 seconds refresh interval for all CPU cores:
+- Start calculating with a 3 second refresh interval for all CPU cores:
 
 `sudo cpufreq-aperf -i {{3}}`
 

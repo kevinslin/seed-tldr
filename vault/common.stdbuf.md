@@ -2,8 +2,9 @@
 id: common.stdbuf
 title: Stdbuf
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815071
+created: 1642441815071
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: linux.ebuild
 title: Ebuild
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815093
+created: 1642441815093
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # ebuild
 
 > A low level interface to the Gentoo Portage system.
+> More information: <https://wiki.gentoo.org/wiki/Ebuild>.
 
 - Create or update the package manifest:
 

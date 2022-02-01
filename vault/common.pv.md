@@ -2,8 +2,9 @@
 id: common.pv
 title: Pv
 desc: ''
-updated: 1623965306206
-created: 1623965306206
+updated: 1642441815062
+created: 1642441815062
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pv
 
 > Monitor the progress of data through a pipe.
+> More information: <https://manned.org/pv>.
 
 - Print the contents of the file and display a progress bar:
 

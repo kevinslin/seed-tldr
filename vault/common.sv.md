@@ -2,8 +2,9 @@
 id: common.sv
 title: Sv
 desc: ''
-updated: 1623965306212
-created: 1623965306212
+updated: 1642441815074
+created: 1642441815074
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,4 +28,12 @@ sources:
 - Get service status:
 
 `sudo sv status {{path/to/service}}`
+
+- Reload a service:
+
+`sudo sv reload {{path/to/service}}`
+
+- Start a service, but only if it's not running and don't restart it if it stops:
+
+`sudo sv once {{path/to/service}}`
 

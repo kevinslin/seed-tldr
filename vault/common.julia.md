@@ -2,8 +2,9 @@
 id: common.julia
 title: Julia
 desc: ''
-updated: 1623965306194
-created: 1623965306194
+updated: 1642441815037
+created: 1642441815037
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > A high-level, high-performance dynamic programming language for technical computing.
 > More information: <https://docs.julialang.org/en/v1/manual/getting-started/>.
 
-- Start a Julia REPL session:
+- Start a REPL (interactive shell):
 
 `julia`
 

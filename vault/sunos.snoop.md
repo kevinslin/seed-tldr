@@ -2,8 +2,9 @@
 id: sunos.snoop
 title: Snoop
 desc: ''
-updated: 1623965306236
-created: 1623965306236
+updated: 1642441815125
+created: 1642441815125
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -33,7 +34,7 @@ sources:
 
 `snoop to port {{port}} from host {{hostname}}`
 
-- Capture and show an hex-dump of network packets exchanged between two IP addresses:
+- Capture and show a hex-dump of network packets exchanged between two IP addresses:
 
 `snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`
 

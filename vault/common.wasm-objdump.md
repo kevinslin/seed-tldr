@@ -2,8 +2,9 @@
 id: common.wasm-objdump
 title: Wasm Objdump
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wasm-objdump
 
 > Display information from WebAssembly binaries.
+> More information: <https://github.com/WebAssembly/wabt>.
 
 - Display the section headers of a given binary:
 

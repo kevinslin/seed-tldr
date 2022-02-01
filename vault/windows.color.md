@@ -2,8 +2,9 @@
 id: windows.color
 title: Color
 desc: ''
-updated: 1623965306237
-created: 1623965306237
+updated: 1642627008114
+created: 1642627008114
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -24,7 +25,7 @@ sources:
 
 `color /?`
 
-- Set the console foreground and background to a specific color:
+- Set the console foreground and background to a specific color using hexadecimal numbers (`1-9,a-f`):
 
 `color {{foreground_code}}{{background_code}}`
 

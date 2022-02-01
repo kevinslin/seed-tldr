@@ -2,8 +2,9 @@
 id: common.flac
 title: Flac
 desc: ''
-updated: 1623965306184
-created: 1623965306184
+updated: 1642441815018
+created: 1642441815018
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,22 +14,22 @@ sources:
 ---
 # flac
 
-> Encodes, decodes and tests flac files.
+> Encodes, decodes and tests FLAC files.
 > More information: <https://xiph.org/flac>.
 
-- Encode a wav file to flac (this will create a flac file in the same location as the wav file):
+- Encode a WAV file to FLAC (this will create a FLAC file in the same location as the WAV file):
 
 `flac {{path/to/file.wav}}`
 
-- Encode a wav file to flac, specifying the output file:
+- Encode a WAV file to FLAC, specifying the output file:
 
 `flac -o {{path/to/output.flac}} {{path/to/file.wav}}`
 
-- Decode a flac file to wav, specifying the output file:
+- Decode a FLAC file to WAV, specifying the output file:
 
 `flac -d -o {{path/to/output.wav}} {{path/to/file.flac}}`
 
-- Test a flac file for the correct encoding:
+- Test a FLAC file for the correct encoding:
 
 `flac -t {{path/to/file.flac}}`
 

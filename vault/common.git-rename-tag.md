@@ -2,8 +2,9 @@
 id: common.git-rename-tag
 title: Git Rename Tag
 desc: ''
-updated: 1623965306188
-created: 1623965306188
+updated: 1642441815026
+created: 1642441815026
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

@@ -2,8 +2,9 @@
 id: android.wm
 title: Wm
 desc: ''
-updated: 1623965306171
-created: 1623965306171
+updated: 1642441814991
+created: 1642441814991
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

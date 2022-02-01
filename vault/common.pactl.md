@@ -2,8 +2,9 @@
 id: common.pactl
 title: Pactl
 desc: ''
-updated: 1623965306202
-created: 1623965306202
+updated: 1642441815055
+created: 1642441815055
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # pactl
 
 > Control a running PulseAudio sound server.
+> More information: <https://manned.org/pactl>.
 
 - List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 

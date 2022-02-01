@@ -2,8 +2,9 @@
 id: common.mvn
 title: Mvn
 desc: ''
-updated: 1623965306198
-created: 1623965306198
+updated: 1642441815049
+created: 1642441815049
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -27,7 +28,7 @@ sources:
 
 - Compile and package, skipping unit tests:
 
-`mvn package -Dmaven.test.skip=true`
+`mvn package -DskipTests`
 
 - Install the built package in local maven repository. (This will invoke the compile and package commands too):
 

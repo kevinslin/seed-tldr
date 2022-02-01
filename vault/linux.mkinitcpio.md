@@ -2,8 +2,9 @@
 id: linux.mkinitcpio
 title: Mkinitcpio
 desc: ''
-updated: 1623965306225
-created: 1623965306225
+updated: 1642441815104
+created: 1642441815104
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

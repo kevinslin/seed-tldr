@@ -2,8 +2,9 @@
 id: linux.trizen
 title: Trizen
 desc: ''
-updated: 1623965306230
-created: 1623965306230
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # trizen
 
 > Arch Linux utility for building packages from the Arch User Repository (AUR).
+> More information: <https://github.com/trizen/trizen>.
 
 - Synchronize and update all AUR packages:
 

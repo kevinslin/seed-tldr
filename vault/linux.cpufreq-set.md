@@ -2,8 +2,9 @@
 id: linux.cpufreq-set
 title: Cpufreq Set
 desc: ''
-updated: 1623965306220
-created: 1623965306220
+updated: 1642441815091
+created: 1642441815091
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > A tool to modify CPU frequency settings.
 > The frequency value should range between the output of command `cpufreq-info -l`.
+> More information: <https://manned.org/cpufreq-set>.
 
 - Set the CPU frequency policy of CPU 1 to "userspace":
 

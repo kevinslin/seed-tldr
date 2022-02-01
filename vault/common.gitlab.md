@@ -2,8 +2,9 @@
 id: common.gitlab
 title: GitLab
 desc: ''
-updated: 1623965306189
-created: 1623965306189
+updated: 1642441815028
+created: 1642441815028
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # gitlab
 
 > Ruby wrapper and CLI for the GitLab API.
+> Some subcommands such as `gitlab ctl` have their own usage documentation.
 > More information: <https://narkoz.github.io/gitlab/>.
 
 - Create a new project:

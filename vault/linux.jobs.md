@@ -2,8 +2,9 @@
 id: linux.jobs
 title: Jobs
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815100
+created: 1642441815100
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,12 +15,13 @@ sources:
 # jobs
 
 > BASH builtin for viewing information about processes spawned by the current shell.
+> More information: <https://manned.org/jobs>.
 
 - View jobs spawned by the current shell:
 
 `jobs`
 
-- List jobs and their process ids:
+- List jobs and their process IDs:
 
 `jobs -l`
 
@@ -27,7 +29,7 @@ sources:
 
 `jobs -n`
 
-- Display process id of process group leader:
+- Display process ID of process group leader:
 
 `jobs -p`
 

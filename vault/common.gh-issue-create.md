@@ -2,8 +2,9 @@
 id: common.gh-issue-create
 title: Gh Issue Create
 desc: ''
-updated: 1623965306185
-created: 1623965306185
+updated: 1642441815020
+created: 1642441815020
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -11,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# gh issue
+# gh issue create
 
 > Create GitHub issues on a repository from the command-line.
 > More information: <https://cli.github.com/manual/gh_issue_create>.

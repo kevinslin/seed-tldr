@@ -2,8 +2,9 @@
 id: common.cksum
 title: Cksum
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815002
+created: 1642441815002
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -17,7 +18,7 @@ sources:
 > Note, on old UNIX systems the CRC implementation may differ.
 > More information: <https://www.gnu.org/software/coreutils/cksum>.
 
-- Display a 32 bit checksum, size in bytes and filename:
+- Display a 32-bit checksum, size in bytes and filename:
 
-`cksum {{filename}}`
+`cksum {{path/to/file}}`
 

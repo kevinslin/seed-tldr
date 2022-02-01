@@ -2,8 +2,9 @@
 id: linux.bluetoothctl
 title: Bluetoothctl
 desc: ''
-updated: 1623965306219
-created: 1623965306219
+updated: 1642441815089
+created: 1642441815089
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,29 +14,38 @@ sources:
 ---
 # bluetoothctl
 
-> Handling bluetooth devices from the shell.
+> Manage Bluetooth devices from the command-line.
+> More information: <https://www.npmjs.com/package/bluetoothctl>.
 
-- Enter the bluetoothctl shell:
+- Enter the `bluetoothctl` shell:
 
 `bluetoothctl`
 
-- List devices:
+- List all known devices:
 
-`bluetoothctl -- devices`
+`bluetoothctl devices`
 
-- Pair a device:
+- Power the Bluetooth controller on or off:
 
-`bluetoothctl -- pair {{mac_address}}`
+`bluetoothctl power {{on|off}}`
+
+- Pair with a device:
+
+`bluetoothctl pair {{mac_address}}`
 
 - Remove a device:
 
-`bluetoothctl -- remove {{mac_address}}`
+`bluetoothctl remove {{mac_address}}`
 
-- Connect a paired device:
+- Connect to a paired device:
 
-`bluetoothctl -- connect {{mac_address}}`
+`bluetoothctl connect {{mac_address}}`
 
-- Disconnect a paired device:
+- Disconnect from a paired device:
 
-`bluetoothctl -- disconnect {{mac_address}}`
+`bluetoothctl disconnect {{mac_address}}`
+
+- Display help:
+
+`bluetoothctl help`
 

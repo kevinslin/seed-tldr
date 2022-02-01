@@ -2,8 +2,9 @@
 id: linux.yum
 title: Yum
 desc: ''
-updated: 1623965306232
-created: 1623965306232
+updated: 1643128140548
+created: 1643128140548
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,7 +15,7 @@ sources:
 # yum
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
-> More information: <https://man7.org/linux/man-pages/man8/yum.8.html>.
+> More information: <https://manned.org/yum>.
 
 - Install a new package:
 
@@ -36,7 +37,7 @@ sources:
 
 `yum check-update`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `yum upgrade`
 

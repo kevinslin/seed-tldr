@@ -2,8 +2,9 @@
 id: linux.lsattr
 title: Lsattr
 desc: ''
-updated: 1623965306224
-created: 1623965306224
+updated: 1642441815101
+created: 1642441815102
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # lsattr
 
 > List file attributes on a Linux filesystem.
+> More information: <https://manned.org/lsattr>.
 
 - Display the attributes of the files in the current directory:
 

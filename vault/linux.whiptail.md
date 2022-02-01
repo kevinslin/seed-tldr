@@ -2,8 +2,9 @@
 id: linux.whiptail
 title: Whiptail
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815117
+created: 1642441815117
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # whiptail
 
 > Display text-based dialog boxes from shell scripts.
+> More information: <https://manned.org/whiptail>.
 
 - Display a simple message:
 

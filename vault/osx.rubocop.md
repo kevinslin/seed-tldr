@@ -2,8 +2,9 @@
 id: osx.rubocop
 title: Rubocop
 desc: ''
-updated: 1623965306235
-created: 1623965306235
+updated: 1642441815122
+created: 1642441815122
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:

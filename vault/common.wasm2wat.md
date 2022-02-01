@@ -2,8 +2,9 @@
 id: common.wasm2wat
 title: Wasm2wat
 desc: ''
-updated: 1623965306215
-created: 1623965306215
+updated: 1642441815082
+created: 1642441815082
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -14,6 +15,7 @@ sources:
 # wasm2wat
 
 > Convert a file from the WebAssembly binary format to the text format.
+> More information: <https://github.com/WebAssembly/wabt>.
 
 - Convert a file to the text format and display it to the console:
 

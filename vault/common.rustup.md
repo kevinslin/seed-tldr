@@ -2,8 +2,9 @@
 id: common.rustup
 title: Rustup
 desc: ''
-updated: 1623965306208
-created: 1623965306208
+updated: 1642441815066
+created: 1642441815066
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -40,4 +41,8 @@ sources:
 - Run cargo build with a certain toolchain:
 
 `rustup run {{toolchain_name}} cargo build`
+
+- Open the local rust documentation in the default web browser:
+
+`rustup doc`
 

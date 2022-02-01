@@ -2,8 +2,9 @@
 id: common.gpg
 title: Gpg
 desc: ''
-updated: 1623965306190
-created: 1623965306190
+updated: 1642441815030
+created: 1642441815030
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,6 +17,10 @@ sources:
 > GNU Privacy Guard.
 > See `gpg2` for GNU Privacy Guard 2.
 > More information: <https://gnupg.org>.
+
+- Create a GPG public and private key interactively:
+
+`gpg --full-generate-key`
 
 - Sign `doc.txt` without encryption (writes output to `doc.txt.asc`):
 

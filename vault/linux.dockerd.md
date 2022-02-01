@@ -2,8 +2,9 @@
 id: linux.dockerd
 title: Dockerd
 desc: ''
-updated: 1623965306221
-created: 1623965306221
+updated: 1642441815092
+created: 1642441815092
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -20,7 +21,7 @@ sources:
 
 `dockerd`
 
-- Run docker daemon and config it to listen to specific sockets(unix,tcp):
+- Run docker daemon and config it to listen to specific sockets (UNIX and TCP):
 
 `dockerd --host unix://{{path/to/tmp.sock}} --host tcp://{{ip}}`
 

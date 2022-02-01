@@ -2,8 +2,9 @@
 id: linux.updatedb
 title: Updatedb
 desc: ''
-updated: 1623965306231
-created: 1623965306231
+updated: 1642441815115
+created: 1642441815115
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -15,6 +16,7 @@ sources:
 
 > Create or update the database used by `locate`.
 > It is usually run daily by cron.
+> More information: <https://manned.org/updatedb>.
 
 - Refresh database content:
 

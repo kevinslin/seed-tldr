@@ -2,8 +2,9 @@
 id: common.topgrade
 title: Topgrade
 desc: ''
-updated: 1623965306213
-created: 1623965306213
+updated: 1642441815077
+created: 1642441815077
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -30,7 +31,7 @@ sources:
 
 - Disable a certain update operation:
 
-`topgrade -disable {{operation}}`
+`topgrade --disable {{operation}}`
 
 - Only perform a certain update operation:
 

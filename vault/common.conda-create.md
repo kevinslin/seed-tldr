@@ -2,8 +2,9 @@
 id: common.conda-create
 title: Conda Create
 desc: ''
-updated: 1623965306177
-created: 1623965306177
+updated: 1642441815003
+created: 1642441815003
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -16,7 +17,7 @@ sources:
 > Create new conda environments.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
 
-- Create a new environment named `py39`, and install Python 3.9 and numpy v1.11 or above in it:
+- Create a new environment named `py39`, and install Python 3.9 and NumPy v1.11 or above in it:
 
 `conda create --yes --name {{py39}} python={{3.9}} "{{numpy>=1.11}}"`
 

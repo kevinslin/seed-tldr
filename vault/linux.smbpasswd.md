@@ -2,8 +2,9 @@
 id: linux.smbpasswd
 title: Smbpasswd
 desc: ''
-updated: 1623965306229
-created: 1623965306229
+updated: 1642441815113
+created: 1642441815113
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,22 +14,23 @@ sources:
 ---
 # smbpasswd
 
-> Change a user's SMB password.
-> Samba users must also have a local Unix account.
+> Add/remove a Samba user or change its password.
+> Samba users must have an existing local Unix account.
+> More information: <https://manned.org/smbpasswd.8>.
 
 - Change the current user's SMB password:
 
 `smbpasswd`
 
-- Add a specified user to Samba and set password(user should already exist in system):
+- Add a specified user to Samba and set password (user should already exist in system):
 
-`smbpasswd -a {{username}}`
+`sudo smbpasswd -a {{username}}`
 
 - Modify an existing Samba user's password:
 
-`smbpasswd {{username}}`
+`sudo smbpasswd {{username}}`
 
-- Delete a Samba user:
+- Delete a Samba user (use `pdbedit` instead if the Unix account has been deleted):
 
-`smbpasswd -x {{username}}`
+`sudo smbpasswd -x {{username}}`
 

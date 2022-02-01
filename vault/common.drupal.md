@@ -2,8 +2,9 @@
 id: common.drupal
 title: Drupal
 desc: ''
-updated: 1623965306180
-created: 1623965306180
+updated: 1642441815011
+created: 1642441815011
+stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
 sources:
@@ -13,8 +14,8 @@ sources:
 ---
 # drupal
 
-> CLI for Drupal.
-> Generates boilerplate code, interacts with and debugs Drupal projects.
+> Generate boilerplate code, interact with and debug Drupal projects.
+> Some subcommands such as `drupal check` have their own usage documentation.
 > More information: <https://drupalconsole.com/>.
 
 - Install a module:
