@@ -2,8 +2,8 @@
 id: common.hsw-cli
 title: Hsw CLI
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1643828695687
+created: 1643828695687
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # hsw-cli
 
 > The command-line REST tool for the Handshake wallet.
-> More information: <https://npmjs.com/package/hs-client>.
+> More information: <https://github.com/handshake-org/hs-client>.
 
 - Unlock the current wallet (timeout in seconds):
 

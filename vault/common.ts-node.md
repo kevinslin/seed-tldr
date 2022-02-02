@@ -2,8 +2,8 @@
 id: common.ts-node
 title: TS Node
 desc: ''
-updated: 1642441815078
-created: 1642441815078
+updated: 1643828695796
+created: 1643828695796
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # ts-node
 
 > Run TypeScript code directly, without any compiling.
-> More information: <https://www.npmjs.com/package/ts-node>.
+> More information: <https://typestrong.org/ts-node>.
 
 - Execute a TypeScript file without compiling (`node` + `tsc`):
 

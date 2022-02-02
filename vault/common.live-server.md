@@ -2,8 +2,8 @@
 id: common.live-server
 title: Live Server
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1643828695705
+created: 1643828695705
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # live-server
 
 > A simple development HTTP server with live reload capability.
-> More information: <https://www.npmjs.com/package/live-server>.
+> More information: <https://github.com/tapio/live-server>.
 
 - Serve an `index.html` file and reload on changes:
 

@@ -2,8 +2,8 @@
 id: common.npx
 title: Npx
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1643828695726
+created: 1643828695726
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # npx
 
 > Execute binaries from `npm` packages.
-> More information: <https://www.npmjs.com/package/npx>.
+> More information: <https://github.com/npm/npx>.
 
 - Execute the binary from a given npm module:
 

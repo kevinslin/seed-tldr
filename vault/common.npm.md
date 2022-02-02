@@ -2,8 +2,8 @@
 id: common.npm
 title: Npm
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1643828695725
+created: 1643828695725
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://www.npmjs.com/>.
+> More information: <https://www.npmjs.com>.
 
 - Interactively create a `package.json` file:
 

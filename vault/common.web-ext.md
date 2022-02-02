@@ -2,8 +2,8 @@
 id: common.web-ext
 title: Web Ext
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1643828695814
+created: 1643828695814
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # web-ext
 
 > A command-line tool for managing web extension development.
-> More information: <https://www.npmjs.com/package/web-ext>.
+> More information: <https://github.com/mozilla/web-ext>.
 
 - Run the web extension in the current directory in Firefox:
 

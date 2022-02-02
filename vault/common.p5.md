@@ -2,8 +2,8 @@
 id: common.p5
 title: P5
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1643828695737
+created: 1643828695737
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # p5
 
 > Template builder and sketch manager for p5.js.
-> More information: <https://www.npmjs.com/package/p5-manager>.
+> More information: <https://github.com/chiunhau/p5-manager>.
 
 - Create a new p5 collection:
 

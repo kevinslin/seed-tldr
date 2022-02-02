@@ -2,8 +2,8 @@
 id: common.yarn-why
 title: Yarn Why
 desc: ''
-updated: 1642441815085
-created: 1642441815085
+updated: 1643828695823
+created: 1643828695823
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # yarn-why
 
 > Identifies why a Yarn package has been installed.
-> More information: <https://www.npmjs.com/package/yarn-why>.
+> More information: <https://github.com/amio/yarn-why>.
 
 - Show why a Yarn package is installed:
 

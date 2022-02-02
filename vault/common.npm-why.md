@@ -2,8 +2,8 @@
 id: common.npm-why
 title: Npm Why
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1643828695725
+created: 1643828695725
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # npm-why
 
 > Identifies why an npm package is installed.
-> More information: <https://www.npmjs.com/package/npm-why>.
+> More information: <https://github.com/amio/npm-why>.
 
 - Show why an npm package is installed:
 
