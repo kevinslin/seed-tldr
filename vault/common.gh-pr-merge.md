@@ -2,8 +2,8 @@
 id: common.gh-pr-merge
 title: Gh Pr Merge
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1643778331270
+created: 1643778331270
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - Merge the current pull request with the specified merge strategy:
 
 `gh pr merge --{{merge|squash|rebase}}`
+
+- Merge the current pull request with the specified merge strategy and commit message:
+
+`gh pr merge --{{merge|squash|rebase}} --subject {{commit_message}}`
 
 - Squash the current pull request into one commit with the message body and merge:
 
