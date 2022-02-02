@@ -2,8 +2,8 @@
 id: common.meson
 title: Meson
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1643810753650
+created: 1643810753650
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,6 +28,10 @@ sources:
 - Build the project:
 
 `meson compile -C {{path/to/build_dir}}`
+
+- Run all tests in the project:
+
+`meson test`
 
 - Show the help:
 
