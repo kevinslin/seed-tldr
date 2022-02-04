@@ -2,8 +2,8 @@
 id: osx.bird
 title: Bird
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1643938854211
+created: 1643938854211
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # bird
 
-> This supports the syncing of iCloud and iCloud drive.
+> This supports the syncing of iCloud and iCloud Drive.
 > It should not be invoked manually.
 
 - Start the daemon:
