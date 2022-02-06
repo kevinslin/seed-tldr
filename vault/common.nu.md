@@ -2,8 +2,8 @@
 id: common.nu
 title: Nu
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1644159939103
+created: 1644159939103
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,15 +15,16 @@ sources:
 # nu
 
 > Nushell ("a new type of shell") takes a modern, structured approach to your command-line.
+> See also: `elvish`.
 > More information: <https://www.nushell.sh>.
 
 - Start an interactive shell session:
 
 `nu`
 
-- Execute a command and then exit:
+- Execute commands:
 
-`nu --commands "{{command}}"`
+`nu --commands "{{echo 'nu is executed'}}"`
 
 - Execute a script:
 
@@ -32,8 +33,4 @@ sources:
 - Execute a script with logging:
 
 `nu --loglevel {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
-
-- Print the Nushell version:
-
-`nu --version`
 
