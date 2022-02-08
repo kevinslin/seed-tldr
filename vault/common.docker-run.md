@@ -2,8 +2,8 @@
 id: common.docker-run
 title: Docker Run
 desc: ''
-updated: 1642441815009
-created: 1642441815009
+updated: 1644311252678
+created: 1644311252678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Run command in a new container with bind mounted volumes:
 
-`docker run -v {{path/to/host_path}}:{{path/to/container_path}} {{image}} {{command}}`
+`docker run -v {{/path/to/host_path}}:{{/path/to/container_path}} {{image}} {{command}}`
 
 - Run command in a new container with published ports:
 
