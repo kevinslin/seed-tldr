@@ -2,8 +2,8 @@
 id: linux.adduser
 title: Adduser
 desc: ''
-updated: 1642441815087
-created: 1642441815087
+updated: 1644633039908
+created: 1644633039908
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,8 +36,4 @@ sources:
 - Create a new user belonging to the specified group:
 
 `adduser --ingroup {{group}} {{username}}`
-
-- Add an existing user to the specified group:
-
-`adduser {{username}} {{group}}`
 
