@@ -2,8 +2,8 @@
 id: osx.universalaccessd
 title: Universalaccessd
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636313
+created: 1644840636313
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Provides universal access services.
 > It should not be invoked manually.
+> More information: <https://www.manpagez.com/man/8/universalaccessd/>.
 
 - Start the daemon:
 

@@ -2,8 +2,8 @@
 id: osx.appsleepd
 title: Appsleepd
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1644840636306
+created: 1644840636306
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Provides app sleep services.
 > It should not be invoked manually.
+> More information: <https://keith.github.io/xcode-man-pages/appsleepd.8.html>.
 
 - Start the daemon:
 

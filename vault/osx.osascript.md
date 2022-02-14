@@ -2,8 +2,8 @@
 id: osx.osascript
 title: Osascript
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Run an AppleScript command:
 
-`osascript -e '{{say "Hello world"}}'`
+`osascript -e "{{say 'Hello world'}}"`
 
 - Run multiple AppleScript commands:
 
-`osascript -e '{{say "Hello"}}' -e '{{say "world"}}'`
+`osascript -e "{{say 'Hello'}}" -e "{{say 'world'}}"`
 
 - Run a compiled (`*.scpt`), bundled (`*.scptd`), or plaintext (`*.applescript`) AppleScript file:
 
@@ -35,7 +35,7 @@ sources:
 
 - Run a JavaScript command:
 
-`osascript -l JavaScript -e '{{console.log("Hello world");}}'`
+`osascript -l JavaScript -e "{{console.log('Hello world');}}"`
 
 - Run a JavaScript file:
 

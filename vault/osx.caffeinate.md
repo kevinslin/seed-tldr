@@ -2,8 +2,8 @@
 id: osx.caffeinate
 title: Caffeinate
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636306
+created: 1644840636306
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Prevent from sleeping until a command completes:
 
-`caffeinate -s {{command}}`
+`caffeinate -s "{{command}}"`
 
 - Prevent from sleeping until you type Ctrl-C:
 

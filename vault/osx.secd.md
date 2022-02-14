@@ -2,8 +2,8 @@
 id: osx.secd
 title: Secd
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636312
+created: 1644840636312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Controls access to and modification of keychain items.
 > It should not be invoked manually.
+> More information: <https://www.unix.com/man-page/mojave/8/secd>.
 
 - Start the daemon:
 

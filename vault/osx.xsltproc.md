@@ -2,8 +2,8 @@
 id: osx.xsltproc
 title: Xsltproc
 desc: ''
-updated: 1642441815124
-created: 1642441815124
+updated: 1644840636314
+created: 1644840636314
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,5 +23,5 @@ sources:
 
 - Pass a value to a parameter in the stylesheet:
 
-`xsltproc --output {{output.html}} --stringparam {{name}} {{value}} {{stylesheet.xslt}} {{xmlfile.xml}}`
+`xsltproc --output {{output.html}} --stringparam "{{name}}" "{{value}}" {{stylesheet.xslt}} {{xmlfile.xml}}`
 

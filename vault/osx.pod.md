@@ -2,8 +2,8 @@
 id: osx.pod
 title: Pod
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pod
 
 > Dependency manager for Swift and Objective-C Cocoa projects.
+> More information: <https://guides.cocoapods.org/terminal/commands.html>.
 
 - Create a Podfile for the current project with the default contents:
 

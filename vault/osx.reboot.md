@@ -2,8 +2,8 @@
 id: osx.reboot
 title: Reboot
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # reboot
 
 > Reboot the system.
+> More information: <https://ss64.com/osx/reboot.html>.
 
 - Reboot immediately:
 

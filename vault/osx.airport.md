@@ -2,8 +2,8 @@
 id: osx.airport
 title: Airport
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1644840636305
+created: 1644840636305
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Show current wireless status information:
 
-`airport -I`
+`airport --getinfo`
 
 - Sniff wireless traffic on channel 1:
 
@@ -27,9 +27,9 @@ sources:
 
 - Scan for available wireless networks:
 
-`airport -s`
+`airport --scan`
 
 - Disassociate from current airport network:
 
-`sudo airport -z`
+`sudo airport --disassociate`
 

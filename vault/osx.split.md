@@ -2,8 +2,8 @@
 id: osx.split
 title: Split
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636312
+created: 1644840636312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # split
 
 > Split a file into pieces.
+> More information: <https://ss64.com/osx/split.html>.
 
 - Split a file, each split having 10 lines (except the last split):
 

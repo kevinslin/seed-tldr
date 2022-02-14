@@ -2,8 +2,8 @@
 id: osx.system_profiler
 title: System_profiler
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636313
+created: 1644840636313
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Print the system serial number:
 
-`system_profiler SPHardwareDataType|grep "Serial Number (system)" |awk '{print $4}'`
+`system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`
 

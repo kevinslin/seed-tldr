@@ -2,8 +2,8 @@
 id: osx.distnoted
 title: Distnoted
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636308
+created: 1644840636308
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Provides distributed notification services.
 > It should not be invoked manually.
+> More information: <https://www.manpagez.com/man/8/distnoted/>.
 
 - Start the daemon:
 

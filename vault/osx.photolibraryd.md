@@ -2,8 +2,8 @@
 id: osx.photolibraryd
 title: Photolibraryd
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > This handles all photo library requests.
 > It should not be invoked manually.
+> More information: <https://www.manpagez.com/man/8/photolibraryd/>.
 
 - Start the daemon:
 

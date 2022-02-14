@@ -2,8 +2,8 @@
 id: osx.tmutil
 title: Tmutil
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636313
+created: 1644840636313
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Set an APF share or SMB share as the backup destination:
 
-`sudo tmutil setdestination {{protocol://user[:password]@host/share}}`
+`sudo tmutil setdestination "{{protocol://user[:password]@host/share}}"`
 
 - Append the given destination to the list of destinations:
 

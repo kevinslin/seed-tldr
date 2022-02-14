@@ -2,8 +2,8 @@
 id: osx.open
 title: Open
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # open
 
 > Opens files, directories and applications.
+> More information: <https://ss64.com/osx/open.html>.
 
 - Open a file with the associated application:
 
@@ -22,7 +23,7 @@ sources:
 
 - Run a graphical macOS application:
 
-`open -a {{Application}}`
+`open -a "{{Application}}"`
 
 - Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way to get this):
 

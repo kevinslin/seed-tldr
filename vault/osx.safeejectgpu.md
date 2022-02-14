@@ -2,8 +2,8 @@
 id: osx.safeejectgpu
 title: Safeejectgpu
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # SafeEjectGPU
 
 > Eject a GPU safely.
-> Visit the man page for more info.
+> More information: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
 
 - Eject all GPUs:
 

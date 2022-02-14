@@ -2,8 +2,8 @@
 id: osx.sntpd
 title: Sntpd
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636312
+created: 1644840636312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > An SNTP server.
 > It should not be invoked manually.
+> More information: <https://linux.die.net/man/8/snmpd>.
 
 - Start the daemon:
 

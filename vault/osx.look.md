@@ -2,8 +2,8 @@
 id: osx.look
 title: Look
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636309
+created: 1644840636309
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,5 +23,5 @@ sources:
 
 - Look for lines ignoring case:
 
-`look -f {{prefix}} {{file}}`
+`look --ignore-case {{prefix}} {{file}}`
 

@@ -2,8 +2,8 @@
 id: osx.locate
 title: Locate
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636309
+created: 1644840636309
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
 
-`locate {{pattern}}`
+`locate "{{pattern}}"`
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 

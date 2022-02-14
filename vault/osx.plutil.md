@@ -2,8 +2,8 @@
 id: osx.plutil
 title: Plutil
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # plutil
 
 > View, convert, validate, or edit property list ("plist") files.
+> More information: <https://www.manpagez.com/man/1/plutil/>.
 
 - Display the contents of one or more plist files in human-readable format:
 

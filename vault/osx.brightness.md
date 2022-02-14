@@ -2,8 +2,8 @@
 id: osx.brightness
 title: Brightness
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636306
+created: 1644840636306
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # brightness
 
 > Get and set the brightness level of all internal and certain external displays.
+> More information: <https://github.com/nriley/brightness>.
 
 - Show current brightness:
 

@@ -2,8 +2,8 @@
 id: osx.mas
 title: Mas
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636309
+created: 1644840636309
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Sign into the Mac App Store for the first time:
 
-`mas signin {{user@example.com}}`
+`mas signin "{{user@example.com}}"`
 
 - Show all installed applications and their product identifiers:
 
@@ -27,7 +27,7 @@ sources:
 
 - Search for an application, displaying the price alongside the results:
 
-`mas search {{application}} --price`
+`mas search "{{application}}" --price`
 
 - Install or update an application:
 

@@ -2,8 +2,8 @@
 id: osx.afinfo
 title: Afinfo
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1644840636305
+created: 1644840636305
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,15 +24,15 @@ sources:
 
 - Print a one line description of the audio file:
 
-`afinfo -b {{path/to/file}}`
+`afinfo --brief {{path/to/file}}`
 
 - Print metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo -i {{path/to/file}}`
+`afinfo --info {{path/to/file}}`
 
 - Print output in XML format:
 
-`afinfo -x {{path/to/file}}`
+`afinfo --xml {{path/to/file}}`
 
 - Print warnings for the audio file if any:
 
@@ -40,5 +40,5 @@ sources:
 
 - Display help for full usage:
 
-`afinfo -h`
+`afinfo --help`
 

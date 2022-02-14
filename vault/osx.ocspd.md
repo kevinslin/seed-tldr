@@ -2,8 +2,8 @@
 id: osx.ocspd
 title: Ocspd
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > This retrieves and caches Certificate Revocation Lists (CRLs) and Online Certificate Status Protocol (OCSP) responses for certificate verification.
 > It should not be invoked manually.
+> More information: <https://www.manpagez.com/man/1/ocspd/>.
 
 - Start the daemon:
 

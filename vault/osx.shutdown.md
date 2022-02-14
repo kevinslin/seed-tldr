@@ -2,8 +2,8 @@
 id: osx.shutdown
 title: Shutdown
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636312
+created: 1644840636312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Reboot in 5 minutes:
 
-`shutdown -r +{{5}}`
+`shutdown -r "+{{5}}"`
 
 - Power off (halt) at 1:00 pm (Uses 24h clock):
 

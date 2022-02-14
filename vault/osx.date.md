@@ -2,8 +2,8 @@
 id: osx.date
 title: Date
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636307
+created: 1644840636307
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Display the current date using the default locale's format:
 
-`date +"%c"`
+`date +%c`
 
 - Display the current date in UTC and ISO 8601 format:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +%Y-%m-%dT%H:%M:%SZ`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 

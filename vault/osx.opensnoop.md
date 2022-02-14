@@ -2,8 +2,8 @@
 id: osx.opensnoop
 title: Opensnoop
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # opensnoop
 
 > Tool that tracks file opens on your system.
+> More information: <https://ss64.com/osx/opensnoop.html>.
 
 - Print all file opens as they occur:
 
@@ -22,7 +23,7 @@ sources:
 
 - Track all file opens by a process by name:
 
-`sudo opensnoop -n {{process_name}}`
+`sudo opensnoop -n "{{process_name}}"`
 
 - Track all file opens by a process by PID:
 

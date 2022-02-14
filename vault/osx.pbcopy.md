@@ -2,8 +2,8 @@
 id: osx.pbcopy
 title: Pbcopy
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pbcopy
 
 > Place standard output in the clipboard.
+> More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a file in the clipboard:
 

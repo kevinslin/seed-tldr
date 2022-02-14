@@ -2,8 +2,8 @@
 id: osx.spctl
 title: Spctl
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636312
+created: 1644840636312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Add a rule to allow an application to run (labeling of rule is optional):
 
-`spctl --add --label "{{rule_name}}" {{path/to/file}}`
+`spctl --add --label {{rule_name}} {{path/to/file}}`
 
 - Turn on Gatekeeper:
 

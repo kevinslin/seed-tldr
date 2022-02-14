@@ -2,8 +2,8 @@
 id: osx.defaults
 title: Defaults
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636307
+created: 1644840636307
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,19 +19,19 @@ sources:
 
 - Read system defaults for an application option:
 
-`defaults read {{application}} {{option}}`
+`defaults read "{{application}}" "{{option}}"`
 
 - Read default values for an application option:
 
-`defaults read -app {{application}} {{option}}`
+`defaults read -app "{{application}}" "{{option}}"`
 
 - Search for a keyword in domain names, keys, and values:
 
-`defaults find {{keyword}}`
+`defaults find "{{keyword}}"`
 
 - Write the default value of an application option:
 
-`defaults write {{application}} {{option}} {{-type}} {{value}}`
+`defaults write "{{application}}" "{{option}}" {{-type}} {{value}}`
 
 - Speed up Mission Control animations:
 
@@ -39,5 +39,5 @@ sources:
 
 - Delete all defaults of an application:
 
-`defaults delete {{application}}`
+`defaults delete "{{application}}"`
 

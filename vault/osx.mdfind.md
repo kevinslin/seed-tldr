@@ -2,8 +2,8 @@
 id: osx.mdfind
 title: Osx
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,9 +23,9 @@ sources:
 
 - Find a file by its content:
 
-`mdfind {{query}}`
+`mdfind "{{query}}"`
 
 - Find a file containing a string, in a given directory:
 
-`mdfind -onlyin {{directory}} {{query}}`
+`mdfind -onlyin {{directory}} "{{query}}"`
 

@@ -2,8 +2,8 @@
 id: osx.wc
 title: Wc
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636314
+created: 1644840636314
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # wc
 
 > Count lines, words, or bytes.
-> More information: <https://www.gnu.org/software/coreutils/wc>.
+> More information: <https://ss64.com/osx/wc.html>.
 
 - Count lines in file:
 

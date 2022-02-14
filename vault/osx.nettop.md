@@ -2,8 +2,8 @@
 id: osx.nettop
 title: Nettop
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # nettop
 
 > Display updated information about the network.
+> More information: <https://www.manpagez.com/man/1/nettop/>.
 
 - Monitor TCP and UDP sockets from all interfaces:
 
@@ -26,7 +27,7 @@ sources:
 
 - Monitor a specific process:
 
-`nettop -p {{process_id|process_name}}`
+`nettop -p "{{process_id|process_name}}"`
 
 - Display a per-process summary:
 

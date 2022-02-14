@@ -2,8 +2,8 @@
 id: osx.pbpaste
 title: Pbpaste
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636310
+created: 1644840636310
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pbpaste
 
 > Send the contents of the clipboard to standard output.
+> More information: <https://ss64.com/osx/pbpaste.html>.
 
 - Write the contents of the clipboard to a file:
 

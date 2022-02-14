@@ -2,8 +2,8 @@
 id: common.nm
 title: Nm
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1644840636172
+created: 1644840636172
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,20 +15,21 @@ sources:
 # nm
 
 > List symbol names in object files.
+> More information: <https://manned.org/nm>.
 
 - List global (extern) functions in a file (prefixed with T):
 
-`nm -g {{file.o}}`
+`nm -g {{path/to/file.o}}`
 
 - List only undefined symbols in a file:
 
-`nm -u {{file.o}}`
+`nm -u {{path/to/file.o}}`
 
 - List all symbols, even debugging symbols:
 
-`nm -a {{file.o}}`
+`nm -a {{path/to/file.o}}`
 
 - Demangle C++ symbols (make them readable):
 
-`nm --demangle {{file.o}}`
+`nm --demangle {{path/to/file.o}}`
 

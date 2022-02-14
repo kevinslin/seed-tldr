@@ -2,8 +2,8 @@
 id: osx.ping
 title: Ping
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,28 +15,29 @@ sources:
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
+> More information: <https://ss64.com/osx/ping.html>.
 
 - Ping the specified host:
 
-`ping {{host}}`
+`ping "{{hostname}}"`
 
 - Ping a host a specific number of times:
 
-`ping -c {{count}} {{host}}`
+`ping -c {{count}} "{{host}}"`
 
 - Ping `host`, specifying the interval in `seconds` between requests (default is 1 second):
 
-`ping -i {{seconds}} {{host}}`
+`ping -i {{seconds}} "{{host}}"`
 
 - Ping `host` without trying to lookup symbolic names for addresses:
 
-`ping -n {{host}}`
+`ping -n "{{host}}"`
 
 - Ping `host` and ring the bell when a packet is received (if your terminal supports it):
 
-`ping -a {{host}}`
+`ping -a "{{host}}"`
 
 - Ping `host` and prints the time a packet was received (this option is an Apple addition):
 
-`ping --apple-time {{host}}`
+`ping --apple-time "{{host}}"`
 

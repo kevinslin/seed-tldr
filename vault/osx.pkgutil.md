@@ -2,8 +2,8 @@
 id: osx.pkgutil
 title: Pkgutil
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pkgutil
 
 > Query and manipulate Mac OS X Installer packages and receipts.
+> More information: <https://ss64.com/osx/pkgutil.html>.
 
 - List package IDs for all installed packages:
 

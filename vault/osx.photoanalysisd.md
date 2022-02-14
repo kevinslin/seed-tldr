@@ -2,8 +2,8 @@
 id: osx.photoanalysisd
 title: Photoanalysisd
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > This analyzes photo libraries for Memories, People, and scene or object based search.
 > It should not be invoked manually.
+> More information: <https://www.manpagez.com/man/8/photoanalysisd/>.
 
 - Start the daemon:
 

@@ -2,8 +2,8 @@
 id: osx.md5
 title: Osx
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644840636309
+created: 1644840636309
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Print a checksum of the given string:
 
-`md5 -s {{string}}`
+`md5 -s "{{string}}"`
 

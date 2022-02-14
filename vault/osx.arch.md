@@ -2,8 +2,8 @@
 id: osx.arch
 title: Arch
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1644840636306
+created: 1644840636306
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,5 +24,5 @@ sources:
 
 - Run a command using x86_64:
 
-`arch -x86_64 {{command}}`
+`arch -x86_64 "{{command}}"`
 

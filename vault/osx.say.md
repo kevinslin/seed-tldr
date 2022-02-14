@@ -2,8 +2,8 @@
 id: osx.say
 title: Say
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,17 +23,17 @@ sources:
 
 - Read a file aloud:
 
-`say -f {{filename.txt}}`
+`say --input-file={{filename.txt}}`
 
 - Say a phrase with a custom voice and speech rate:
 
-`say -v {{voice}} -r {{words_per_minute}} "{{I'm sorry Dave, I can't let you do that.}}"`
+`say --voice={{voice}} --rate={{words_per_minute}} "{{I'm sorry Dave, I can't let you do that.}}"`
 
 - List the available voices:
 
-`say -v "?"`
+`say --voice="?"`
 
 - Create an audio file of the spoken text:
 
-`say -o {{filename.aiff}} "{{Here's to the Crazy Ones.}}"`
+`say --output-file={{filename.aiff}} "{{Here's to the Crazy Ones.}}"`
 

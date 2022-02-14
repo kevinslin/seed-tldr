@@ -2,8 +2,8 @@
 id: osx.usernoted
 title: Usernoted
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1644840636313
+created: 1644840636313
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Provides notification services.
 > It should not be invoked manually.
+> More information: <https://www.unix.com/man-page/mojave/8/usernoted>.
 
 - Start the daemon:
 

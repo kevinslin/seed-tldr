@@ -2,8 +2,8 @@
 id: osx.emond
 title: Emond
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636308
+created: 1644840636308
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action.
 > The actions can run commands, send email, or SMS messages.
-> More information: <https://www.xorrior.com/emond-persistence/>.
+> More information: <https://www.manpagez.com/man/8/emond/>.
 
 - Start the daemon:
 

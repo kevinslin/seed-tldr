@@ -2,8 +2,8 @@
 id: osx.qlmanage
 title: Qlmanage
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644840636311
+created: 1644840636311
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # qlmanage
 
 > QuickLook server tool.
+> More information: <https://ss64.com/osx/qlmanage.html>.
 
 - Display QuickLook for one or multiple files:
 

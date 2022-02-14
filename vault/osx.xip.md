@@ -2,8 +2,8 @@
 id: osx.xip
 title: Xip
 desc: ''
-updated: 1642441815124
-created: 1642441815124
+updated: 1644840636314
+created: 1644840636314
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Create or expand compressed files in a secure xip archive.
 > Only archives signed by Apple are trusted, so this tool should not be used to create archives.
+> More information: <https://www.manpagez.com/man/1/xip/>.
 
 - Expand the archive into the current working directory:
 

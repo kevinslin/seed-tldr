@@ -2,8 +2,8 @@
 id: osx.yaa
 title: Yaa
 desc: ''
-updated: 1642441815125
-created: 1642441815125
+updated: 1644840636314
+created: 1644840636314
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # yaa
 
 > Create and manipulate YAA archives.
+> More information: <https://www.manpagez.com/man/1/yaa/>.
 
 - Create an archive from a directory:
 

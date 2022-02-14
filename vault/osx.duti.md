@@ -2,8 +2,8 @@
 id: osx.duti
 title: Duti
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636308
+created: 1644840636308
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Set Finder as the default handler for the ftp:// URL scheme:
 
-`duti -s {{com.apple.Finder}} {{ftp}}`
+`duti -s {{com.apple.Finder}} "{{ftp}}"`
 
 - Display information about the default application for a given extension:
 

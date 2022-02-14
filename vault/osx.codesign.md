@@ -2,8 +2,8 @@
 id: osx.codesign
 title: Codesign
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1644840636307
+created: 1644840636307
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Sign an application with a certificate:
 
-`codesign -s "{{My Company Name}}" {{path/to/App.app}}`
+`codesign --sign "{{My Company Name}}" {{path/to/App.app}}`
 
 - Verify the certificate of an application:
 
-`codesign -v {{path/to/App.app}}`
+`codesign --verify {{path/to/App.app}}`
 
