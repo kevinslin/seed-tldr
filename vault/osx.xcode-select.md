@@ -2,8 +2,8 @@
 id: osx.xcode-select
 title: Xcode Select
 desc: ''
-updated: 1642441815124
-created: 1642441815124
+updated: 1644811682014
+created: 1644811682014
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Switch between different versions of Xcode and the included developer tools.
 > Also used to update the path to Xcode if it is moved after installation.
+> More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Install Xcode's command-line tools:
 

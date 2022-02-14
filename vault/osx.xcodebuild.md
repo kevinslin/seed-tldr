@@ -2,8 +2,8 @@
 id: osx.xcodebuild
 title: Xcodebuild
 desc: ''
-updated: 1642441815124
-created: 1642441815124
+updated: 1644811682014
+created: 1644811682014
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xcodebuild
 
 > Build Xcode projects.
+> More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Build workspace:
 

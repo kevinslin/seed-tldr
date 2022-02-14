@@ -2,8 +2,8 @@
 id: osx.networksetup
 title: Networksetup
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1644811682008
+created: 1644811682008
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # networksetup
 
 > Configuration tool for Network System Preferences.
+> More information: <https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
 
 - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc):
 

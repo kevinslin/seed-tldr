@@ -2,8 +2,8 @@
 id: osx.port
 title: Port
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1644811682010
+created: 1644811682010
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # port
 
 > Package manager for macOS.
+> More information: <https://www.macports.org>.
 
 - Search for a package:
 
