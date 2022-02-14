@@ -2,8 +2,8 @@
 id: common.fnm
 title: Fnm
 desc: ''
-updated: 1642441815018
-created: 1642441815018
+updated: 1644847587559
+created: 1644847587559
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - List all available Node.js versions and highlight the default one:
 
-`fnm ls`
+`fnm list`
 
 - Use a specific version of Node.js in the current shell:
 
