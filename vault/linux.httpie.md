@@ -2,8 +2,8 @@
 id: linux.httpie
 title: Httpie
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1645095879854
+created: 1645095879854
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -44,4 +44,8 @@ sources:
 - Download a file:
 
 `http --download {{https://example.com}}`
+
+- Follow redirects and show intermediary requests and responses:
+
+`http --follow --all {{https://example.com}}`
 
