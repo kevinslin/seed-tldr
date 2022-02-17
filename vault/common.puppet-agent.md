@@ -2,8 +2,8 @@
 id: common.puppet-agent
 title: Puppet Agent
 desc: ''
-updated: 1642441815062
-created: 1642441815062
+updated: 1645106788551
+created: 1645106788551
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,12 @@ sources:
 - Log every resource being evaluated (even if nothing is being changed):
 
 `puppet agent --test --evaltrace`
+
+- Disable the agent:
+
+`puppet agent --disable "{{message}}"`
+
+- Enable the agent:
+
+`puppet agent --enable`
 
