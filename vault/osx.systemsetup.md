@@ -2,8 +2,8 @@
 id: osx.systemsetup
 title: Systemsetup
 desc: ''
-updated: 1644840636313
-created: 1644840636313
+updated: 1645167706226
+created: 1645167706226
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # systemsetup
 
 > Configure System Preferences machine settings.
-> More information: <https://ss64.com/osx/systemsetup.html>.
+> More information: <https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - Enable remote login (SSH):
 
