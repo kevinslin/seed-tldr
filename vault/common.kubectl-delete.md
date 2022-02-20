@@ -2,8 +2,8 @@
 id: common.kubectl-delete
 title: Kubectl Delete
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1645329705600
+created: 1645329705600
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Delete a specific deployment:
 
-`kubect delete deployment {{deployment_name}}`
+`kubectl delete deployment {{deployment_name}}`
 
 - Delete a specific node:
 
