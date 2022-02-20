@@ -2,8 +2,8 @@
 id: common.rsync
 title: Rsync
 desc: ''
-updated: 1642441815066
-created: 1642441815066
+updated: 1645390917283
+created: 1645390917283
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,7 +40,7 @@ sources:
 
 - Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer:
 
-`rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
+`rsync -rauL {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
 - Transfer file over SSH and delete remote files that do not exist locally:
 
