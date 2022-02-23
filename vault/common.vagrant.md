@@ -2,8 +2,8 @@
 id: common.vagrant
 title: Vagrant
 desc: ''
-updated: 1642601811676
-created: 1642601811676
+updated: 1645628512468
+created: 1645628512468
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -44,4 +44,8 @@ sources:
 - Output the SSH configuration file of the running Vagrant machine:
 
 `vagrant ssh-config`
+
+- List all local boxes:
+
+`vagrant box list`
 
