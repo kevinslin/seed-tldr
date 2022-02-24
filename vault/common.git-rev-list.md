@@ -2,8 +2,8 @@
 id: common.git-rev-list
 title: Git Rev List
 desc: ''
-updated: 1642441815026
-created: 1642441815026
+updated: 1645707928290
+created: 1645707928290
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - List all commits on the current branch:
 
 `git rev-list {{HEAD}}`
+
+- Print the latest commit that changed (add/edit/remove) a specific file on the current branch:
+
+`git rev-list -n 1 HEAD -- {{path/to/file}}`
 
 - List commits more recent than a specific date, on a specific branch:
 

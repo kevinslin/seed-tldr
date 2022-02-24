@@ -1,9 +1,9 @@
 ---
-id: common.chsh
+id: linux.chsh
 title: Chsh
 desc: ''
-updated: 1645707928247
-created: 1645707928247
+updated: 1645707928412
+created: 1645707928412
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,13 +21,13 @@ sources:
 
 `chsh`
 
-- Change the login shell of the current user:
+- Change the current user's login shell:
 
-`chsh -s {{path/to/shell}}`
+`chsh --shell {{path/to/shell}}`
 
 - Change the login shell for a given user:
 
-`chsh -s {{path/to/shell}} {{username}}`
+`chsh --shell {{path/to/shell}} {{username}}`
 
 - List available shells:
 
