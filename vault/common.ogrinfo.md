@@ -2,8 +2,8 @@
 id: common.ogrinfo
 title: Ogrinfo
 desc: ''
-updated: 1642441815053
-created: 1642441815053
+updated: 1645970511529
+created: 1645970511529
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,19 @@ sources:
 > List information about an OGR-supported data source.
 > More information: <https://gdal.org/programs/ogrinfo.html>.
 
-- List layers of a GeoPackage:
+- List supported formats:
 
-`ogrinfo {{input}}.gpkg`
+`ogrinfo --formats`
 
-- Get detailed information about a specific layer of a GeoPackage:
+- List layers of a data source:
 
-`ogrinfo {{input}}.gpkg {{layer_name}}`
+`ogrinfo {{path/to/input.gpkg}}`
 
-- Only show summary information about a specific layer of a GeoPackage:
+- Get detailed information about a specific layer of a data source:
 
-`ogrinfo -so {{input}}.gpkg {{layer_name}}`
+`ogrinfo {{path/to/input.gpkg}} {{layer_name}}`
+
+- Only show summary information about a specific layer of a data source:
+
+`ogrinfo -so {{path/to/input.gpkg}} {{layer_name}}`
 
