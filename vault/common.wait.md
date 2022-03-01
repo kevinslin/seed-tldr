@@ -2,8 +2,8 @@
 id: common.wait
 title: Wait
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1646107301993
+created: 1646107301993
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # wait
 
 > Wait for a process to complete before proceeding.
+> More information: <https://manned.org/wait>.
 
 - Wait for a process to finish given its process ID (PID) and return its exit status:
 

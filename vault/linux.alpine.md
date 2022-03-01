@@ -2,8 +2,8 @@
 id: linux.alpine
 title: Alpine
 desc: ''
-updated: 1642441815087
-created: 1642441815087
+updated: 1646107302002
+created: 1646107302002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > An email client and Usenet newsgroup program with a pico/nano-inspired interface.
 > Supports most modern email services through IMAP.
+> More information: <https://manned.org/alpine>.
 
 - Open alpine normally:
 

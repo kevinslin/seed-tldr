@@ -2,8 +2,8 @@
 id: common.write
 title: Write
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1646107301997
+created: 1646107301997
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages).
 > Use the `who` command to find out all terminal_ids of all active users active on the system. See also `mesg`.
+> More information: <https://manned.org/write>.
 
 - Send a message to a given user on a given terminal id:
 

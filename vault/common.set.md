@@ -2,8 +2,8 @@
 id: common.set
 title: Set
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1646107301970
+created: 1646107301970
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # set
 
 > Display, set or unset values of shell attributes and positional parameters.
+> More information: <https://manned.org/set>.
 
 - Display the names and values of shell variables:
 

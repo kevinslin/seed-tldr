@@ -2,8 +2,8 @@
 id: common.view
 title: View
 desc: ''
-updated: 1642441815080
-created: 1642441815080
+updated: 1646107301991
+created: 1646107301991
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > A read-only version of `vim`.
 > This is equivalent to `vim -R`.
+> More information: <https://www.vim.org>.
 
 - Open a file:
 
