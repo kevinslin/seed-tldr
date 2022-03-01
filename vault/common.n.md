@@ -2,8 +2,8 @@
 id: common.n
 title: 'N'
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1646143303304
+created: 1646143303304
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # n
 
 > Tool to manage multiple node versions.
+> More information: <https://github.com/tj/n>.
 
 - Install a given version of node. If the version is already installed, it will be activated:
 

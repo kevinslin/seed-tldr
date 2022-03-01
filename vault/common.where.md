@@ -2,8 +2,8 @@
 id: common.where
 title: Where
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1646143303360
+created: 1646143303360
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Reports all known instances of a command.
 > It could be an executable in the PATH environment variable, an alias, or a shell builtin.
+> More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
 - Find all instances of a command:
 
