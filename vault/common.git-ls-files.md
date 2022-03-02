@@ -2,8 +2,8 @@
 id: common.git-ls-files
 title: Git Ls Files
 desc: ''
-updated: 1642441815025
-created: 1642441815025
+updated: 1646190122295
+created: 1646190122295
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Show ignored and untracked files:
 
 `git ls-files --others`
+
+- Show untracked files, not ignored:
+
+`git ls-files --others --exclude-standard`
 
