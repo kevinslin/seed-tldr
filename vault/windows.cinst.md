@@ -2,8 +2,8 @@
 id: windows.cinst
 title: Cinst
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1646492495108
+created: 1646492495108
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # cinst
 
 > This command is an alias of `choco install`.
+> More information: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - View documentation for the original command:
 
