@@ -2,8 +2,8 @@
 id: common.go-test
 title: Go Test
 desc: ''
-updated: 1642441815029
-created: 1642441815029
+updated: 1646658336304
+created: 1646658336304
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Test the package in the current directory and run all benchmarks for 50 seconds:
 
 `go test -v -bench . -benchtime {{50s}}`
+
+- Test the package with coverage analysis:
+
+`go test -cover`
 
