@@ -2,8 +2,8 @@
 id: common.atq
 title: Atq
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1646802118602
+created: 1646802118602
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # atq
 
 > Show jobs scheduled by `at` or `batch` commands.
-> More information: <https://man.archlinux.org/man/at.1>.
+> More information: <https://manned.org/atq>.
 
 - Show the current user's scheduled jobs:
 

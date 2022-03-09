@@ -2,8 +2,8 @@
 id: linux.xdg-open
 title: Xdg Open
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1646802118897
+created: 1646802118897
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # xdg-open
 
 > Opens a file or URL in the user's preferred application.
-> More information: <https://man.archlinux.org/man/xdg-open.1>.
+> More information: <https://portland.freedesktop.org/doc/xdg-open.html>.
 
 - Open the current directory in the default file explorer:
 

@@ -2,8 +2,8 @@
 id: linux.nmcli-device
 title: Nmcli Device
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1646802118864
+created: 1646802118864
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # nmcli device
 
 > Hardware device management with NetworkManager.
-> More information: <https://man.archlinux.org/man/nmcli.1>.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Print the statuses of all network interfaces:
 

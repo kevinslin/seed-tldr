@@ -2,8 +2,8 @@
 id: common.sed
 title: Sed
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1646802118775
+created: 1646802118775
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # sed
 
 > Edit text in a scriptable manner.
-> More information: <https://man.archlinux.org/man/sed.1>.
+> More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - Replace the first occurrence of a regular expression in each line of a file, and print the result:
 

@@ -2,8 +2,8 @@
 id: common.bootctl
 title: Bootctl
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1646802118616
+created: 1646802118616
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # bootctl
 
 > Control EFI firmware boot settings and manage boot loader.
-> More information: <https://man.archlinux.org/man/bootctl.1>.
+> More information: <https://manned.org/bootctl>.
 
 - Show information about the system firmware and the bootloaders:
 

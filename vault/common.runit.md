@@ -2,8 +2,8 @@
 id: common.runit
 title: Runit
 desc: ''
-updated: 1642441815066
-created: 1642441815066
+updated: 1646802118771
+created: 1646802118771
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # runit
 
 > 3-stage init system.
-> More information: <https://wiki.archlinux.org/index.php/Runit>.
+> More information: <http://smarden.org/runit/runit.8.html>.
 
 - Start runit's 3-stage init scheme:
 

@@ -2,8 +2,8 @@
 id: common.atrm
 title: Atrm
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1646802118602
+created: 1646802118602
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Remove jobs scheduled by `at` or `batch` commands.
 > To find job numbers use `atq`.
-> More information: <https://man.archlinux.org/man/at.1>.
+> More information: <https://manned.org/atrm>.
 
 - Remove job number 10:
 

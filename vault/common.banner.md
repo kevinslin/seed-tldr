@@ -2,8 +2,8 @@
 id: common.banner
 title: Banner
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1646802118613
+created: 1646802118613
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # banner
 
 > Print the given argument as a large ASCII art.
-> More information: <https://man.archlinux.org/man/banner.1>.
+> More information: <https://manned.org/banner>.
 
 - Print the text message as a large banner (quotes are optional):
 

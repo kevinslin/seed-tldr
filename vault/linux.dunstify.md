@@ -2,8 +2,8 @@
 id: linux.dunstify
 title: Dunstify
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1646802118839
+created: 1646802118839
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > A notification tool that is an extension of notify-send, but has more features based around dunst.
 > Works with all options that work for notify-send.
-> More information: <https://wiki.archlinux.org/title/Dunst#Dunstify>.
+> More information: <https://github.com/dunst-project/dunst/wiki/Guides>.
 
 - Show a notification with a given title and message:
 

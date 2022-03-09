@@ -2,8 +2,8 @@
 id: common.fortune
 title: Fortune
 desc: ''
-updated: 1642441815018
-created: 1642441815018
+updated: 1646802118652
+created: 1646802118652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # fortune
 
 > Print a random quotation (fortune-cookie style).
-> More information: <https://man.archlinux.org/man/fortune.6>.
+> More information: <https://manned.org/fortune>.
 
 - Print a quotation:
 

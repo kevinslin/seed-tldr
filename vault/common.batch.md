@@ -2,8 +2,8 @@
 id: common.batch
 title: Batch
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1646802118614
+created: 1646802118614
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Execute commands at a later time when the system load levels permit.
 > Service atd (or atrun) should be running for the actual executions.
-> More information: <https://man.archlinux.org/man/at.1>.
+> More information: <https://manned.org/batch>.
 
 - Execute commands from standard input (press `Ctrl + D` when done):
 

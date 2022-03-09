@@ -2,8 +2,8 @@
 id: linux.homectl
 title: Homectl
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1646802118848
+created: 1646802118848
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # homectl
 
 > Create, remove, change or inspect home directories using the systemd-homed service.
-> More information: <https://man.archlinux.org/man/homectl.1>.
+> More information: <https://manned.org/homectl>.
 
 - List user accounts and their associated home directories:
 

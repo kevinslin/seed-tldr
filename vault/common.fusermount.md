@@ -2,8 +2,8 @@
 id: common.fusermount
 title: Fusermount
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1646802118653
+created: 1646802118653
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # fusermount
 
 > Mount and unmount FUSE filesystems.
-> More information: <https://man.archlinux.org/man/fusermount.1>.
+> More information: <https://manned.org/fusermount>.
 
 - Unmount a FUSE filesystem:
 
