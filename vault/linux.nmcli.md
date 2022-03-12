@@ -2,8 +2,8 @@
 id: linux.nmcli
 title: Nmcli
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1647072116405
+created: 1647072116405
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > A command-line tool for controlling NetworkManager.
 > Some subcommands such as `nmcli monitor` have their own usage documentation.
-> More information: <https://manned.org/nmcli>.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Run an `nmcli` subcommand:
 
