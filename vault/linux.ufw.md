@@ -2,8 +2,8 @@
 id: linux.ufw
 title: Ufw
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1647263146557
+created: 1647263146557
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -42,9 +42,9 @@ sources:
 
 `ufw deny {{80}}`
 
-- Deny all UDP traffic to port 22:
+- Deny all UDP traffic to ports in range 8412:8500:
 
-`ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
+`ufw deny proto {{udp}} from {{any}} to {{any}} port {{8412:8500}}`
 
 - Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
