@@ -2,8 +2,8 @@
 id: linux.wl-paste
 title: Wl Paste
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1647496911535
+created: 1647496911535
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,10 +22,6 @@ sources:
 
 `wl-paste`
 
-- Paste the contents of the clipboard and then clear it:
-
-`wl-paste --paste-once`
-
 - Write the contents of the clipboard to a file:
 
 `wl-paste > {{path/to/file}}`
@@ -33,8 +29,4 @@ sources:
 - Pipe the contents of the clipboard to a command:
 
 `wl-paste | {{command}}`
-
-- Clear the clipboard:
-
-`wl-paste --clear`
 

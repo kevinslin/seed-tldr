@@ -2,8 +2,8 @@
 id: linux.wl-copy
 title: Wl Copy
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1647496911535
+created: 1647496911535
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,6 +25,10 @@ sources:
 - Copy the output of a command to the clipboard:
 
 `{{command}} | wl-copy`
+
+- Copy for only one paste and then clear it:
+
+`wl-copy --paste-once`
 
 - Clear the clipboard:
 
