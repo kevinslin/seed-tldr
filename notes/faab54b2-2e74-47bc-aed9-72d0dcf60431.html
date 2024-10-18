@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Osx - Dendron - TLDR</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://tldr.dendron.so/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://tldr.dendron.so/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://tldr.dendron.so/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://tldr.dendron.so/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   
+  
+<meta name="description" content="Dendron Vault for TLDR">
+<meta name="author" content="">
+
+<link rel="canonical" href="https://tldr.dendron.so/notes/faab54b2-2e74-47bc-aed9-72d0dcf60431.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://tldr.dendron.so/notes/faab54b2-2e74-47bc-aed9-72d0dcf60431.html">
+<meta property="og:description" content="Dendron Vault for TLDR">
+<meta property="og:image" content="https://tldr.dendron.soundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://tldr.dendron.so/notes/faab54b2-2e74-47bc-aed9-72d0dcf60431.html">
+<meta name="twitter:description" content="Dendron Vault for TLDR">
+<meta name="twitter:image" content="https://tldr.dendron.soundefined">
+
+
+  <meta property="og:title" content="Osx - Dendron - TLDR" />
+  <meta name="twitter:title" content="Osx - Dendron - TLDR" />
+  
+</head>
+
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://tldr.dendron.so" class="site-title lh-tight">
+  Dendron - TLDR
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron - TLDR" aria-label="Search Dendron - TLDR" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://tldr.dendron.so">Root</a></li><li class="breadcrumb-nav-list-item">Osx</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        
+
+        
+
+        
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Osx">
+    
+    <meta itemprop="datePublished" content="2021-03-13T19:30:42+00:00">
+    <meta itemprop="dateModified" content="2021-03-13T19:30:42+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <hr>
+<strong>Children</strong>
+<ol>
+<li><a href="https://tldr.dendron.so/notes/osx.aa.html">Aa</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.afinfo.html">Afinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.afplay.html">Afplay</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.aiac.html">Aiac</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.airport.html">Airport</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.airportd.html">Airportd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.apachectl.html">Apachectl</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.applecamerad.html">Applecamerad</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.appsleepd.html">Appsleepd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.arch.html">Arch</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.archey.html">Archey</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.as.html">As</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.asr.html">Asr</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.autofsd.html">Autofsd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.automount.html">Automount</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.automountd.html">Automountd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.auvaltool.html">Auvaltool</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.avbdeviced.html">Avbdeviced</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.backupd.html">Backupd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.base64.html">Base64</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.bc.html">Bc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.biomesyncd.html">Biomesyncd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.biometrickitd.html">Biometrickitd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.bird.html">Bird</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.bless.html">Bless</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.bnepd.html">Bnepd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.brew.html">Brew</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.brew-bundle.html">Brew Bundle</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.brew-cask.html">Brew Cask</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.brightness.html">Brightness</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.caffeinate.html">Caffeinate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cal.html">Cal</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.carthage.html">Carthage</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cat.html">Cat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cfprefsd.html">Cfprefsd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.chflags.html">Chflags</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.chpass.html">Chpass</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cloudd.html">Cloudd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cloudphotod.html">Cloudphotod</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.codesign.html">Codesign</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.compgen.html">Compgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.coreaudiod.html">Coreaudiod</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.coreautha.html">Coreautha</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.coreauthd.html">Coreauthd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.corebrightnessd.html">Corebrightnessd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.coredatad.html">Coredatad</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cot.html">Cot</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.csrutil.html">Csrutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.csshx.html">Csshx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ctkd.html">Ctkd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.cut.html">Cut</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dark-mode.html">Dark Mode</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.date.html">Date</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dd.html">Dd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.defaults.html">Defaults</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.deleted.html">Deleted</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.df.html">Df</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dhcp6d.html">Dhcp6d</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.diskutil.html">Diskutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.diskutil-partitiondisk.html">Diskutil Partitiondisk</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.distnoted.html">Distnoted</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ditto.html">Ditto</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dmesg.html">Dmesg</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dockutil.html">Dockutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dot_clean.html">Dot_clean</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.drutil.html">Drutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.dtrace.html">Dtrace</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.du.html">Du</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.duti.html">Duti</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ed.html">Ed</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.emond.html">Emond</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.eval.html">Eval</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.export.html">Export</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.fc.html">Fc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.fdesetup.html">Fdesetup</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.feh.html">Feh</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.file.html">File</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.filecoordinationd.html">Filecoordinationd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.fileicon.html">Fileicon</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.fontd.html">Fontd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.fsck.html">Fsck</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ftxdiff.html">Ftxdiff</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.g[.html">G[</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gawk.html">Gawk</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gb2sum.html">Gb2sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gbase32.html">Gbase32</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gbase64.html">Gbase64</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gbasename.html">Gbasename</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gbasenc.html">Gbasenc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcat.html">Gcat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gchcon.html">Gchcon</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gchgrp.html">Gchgrp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gchmod.html">Gchmod</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gchown.html">Gchown</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gchroot.html">Gchroot</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcksum.html">Gcksum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcomm.html">Gcomm</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcp.html">Gcp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcrane-completion.html">Gcrane Completion</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcsplit.html">Gcsplit</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gcut.html">Gcut</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdate.html">Gdate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdd.html">Gdd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdf.html">Gdf</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdir.html">Gdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdircolors.html">Gdircolors</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdirname.html">Gdirname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gdnsdomainname.html">Gdnsdomainname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gecho.html">Gecho</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ged.html">Ged</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gegrep.html">Gegrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.genv.html">Genv</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.getfileinfo.html">Getfileinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gexpand.html">Gexpand</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gexpr.html">Gexpr</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfactor.html">Gfactor</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfalse.html">Gfalse</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfgrep.html">Gfgrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfind.html">Gfind</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfmt.html">Gfmt</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gfold.html">Gfold</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gftp.html">Gftp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ggrep.html">Ggrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ggroups.html">Ggroups</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ghead.html">Ghead</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ghostid.html">Ghostid</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ghostname.html">Ghostname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gid.html">Gid</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gifconfig.html">Gifconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gindent.html">Gindent</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ginstall.html">Ginstall</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gjoin.html">Gjoin</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gkill.html">Gkill</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glibtool.html">Glibtool</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glibtoolize.html">Glibtoolize</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glink.html">Glink</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gln.html">Gln</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glocate.html">Glocate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glogger.html">Glogger</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.glogname.html">Glogname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gls.html">Gls</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmake.html">Gmake</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmd5sum.html">Gmd5sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmkdir.html">Gmkdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmkfifo.html">Gmkfifo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmknod.html">Gmknod</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmktemp.html">Gmktemp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gmv.html">Gmv</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gnice.html">Gnice</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gnl.html">Gnl</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gnohup.html">Gnohup</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gnproc.html">Gnproc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gnumfmt.html">Gnumfmt</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.god.html">God</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.goku.html">Goku</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gpaste.html">Gpaste</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gpathchk.html">Gpathchk</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gping.html">Gping</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gping6.html">Gping6</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gpinky.html">Gpinky</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gpr.html">Gpr</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gprintenv.html">Gprintenv</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gprintf.html">Gprintf</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gptx.html">Gptx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gpwd.html">Gpwd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grcp.html">Grcp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.greadlink.html">Greadlink</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grealpath.html">Grealpath</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grexec.html">Grexec</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grlogin.html">Grlogin</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grm.html">Grm</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grmdir.html">Grmdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.grsh.html">Grsh</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gruncon.html">Gruncon</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsed.html">Gsed</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gseq.html">Gseq</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsha1sum.html">Gsha1sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsha224sum.html">Gsha224sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsha256sum.html">Gsha256sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsha384sum.html">Gsha384sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsha512sum.html">Gsha512sum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gshred.html">Gshred</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gshuf.html">Gshuf</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsleep.html">Gsleep</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsort.html">Gsort</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsplit.html">Gsplit</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gstat.html">Gstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gstdbuf.html">Gstdbuf</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gstty.html">Gstty</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsum.html">Gsum</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gsync.html">Gsync</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtac.html">Gtac</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtail.html">Gtail</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtalk.html">Gtalk</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtar.html">Gtar</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtee.html">Gtee</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtelnet.html">Gtelnet</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtest.html">Gtest</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtftp.html">Gtftp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtime.html">Gtime</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtimeout.html">Gtimeout</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtouch.html">Gtouch</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtr.html">Gtr</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtraceroute.html">Gtraceroute</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtrue.html">Gtrue</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtruncate.html">Gtruncate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtsort.html">Gtsort</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gtty.html">Gtty</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.guname.html">Guname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gunexpand.html">Gunexpand</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.guniq.html">Guniq</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gunits.html">Gunits</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gunlink.html">Gunlink</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gupdatedb.html">Gupdatedb</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.guptime.html">Guptime</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gusers.html">Gusers</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gvdir.html">Gvdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gwc.html">Gwc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gwhich.html">Gwhich</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gwho.html">Gwho</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gwhoami.html">Gwhoami</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gwhois.html">Gwhois</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gxargs.html">Gxargs</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.gyes.html">Gyes</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.hdiutil.html">Hdiutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.head.html">Head</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.hexdump.html">Hexdump</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.hidd.html">Hidd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.hostname.html">Hostname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.icalbuddy.html">Icalbuddy</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.imgcat.html">Imgcat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.indent.html">Indent</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.internetsharing.html">Internetsharing</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.iostat.html">Iostat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ipconfig.html">Ipconfig</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.istats.html">Istats</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.java_home.html">Java_home</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.kmutil.html">Kmutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.launchctl.html">Launchctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.launchd.html">Launchd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.lipo.html">Lipo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.lldb.html">Lldb</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.llvm-lipo.html">Llvm Lipo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.locate.html">Locate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.log.html">Log</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.logger.html">Logger</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.look.html">Look</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.lpstat.html">Lpstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.lsappinfo.html">Lsappinfo</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.m.html">M</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.machine.html">Machine</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mas.html">Mas</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mate.html">Mate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mist.html">Mist</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mkfile.html">Mkfile</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mktemp.html">Mktemp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mysides.html">Mysides</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.n.html">N</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.netstat.html">Netstat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.nettop.html">Nettop</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.networkquality.html">Networkquality</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.networksetup.html">Networksetup</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.nfcd.html">Nfcd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.nm.html">Nm</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.notifyd.html">Notifyd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.nvram.html">Nvram</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.oathtool.html">Oathtool</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ocspd.html">Ocspd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.open.html">Open</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.opensnoop.html">Opensnoop</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.osascript.html">Osascript</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.md5.html">Osx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mdfind.html">Osx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mdls.html">Osx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.mdutil.html">Osx</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pbcopy.html">Pbcopy</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pbpaste.html">Pbpaste</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pdfgrep.html">Pdfgrep</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.photoanalysisd.html">Photoanalysisd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.photolibraryd.html">Photolibraryd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ping.html">Ping</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pkgutil.html">Pkgutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.plutil.html">Plutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pmset.html">Pmset</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pod.html">Pod</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.popd.html">Popd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.port.html">Port</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ps.html">Ps</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pushd.html">Pushd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.pwgen.html">Pwgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.qlmanage.html">Qlmanage</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.rargs.html">Rargs</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.readlink.html">Readlink</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.reboot.html">Reboot</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.rename.html">Rename</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.route.html">Route</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.rubocop.html">Rubocop</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.runit.html">Runit</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.runsv.html">Runsv</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.runsvchdir.html">Runsvchdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.runsvdir.html">Runsvdir</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.safeejectgpu.html">Safeejectgpu</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.say.html">Say</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.screencapture.html">Screencapture</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.scutil.html">Scutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sdef.html">Sdef</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.secd.html">Secd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.security.html">Security</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.securityd.html">Securityd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sed.html">Sed</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.setfile.html">Setfile</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.shortcuts.html">Shortcuts</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.shuf.html">Shuf</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.shutdown.html">Shutdown</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.signal.html">Signal</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sips.html">Sips</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sntp.html">Sntp</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sntpd.html">Sntpd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.softwareupdate.html">Softwareupdate</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.spctl.html">Spctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.split.html">Split</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.spotify.html">Spotify</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.ssh-add.html">Ssh Add</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sshuttle.html">Sshuttle</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.stat.html">Stat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sv.html">Sv</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sw_vers.html">Sw_vers</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.symptomsd.html">Symptomsd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.sysctl.html">Sysctl</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.system_profiler.html">System_profiler</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.systemsetup.html">Systemsetup</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.systemsoundserverd.html">Systemsoundserverd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.tail.html">Tail</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.tart.html">Tart</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.terminal-notifier.html">Terminal Notifier</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.textutil.html">Textutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.timed.html">Timed</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.tmutil.html">Tmutil</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.top.html">Top</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.translationd.html">Translationd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.trap.html">Trap</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.tree.html">Tree</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.uname.html">Uname</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.units.html">Units</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.universalaccessd.html">Universalaccessd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.uptime.html">Uptime</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.usernoted.html">Usernoted</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.uuidgen.html">Uuidgen</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.valet.html">Valet</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.vm_stat.html">Vm_stat</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.vpnd.html">Vpnd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.w.html">W</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wacaw.html">Wacaw</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.warmd.html">Warmd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.watchdogd.html">Watchdogd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.watchlistd.html">Watchlistd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wc.html">Wc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.webinspectord.html">Webinspectord</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.whatis.html">Whatis</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.whence.html">Whence</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.whereis.html">Whereis</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wifi-password.html">Wifi Password</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wifivelocityd.html">Wifivelocityd</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wps.html">Wps</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.wwand.html">Wwand</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xar.html">Xar</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xartstorageremoted.html">Xartstorageremoted</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xattr.html">Xattr</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xcode-select.html">Xcode Select</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xcodebuild.html">Xcodebuild</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xcodes.html">Xcodes</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xcodes-runtimes.html">Xcodes Runtimes</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xcrun.html">Xcrun</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xctool.html">Xctool</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xed.html">Xed</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xip.html">Xip</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xml2man.html">Xml2man</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xsand.html">Xsand</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.xsltproc.html">Xsltproc</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.yaa.html">Yaa</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.yabai.html">Yabai</a></li>
+<li><a href="https://tldr.dendron.so/notes/osx.yank.html">Yank</a></li>
+</ol><span id="navId" data="faab54b2-2e74-47bc-aed9-72d0dcf60431"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+        <div class="thumbs feedback_trigger right-bottom"></div>
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+              <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                Page last modified: <span class="d-inline-block">3/13/2021</span>.
+              </p>
+            
+                
+                  <p class="text-small text-grey-dk-000 mb-0">
+                    <a href="https://github.com/tldr-pages/tldr/edit/main/vault/osx.md" id="edit-this-page">Edit this page on GitHub</a>
+                  </p>
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+
+</body>
+</html>
